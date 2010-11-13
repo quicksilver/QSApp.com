@@ -1,0 +1,6 @@
+QSApp.com source code repo
+==========================
+
+This repo hosts all the source code (except for the wiki) that is used on [http://qsapp.com](http://qsapp.com).
+
+If you'd like to get involved in helping make the site much, much better then email [help@qsapp.com](mailto:help@qsapp.com)
