@@ -29,13 +29,21 @@ function close_db()
 
 }
 
+function quote_db($str)
+{
+	if ($str == null)
+		return null;
+	connect_db();
+	return mysql_real_escape_string($str);
+}
+
 function outputPlugins()
 {
 
 	connect_db();
 
-	$ordervar = $_GET["order"];
-	$asc_desc = $_GET["sort"];
+	$ordervar = quote_db($_GET["order"]);
+	$asc_desc = quote_db($_GET["sort"]);
 
 	if(!$ordervar)
 		$ordervar = "moddate";
