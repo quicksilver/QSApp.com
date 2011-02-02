@@ -1,6 +1,5 @@
 <?php
 
-
 function connect_db() {
 
 	include('mysql.php');
