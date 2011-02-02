@@ -37,6 +37,17 @@ function quote_db($str)
 	return mysql_real_escape_string($str);
 }
 
+function query_db($query)
+{
+	connect_db();
+
+	$res = mysql_query($query);
+	if (!$res) {
+		die('Could not execute: ' . mysql_error());
+	}
+	return $res;
+}
+
 function outputPlugins()
 {
 
@@ -51,7 +62,7 @@ function outputPlugins()
 		$asc_desc = "ASC";
 
 
-	$result = mysql_query("SELECT * FROM plugins ORDER BY $ordervar $asc_desc");
+	$result = query_db("SELECT * FROM plugins ORDER BY $ordervar $asc_desc");
 	$now = time();
 	$i = 0;
 	while($row = mysql_fetch_array($result))
