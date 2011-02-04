@@ -10,24 +10,25 @@ include('../lib/functions.php');
 
 	<title>Quicksilver Plugin Repository</title>
 	<!-- Date: 2010-04-04 -->
-<link href="styles.css" rel="stylesheet" type="text/css"  />
+	<link href="styles.css" rel="stylesheet" type="text/css"  />
 </head>
 <body>
 	<center>
-	<img src="../images/quicksilver.png" width="64px" height="64px" alt="QS logo" />
-	<br/>
-	<h3><img src="../images/quicksilver-title.png" width="160px" height="31px" alt="Quicksilver" /></h3>
-	<p style="color:#151515;font-size:20pt;margin-top:-10px;	font-variant: small-caps;
+		<img src="../images/quicksilver.png" width="64px" height="64px" alt="QS logo" /><br/>
+		<h3><img src="../images/quicksilver-title.png" width="160px" height="31px" alt="Quicksilver" /></h3>
+		<p style="color:#151515;font-size:20pt;margin-top:-10px;	font-variant: small-caps;
 ">Plugins Repository</p>
-	<div class="opener">
-	<p>Below, you'll find a list of the latest Quicksilver plugins available.<br />
-		This list is compiled from sources all over the web, and should have the most recent plugins that work with Mac OS X 10.5 and 10.6.<br />
-		I'll try and keep this list as up to date as I can, so it can be the new one-stop-shop for plugins.<br />
-					Please email me at plugins@qsapp.com if you know of any more missing plugins.<br/><br/>
-
-		<br />Sort through the plugins by either <strong>name</strong> or <strong>updated date</strong></p>
+		<div class="opener">
+			<p>Below, you'll find a list of the latest Quicksilver plugins available.<br />
+				This list is compiled from sources all over the web, and should have the most recent plugins that work with Mac OS X 10.5 and 10.6.<br />
+				I'll try and keep this list as up to date as I can, so it can be the new one-stop-shop for plugins.<br />
+				Please email me at plugins@qsapp.com if you know of any more missing plugins.<br/>
+				<br/>
+				<br />
+				Sort through the plugins by either <strong>name</strong> or <strong>updated date</strong>
+			</p>
 		</div>
-				</center>
+	</center>
 	<div id="main">
 	<div class="box head name"><a href="?order=name&amp;sort=<?php if($_GET["sort"]=="DESC") echo "ASC"; else echo "DESC";?>">Plugin</a></div>
 	<div class="box head version">Vers.</div>
