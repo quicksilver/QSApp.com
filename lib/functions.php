@@ -84,6 +84,39 @@ function dump($obj) {
 	debug($str);
 }
 
+/** Utilities */
+
+function webRoot($file) {
+    $doc_root = $_SERVER['DOCUMENT_ROOT'];
+    $self_parts = explode("/", dirname($_SERVER['PHP_SELF']));
+    $file_parts = explode("/", $file);
+    $parts = array(""); // Path must always start with a /
+
+    if (strpos($file, $doc_root) === 0) {
+        return substr($file, strlen($doc_root), strlen($file));
+    }
+
+    foreach ($self_parts as $part) {
+        if ($part != $parts[count($parts) - 1])
+            $parts[] = $part;
+    }
+    foreach ($file_parts as $part) {
+        if ($part == "")
+            continue;
+        if ($part == "..") {
+            array_pop($parts);
+            continue;
+        }
+        if ($part != $parts[count($parts) - 1])
+            $parts[] = $part;
+    }
+    return implode("/", $parts);
+}
+
+function fileRoot($file) {
+	return $_SERVER['DOCUMENT_ROOT'] . webRoot($file);
+}
+
 function outputPlugins()
 {
 
