@@ -43,8 +43,22 @@ function query_db($query)
 	$res = mysql_query($query);
 	if (!$res) {
 		die('Could not execute: ' . mysql_error());
+		return null;
 	}
 	return $res;
+}
+
+function fetch_db($query) {
+	$res = query_db($query);
+	if (!$res)
+		return null;
+
+	$recs = array();
+	while($rec = mysql_fetch_assoc($res)) {
+		$recs[] = $rec;
+	}
+	mysql_free_result($res);
+	return $recs;
 }
 
 function outputPlugins()
