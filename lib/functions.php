@@ -1,5 +1,7 @@
 <?php
 
+/** DB */
+
 function connect_db() {
 
 	include('mysql.php');
@@ -59,6 +61,27 @@ function fetch_db($query) {
 	}
 	mysql_free_result($res);
 	return $recs;
+}
+
+/** Logging */
+
+function puts($str) {
+	echo $str . "<br />\n";
+}
+
+function debug($str) {
+	puts($str);
+}
+
+function error($str) {
+	die($str);
+}
+
+function dump($obj) {
+	ob_start();
+	var_dump($obj);
+	$str = ob_get_clean();
+	debug($str);
 }
 
 function outputPlugins()
