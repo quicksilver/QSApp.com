@@ -9,7 +9,7 @@ function connect_db() {
 	$con = mysql_connect ($host,$user,$pwd);
 	if (!$con)
 	{
-		die('Could not connect: ' . mysql_error());
+		error('Could not connect: ' . mysql_error());
 	}
 
 	mysql_select_db($database, $con);
@@ -23,7 +23,7 @@ function close_db()
 	$con = mysql_connect ($host,$user,$pwd);
 	if (!$con)
 	{
-		die('Could not connect: ' . mysql_error());
+		error('Could not connect: ' . mysql_error());
 	}
 
 	mysql_close($con);
@@ -52,7 +52,7 @@ function query_db($query)
 
 	$res = mysql_query($query);
 	if (!$res) {
-		die('Could not execute: ' . mysql_error());
+		error('Could not execute: ' . mysql_error());
 		return null;
 	}
 	return $res;
@@ -82,7 +82,9 @@ function debug($str) {
 }
 
 function error($str) {
-	die($str);
+	puts($str);
+	debug_print_backtrace();
+	die();
 }
 
 function dump($obj) {
