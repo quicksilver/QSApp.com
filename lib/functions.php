@@ -30,12 +30,20 @@ function close_db()
 
 }
 
-function quote_db($str)
+function quote_db($obj)
 {
-	if ($str == null)
-		return null;
-	connect_db();
-	return mysql_real_escape_string($str);
+	if ($obj == null)
+		return "NULL";
+	if (is_string($obj)) {
+		if ($obj == "NULL")
+			return $obj;
+		if ($obj == "")
+			return "\"\"";
+		connect_db();
+		return '"' . mysql_real_escape_string($obj) . '"';
+	} else {
+		return $obj;
+	}
 }
 
 function query_db($query)
