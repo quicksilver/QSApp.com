@@ -44,7 +44,6 @@ include('../lib/functions.php');
       <div class="box head name"><a href="?order=name&amp;sort=<?php if(@$_GET["sort"]=="DESC") echo "ASC"; else echo "DESC";?>">Plugin</a></div>
       <div class="box head version">Vers.</div>
       <div class="box head updated"><a href="?order=moddate&amp;sort=<?php if(@$_GET["sort"]=="DESC") echo "ASC"; else echo "DESC";?>">Updated</a></div>
-      <!--	<div class="box head" id="dl">Download</div> -->
       <?php outputPlugins(); ?>
     </div>
     <center>
