@@ -132,14 +132,8 @@ function outputPlugins()
 
 	connect_db();
 
-	$ordervar = quote_db(@$_GET["order"]);
-	$asc_desc = quote_db(@$_GET["sort"]);
-
-	if(!$ordervar)
-		$ordervar = "moddate";
-	if(!$asc_desc)
-		$asc_desc = "ASC";
-
+	$ordervar = @$_GET["order"] ? quote_db(@$_GET["order"]) : "moddate";
+	$asc_desc = @$_GET["sort"] ? quote_db(@$_GET["sort"]) : "DESC";
 
 	$result = query_db("SELECT * FROM plugins ORDER BY $ordervar $asc_desc");
 	$now = time();
