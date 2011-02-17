@@ -5,7 +5,7 @@
 
 	<title>Quicksilver Collated, Finally</title>
 	<!-- Date: 2010-04-04 -->
-	<link href="plugins/styles.css" rel="stylesheet" type="text/css"  />
+	<link href="default.css" rel="stylesheet" type="text/css"  />
 
 	<script type="text/javascript">
 

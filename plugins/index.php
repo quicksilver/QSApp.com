@@ -9,7 +9,7 @@ include('../lib/functions.php');
 
   <title>Quicksilver Plugin Repository</title>
   <!-- Date: 2010-04-04 -->
-  <link href="styles.css" rel="stylesheet" type="text/css" />
+  <link href="../default.css" rel="stylesheet" type="text/css" />
   <script type="text/javascript">
 
   var _gaq = _gaq || [];
