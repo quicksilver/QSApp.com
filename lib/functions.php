@@ -132,8 +132,8 @@ function outputPlugins()
 
 	connect_db();
 
-	$ordervar = quote_db($_GET["order"]);
-	$asc_desc = quote_db($_GET["sort"]);
+	$ordervar = quote_db(@$_GET["order"]);
+	$asc_desc = quote_db(@$_GET["sort"]);
 
 	if(!$ordervar)
 		$ordervar = "moddate";

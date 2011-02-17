@@ -1,101 +1,101 @@
-/* @override http://patjack.co.uk/qs/styles.css */
-
 body
 {
-	width:500px;
-	margin: 35px auto 20px auto;
-	font-size:9pt;
-	background-color: #696969;
-	font-family:"baskerville", "georgia", "lucida grande";
-	color:151515;
+  width:500px;
+  margin: 35px auto 20px auto;
+  font-size:9pt;
+  background-color: #696969;
+  font-family:"baskerville", "georgia", "lucida grande";
+  color:#151515;
 }
 
 #main
 {
-	font-style:bold;
-	width:500px;
-	font-family:"lucida grande";
+  font-style:bold;
+  width:500px;
+  font-family:"lucida grande";
 }
 
 .opener
 {
-	color:#d1d1d1;
-	font-size:10pt
+  color:#d1d1d1;
+  font-size:11pt;
+  text-align:left;
+
 }
 
-.box 
+.box
 {
-	border: 1px solid #c0c0c0;
-	border-left:none;
-	border-top:none;
-	padding:1px 5px 1px 5px;
-	float:left;
-	height:20px;
-	background-color: #d1d1d1;
+  border: 1px solid #c0c0c0;
+  border-left:none;
+  border-top:none;
+  padding:1px 5px 1px 5px;
+  float:left;
+  height:20px;
+  background-color: #d1d1d1;
 }
 
 .odd
 
 {
-	
-	background-color:#eee;
+
+  background-color:#eee;
 }
 .head
 {
-	font-weight:bold;
-	border-top:1px solid #c0c0c0;
-	font-size:10pt;
-	background-color:#ddd;
+  font-weight:bold;
+  border-top:1px solid #c0c0c0;
+  font-size:10pt;
+  background-color:#ddd;
 }
 #main img
 {
-	width:16px;
-	height:16px;
-	vertical-align:middle;
+  width:16px;
+  height:16px;
+  vertical-align:middle;
 
 }
 
 .name
 {
-	border-left:1px solid #c0c0c0;
-	width:265px;
-	border-right:none;
+  border-left:1px solid #c0c0c0;
+  width:265px;
+  border-right:none;
 }
 .name img
 {
-	padding-right:10px;
+  padding-right:10px;
 }
 
 a
 {
-	
-	text-decoration: none;
-	color: #151515;
+
+  text-decoration: none;
+  color: #151515;
 }
 a:hover
 {
-	color: #555;
-	text-decoration: underline;
+  color: #555;
+  text-decoration: underline;
 }
 .version
 {
-	width:100px;
-	border-left:none;
-	text-align:right;
+  width:100px;
+  border-left:none;
+  text-align:right;
 }
 
 .updated
 {
-	width:100px;
-	text-align:right;
+  width:100px;
+  text-align:right;
 }
 /*
 #dl
 {
-	width:90px;
+width:90px;
 }
 #dl img
 {
-	padding-left:33px;
+padding-left:33px;
 }
 */
