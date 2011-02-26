@@ -1,10 +1,46 @@
 body {
-  width: 500px;
+  width: 600px;
   margin: 35px auto 20px auto;
   font-size: 9pt;
   background-color: #696969;
   font-family: "baskerville", "georgia", "lucida grande";
-  color: #151515;
+  color: #353535;
+}
+
+#mainbox
+{
+	background-color: #bbb;
+	padding: 20px;
+	border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  -moz-border-radius: 10px;
+}
+
+.link
+{
+	width: 90px;
+	color: #bbb;
+	padding: 8px;
+	background-color: #696969;
+	float: left;
+	margin-left: 5px;
+	font-size: 11pt;
+
+}
+.link a
+{
+	color: #bbb;
+}
+.link a:hover
+{
+	color: #bbb;
+}
+
+.link:hover
+{
+	background-color:#555555 ;
 }
 
 #main {
@@ -14,7 +50,7 @@ body {
 }
 
 .opener {
-  color: #d1d1d1;
+  color: #151515;
   font-size: 11pt;
   text-align: left;
 }
@@ -57,7 +93,7 @@ body {
 
 a {
   text-decoration: none;
-  color: #151515;
+  color: #555;
 }
 
 a:hover {

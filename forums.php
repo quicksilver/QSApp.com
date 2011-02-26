@@ -30,10 +30,10 @@
 			<p style="color:#353535;font-size:20pt;margin-top:-10px;	font-variant: small-caps;">OS X at your fingertips</p>
 			<a href="/"><div class="link">Home</div></a><a href="/plugins"><div class="link">Plugins</div></a><a href="wiki"><div class="link">Wiki</div></a><a href="https://github.com/quicksilver/Quicksilver/archives/master"><div class="link">Download</div></a><a href="forums.php"><div class="link">Support</div></a>
 			<div class="opener" style="padding-top:40px">
-				<p>Welcome to the new home for Quicksilver and everything that comes with it.<br />Quicksilver is much, much more than just a launch utility and literally leaves the OS X operating system at your fingertips.</p>
-				<p>The plugins repository lists all the available plugins for Quicksilver, and the wiki gives helpful tips &amp; tricks.</p>
-			
-				<p>If you've always wanted to help with Quicksilver, but have never had the coding skills, then this may just be your chance! Just see <a href="wiki/QSApp.com">this</a> page. :)</p>
+				<p>Quicksilver support is available from the <a href="http://groups.google.com/group/blacktree-quicksilver?pli=1">Quicksilver Google Groups</a>.</p><p> You can post to these groups using either the web interface, or by email through emailing <a href="mailto:blacktree-quicksilver@googlegroups.com">blacktree-quicksilver@googlegroups.com</a> once you've signed up at the groups.</p>
+				
+				<p>Another place handy for information is Howard's manual, which can be downloaded from the groups <a href="http://blacktree-quicksilver.googlegroups.com/web/Quicksilver.pdf?_done=%252Fgroup%252Fblacktree-quicksilver%253F">here</a>.</p>
+				
 			</div>
 			<div style="width:300px;margin-left:auto;margin-right:auto">
 				<p style="position:absolute;bottom:10px;color:#d1d1d1;font-size:8pt;">Set up by &copy; <a href="http://patjack.co.uk">Patrick Robertson</a>, <?php echo date('Y'); ?><br />
