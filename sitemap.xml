@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+
+<url>
+  <loc>http://qsapp.com/</loc>
+  <changefreq>monthly</changefreq>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>http://qsapp.com/plugins/</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.90</priority>
+</url>
+<url>
+  <loc>http://qsapp.com/wiki/Main_Page</loc>
+  <lastmod>2011-02-25T02:02:35+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://qsapp.com/forums.php</loc>
+  <changefreq>weekly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://qsapp.com/wiki/QSApp.com</loc>
+  <lastmod>2011-02-25T02:02:35+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://qsapp.com/wiki/What_Is_Quicksilver%3F</loc>
+  <lastmod>2011-02-25T02:02:35+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://qsapp.com/wiki/Which_version</loc>
+  <lastmod>2011-02-25T02:02:35+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://qsapp.com/wiki/Where_is_everything%3F</loc>
+  <lastmod>2011-02-25T02:02:35+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://qsapp.com/wiki/Tutorials</loc>
+  <lastmod>2011-02-25T02:02:35+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://qsapp.com/wiki/FAQ</loc>
+  <lastmod>2011-02-25T02:02:35+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://qsapp.com/wiki/Tips_%26_Tricks</loc>
+  <lastmod>2011-02-25T02:02:35+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://qsapp.com/wiki/Application_and_Plugin_Reference</loc>
+  <lastmod>2011-02-25T02:02:35+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://qsapp.com/wiki/Developer_Information</loc>
+  <lastmod>2011-02-25T02:02:35+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://qsapp.com/wiki/Executing_actions</loc>
+  <lastmod>2011-02-25T02:02:35+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>http://qsapp.com/wiki/Comma_Trick</loc>
+  <lastmod>2011-02-25T02:02:35+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://qsapp.com/wiki/Ordering_actions</loc>
+  <lastmod>2011-02-25T02:02:35+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://qsapp.com/wiki/Building_Quicksilver</loc>
+  <lastmod>2011-02-25T02:02:35+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
+<url>
+  <loc>http://qsapp.com/wiki/Localization</loc>
+  <lastmod>2011-02-25T02:02:35+00:00</lastmod>
+  <changefreq>weekly</changefreq>
+  <priority>0.51</priority>
+</url>
