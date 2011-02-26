@@ -28,8 +28,8 @@
 			<br/>
 			<h3><img src="images/quicksilver-title.png" width="160px" height="31px" alt="Quicksilver" /></h3>
 			<p style="color:#353535;font-size:20pt;margin-top:-10px;	font-variant: small-caps;">OS X at your fingertips</p>
-			<a href="/"><div class="link">Home</div></a><a href="/plugins"><div class="link">Plugins</div></a><a href="wiki"><div class="link">Wiki</div></a><a href="https://github.com/quicksilver/Quicksilver/archives/master"><div class="link">Download</div></a><a href="forums.php"><div class="link">Support</div></a>
-			<div class="opener" style="padding-top:40px">
+			<a href="/"><div class="link">Home</div></a><a href="/plugins"><div class="link">Plugins</div></a><a href="/wiki"><div class="link">Wiki</div></a><a href="https://github.com/quicksilver/Quicksilver/archives/master"><div class="link">Download</div></a><a href="/forums.php"><div class="link">Support</div></a>
+			<div class="opener">
 				<p>Welcome to the new home for Quicksilver and everything that comes with it.<br />Quicksilver is much, much more than just a launch utility and literally leaves the OS X operating system at your fingertips.</p>
 				<p>The plugins repository lists all the available plugins for Quicksilver, and the wiki gives helpful tips &amp; tricks.</p>
 			
