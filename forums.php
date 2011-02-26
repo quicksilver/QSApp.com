@@ -30,7 +30,7 @@
 			<p style="color:#353535;font-size:20pt;margin-top:-10px;	font-variant: small-caps;">OS X at your fingertips</p>
 			<a href="/"><div class="link">Home</div></a><a href="/plugins"><div class="link">Plugins</div></a><a href="/wiki"><div class="link">Wiki</div></a><a href="https://github.com/quicksilver/Quicksilver/archives/master"><div class="link">Download</div></a><a href="/.php"><div class="link">Support</div></a>
 			<div class="opener">
-				<p>Quicksilver support is available from the <a href="http://groups.google.com/group/blacktree-quicksilver?pli=1">Quicksilver Google Groups</a>.</p><p> You can post to these groups using either the web interface, or by email through emailing <a href="mailto:blacktree-quicksilver@googlegroups.com">blacktree-quicksilver@googlegroups.com</a> once you've signed up at the groups.</p>
+				<p>Quicksilver support is available from the <a href="http://groups.google.com/group/blacktree-quicksilver?pli=1">Quicksilver Google Groups</a>.</p><p> You can post to these groups using either the web interface, or by email by emailing <a href="mailto:blacktree-quicksilver@googlegroups.com">blacktree-quicksilver@googlegroups.com</a> once you've signed up at the groups.</p>
 				
 				<p>Another place handy for information is Howard's manual, which can be downloaded from the groups <a href="http://blacktree-quicksilver.googlegroups.com/web/Quicksilver.pdf?_done=%252Fgroup%252Fblacktree-quicksilver%253F">here</a>.</p>
 				
