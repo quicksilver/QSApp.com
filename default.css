@@ -9,8 +9,9 @@ body {
 
 #mainbox
 {
-	background-color: #bbb;
+	background-color: #d1d1d1;
 	padding: 20px;
+	border:1px solid #eee;
 	border-radius: 10px;
   -webkit-border-radius: 10px;
   -ms-border-radius: 10px;
@@ -20,9 +21,9 @@ body {
 
 .link
 {
-	width: 90px;
+	width: 74px;
 	color: #bbb;
-	padding: 8px;
+	padding: 7px;
 	background-color: #696969;
 	float: left;
 	margin-left: 5px;
@@ -43,11 +44,20 @@ body {
 	background-color:#555555 ;
 }
 
-#main {
+#plugins {
   font-style: bold;
   width: 500px;
   font-family: "lucida grande";
   text-align: left;
+}
+
+#footer
+{
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	padding-top:20px;
+	text-align: center;
 }
 
 .opener {
@@ -64,7 +74,7 @@ body {
   padding: 1px 5px 1px 5px;
   float: left;
   height: 20px;
-  background-color: #d1d1d1;
+  background-color: #dddddd;
 }
 
 .odd {
@@ -75,10 +85,10 @@ body {
   font-weight: bold;
   border-top: 1px solid #c0c0c0;
   font-size: 10pt;
-  background-color: #ddd;
+  background-color: #e2e2e2;
 }
 
-#main img {
+#plugins img {
   width: 16px;
   height: 16px;
   vertical-align: middle;
@@ -112,4 +122,23 @@ a:hover {
 .updated {
   width: 100px;
   text-align: right;
+}
+
+#dlbutton
+{
+	display: block;
+	padding: 10px;
+	width: 92px;
+	background-color: #ddd;
+	border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+
+#dlbutton:hover
+{
+	text-decoration: none;
+	background-color: #eee;
 }

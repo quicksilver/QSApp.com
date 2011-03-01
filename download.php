@@ -3,7 +3,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 
-	<title>Quicksilver: Mac OS X at your Fingertips</title>
+	<title>Quicksilver: Download</title>
 	<!-- Date: 2010-04-04 -->
 	<link href="default.css" rel="stylesheet" type="text/css"  />
 
@@ -28,13 +28,21 @@
 			<br/>
 			<h3><img src="images/quicksilver-title.png" width="160px" height="31px" alt="Quicksilver" /></h3>
 			<p style="color:#353535;font-size:20pt;margin-top:-10px;	font-variant: small-caps;">OS X at your fingertips</p>
-			<?php include('includes/nav.php'); ?>
+					      <?php include('includes/nav.php'); ?>
 			<div class="opener">
-				<p>Welcome to the new home of Quicksilver and everything that comes with it.<br />Quicksilver is light, fast and free Mac app that leaves the power of the OS X operating system at your fingertips.</p>
-				<p>The plugins repository lists all the available plugins for Quicksilver, and the wiki gives helpful tips &amp; tricks.</p>
-			
-				<p>If you've always wanted to help with Quicksilver, but have never had the coding skills, then this may just be your chance! Just see <a href="wiki/QSApp.com">this</a> page. :)</p>
+				
+<p>				Several versions of Quicksilver exist for maximum compatibility with all Mac OS X operating systems.<br />
+	For a full list of which features work under each operating system for each version, see the wiki article on <a href="http://qsapp.com/wiki/Which_version">Which Version?</a></p>
+	<p>Otherwise, download the recommended version for your operating system below.</p>
+			<h4>Mac OS X 10.6</h4>
+			<a id="dlbutton" href="https://github.com/downloads/quicksilver/Quicksilver/Quicksilver-b58-3841.tar.gz">Download &beta;58</a>
+			<h4>Mac OS X 10.5, 10.4</h4>
+			<a id="dlbutton" href="https://github.com/downloads/quicksilver/Quicksilver/Quicksilver-B54.tgz">Download &beta;54</a>
+			<h4>Mac OS X 10.3</h4>
+			&beta;36 is recommended for all Panther users. If you have a copy, please email devs@qsapp.com so that we can put it up here!
 			</div>
-		<?php include('includes/footer.php'); ?>
+			<?php include('includes/footer.php'); ?>
+		</center>
+</div>
 	</body>
 </html>
