@@ -16,13 +16,23 @@
   <priority>0.90</priority>
 </url>
 <url>
-  <loc>http://qsapp.com/wiki/Main_Page</loc>
-  <lastmod>2011-02-25T02:02:35+00:00</lastmod>
-  <changefreq>weekly</changefreq>
+  <loc>http://qsapp.com/support.php</loc>
+  <changefreq>monthly</changefreq>
   <priority>0.80</priority>
 </url>
 <url>
-  <loc>http://qsapp.com/forums.php</loc>
+  <loc>http://qsapp.com/download.php</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://qsapp.com/about.php</loc>
+  <changefreq>monthly</changefreq>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>http://qsapp.com/wiki/Main_Page</loc>
+  <lastmod>2011-02-25T02:02:35+00:00</lastmod>
   <changefreq>weekly</changefreq>
   <priority>0.80</priority>
 </url>
