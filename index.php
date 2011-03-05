@@ -23,17 +23,21 @@
 
 	</head>
 	<body>
-		<div id="mainbox"><center>
+		<div id="mainbox" ><center>
 			<img src="images/quicksilver.png" width="64px" height="64px" alt="QS logo" />
 			<br/>
 			<h3><img src="images/quicksilver-title.png" width="160px" height="31px" alt="Quicksilver" /></h3>
 			<p style="color:#353535;font-size:20pt;margin-top:-10px;	font-variant: small-caps;">OS X at your fingertips</p>
 			<?php include('includes/nav.php'); ?>
 			<div class="opener">
-				<p>Welcome to the new home of Quicksilver and everything that comes with it.<br />Quicksilver is light, fast and free Mac app that leaves the power of the OS X operating system at your fingertips.</p>
-				<p>The plugins repository lists all the available plugins for Quicksilver, and the wiki gives helpful tips &amp; tricks.</p>
+				<p>Welcome to the new home of Quicksilver App: Mac OS X at your fingertips.</p>
+				<p>Quicksilver is a light, fast and free Mac OS X application that gives you the power to control your Mac with keystrokes alone.<br />
+					<a href="about.php">Learn more...</a></p>
+					<p style="text-align:center;margin-bottom:80px"><img src="images/QS_UI.png" alt="Quicksilver GUI"/>
+				<a href="download.php" id="dlbutton" style="left:44%;position:absolute;margin:20px"><strong>Download</strong></a></p>
+				<p>For a list of available plugins and plugin download links, see the <a href="plugins">plugins repository</a>.</p>
 			
-				<p>If you've always wanted to help with Quicksilver, but have never had the coding skills, then this may just be your chance! Just see <a href="wiki/QSApp.com">this</a> page. :)</p>
+				<p>Finally, if you want to help develop Quicksilver, see <a href="wiki/QSApp.com">this</a> page.</p>
 			</div>
 		<?php include('includes/footer.php'); ?>
 	</body>

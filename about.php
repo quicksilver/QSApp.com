@@ -35,13 +35,13 @@
 				<p><center><cite style="font-size:110%">&ldquo;Quicksilver - Act without Doing.&rdquo; </cite></center></p>
 			<h4>Simple</h4>
 			<p>Once set up, Quicksilver hides in the background, waiting. Tap a <strong>simple</strong> hotkey, and Quicksilver's minimal interface pops up. From here, your options are limitless.</p>
-			<p style="text-align:center"><img src="images/QS_UI.png" style="width:200px" /></p>
+			<p style="text-align:center"><img src="images/QS_UI.png" style="width:200px"  alt="Quicksilver user interface"/></p>
 			<h4>Intelligent</h4>
 			Quicksilver learns what you want, when you want it. Quicksilver's <strong>intelligence</strong> makes searches, actions and commands effortless.
 			<h4>Adaptable</h4>
 			Quicksilver's greatest forte is its <strong>adaptability</strong> through plugins. With plugins installed, you can do anything from controlling itunes, to calling a contact on Skype, to resizing an image for emailing.
 			<br />This is all done directly from Quicksilver's simple, minimal interface.
-			<p style="text-align:center"><img src="images/QS_Scale.png"/></p>
+			<p style="text-align:center"><img src="images/QS_Scale.png" alt="Quicksilver scale image action"/></p>
 
 			<h4>Lean</h4>
 			Despite Quicksilver's power, its plugin architecture means you only need install the plugins right for you. This keeps Quicksilver fresh and <strong>lean</strong>. Quicksilver is <strong>faster</strong> than spotlight and many other app launchers around today.
