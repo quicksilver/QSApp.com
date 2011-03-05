@@ -60,6 +60,10 @@ body {
 	background-color:#555555 ;
 }
 
+.center
+{
+	text-align:center;
+}
 
 #footer
 {
@@ -89,7 +93,7 @@ a:hover {
 
 /* Plugins Page Stuff */
 #plugins {
-  font-style: bold;
+  font-weight: bold;
   width: 500px;
   font-family: "lucida grande";
   text-align: left;
@@ -146,7 +150,7 @@ a:hover {
 
 /* Download buttons */
 
-#dlbutton
+.dlbutton
 {
 	display: block;
 	padding: 10px;
@@ -158,7 +162,7 @@ a:hover {
     -moz-border-radius: 5px;
 }
 
-#dlbutton:hover
+.dlbutton:hover
 {
 	text-decoration: none;
 	background-color: #eee;

@@ -46,9 +46,6 @@ include('../lib/functions.php');
       <div class="box head updated"><a href="?order=moddate&amp;sort=<?php if(@$_GET["sort"]=="DESC") echo "ASC"; else echo "DESC";?>">Updated</a></div>
       <?php outputPlugins(); ?>
     </div>
-    </center></div>
-
-    <center>
       <?php include('../includes/footer.php'); ?>
   </body>
 </html>

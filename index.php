@@ -34,7 +34,7 @@
 				<p>Quicksilver is a light, fast and free Mac OS X application that gives you the power to control your Mac with keystrokes alone.<br />
 					<a href="about.php">Learn more...</a></p>
 					<p style="text-align:center;margin-bottom:80px"><img src="images/QS_UI.png" alt="Quicksilver GUI"/>
-				<a href="download.php" id="dlbutton" style="left:44%;position:absolute;margin:20px"><strong>Download</strong></a></p>
+				<a href="download.php" class="dlbutton" style="left:44%;position:absolute;margin:20px"><strong>Download</strong></a></p>
 				<p>For a list of available plugins and plugin download links, see the <a href="plugins">plugins repository</a>.</p>
 			
 				<p>Finally, if you want to help develop Quicksilver, see <a href="wiki/QSApp.com">this</a> page.</p>

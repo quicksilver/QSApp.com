@@ -35,14 +35,13 @@
 	For a full list of which features work under each operating system for each version, see the wiki article on <a href="http://qsapp.com/wiki/Which_version">Which Version?</a></p>
 	<p>Otherwise, download the recommended version for your operating system below.</p>
 			<h4>Mac OS X 10.6</h4>
-			<a id="dlbutton" href="https://github.com/downloads/quicksilver/Quicksilver/Quicksilver-b58-3841.tar.gz">Download &beta;58</a>
+			<a class="dlbutton" href="https://github.com/downloads/quicksilver/Quicksilver/Quicksilver-b58-3841.tar.gz">Download &beta;58</a>
 			<h4>Mac OS X 10.5, 10.4</h4>
-			<a id="dlbutton" href="https://github.com/downloads/quicksilver/Quicksilver/Quicksilver-B54.tgz">Download &beta;54</a>
+			<a class="dlbutton" href="https://github.com/downloads/quicksilver/Quicksilver/Quicksilver-B54.tgz">Download &beta;54</a>
 			<h4>Mac OS X 10.3</h4>
 			&beta;36 is recommended for all Panther users. If you have a copy, please email devs@qsapp.com so that we can put it up here!
 			</div>
 			<?php include('includes/footer.php'); ?>
-		</center>
 </div>
 	</body>
 </html>

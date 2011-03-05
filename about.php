@@ -30,9 +30,9 @@
 			<p style="color:#353535;font-size:20pt;margin-top:-10px;	font-variant: small-caps;">OS X at your fingertips</p>
 			<?php include('includes/nav.php'); ?>
 			<div class="opener">
-				<p><center><cite style="font-size:110%">&ldquo;A unified, extensible interface for working with applications, contacts, music, and other data.&rdquo; </cite></center></p>
+				<p class="center"><cite style="font-size:110%">&ldquo;A unified, extensible interface for working with applications, contacts, music, and other data.&rdquo; </cite></p>
 				<p>Quicksilver is the original application launcher, still crowned king <a href="http://www.lifehacker.com.au/2010/06/lifehacker-pack-for-mac-our-list-of-the-best-free-mac-downloads/" target="_blank">by</a> <a href="http://thenextweb.com/2009/05/04/quicksilver-mac-greatest-app-time/" target="_blank">many</a>. Extensible through plugins, Quicksilver is undoubtedly the most versatile launcher, taking it beyond the feature set of most other launcher apps.</p>
-				<p><center><cite style="font-size:110%">&ldquo;Quicksilver - Act without Doing.&rdquo; </cite></center></p>
+				<p class="center"><cite style="font-size:110%">&ldquo;Quicksilver - Act without Doing.&rdquo; </cite></p>
 			<h4>Simple</h4>
 			<p>Once set up, Quicksilver hides in the background, waiting. Tap a <strong>simple</strong> hotkey, and Quicksilver's minimal interface pops up. From here, your options are limitless.</p>
 			<p style="text-align:center"><img src="images/QS_UI.png" style="width:200px"  alt="Quicksilver user interface"/></p>
