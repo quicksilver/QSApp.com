@@ -13,10 +13,7 @@ body {
 	padding: 20px;
 	border:1px solid #eee;
 	border-radius: 10px;
-  -webkit-border-radius: 10px;
-  -ms-border-radius: 10px;
-  -o-border-radius: 10px;
-  -moz-border-radius: 10px;
+	-moz-border-radius: 10px;
 }
 
 .link
@@ -28,10 +25,8 @@ body {
 	float: left;
 	margin-left: 5px;
 	font-size: 11pt;
--webkit-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
-  -moz-border-radius: 3px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
 }
 .link a
 {
@@ -139,11 +134,8 @@ a:hover {
 	padding: 10px;
 	width: 92px;
 	background-color: #ddd;
-	border-radius: 5px;
 	text-align:center;
-  -webkit-border-radius: 5px;
-  -ms-border-radius: 5px;
-  -o-border-radius: 5px;
+	border-radius: 5px;
   -moz-border-radius: 5px;
 }
 
