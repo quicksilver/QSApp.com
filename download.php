@@ -42,6 +42,5 @@
 			&beta;36 is recommended for all Panther users. If you have a copy, please email devs@qsapp.com so that we can put it up here!
 			</div>
 			<?php include('includes/footer.php'); ?>
-</div>
 	</body>
 </html>
