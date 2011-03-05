@@ -13,6 +13,7 @@ body {
 	padding: 20px;
 	border:1px solid #eee;
 	border-radius: 10px;
+	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
 }
 
@@ -26,7 +27,24 @@ body {
 	margin-left: 5px;
 	font-size: 11pt;
 	border-radius: 5px;
+	-webkit-border-radius: 5px;
 	-moz-border-radius: 5px;
+	-moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	-webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+	background-image: -webkit-gradient(
+      linear,
+      left bottom,
+      left top,
+      from(#4E4E4E),
+      to(transparent)
+  );
+	background-image: -moz-linear-gradient(
+      center bottom,
+      #525252 50%,
+      #868686 100%
+  );
+  position: relative;
 }
 .link a
 {
@@ -136,7 +154,8 @@ a:hover {
 	background-color: #ddd;
 	text-align:center;
 	border-radius: 5px;
-  -moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
 }
 
 #dlbutton:hover
