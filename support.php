@@ -30,18 +30,17 @@
 			<p style="color:#353535;font-size:20pt;margin-top:-10px;	font-variant: small-caps;">OS X at your fingertips</p>
 		      <?php include('includes/nav.php'); ?>
 			<div class="opener">
-				<p>Quicksilver support is available from the <a href="http://groups.google.com/group/blacktree-quicksilver?pli=1">Quicksilver Google Groups</a>.</p><p> You can post to these groups using either the web interface, or by email by emailing <a href="mailto:blacktree-quicksilver@googlegroups.com">blacktree-quicksilver@googlegroups.com</a> once you've signed up at the groups.</p>
-				
-				<p>Another place handy for information is Howard's manual, which can be downloaded from the groups <a href="http://blacktree-quicksilver.googlegroups.com/web/Quicksilver.pdf?_done=%252Fgroup%252Fblacktree-quicksilver%253F">here</a>.</p>
+				<h3>Quicksilver Forums / Google Group</h3>
+				<p>Quicksilver support is available from the <a href="http://groups.google.com/group/blacktree-quicksilver?pli=1">Quicksilver Google Group</a>.</p><p> You can post to these groups using either the web interface (through the link above), or by emailing <a href="mailto:blacktree-quicksilver@googlegroups.com">blacktree-quicksilver@googlegroups.com</a> once you've signed up to the group.</p>
+				<h3>Quicksilver Manual</h3>
+				<p>An extensive and well laid-out manual has been written by Howard Melman, which can be downloaded from <a href="http://blacktree-quicksilver.googlegroups.com/web/Quicksilver.pdf?_done=%252Fgroup%252Fblacktree-quicksilver%253F">here</a>.</p>
+				<h3>LoveQuicksilver Twitter &amp; Blog</h3>
+				<p>A good place for fixes and tips is the <a href="twitter.com/lovequicksilver">@LoveQuicksilver</a> twitter page by Philip Dooher.<br />
+					Philip also runs a blog for Quicksilver tips at <a href="http://www.lovequicksilver.com/">LoveQuicksilver.com</a>. Here you can read existing tips or post your own.</p>
+					<h3>Bug Reporting</h3>
 				<p>To report a bug on Quicksilver, go to <a href="https://github.com/quicksilver/Quicksilver/issues" target="_blank">Quicksilver's GitHub repository</a>.<br />
 					For issues relating to plugins, report issues at the <a href="https://github.com/quicksilver/Plugins/issues">Quicksilver Plugin GitHub repository</a>.</p>
 			</div>
-			<div style="width:300px;margin-left:auto;margin-right:auto">
-				<p style="position:absolute;bottom:10px;color:#d1d1d1;font-size:8pt;">Set up by &copy; <a href="http://patjack.co.uk">Patrick Robertson</a>, <?php echo date('Y'); ?><br />
-					Some styles taken from the <a style="color:#d1d1d1" href="http://blacktree.com">http://blacktree.com</a>
-				</p>
-			</div>
-		</center>
-</div>
+						<?php include('includes/footer.php'); ?>
 	</body>
 </html>
