@@ -34,12 +34,12 @@
 <p>				Several versions of Quicksilver exist for maximum compatibility with all Mac OS X operating systems.<br />
 	For a full list of which features work under each operating system for each version, see the wiki article on <a href="http://qsapp.com/wiki/Which_version">Which Version?</a></p>
 	<p>Otherwise, download the recommended version for your operating system below.</p>
-			<h4>Mac OS X 10.6</h4>
+			<h4>Mac OS X 10.6 Snow Leopard</h4>
 			<a class="dlbutton" href="https://github.com/downloads/quicksilver/Quicksilver/Quicksilver-b58-3841.tar.gz">Download &beta;58</a>
-			<h4>Mac OS X 10.5, 10.4</h4>
+			<h4>Mac OS X 10.5 Leopard, 10.4 Tiger</h4>
 			<a class="dlbutton" href="https://github.com/downloads/quicksilver/Quicksilver/Quicksilver-B54.tgz">Download &beta;54</a>
-			<h4>Mac OS X 10.3</h4>
-			&beta;36 is recommended for all Panther users. If you have a copy, please email devs@qsapp.com so that we can put it up here!
+			<h4>Mac OS X 10.3 Panther</h4>
+			<a class="dlbutton" href="https://github.com/downloads/quicksilver/Quicksilver/Quicksilver%20B36.tgz">Download &beta;36</a>
 			</div>
 			<?php include('includes/footer.php'); ?>
 	</body>
