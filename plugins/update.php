@@ -65,9 +65,7 @@ class Plugins {
 		$mod  = substr($parts[2], 0 , -4);
 		$mod = str_replace("_", "-", $mod);	
 
-		$full_path = "plugins/".$fileNames;
-
-		$sql = "INSERT INTO plugins (image, name, version, moddate, fullpath) VALUES ('$image', '$plugin_name', '$vers', '$mod', '$full_path' ) ";
+		$sql = "INSERT INTO plugins (image, name, version, moddate, fullpath) VALUES ('$image', '$plugin_name', '$vers', '$mod', '$fileNames' ) ";
 		if (!mysql_query($sql))
 		{
 			die('Error: ' . mysql_error());

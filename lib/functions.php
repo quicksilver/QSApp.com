@@ -147,7 +147,7 @@ function outputPlugins()
 
 		echo '<div class="box name' . ($odd ? ' odd' : '') . '" >';
 		echo '  <img src="' . $image_file . '" alt="plugin icon" />';
-		echo '  <a href="' . $row['fullpath'] . '">' . $row['name'] . '</a>';
+		echo '  <a href="https://github.com/downloads/quicksilver/Plugins-Mirror/' . $row['fullpath'] . '">' . $row['name'] . '</a>';
 		if($now - $moddate_unix <= 30412800)
 			echo '  <sup><span style="color:#ff0000;" >new!</span></sup>';
 		echo '</div>';
