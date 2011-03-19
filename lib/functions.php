@@ -40,7 +40,7 @@ function quote_db($obj)
 		if ($obj == "")
 			return "\"\"";
 		connect_db();
-		return '"' . mysql_real_escape_string($obj) . '"';
+		return mysql_real_escape_string($obj);
 	} else {
 		return $obj;
 	}
