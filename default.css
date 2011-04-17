@@ -7,6 +7,11 @@ body {
   color: #353535;
 }
 
+#nav {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 #mainbox
 {
 	background-color: #d1d1d1;
@@ -15,15 +20,17 @@ body {
 	border-radius: 10px;
 	-webkit-border-radius: 10px;
 	-moz-border-radius: 10px;
+	text-align: center;
 }
 
 .link
 {
-	width: 74px;
+	width: 5em;
 	color: #bbb;
 	padding: 7px;
 	background-color: #696969;
-	float: left;
+	display: inline-block;
+/*  float: left;*/
 	margin-left: 5px;
 	font-size: 11pt;
 	border-radius: 5px;
@@ -78,7 +85,7 @@ body {
   color: #151515;
   font-size: 11pt;
   text-align: left;
-  padding-top: 40px;
+  padding-top: 1em;
 }
 
 a {
@@ -168,3 +175,12 @@ a:hover {
 	background-color: #eee;
 }
 /* End Download buttons */
+#why.section {
+  clear: both;
+  min-height: 130px;
+}
+#why img {
+  margin: 0 0 0.5em 0.5em;
+  width: 45%;
+  float: right;
+}
