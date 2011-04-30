@@ -34,7 +34,7 @@
 				<p>Quicksilver support is available from the <a href="http://groups.google.com/group/blacktree-quicksilver?pli=1">Quicksilver Google Group</a>.</p><p> You can post to these groups using either the web interface (through the link above), or by emailing <a href="mailto:blacktree-quicksilver@googlegroups.com">blacktree-quicksilver@googlegroups.com</a> once you've signed up to the group.</p>
 				<h3>Quicksilver Manual</h3>
 				<p>An extensive and well laid-out manual has been written by Howard Melman, which can be downloaded from <a href="http://blacktree-quicksilver.googlegroups.com/web/Quicksilver.pdf?_done=%252Fgroup%252Fblacktree-quicksilver%253F">here</a>.</p>
-				<h3>LoveQuicksilver Twitter &amp; Blog</h3>
+				<h3>LoveQuicksilver Twitter <a href="http://www.twitter.com/LoveQuicksilver"><img src="http://twitter-badges.s3.amazonaws.com/t_small-b.png" alt="Follow LoveQuicksilver on Twitter"/></a> &amp; Blog </h3>
 				<p>A good place for fixes and tips is the <a href="http://twitter.com/lovequicksilver">@LoveQuicksilver</a> twitter page by Philip Dooher.<br />
 					Philip also runs a blog for Quicksilver tips at <a href="http://www.lovequicksilver.com/">LoveQuicksilver.com</a>. Here you can read existing tips or post your own.</p>
 					<h3>Bug Reporting</h3>
