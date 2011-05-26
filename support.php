@@ -30,16 +30,17 @@
 			<p style="color:#353535;font-size:20pt;margin-top:-10px;	font-variant: small-caps;">OS X at your fingertips</p>
 		      <?php include('includes/nav.php'); ?>
 			<div class="opener">
-				<h3>Quicksilver Forums / Google Group</h3>
-				<p>Quicksilver support is available from the <a href="http://groups.google.com/group/blacktree-quicksilver?pli=1">Quicksilver Google Group</a>.</p><p> You can post to these groups using either the web interface (through the link above), or by emailing <a href="mailto:blacktree-quicksilver@googlegroups.com">blacktree-quicksilver@googlegroups.com</a> once you've signed up to the group.</p>
+				<h3>Quicksilver Discussion Group</h3><img style="float:right;margin-top:-40px" src="https://groups.google.com/groups/img/discussions-48.gif\" alt="Google Groups icon" />
+				<p>Quicksilver support is available from the <a href="http://groups.google.com/group/blacktree-quicksilver?pli=1">Quicksilver Google Group</a>.</br>
+				The <a href="http://groups.google.com/group/quicksilver---development">Quicksilver Developer's Group</a> is to be used for Development discussion</p>
 				<h3>Quicksilver Manual</h3>
-				<p>An extensive and well laid-out manual has been written by Howard Melman, which can be downloaded from <a href="http://blacktree-quicksilver.googlegroups.com/web/Quicksilver.pdf?_done=%252Fgroup%252Fblacktree-quicksilver%253F">here</a>.</p>
-				<h3>LoveQuicksilver Twitter <a href="http://www.twitter.com/LoveQuicksilver"><img src="http://twitter-badges.s3.amazonaws.com/t_small-b.png" alt="Follow LoveQuicksilver on Twitter"/></a> &amp; Blog </h3>
-				<p>A good place for fixes and tips is the <a href="http://twitter.com/lovequicksilver">@LoveQuicksilver</a> twitter page by Philip Dooher.<br />
-					Philip also runs a blog for Quicksilver tips at <a href="http://www.lovequicksilver.com/">LoveQuicksilver.com</a>. Here you can read existing tips or post your own.</p>
+				<p>An extensive manual has been written by Howard Melman. Download it <a href="http://blacktree-quicksilver.googlegroups.com/web/Quicksilver.pdf?_done=%252Fgroup%252Fblacktree-quicksilver%253F">here</a>.</p>
+				<h3>LoveQuicksilver Twitter <img style="float:right" src="http://twitter-badges.s3.amazonaws.com/t_small-b.png" alt="Follow LoveQuicksilver on Twitter"/></a> &amp; Blog </h3>
+				<p>For support and tips, visit the <a href="http://twitter.com/lovequicksilver">@LoveQuicksilver</a> twitter page<br /> 
+					There is also a <a href="http://www.lovequicksilver.com/">LoveQuicksilver.com</a> blog. Read existing tips or post your own here.</p>
 					<h3>Bug Reporting</h3>
-				<p>To report a bug on Quicksilver, go to <a href="https://github.com/quicksilver/Quicksilver/issues" target="_blank">Quicksilver's GitHub repository</a>.<br />
-					For issues relating to plugins, report issues at the <a href="https://github.com/quicksilver/Plugins/issues">Quicksilver Plugin GitHub repository</a>.</p>
+				<p>To report a Quicksilver-related bug, go to <a href="https://github.com/quicksilver/Quicksilver/issues" target="_blank">GitHub Quicksilver repository</a>.<br />
+					To report a Plugin-related bug, go to the <a href="https://github.com/quicksilver/Plugins/issues">GitHub Plugin repository</a>.</p>
 			</div>
 						<?php include('includes/footer.php'); ?>
 	</body>
