@@ -34,7 +34,7 @@ include('../lib/functions.php');
 <h3>Plugins Repository</h3>
         <p>Below is a list of all the Quicksilver plugins available.<br />
           
-          If syou feel some plugins are missing, please email plugins@qsapp.com.</p>
+          If you feel some plugins are missing, please email plugins@qsapp.com.</p>
 
 
 <p>          Sort through the plugins by either <strong>name</strong> or <strong>updated date</strong>
