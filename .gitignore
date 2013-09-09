@@ -1,2 +1,6 @@
-/lib/mysql.php
+/lib/
 /plugins/plugins
+/qs0/
+/w/
+/testwiki/
+.DS_Store
