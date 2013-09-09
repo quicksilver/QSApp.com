@@ -1,0 +1,712 @@
+body {
+	background: #623876 url(./Images/Background.png) repeat center top;
+	margin: 0;
+	padding: 0;
+	color: #545454;
+	font: 14px/1.3 "Helvetica Neue", "Lucida Grande", Sans-Serif;
+	text-shadow: rgba(255, 255, 255, 1.0) 0 1px 0;
+}
+
+#Container {
+	background: transparent url(./Images/BackgroundTop.png) repeat-x center top;
+	margin: 0;
+	padding: 0;
+	min-height: 459px;
+}
+
+#Quicksilver-Logo {
+	width: 284px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+img {
+	border:none;
+}
+
+#Navigation {
+	width: 850px;
+	height: 35px;
+	background: url(./Images/Navigation.png) no-repeat center top;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	font: 18px Baskerville, Georgia;
+	padding-top: 13px;
+}
+
+#Navigation ul {
+	margin: 0;
+	padding: 0;
+}
+
+#Navigation li {
+	margin: 0;
+	padding: 0px;
+	display: inline;
+}
+
+#Navigation a {
+	color: inherit;
+	font-weight: normal;
+	font-style: normal;
+	padding: 11px 8px 9px;
+	margin-right: 6px;
+	margin-left: 6px;
+	text-decoration: none;
+	border-left: 1px solid rgba(0, 0, 0, 0.0);
+	border-right: 1px solid rgba(0, 0, 0, 0.0);
+}
+
+#Navigation a:hover {
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(rgba(0, 0, 0, 0.05)), 
+		to(rgba(0, 0, 0, 0.01)));
+		
+		background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.01));
+		background: -o-linear-gradient(top, rgba(0 ,0 ,0 ,0.05), rgba(0, 0, 0, 0.01));
+
+	border-left: 1px solid rgba(0, 0, 0, 0.05);
+	border-right: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+#Navigation a:active {
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(rgba(0, 0, 0, 0.07)), 
+		to(rgba(0, 0, 0, 0.03)));
+	
+	background: -moz-linear-gradient(top, rgba(0, 0, 0, 0.07), rgba(0, 0, 0, 0.03));
+	background: -o-linear-gradient(top, rgba(0, 0, 0, 0.07), rgba(0, 0, 0, 0.03));
+
+	border-left: 1px solid rgba(0, 0, 0, 0.055);
+	border-right: 1px solid rgba(0, 0, 0, 0.055);
+}
+
+#Navigation a.On {
+	background: -webkit-gradient(
+		linear, left top, left bottom, 
+		from(rgba(0, 0, 0, 0.05)),
+		color-stop(0.12, rgba(0, 0, 0, 0.1)), 
+		color-stop(0.88, rgba(0, 0, 0, 0.15)), 
+		to(rgba(0, 0, 0, 0.02)));
+		
+	background: -moz-linear-gradient(
+		top, 
+		rgba(0, 0, 0, 0.06), 
+		rgba(0, 0, 0, 0.1) 12%,
+		rgba(0, 0, 0, 0.15) 88%,
+		rgba(0, 0, 0, 0.01));
+	
+	background: -o-linear-gradient(	top, 
+		rgba(0, 0, 0, 0.06), 
+		rgba(0, 0, 0, 0.1) 12%,
+		rgba(0, 0, 0, 0.15) 88%,
+		rgba(0, 0, 0, 0.01));
+
+	border-left: 1px solid rgba(0, 0, 0, 0.1);
+	border-right: 1px solid rgba(0, 0, 0, 0.1);
+	text-decoration: none;
+}
+
+#Page-Top {
+	width: 850px;
+	height: 11px;
+	background: url(./Images/PageTop.png) no-repeat center top;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#Page {
+	width: 734px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 18px 58px;
+	background: url(./Images/PageMiddle.png) repeat-y;
+	text-align: left;
+}
+
+#Page h1 {
+	align: center;
+}
+
+#Page .quote {
+	font-style:italic;
+	display:block;
+	padding:4px;
+	margin:3px 0;
+	text-indent: 18px;
+}
+
+#Page-Bottom {
+	width: 850px;
+	height: 12px;
+	background: url(./Images/PageBottom.png) no-repeat center bottom;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#Footer {
+	width: 850px;
+	height: 34px;
+	background: url(./Images/Navigation.png) no-repeat center top;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	margin-bottom: 15px;
+	padding-top: 14px;
+	font-size: 12px;
+}
+
+#Footer a {
+	text-decoration:none;
+}
+#Footer .link {
+	text-decoration:underline;
+}
+
+#Footer .link:hover {
+		text-decoration: underline;
+}
+
+#Footer img {
+	vertical-align:middle;
+}
+
+#Page .Screenshot-Center {
+	text-align: center;
+}
+
+h1#Tag-Line {
+	font: 38px Baskerville, Georgia;
+	margin: 12px 0 9px;
+}
+
+#Welcome {
+	font-size: 14px;
+	text-align: center;
+}
+
+#Welcome h4 {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.Page-Break {
+	height: 1px;
+	display: block;
+	background: rgba(0, 0, 0, 0.09);
+	margin: 0;
+	padding: 0;
+	-webkit-box-shadow: 0px 1px 1px rgba(255, 255, 255, 1.0);
+	-moz-box-shadow: 0px 1px 1px rgba(255, 255, 255, 1.0);
+	box-shadow: 0px 1px 1px rgba(255, 255, 255, 1.0);
+}
+
+#Button-Container {
+	background: rgba(173,103,209,0.15);
+	padding: 6px;
+	width: 200px;
+	margin: 10px auto;
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+}
+
+a#Download-Button {
+	text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6);
+	background: rgba(245, 245, 245, 1.0) -webkit-gradient(linear, left top, left bottom, from(rgba(173,103,209,0.02)), to(rgba(173,103,209,0.25)));
+	
+	background: rgba(245, 245, 245, 1.0) -moz-linear-gradient(top, rgba(173,103,209,0.02), rgba(173,103,209,0.25));
+
+	color: rgba(72,40,89,0.8);
+	text-align: center;
+	display: block;
+	padding-top: 6px;
+	padding-bottom: 6px;
+	font: bold 24px Baskerville, Georgia;
+	text-decoration: none;
+
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+
+	-webkit-box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.7),
+		0px 0px 1px rgba(0, 0, 0, 0.4),
+		0px 1px 3px rgba(0, 0, 0, 0.4),
+		inset 0px -1px 2px rgba(255, 255, 255, 0.4);
+	-moz-box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.7),
+		0px 0px 1px rgba(0, 0, 0, 0.4),
+		0px 1px 3px rgba(0, 0, 0, 0.4),
+		inset 0px -1px 2px rgba(255, 255, 255, 0.4);
+	box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.7),
+		0px 0px 1px rgba(0, 0, 0, 0.4),
+		0px 1px 3px rgba(0, 0, 0, 0.4),
+		inset 0px -1px 2px rgba(255, 255, 255, 0.4);
+}
+
+a#Download-Button:hover {
+	background: rgba(246, 246, 246, 1.0) -webkit-gradient(linear, left top, left bottom, from(rgba(173,103,209,0.0)), to(rgba(173,103,209,0.25)));
+	
+	background: rgba(246, 246, 246, 1.0) -moz-linear-gradient(top, rgba(173,103,209,0.0), rgba(173,103,209,0.25));
+
+	
+	text-decoration: none;
+	text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.7);
+	
+	-webkit-box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.7),
+		0px 0px 1px rgba(0, 0, 0, 0.4),
+		0px 1px 3px rgba(0, 0, 0, 0.45),
+		0px 2px 2px rgba(0, 0, 0, 0.05),
+		inset 0px -1px 2px rgba(255, 255, 255, 0.7);
+
+	-moz-box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.7),
+		0px 0px 1px rgba(0, 0, 0, 0.4),
+		0px 1px 3px rgba(0, 0, 0, 0.45),
+		0px 2px 2px rgba(0, 0, 0, 0.05),
+		inset 0px -1px 2px rgba(255, 255, 255, 0.7);
+
+	box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.7),
+		0px 0px 1px rgba(0, 0, 0, 0.4),
+		0px 1px 3px rgba(0, 0, 0, 0.45),
+		0px 2px 2px rgba(0, 0, 0, 0.05),
+		inset 0px -1px 2px rgba(255, 255, 255, 0.7);
+
+}
+
+a#Download-Button:active {
+	background: rgba(245, 245, 245, 1.0) -webkit-gradient(linear, left top, left bottom, from(rgba(173,103,209,0.08)), to(rgba(173,103,209,0.35)));
+	
+	background: rgba(245, 245, 245, 1.0) -moz-linear-gradient(top, rgba(173,103,209,0.08), rgba(173,103,209,0.35));
+
+	text-decoration: none;
+	text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.3);
+	color: rgba(72,40,89,0.9);
+
+	-webkit-box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.7),
+		0px 0px 1px rgba(0, 0, 0, 0.6),
+		0px 1px 3px rgba(0, 0, 0, 0.45),
+		0px 2px 2px rgba(0, 0, 0, 0.0),
+		inset 0px -1px 2px rgba(255, 255, 255, 0.35);
+
+	-moz-box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.7),
+		0px 0px 1px rgba(0, 0, 0, 0.6),
+		0px 1px 3px rgba(0, 0, 0, 0.45),
+		0px 2px 2px rgba(0, 0, 0, 0.0),
+		inset 0px -1px 2px rgba(255, 255, 255, 0.35);
+
+	box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.7),
+		0px 0px 1px rgba(0, 0, 0, 0.6),
+		0px 1px 3px rgba(0, 0, 0, 0.45),
+		0px 2px 2px rgba(0, 0, 0, 0.0),
+		inset 0px -1px 2px rgba(255, 255, 255, 0.35);
+}
+
+/* @group about */
+
+.Feature {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.scroller{
+	width: 684px; 
+	height: 420px;
+	overflow: hidden;
+}
+.section {
+	width:664px;
+	height:420px;
+	overflow:hidden;
+	float:left;
+	padding:1em;
+	text-align:center;
+}
+
+.content{
+	width: 10000px;
+}
+
+.scroller h2 {
+	margin:-5px 0 10px 0;
+}
+
+/* Controls for scroller content */
+.controls {
+	width: 30%;
+	margin: auto;
+}
+.controls a {
+	background: url(Images/dot.png) no-repeat;
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+}
+
+.controls a:hover {
+background: url(Images/dot.png) no-repeat 0 -15px;
+width: 16px;
+height: 16px;}
+
+.controls .active, .controls .active:hover {
+	background: url(Images/dot.png) no-repeat 0 -30px;
+	height: 16px;
+	width: 16px;
+}
+
+
+#prev_button {
+	float: left;
+	margin-top: 140px;
+	margin-left: -10px;
+	background: url(Images/previous.png) no-repeat;
+	width: 38px;
+	height: 79px;
+}
+
+#next_button {
+	float: right;
+	margin-top: 140px;
+	margin-right: -20px;
+	background: url(Images/next.png) no-repeat;
+	width: 38px;
+	height: 79px;
+}
+
+
+.Right-Screenshot {
+	float: right;
+	clear: both;
+}
+
+
+.Bordered-Screenshot {
+	background: #fff;
+	padding: 6px;
+	margin: 20px 0 7px 10px;
+	
+	-webkit-box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5),
+		0px 1px 2px rgba(0, 0, 0, 0.25),
+		0px 2px 3px rgba(0, 0, 0, 0.25);
+		
+	-moz-box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5),
+		0px 1px 2px rgba(0, 0, 0, 0.25),
+		0px 2px 3px rgba(0, 0, 0, 0.25);
+		
+	box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5),
+		0px 1px 2px rgba(0, 0, 0, 0.25),
+		0px 2px 3px rgba(0, 0, 0, 0.25);
+}
+
+
+
+/* @end */
+
+/* @group Support */
+
+.Support-Item {
+	width: 100%;
+	min-height: 48px;
+	padding-top: 15px;
+}
+
+.Support-Icon {
+	width: 48px;
+	float: left;
+}
+
+.Support-Description {
+	margin: 0 20px 0 80px;
+}
+
+.Support-Description h2 {
+	margin-top:0;
+	padding-top:0;
+}
+
+/* @end */
+
+/* @group Download */
+
+.Download-Option {
+	width: 320px;
+	float: left;
+	text-align: center;
+}
+
+#Download {
+	width: 90%;
+	margin: 30px auto 10px auto;
+}
+
+
+#Download h4 {
+	display: inline;
+}
+
+.Download-Button-Container {
+	background: rgba(173,103,209, 0.15);
+	padding: 4px;
+	width: 200px;
+
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+	margin: 8px auto;
+}
+
+a.Download-Button {
+	text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.6);
+	background: rgba(245, 245, 245, 1.0) -webkit-gradient(linear, left top, left bottom, from(rgba(173,103,209,0.02)), to(rgba(173,103,209,0.25)));
+	
+	background: rgba(245, 245, 245, 1.0) -moz-linear-gradient(top, rgba(173,103,209,0.02), rgba(173,103,209,0.25));
+
+	color: rgba(72,40,89,0.8);
+	text-align: center;
+	padding-top: 4px;
+	padding-bottom: 4px;
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: bold;
+	display: block;
+
+	-webkit-border-radius: 100px;
+	-moz-border-radius: 100px;
+	border-radius: 100px;
+	
+	-webkit-box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.7),
+		0px 0px 1px rgba(0, 0, 0, 0.4),
+		0px 1px 3px rgba(0, 0, 0, 0.4),
+		inset 0px -1px 2px rgba(255, 255, 255, 0.4);
+	
+	-moz-box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.7),
+		0px 0px 1px rgba(0, 0, 0, 0.4),
+		0px 1px 3px rgba(0, 0, 0, 0.4),
+		inset 0px -1px 2px rgba(255, 255, 255, 0.4);
+	
+	box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.7),
+		0px 0px 1px rgba(0, 0, 0, 0.4),
+		0px 1px 3px rgba(0, 0, 0, 0.4),
+		inset 0px -1px 2px rgba(255, 255, 255, 0.4);
+}
+
+a.Download-Button:hover {
+	background: rgba(246, 246, 246, 1.0) -webkit-gradient(linear, left top, left bottom, from(rgba(173,103,209,0.0)), to(rgba(173,103,209,0.25)));
+	
+	background: rgba(246, 246, 246, 1.0) -moz-linear-gradient(top, rgba(173,103,209,0.0), rgba(173,103,209,0.25));
+
+	text-decoration: none;
+	text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.7);
+
+	-webkit-box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.7),
+		0px 0px 1px rgba(0, 0, 0, 0.4),
+		0px 1px 3px rgba(0, 0, 0, 0.45),
+		0px 2px 2px rgba(0, 0, 0, 0.05),
+		inset 0px -1px 2px rgba(255, 255, 255, 0.7);
+	-moz-box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.7),
+		0px 0px 1px rgba(0, 0, 0, 0.4),
+		0px 1px 3px rgba(0, 0, 0, 0.45),
+		0px 2px 2px rgba(0, 0, 0, 0.05),
+		inset 0px -1px 2px rgba(255, 255, 255, 0.7);
+	box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.7),
+		0px 0px 1px rgba(0, 0, 0, 0.4),
+		0px 1px 3px rgba(0, 0, 0, 0.45),
+		0px 2px 2px rgba(0, 0, 0, 0.05),
+		inset 0px -1px 2px rgba(255, 255, 255, 0.7);
+}
+
+a.Download-Button:active {
+	background: rgba(245, 245, 245, 1.0) -webkit-gradient(linear, left top, left bottom, from(rgba(173,103,209,0.08)), to(rgba(173,103,209,0.35)));
+
+	background: rgba(245, 245, 245, 1.0) -moz-linear-gradient(top, rgba(173,103,209,0.08), rgba(173,103,209,0.35));
+
+
+	text-decoration: none;
+	text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.3);
+	color: rgba(72,40,89,0.9);
+	
+	-webkit-box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.7),
+		0px 0px 1px rgba(0, 0, 0, 0.6),
+		0px 1px 3px rgba(0, 0, 0, 0.45),
+		0px 2px 2px rgba(0, 0, 0, 0.0),
+		inset 0px -1px 2px rgba(255, 255, 255, 0.35);
+	-moz-box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.7),
+		0px 0px 1px rgba(0, 0, 0, 0.6),
+		0px 1px 3px rgba(0, 0, 0, 0.45),
+		0px 2px 2px rgba(0, 0, 0, 0.0),
+		inset 0px -1px 2px rgba(255, 255, 255, 0.35);
+	box-shadow: inset 0px 1px 1px rgba(255, 255, 255, 0.7),
+		0px 0px 1px rgba(0, 0, 0, 0.6),
+		0px 1px 3px rgba(0, 0, 0, 0.45),
+		0px 2px 2px rgba(0, 0, 0, 0.0),
+		inset 0px -1px 2px rgba(255, 255, 255, 0.35);
+}
+
+/* @end */
+
+a {
+	font-weight: bold;
+	text-decoration: none;
+	color: #6B5179;
+}
+
+a:hover {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+h3 {
+	font-size: 17px;
+}
+
+h3 {
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+
+h4 {
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
+}
+
+.clear {
+	clear: both;
+}
+
+/* @group Plugins Page Stuff */
+
+#plugins {
+	text-align: left;
+	width: 592px;
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 0;
+}
+
+.pluginChangelog {
+	text-decoration:none !important;
+	cursor: pointer;
+}
+
+.pluginChangelog img {
+	float:right;
+}
+
+.changelogText {
+/*	display:none;*/
+	background-color:#f5f8f8;
+	color:#545454;
+	font-weight:normal;
+	font-weight:normal;
+	width:575px;
+	position: absolute;
+	border:1px solid #b0b0b0;
+	margin: 4px 0 0 -6px;
+	padding: 5px 10px 5px 5px;
+	-webkit-box-shadow: 2px 2px 5px #545454;
+	-moz-box-shadow: 2px 2px 5px #545454;
+	box-shadow: 2px 2px 5px #545454;
+
+}
+
+.box {
+	border: 1px solid #c0c0c0;
+	border-left: none;
+	margin-top: 10px;
+	padding: 2px 5px;
+	float: left;
+	background-color: #f5f8f8;
+	height: 22px;
+
+	-webkit-box-shadow: 2px 2px 5px #545454;
+	-moz-box-shadow: 2px 2px 5px #545454;
+	box-shadow: 2px 2px 5px #545454;
+}
+
+.odd {
+	background-color: #efefef;
+}
+
+.head {
+	font-weight: bold;
+	border-top: 1px solid #c0c0c0;
+	font-size: 11pt;
+	
+	background: #f5f8f8 -webkit-gradient(
+		linear, left top, left bottom, 
+		from(rgba(0, 0, 0, 0.0)),
+		to(rgba(0, 0, 0, 0.05)));
+		
+	background: #f5f8f8 -moz-linear-gradient(top, rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.05));
+
+	padding: 3px 5px 2px;
+	
+	-webkit-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 1.0), 2px 2px 5px #545454;
+	-moz-box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 1.0), 2px 2px 5px #545454;
+	box-shadow: inset 0px 1px 0px rgba(255, 255, 255, 1.0), 2px 2px 5px #545454;
+}
+
+#plugins img {
+	width: 16px;
+	height: 16px;
+	vertical-align: middle;
+}
+
+.name {
+	border-left: 1px solid #c0c0c0;
+	width: 350px;
+	border-right: none;
+}
+
+.name img {
+	padding-right: 10px;
+}
+
+.new {
+	color: #ff0000;
+}
+
+.version {
+	width: 99px;
+	border-left: none;
+	text-align: right;
+}
+
+.updated {
+	width: 110px;
+	text-align: right;
+}
+
+.description {
+    height: auto;
+    min-height: 14px;
+    border: 2px 5px;
+    border-top: none;
+    background-color: #e2e2e2;
+    width: 580px;
+    font-size:12px;
+    border-left: 1px solid #c0c0c0;
+    margin-top: 0px;
+}
+
+.author {
+	border: none;
+	font-style: italic;
+	font-size: 12px;
+}
+
+/* @end */
+
+/* @group Project */
+
+.pipe {
+	padding:0 10px;
+}
+
+/* @end */

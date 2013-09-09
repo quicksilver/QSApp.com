@@ -1,0 +1,21 @@
+RewriteEngine On
+
+RedirectMatch 301 /actions[/]?$ qs://preferences#QSActionsPrefPane
+RedirectMatch 301 /plugins[/]?$ qs://preferences#QSPlugInsPrefPane
+RedirectMatch 301 /main[/]?$ qs://preferences#QSMainMenuPrefPane
+RedirectMatch 301 /triggers[/]?$ qs://preferences#QSTriggersPrefPane
+RedirectMatch 301 /catalog[/]?$ qs://preferences#QSCatalogPrefPane
+RedirectMatch 301 /appearance[/]?$ qs://preferences#QSAppearancePrefPane
+RedirectMatch 301 /application[/]?$ qs://preferences#QSApplicationPrefPane
+RedirectMatch 301 /extras[/]?$ qs://preferences#QSAdvancedPrefPane
+RedirectMatch 301 /clipboard[/]?$ qs://preferences#QSPasteboardPrefPane
+RedirectMatch 301 /command[/]?$ qs://preferences#QSSearchPrefPane
+RedirectMatch 301 /calculator[/]?$ qs://preferences#CalculatorPrefPane
+RedirectMatch 301 /itunes[/]?$ qs://preferences#QSiTunesPrefPane
+RedirectMatch 301 /compression[/]?$ qs://preferences#QSCompressionPrefPane
+RedirectMatch 301 /handlers[/]?$ qs://preferences#QSHelpersPrefPane
+RedirectMatch 301 /commandlinetool[/]?$ qs://preferences#QSCommandLineToolPrefPane
+#RedirectMatch 301 /guide[/]?$ qs://preferences#QSSettingsPanePlaceholder
+RedirectMatch 301 /emailoptions[/]?$ qs://preferences#QSMailActionsPrefPane
+RedirectMatch 301 /email[/]?$ qs://preferences#QSMailActionsPrefPane
+RedirectMatch 301 /mail[/]?$ qs://preferences#QSMailActionsPrefPane
