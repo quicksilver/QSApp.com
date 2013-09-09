@@ -4,3 +4,6 @@
 /w/
 /testwiki/
 .DS_Store
+/dev/
+/cgi-bin/
+/old/
