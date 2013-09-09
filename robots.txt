@@ -1,3 +1,10 @@
- User-agent: *
- Disallow: /w/
- Disallow: /plugins/?order=
+User-agent: *
+Disallow: /w/*
+Disallow: /plugins/?order=*
+Disallow: /wiki/Talk:*
+Disallow: /Applescripts_for_QS.webarchive
+Disallow: /wiki/Donate
+Disallow: /old/*
+
+Sitemap: http://qsapp.com/sitemap.xml
+Sitemap: http://qsapp.com/wiki_sitemap.xml

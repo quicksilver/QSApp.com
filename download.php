@@ -1,46 +1,71 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+  <meta http-equiv="Content-Language" content="en" />
+  <meta content="Description" name="Download Quicksilver Mac OS X Utility for Mac OS Mountain Lion, Lion, Snow Leopard and more" />
+   <meta name="Keywords" content="Quicksilver, download, lion, mountain lion, mac, os x, launcher, application, utility, productivity, itunes, changelog" />
+  <title>Quicksilver &#151; Download</title>
+  <?php include('template/head.tpl'); ?>
+</head>
+<body>
+  <div id="Container">
+    <?php include('template/logo.tpl'); ?>
+    <?php include('template/nav.tpl'); ?>
+    <div id="Page-Top"></div>
+    <div id="Page">
+      <h1>Download Quicksilver</h1>
+      <div class="Page-Break"></div>
+<p>To download Quicksilver for Mac OS X, select the compatible version for your operating system version.<br />
+	View the <a href="changelog.php">changelog</a> to see the recent changes to Quicksilver.</p>
 
-	<title>Quicksilver: Download</title>
-	<!-- Date: 2010-04-04 -->
-	<link href="default.css" rel="stylesheet" type="text/css"  />
+<?php /*
+		  <p style="padding: 10px;background-color: #d5d5d5;-webkit-border-radius: 5px;-moz-border-radius: 5px;border-radius: 5px;" ><img style="	float: left;
+	padding: 10px;" alt="warning" src="images/warning.png" /><strong>Is Quicksilver giving you an <code>"Installation Failed"</code> message?</strong><br />
+Previous versions (namely ß61 and ß62) of Quicksilver had a serious bug that broke automatic updating. Please download the latest version manually. You should not see this problem again, and we are sorry for any inconvenience.</p>
 
-	<script type="text/javascript">
+*/ ?>
+      <div id="Download">
+        <div class="Download-Option">
+          <img src="Images/Lion+SnowLeopard.png" alt="Snow Leopard" /><br />
+          <h4>OS X 10.8 Mountain Lion,<br />10.7 Lion, 10.6 Snow Leopard</h4>
+          <div class="Download-Button-Container">
+            <a class="Download-Button" href="http://qs0.qsapp.com/plugins/download.php">Download 1.0.0</a>
+          </div><br />
+          <br />
+        </div> <!-- Download Option -->
 
-	var _gaq = _gaq || [];
-	_gaq.push(['_setAccount', 'UA-20964503-1']);
-	_gaq.push(['_trackPageview']);
+        <div class="Download-Option">
+          <img src="Images/Tiger+Leopard.png" alt="Tiger and Leopard" /><br />
+          <h4>OS X 10.5 Leopard, 10.4 Tiger<br/><br /></h4>
+          <div class="Download-Button-Container">
+            <a class="Download-Button" href="http://qs0.qsapp.com/plugins/download.php?qsversion=14357">Download &szlig;54</a>
+          </div><br />
+          <br />
+        </div> <!-- Download Option -->
 
-	(function() {
-		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-		})();
+        <div class="Download-Option">
+          <img src="Images/Panther.png" alt="Panther" /><br />
+          <h4>OS X 10.3 Panther</h4>
+          <div class="Download-Button-Container">
+            <a class="Download-Button" href="http://qs0.qsapp.com/plugins/download.php?qsversion=7225">Download &szlig;36</a>
+          </div>
+        </div> <!-- Download Option -->
 
-		</script>
+    <div class="Download-Option">
+          <img src="Images/other.png" alt="Other Quicksilver Downloads" /><br />
+          <h4>All Downloads</h4>
+          <div class="Download-Button-Container">
+            <a class="Download-Button" href="http://github.qsapp.com/">Download Other Versions</a>
+          </div>
+        </div> <!-- Download Option -->
 
-	</head>
-	<body>
-		<div id="mainbox"><center>
-			<img src="images/quicksilver.png" width="64px" height="64px" alt="QS logo" />
-			<br/>
-			<h3><img src="images/quicksilver-title.png" width="160px" height="31px" alt="Quicksilver" /></h3>
-			<p style="color:#353535;font-size:20pt;margin-top:-10px;	font-variant: small-caps;">OS X at your fingertips</p>
-					      <?php include('includes/nav.php'); ?>
-			<div class="opener">
-				
-<p>				Several versions of Quicksilver exist for maximum compatibility with all Mac OS X operating systems.<br />
-	For a full list of which features work under each operating system for each version, see the wiki article on <a href="http://qsapp.com/wiki/Which_version">Which Version?</a></p>
-	<p>Otherwise, download the recommended version for your operating system below.</p>
-			<h4>Mac OS X 10.6 Snow Leopard</h4>
-			<a class="dlbutton" href="https://github.com/downloads/quicksilver/Quicksilver/Quicksilver-b58-3841.tar.gz">Download &beta;58</a>
-			<h4>Mac OS X 10.5 Leopard, 10.4 Tiger</h4>
-			<a class="dlbutton" href="https://github.com/downloads/quicksilver/Quicksilver/Quicksilver-B54.tgz">Download &beta;54</a>
-			<h4>Mac OS X 10.3 Panther</h4>
-			<a class="dlbutton" href="https://github.com/downloads/quicksilver/Quicksilver/Quicksilver%20B36.tgz">Download &beta;36</a>
-			</div>
-			<?php include('includes/footer.php'); ?>
-	</body>
+        <div class="clear"></div>
+      </div> <!-- Download -->
+
+    </div> <!-- Page -->
+    <div id="Page-Bottom"></div>
+    <?php include('template/footer.tpl'); ?>
+  </div> <!-- Container -->
+</body>
 </html>
