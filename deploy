@@ -2,6 +2,10 @@
 
 # Originally taken from https://coderwall.com/p/moabdw and modified a little
 
+HOST="qs0.qsapp.com"
+HOST_DIRECTORY="~/public_html/"
+ARGS="-avuz --delete --progress --exclude-from=.gitignore --exclude=.git --exclude=.gitignore"
+
 if [ "$1" = "--help" ] || [ $# -eq 0 ]
     then
         echo "\nQSApp.com deploy script
@@ -20,10 +24,6 @@ if [ "$1" != "-l" ] && [ "$1" != "-n" ]
         exit
 fi
 
-HOST="qs0.qsapp.com"
-HOST_DIRECTORY="~/public_html/"
-
-ARGS="-avuz --delete --progress --exclude-from=.gitignore --exclude=.git --exclude=.gitignore"
 if [ "$1" = "-n" ]
     then
         echo "Running dry-run"
