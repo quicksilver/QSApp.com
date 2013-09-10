@@ -35,5 +35,3 @@ fi
 
 
 rsync ${ARGS} -e "ssh -p22" ./ ${HOST}:${HOST_DIRECTORY}
-
-
