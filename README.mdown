@@ -1,6 +1,11 @@
 QSApp.com source code repo
 ==========================
 
-This repo hosts all the source code (except for the wiki) that is used on [http://qsapp.com](http://qsapp.com).
 
-If you'd like to get involved in helping make the site much, much better then email [help@qsapp.com](mailto:help@qsapp.com)
+In this repository you can find the source code for (most of) the [http://qsapp.com](http://qsapp.com) website. Certain pages and files may have been removed for security purposes.
+
+### Making Changes ###
+
+If you'd like to make changes to the site, feel free to merge this GitHub branch and create a pull request.
+
+For more information, or if you have some better ideas on making the site much, much better, then email [help@qsapp.com](mailto:help@qsapp.com) or ask in the [dev forums](https://groups.google.com/forum/?fromgroups#!forum/quicksilver---development)
