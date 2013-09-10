@@ -20,7 +20,7 @@ if [ "$1" != "-l" ] && [ "$1" != "-n" ]
         exit
 fi
 
-HOST="qs@qs0.qsapp.com"
+HOST="qs0.qsapp.com"
 HOST_DIRECTORY="~/public_html/"
 
 ARGS="-avuz --progress --exclude-from=.gitignore --exclude=.git --exclude=.gitignore"
