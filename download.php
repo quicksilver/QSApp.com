@@ -39,8 +39,7 @@ Previous versions (namely ß61 and ß62) of Quicksilver had a serious bug that b
           <h4>OS X 10.6 Snow Leopard</h4>
           <div class="Download-Button-Container">
             <a class="Download-Button" href="http://qs0.qsapp.com/plugins/download.php?qsversion=16384">Download 1.0.0</a>
-          </div><br />
-          <br />
+          </div>
         </div> <!-- Download Option -->
         
         <div class="Download-Option">
@@ -48,8 +47,7 @@ Previous versions (namely ß61 and ß62) of Quicksilver had a serious bug that b
           <h4>OS X 10.5 Leopard, 10.4 Tiger<br/><br /></h4>
           <div class="Download-Button-Container">
             <a class="Download-Button" href="http://qs0.qsapp.com/plugins/download.php?qsversion=14357">Download &szlig;54</a>
-          </div><br />
-          <br />
+          </div>
         </div> <!-- Download Option -->
 
         <div class="Download-Option">
@@ -57,7 +55,8 @@ Previous versions (namely ß61 and ß62) of Quicksilver had a serious bug that b
           <h4>OS X 10.3 Panther</h4>
           <div class="Download-Button-Container">
             <a class="Download-Button" href="http://qs0.qsapp.com/plugins/download.php?qsversion=7225">Download &szlig;36</a>
-          </div>
+          </div><br/ >
+          <br/>
         </div> <!-- Download Option -->
 
     <div class="Download-Option">
