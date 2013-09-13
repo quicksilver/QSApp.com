@@ -28,13 +28,21 @@ Previous versions (namely ß61 and ß62) of Quicksilver had a serious bug that b
       <div id="Download">
         <div class="Download-Option">
           <img src="Images/Lion+SnowLeopard.png" alt="Snow Leopard" /><br />
-          <h4>OS X 10.8 Mountain Lion,<br />10.7 Lion, 10.6 Snow Leopard</h4>
+          <h4>OS X 10.8 Mountain Lion,<br />10.7 Lion</h4>
           <div class="Download-Button-Container">
-            <a class="Download-Button" href="http://qs0.qsapp.com/plugins/download.php">Download 1.0.0</a>
+            <a class="Download-Button" href="http://qs0.qsapp.com/plugins/download.php">Download 1.1.0</a>
           </div><br />
           <br />
         </div> <!-- Download Option -->
-
+        <div class="Download-Option">
+          <img src="Images/SnowLeopard.png" alt="Snow Leopard" /><br />
+          <h4>OS X 10.6 Snow Leopard</h4>
+          <div class="Download-Button-Container">
+            <a class="Download-Button" href="http://qs0.qsapp.com/plugins/download.php?qsversion=16384">Download 1.0.0</a>
+          </div><br />
+          <br />
+        </div> <!-- Download Option -->
+        
         <div class="Download-Option">
           <img src="Images/Tiger+Leopard.png" alt="Tiger and Leopard" /><br />
           <h4>OS X 10.5 Leopard, 10.4 Tiger<br/><br /></h4>
