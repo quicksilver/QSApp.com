@@ -8,6 +8,9 @@ RewriteRule ^wiki/(.*)$ /w/index.php?title=$1 [PT,L,QSA]
 RewriteRule ^wiki/*$ /w/index.php [L,QSA]
 RedirectMatch 301 /plugins$ /plugins.php
 
+# T-shirt competition blog post
+RedirectMatch 301 /t-shirt-competition/?$ http://blog.qsapp.com/post/60801650846/quicksilver-t-shirt-competition-join-the-community
+
 RewriteRule ^blog/$ http://blog.qsapp.com
 
 ErrorDocument 404 /404.php
