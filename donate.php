@@ -115,7 +115,7 @@
 <noscript><a href="http://flattr.com/thing/314033/Quicksilver-Mac-App" target="_blank">
 <img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" /></a></noscript>
 
- <a href="https://flattr.com/donation/give/to/QSApp" class="donateBtn">Donate</a>
+ <a href="https://flattr.com/profile/qsapp" class="donateBtn">Donate</a>
 </div></div>
 				<h3>Other ways to Help</h3>
 					
