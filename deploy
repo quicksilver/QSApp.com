@@ -4,7 +4,7 @@
 
 HOST="qs0.qsapp.com"
 HOST_DIRECTORY="~/public_html/"
-ARGS="-avuz --delete --progress --exclude-from=.gitignore --exclude=.git --exclude=.gitignore --exclude=deploy"
+ARGS="-avuz --progress --exclude-from=.gitignore --exclude=.git --exclude=.gitignore --exclude=deploy"
 
 if [ "$1" = "--help" ] || [ $# -eq 0 ]
     then
