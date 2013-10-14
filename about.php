@@ -59,7 +59,7 @@
 						<img class="Screenshot"  src="Images/why_gatewaydrug.png" title="Do almost anything" alt="Do almost anything with Quicksilver"/> 
 
 					<h2>Launching is a gateway drug</h3> 
-    				Saying that Quicksilver is an application launcher is like saying a car is a drinks holder. You can do almost anything with Quicksilver. Quicksilver's art is in learning what you like doing, and turning your chores into two-second thoughts. By knowing your habits, Quicksilver blurs the line between thinking about something and simply getting it done.<br /> 
+    				Saying that Quicksilver is an application launcher is like saying a car is a cup holder. You can do almost anything with Quicksilver. Quicksilver's art is in learning what you like doing, and turning your chores into two-second thoughts. By knowing your habits, Quicksilver blurs the line between thinking about something and simply getting it done.<br /> 
 					<br /> 
 				</div>
 
