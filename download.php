@@ -30,7 +30,7 @@ Previous versions (namely ß61 and ß62) of Quicksilver had a serious bug that b
           <img src="images/Lion+MountainLion+Mavericks@2x.png" width="215" height="122" alt="Lion, Mountain Lion and Mavericks" /><br />
           <h4>OS X 10.9 Mavericks,<br /> 10.8 Mountain Lion,<br />10.7 Lion</h4>
           <div class="Download-Button-Container">
-            <a class="Download-Button" href="http://qs0.qsapp.com/plugins/download.php">Download 1.1.0</a>
+            <a class="Download-Button" href="http://qs0.qsapp.com/plugins/download.php">Download 1.1.3</a>
           </div><br />
           <br />
         </div> <!-- Download Option -->
