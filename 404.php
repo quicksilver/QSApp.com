@@ -28,7 +28,7 @@
 				<br /> (Psst &#151; make sure you've installed the <a href="qs://preferences#QSPlugInsPrefPane">Web Search Module</a>!)
 				</p>
 				<div class="Screenshot-Center">
-					<img src="/Images/404.png" alt="404 Error" />
+					<img src="/images/404.png" alt="404 Error" />
 				</div>
 
             </div> <!-- Page -->

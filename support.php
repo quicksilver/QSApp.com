@@ -27,7 +27,7 @@
 
   				<div class="Support-Item">
                     <div class="Support-Icon">
-                        <img src="Images/Wiki.png" alt="Manual" />
+                        <img src="images/Wiki.png" alt="Manual" />
                     </div>
                     
                     <div class="Support-Description">
@@ -40,7 +40,7 @@
                 
                 <div class="Support-Item">
                     <div class="Support-Icon">
-                        <img src="Images/FAQ.png" alt="Manual" />
+                        <img src="images/FAQ.png" alt="Manual" />
                     </div>
                     
                     <div class="Support-Description">
@@ -53,7 +53,7 @@
 
     			<div class="Support-Item">
                     <div class="Support-Icon">
-                        <img src="Images/GoogleGroups.png" alt="Google Groups" />
+                        <img src="images/GoogleGroups.png" alt="Google Groups" />
                     </div>
 
                     <div class="Support-Description">
@@ -67,7 +67,7 @@
                 
                 <div class="Support-Item">
                     <div class="Support-Icon">
-                        <img src="Images/Manual.png" alt="Manual" />
+                        <img src="images/Manual.png" alt="Manual" />
                     </div>
                     
                     <div class="Support-Description">
@@ -80,7 +80,7 @@
                 
                 <div class="Support-Item">
                     <div class="Support-Icon">
-                        <img src="Images/Twitter.png" alt="Twitter" />
+                        <img src="images/Twitter.png" alt="Twitter" />
                     </div>
                     
                     <div class="Support-Description">
@@ -97,7 +97,7 @@
                 
                 <div class="Support-Item">
                     <div class="Support-Icon">
-                        <img src="Images/BugReport.png" alt="Bug Report" />
+                        <img src="images/BugReport.png" alt="Bug Report" />
                     </div>
                     
                     <div class="Support-Description">

@@ -28,7 +28,7 @@
 					The Quicksilver project encompasses everything in the Quicksilver environment, including:<br /> coding, creating and maintaining plugins, user support, documentation, creating press and maintaining this website.
 				<h2>History</h2>
 				<p>
-<img style="width:60%;" src="Images/creation.png" alt="Quicksilver: Created 29 June 2003" />
+<img style="width:60%;" src="images/creation.png" alt="Quicksilver: Created 29 June 2003" />
 </p>
 <p>
 Quicksilver was created in June 2003 by <a href="http://blacktree.com">Blacktree Software</a>.
@@ -43,7 +43,7 @@ Following this, Quicksilver had a shaky few years, with its future looking bleak
 <p>Just when Quicksilver looked almost certain to die a slow death, a new group of invigorated developers picked up the project, creating a new QSApp.com site, twitter account and blog.
 	</p>
 		<p>
-<img style="width:80%;" src="Images/siteRegistration.png" alt="Quicksilver: Created 29 June 2003" />
+<img style="width:80%;" src="images/siteRegistration.png" alt="Quicksilver: Created 29 June 2003" />
 </p>
 	<p> In the early months of 2011, several developers worked vigorously to bring Quicksilver back to its former glory, and to what you see today.</p>
 
@@ -58,7 +58,7 @@ Following this, Quicksilver had a shaky few years, with its future looking bleak
 
 		<div class="Feature">
 			<div class="Right-Screenshot">
-				<img class="Screenshot" src="Images/Team/Patrick.jpg" alt="Patrick Robertson" width="180px" />
+				<img class="Screenshot" src="images/Team/Patrick.jpg" alt="Patrick Robertson" width="180px" />
 				<br />
 			</div>
 			
@@ -80,7 +80,7 @@ Following this, Quicksilver had a shaky few years, with its future looking bleak
 	
 	<div class="Feature">
 		<div class="Right-Screenshot">
-			<img class="Screenshot" src="Images/Team/Rob.jpg" alt="Rob McBroom" width="180px" />
+			<img class="Screenshot" src="images/Team/Rob.jpg" alt="Rob McBroom" width="180px" />
 			<br />
 		</div>
 	<h3>Rob McBroom</h3>
@@ -99,7 +99,7 @@ Following this, Quicksilver had a shaky few years, with its future looking bleak
 
 	<div class="Feature">
 		<div class="Right-Screenshot">
-			<img class="Screenshot" style="margin:1px 0 4px 10px" src="Images/Team/Phil.png" alt="Philip Dooher" width="160px" />
+			<img class="Screenshot" style="margin:1px 0 4px 10px" src="images/Team/Phil.png" alt="Philip Dooher" width="160px" />
 			<br />
 		</div>
 	<h3>Philip Dooher</h3>

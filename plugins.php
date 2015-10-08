@@ -43,7 +43,7 @@ include('lib/functions.php');
 <p>	Quicksilver will only show versions of plugins that are known to work for its version, which is not the case for this page.</p>
 
 
-        <div style="text-align: center; font-size:12px;">Sort through the plugins by either <b>name</b> or <b>updated date</b>.<br/>Click the <img src="Images/Button-Add.png" alt="Plugin Changelog" /> button to see the changes for each plugin update.</div>
+        <div style="text-align: center; font-size:12px;">Sort through the plugins by either <b>name</b> or <b>updated date</b>.<br/>Click the <img src="images/Button-Add.png" alt="Plugin Changelog" /> button to see the changes for each plugin update.</div>
         <div id="plugins"><?php
 
         $order = @$_GET["order"] ? @$_GET["order"] : "moddate";
@@ -81,7 +81,7 @@ include('lib/functions.php');
           </div>
           <div class="box updated <?= $odd ?>"><?= strftime("%Y-%m-%d", $moddate_unix) ?></div>
           <?php if ($plugin->description) { ?>
-            <div class="box description <?= $odd ?>"><?= $plugin->description ?><span class="pluginChangelog"><img src="Images/Button-Add.png" alt="Plugin Changelog" /></span><span class="changelogText">Changes:<br /><?= $plugin->changes ?></span></div>
+            <div class="box description <?= $odd ?>"><?= $plugin->description ?><span class="pluginChangelog"><img src="images/Button-Add.png" alt="Plugin Changelog" /></span><span class="changelogText">Changes:<br /><?= $plugin->changes ?></span></div>
           <?php } ?>
           <!-- <div class="box" id="dl"><a href="'.$row['fullpath'].'"><img src="images/download.gif" /></a></div>'; -->
           <?php

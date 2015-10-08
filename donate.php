@@ -80,7 +80,7 @@
 // ]]&gt;</script> stating <em>where</em> you would like your donation to go.</p>
 		<div style="margin:30px 0 30px 0;width:50%;float:left">
 <div style="margin: auto; text-align: center">
-	<img src="/Images/donate/PayPal_Logo.png" style="width:140px" alt="PayPal" /> 
+	<img src="/images/donate/PayPal_Logo.png" style="width:140px" alt="PayPal" /> 
 	<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
 		<div>
 			<input type="hidden" name="cmd" value="_donations" />
@@ -110,7 +110,7 @@
 
 <div style="margin:16px 0 30px 0;float:right;width:50%">
 <div style="text-align:center">
-<p><img src="/Images/donate/Flattr.png" style="width:140px" alt="Flattr" /></p>
+<p><img src="/images/donate/Flattr.png" style="width:140px" alt="Flattr" /></p>
 <a class="FlattrButton" style="display:none;" rev="flattr;button:compact;" href="https://flattr.com/profile/QSApp"></a>
 <noscript><a href="http://flattr.com/thing/314033/Quicksilver-Mac-App" target="_blank">
 <img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" /></a></noscript>

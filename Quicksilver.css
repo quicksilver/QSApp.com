@@ -1,5 +1,5 @@
 body {
-	background: #623876 url(./Images/Background.png) repeat center top;
+	background: #623876 url(./images/Background.png) repeat center top;
 	margin: 0;
 	padding: 0;
 	color: #545454;
@@ -8,7 +8,7 @@ body {
 }
 
 #Container {
-	background: transparent url(./Images/BackgroundTop.png) repeat-x center top;
+	background: transparent url(./images/BackgroundTop.png) repeat-x center top;
 	margin: 0;
 	padding: 0;
 	min-height: 459px;
@@ -29,7 +29,7 @@ img {
 #Navigation {
 	width: 850px;
 	height: 35px;
-	background: url(./Images/Navigation.png) no-repeat center top;
+	background: url(./images/Navigation.png) no-repeat center top;
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
@@ -115,7 +115,7 @@ img {
 #Page-Top {
 	width: 850px;
 	height: 11px;
-	background: url(./Images/PageTop.png) no-repeat center top;
+	background: url(./images/PageTop.png) no-repeat center top;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -125,7 +125,7 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 	padding: 18px 58px;
-	background: url(./Images/PageMiddle.png) repeat-y;
+	background: url(./images/PageMiddle.png) repeat-y;
 	text-align: left;
 }
 
@@ -144,7 +144,7 @@ img {
 #Page-Bottom {
 	width: 850px;
 	height: 12px;
-	background: url(./Images/PageBottom.png) no-repeat center bottom;
+	background: url(./images/PageBottom.png) no-repeat center bottom;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -152,7 +152,7 @@ img {
 #Footer {
 	width: 850px;
 	height: 34px;
-	background: url(./Images/Navigation.png) no-repeat center top;
+	background: url(./images/Navigation.png) no-repeat center top;
 	margin-right: auto;
 	margin-left: auto;
 	text-align: center;
@@ -340,19 +340,19 @@ a#Download-Button:active {
 	margin: auto;
 }
 .controls a {
-	background: url(Images/dot.png) no-repeat;
+	background: url(images/dot.png) no-repeat;
 	width: 16px;
 	height: 16px;
 	display: inline-block;
 }
 
 .controls a:hover {
-background: url(Images/dot.png) no-repeat 0 -15px;
+background: url(images/dot.png) no-repeat 0 -15px;
 width: 16px;
 height: 16px;}
 
 .controls .active, .controls .active:hover {
-	background: url(Images/dot.png) no-repeat 0 -30px;
+	background: url(images/dot.png) no-repeat 0 -30px;
 	height: 16px;
 	width: 16px;
 }
@@ -362,7 +362,7 @@ height: 16px;}
 	float: left;
 	margin-top: 140px;
 	margin-left: -10px;
-	background: url(Images/previous.png) no-repeat;
+	background: url(images/previous.png) no-repeat;
 	width: 38px;
 	height: 79px;
 }
@@ -371,7 +371,7 @@ height: 16px;}
 	float: right;
 	margin-top: 140px;
 	margin-right: -20px;
-	background: url(Images/next.png) no-repeat;
+	background: url(images/next.png) no-repeat;
 	width: 38px;
 	height: 79px;
 }
