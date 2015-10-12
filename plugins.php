@@ -64,7 +64,7 @@ include('lib/functions.php');
           $odd = $i % 2 == 1 ? 'odd' : '';
 
           $image_url = $plugin->image_url();
-          if (!$image)
+          if (!$image_url)
             $image_url = "images/plugins/default.png";
 
           $plugin_url = "http://qs0.qsapp.com/plugins/download.php?id=" . $plugin->identifier . "&version=" . $plugin->version;
