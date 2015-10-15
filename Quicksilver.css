@@ -583,10 +583,14 @@ h4 {
 
 #plugins {
 	text-align: left;
-	width: 592px;
 	margin-right: auto;
 	margin-left: auto;
 	padding-top: 0;
+}
+
+#plugins table {
+    max-width:600px;
+        margin:0 auto;
 }
 
 .pluginChangelog {

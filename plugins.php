@@ -50,9 +50,13 @@ include('lib/functions.php');
         $sort = @$_GET["sort"] ? @$_GET["sort"] : "DESC";
 
         ?>
-        <div class="box head name"><a href="?order=name&amp;sort=<?php if($sort == "DESC") echo "ASC"; else echo "DESC";?>">Plugin</a></div>
-        <div class="box head version">Vers.</div>
-        <div class="box head updated"><a href="?order=moddate&amp;sort=<?php if($sort == "DESC") echo "ASC"; else echo "DESC";?>">Updated</a></div>
+<table> 
+<tbody>
+<tr>
+        <td class="box head name"><a href="?order=name&amp;sort=<?php if($sort == "DESC") echo "ASC"; else echo "DESC";?>">Plugin</a></td>
+        <td class="box head version">Vers.</div>
+        <td class="box head updated"><a href="?order=moddate&amp;sort=<?php if($sort == "DESC") echo "ASC"; else echo "DESC";?>">Updated</a></div>
+</tr>
         <?php
 
         $plugins = Plugin::all(false, LEVEL_DEV, "$order $sort");
@@ -70,24 +74,28 @@ include('lib/functions.php');
           $plugin_url = "http://qs0.qsapp.com/plugins/download.php?id=" . $plugin->identifier . "&amp;version=" . $plugin->version;
 
           ?>
-          <div class="box name <?= $odd ?>">
+        <tr>
+          <td class="box name <?= $odd ?>">
             <img src="<?= $image_url ?>" alt="plugin icon" />
             <a href="<?= $plugin_url ?>"><?= $plugin->name ?></a>
             <?php if ($plugin->author) { ?><span class="author <?= $odd ?>">by <?= $plugin->author ?></span><?php } ?>
-          </div>
-          <div class="box version <?= $odd ?>">
+          </td>
+          <td class="box version <?= $odd ?>">
             <?php if ($now - $moddate_unix <= 20 * 24 * 60 * 60) { ?><sup><span class="new">new!</span></sup><?php } ?>
             <?= $plugin->displayVersion ? $plugin->displayVersion : int_to_hexstring($plugin->version) ?>
-          </div>
-          <div class="box updated <?= $odd ?>"><?= strftime("%Y-%m-%d", $moddate_unix) ?></div>
+          </td>
+          <td class="box updated <?= $odd ?>"><?= strftime("%Y-%m-%d", $moddate_unix) ?></div>
           <?php if ($plugin->description) { ?>
-            <div class="box description <?= $odd ?>"><?= $plugin->description ?><span class="pluginChangelog"><img src="images/Button-Add.png" alt="Plugin Changelog" /></span><span class="changelogText">Changes:<br /><?= $plugin->changes ?></span></div>
+            <td class="box description <?= $odd ?>"><?= $plugin->description ?><span class="pluginChangelog"><img src="images/Button-Add.png" alt="Plugin Changelog" /></span><span class="changelogText">Changes:<br /><?= $plugin->changes ?></span></td>
+        </tr>
           <?php } ?>
-          <!-- <div class="box" id="dl"><a href="'.$row['fullpath'].'"><img src="images/download.gif" /></a></div>'; -->
+          <!-- <td class="box" id="dl"><a href="'.$row['fullpath'].'"><img src="images/download.gif" /></a></div>'; -->
           <?php
           $i++;
         }
         ?>
+</tbody>
+</table>
         <p>&nbsp;</p>
       </div> <!-- Plugins -->
 
