@@ -38,7 +38,7 @@ include('lib/functions.php');
 
       <div id="Page-Break"></div>
 
-<p>Plugins allow you to extend Quicksilver's functions, allowing interaction with your installed applications, new interfaces, access to web content, and more.<Br />To learn more about a plugin, see the plugin's Documentation from within the Quicksilver <a href="qs://preferences/#QSPlugInsPrefPane">plugins preferences</a> (select a plugin and press ⌘⌥? or select the 'i' icon).</p>
+<p>Plugins allow you to extend Quicksilver's functions, allowing interaction with your installed applications, new interfaces, access to web content, and more.<br />To learn more about a plugin, see the plugin's Documentation from within the Quicksilver <a href="qs://preferences/#QSPlugInsPrefPane">plugins preferences</a> (select a plugin and press ⌘⌥? or select the 'i' icon).</p>
 <p style="text-align:center"><span style="font-size:110%"><strong>It is <em>strongly</em> recommended you install plugins from within <a href="qs://preferences/#QSPlugInsPrefPane">Quicksilver's preferences</a>.</strong></span></p>
 <p>	Quicksilver will only show versions of plugins that are known to work for its version, which is not the case for this page.</p>
 
@@ -67,7 +67,7 @@ include('lib/functions.php');
           if (!$image_url)
             $image_url = "images/plugins/default.png";
 
-          $plugin_url = "http://qs0.qsapp.com/plugins/download.php?id=" . $plugin->identifier . "&version=" . $plugin->version;
+          $plugin_url = "http://qs0.qsapp.com/plugins/download.php?id=" . $plugin->identifier . "&amp;version=" . $plugin->version;
 
           ?>
           <div class="box name <?= $odd ?>">
