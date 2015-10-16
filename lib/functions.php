@@ -294,7 +294,7 @@ function send_file($file, $name = null) {
 
         header('Location:' . $file);
         die("You are being redirected...");
-    } else if (strpos($file, '/plugins/files/') === 0 && $USE_CDN) {
+    } else if (strpos($file, '/plugins/files/') === 0 && @$USE_CDN) {
         // use a redirect instead of an echo so that the CDN can cache the content
         header('Location: http://cdn.qsapp.com' . $file);
         die("You are being redirected...");
