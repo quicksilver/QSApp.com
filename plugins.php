@@ -8,7 +8,7 @@ include('lib/functions.php');
   <meta http-equiv="Content-Language" content="en" />
   <meta content="Install Quicksilver plugins to extend its functions and your productivity. Plugins allow interaction with your applications, new interfaces, access to web content, and more." name="description" />
   <meta name="Keywords" content="quicksilver, plugins, modules, mac, productivity, application, itunes" />
-<link href="http://qs0.qsapp.com/plugins/rss.php" rel="alternate" type="application/rss+xml" title="A list of the most up to date plugins for Quicksilver." />
+<link href="https://qs0.qsapp.com/plugins/rss.php" rel="alternate" type="application/rss+xml" title="A list of the most up to date plugins for Quicksilver." />
   <title>Quicksilver &#151; Plugin Repository</title>
   <?php include('template/head.tpl'); ?>
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
@@ -71,7 +71,7 @@ include('lib/functions.php');
           if (!$image_url)
             $image_url = "images/plugins/default.png";
 
-          $plugin_url = "http://qs0.qsapp.com/plugins/download.php?id=" . $plugin->identifier . "&amp;version=" . $plugin->version;
+          $plugin_url = "https://qs0.qsapp.com/plugins/download.php?id=" . $plugin->identifier . "&amp;version=" . $plugin->version;
 
           ?>
         <tr>
