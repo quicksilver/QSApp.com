@@ -168,9 +168,8 @@ function osVersionFromUserAgent($user_agent) {
         // CFNetwork User Agent
         $darwin_version = $darwin_version[1][0];
         $darwin_osx = unserialize(DARWIN_OSX);
-        $os_version = $darwin_osx[$darwin_version];
-        if ($os_version == null) {
-            // Perhaps the key doesn't exist in DARWIN_OSX. Try and figure out what version of Darwin (and hence OS X) is being used
+        if (!array_key_exists($darwin_version, $darwin_osx)) {
+            // The key doesn't exist in DARWIN_OSX. Try and figure out what version of Darwin (and hence OS X) is being used
             $parts = explode(".", $darwin_version);
             if (sizeof($parts) == 3) {
                 if ($parts[2] == "0") {
