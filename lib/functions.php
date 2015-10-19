@@ -91,7 +91,7 @@ function puts($str = null) {
 define("LGLVL_DEBUG", E_USER_NOTICE);
 define("LGLVL_ERROR", E_USER_ERROR);
 
-$current_level = LGLVL_DEBUG;
+$current_level = LGLVL_ERROR;
 
 function log_level() {
     global $current_level;
