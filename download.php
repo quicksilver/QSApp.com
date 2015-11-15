@@ -70,7 +70,7 @@ Previous versions (namely ß61 and ß62) of Quicksilver had a serious bug that b
           <img src="images/other.png" alt="Other Quicksilver Downloads" /><br />
           <h4>All Downloads<br/><br/></h4>
           <div class="Download-Button-Container">
-            <a class="Download-Button" href="http://github.qsapp.com/">Download Other Versions</a>
+            <a class="Download-Button" href="/archives/">Download Other Versions</a>
           </div>
         </div> <!-- Download Option -->
 
