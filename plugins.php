@@ -11,7 +11,7 @@ include('lib/functions.php');
 <link href="https://qs0.qsapp.com/plugins/rss.php" rel="alternate" type="application/rss+xml" title="A list of the most up to date plugins for Quicksilver." />
   <title>Quicksilver &#151; Plugin Repository</title>
   <?php include('template/head.tpl'); ?>
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.2.6/jquery.min.js"></script>
 <script type="text/javascript">
  $(document).ready(function() {
  $('span.changelogText').hide();
