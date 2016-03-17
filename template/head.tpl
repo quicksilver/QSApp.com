@@ -1,5 +1,5 @@
 <link href="Quicksilver.css" rel="stylesheet" type="text/css" />
-<link rel="Quicksilver favicon" href="/favicon.png" type="image/x-icon" />
+<link rel="Quicksilver favicon" href="/favicon.ico" type="image/x-icon" />
 
 <script type="text/javascript">
 
