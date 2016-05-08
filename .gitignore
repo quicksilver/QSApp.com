@@ -1,7 +1,4 @@
-/lib/*
-!/lib/autoload.php
-!/lib/CFPropertyList
-!/lib/GoogleAnalytics
+/lib/mysql.php
 /plugins/plugins
 /plugins/pre
 /qs0/
