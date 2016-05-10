@@ -1,0 +1,3514 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>fullIndex</key>
+	<true/>
+	<key>plugins</key>
+	<array>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSGestureTriggers</string>
+			<key>CFBundleName</key>
+			<string>Abracadabra Triggers</string>
+			<key>CFBundleVersion</key>
+			<string>107</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 05:44:05 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>New item</key>
+				<string></string>
+				<key>author</key>
+				<string>Alcor with Jason Cornwell</string>
+				<key>categories</key>
+				<array>
+					<string>Quicksilver</string>
+				</array>
+				<key>description</key>
+				<string>Trigger commands with gestures</string>
+				<key>icon</key>
+				<string>Abracadabra</string>
+				<key>qsversion</key>
+				<string>29CC</string>
+				<key>secret</key>
+				<false/>
+			</dict>
+			<key>QSRequirements</key>
+			<dict>
+				<key>feature</key>
+				<integer>2</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSAcidSearchPlugIn</string>
+			<key>CFBundleName</key>
+			<string>AcidSearch Queries</string>
+			<key>CFBundleVersion</key>
+			<string>36</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 05:03:27 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Web</string>
+					<string>Search</string>
+				</array>
+				<key>description</key>
+				<string>Provides access to AcidSearch channels as queries</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSAirPortPlugIn</string>
+			<key>CFBundleName</key>
+			<string>AirPort Module</string>
+			<key>CFBundleVersion</key>
+			<string>A4</string>
+			<key>QSModifiedDate</key>
+			<string>2006-01-07 02:29:33 +1100</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>description</key>
+				<string>Adds AirPort networks to the catalog.</string>
+				<key>extendedDescription</key>
+				<string>Adds a catalog source for AirPort networks as well as actions for selecting them and internal commands disabling Airport (Beta)</string>
+				<key>icon</key>
+				<string>com.apple.airport.adminutility</string>
+			</dict>
+			<key>QSRequirements</key>
+			<dict>
+				<key>feature</key>
+				<integer>2</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSAddressBookPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Apple Address Book Module</string>
+			<key>CFBundleVersion</key>
+			<string>146</string>
+			<key>QSModifiedDate</key>
+			<string>2007-09-22 15:14:16 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Contacts</string>
+					<string>Applications</string>
+				</array>
+				<key>description</key>
+				<string>Adds Address Book contacts</string>
+				<key>extendedDescription</key>
+				<string>Adds Address Book contacts and actions for showing them. Contact info is available as children of contacts.</string>
+				<key>icon</key>
+				<string>com.apple.AddressBook</string>
+				<key>relatedBundles</key>
+				<array>
+					<string>com.apple.AddressBook</string>
+				</array>
+				<key>requiresFeature</key>
+				<string>0</string>
+			</dict>
+			<key>QSRequirements</key>
+			<dict>
+				<key>version</key>
+				<string>12CC</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSAppleMailPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Apple Mail Module</string>
+			<key>CFBundleVersion</key>
+			<string>FE</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 06:05:37 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Applications</string>
+					<string>Mail &amp; Chat</string>
+				</array>
+				<key>description</key>
+				<string>Enables email actions for Apple Mail</string>
+				<key>extendedDescription</key>
+				<string>Enables email actions for &lt;a href=&quot;http://www.apple.com/macosx/features/mail/&quot;&gt;Apple Mail&lt;/a&gt;. Allows browsing mailboxes as children of Mail (beta)</string>
+				<key>icon</key>
+				<string>com.apple.Mail</string>
+				<key>relatedBundles</key>
+				<array>
+					<string>com.apple.Mail</string>
+				</array>
+			</dict>
+			<key>QSRequirements</key>
+			<dict>
+				<key>plugins</key>
+				<array>
+					<dict>
+						<key>id</key>
+						<string>com.blacktree.Quicksilver.QSEmailSupport</string>
+						<key>name</key>
+						<string>Mail Support</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSCommonMusicArtworkPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Music ARTchive Artwork</string>
+			<key>CFBundleVersion</key>
+			<string>44</string>
+			<key>QSModifiedDate</key>
+			<string>2006-01-07 05:27:02 +1100</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Music</string>
+				</array>
+				<key>description</key>
+				<string>Stores and loads artwork from the common music archive</string>
+				<key>icon</key>
+				<string>public.music.artwork</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSAutomatorPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Automator Module</string>
+			<key>CFBundleVersion</key>
+			<string>50</string>
+			<key>QSModifiedDate</key>
+			<string>2007-12-03 02:40:20 +1100</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>System</string>
+					<string>Applications</string>
+				</array>
+				<key>description</key>
+				<string>Support For Workflows and Automator Actions</string>
+				<key>icon</key>
+				<string>com.apple.Automator</string>
+				<key>relatedBundles </key>
+				<array>
+					<string>com.apple.Automator</string>
+				</array>
+			</dict>
+			<key>QSRequirements</key>
+			<dict>
+				<key>feature</key>
+				<integer>1</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSBackpackPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Backpack Module</string>
+			<key>CFBundleVersion</key>
+			<string>5D</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 06:02:23 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Web</string>
+				</array>
+				<key>description</key>
+				<string>Shortcuts to Backpack (backpackit.com) Pages</string>
+				<key>extendedDescription</key>
+				<string>Shortcuts to &lt;a href=&quot;http://backpackit.com&quot;&gt;Backpack&lt;/a&gt; Pages - Adds a new catalog entry source. Pages have an email address that can be used to append to them with the Email Modules</string>
+				<key>icon</key>
+				<string>Backpack</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSBBEditPlugIn</string>
+			<key>CFBundleName</key>
+			<string>BBEdit Module</string>
+			<key>CFBundleVersion</key>
+			<string>2B</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 06:01:25 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Development</string>
+					<string>Applications</string>
+					<string>Text</string>
+				</array>
+				<key>description</key>
+				<string>Recent Documents</string>
+				<key>relatedBundles </key>
+				<array>
+					<string>com.barebones.bbedit</string>
+				</array>
+				<key>webIcon</key>
+				<string>image:com.barebones.bbedit</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.BezelHUD</string>
+			<key>CFBundleName</key>
+			<string>BezelHUD</string>
+			<key>CFBundleShortVersionString</key>
+			<string>1.2a4</string>
+			<key>CFBundleVersion</key>
+			<string>2A6</string>
+			<key>QSModifiedDate</key>
+			<string>2009-12-19 12:39:37 +1100</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Julius Eckert, Ben Cochran</string>
+				<key>categories</key>
+				<array>
+					<string>Interfaces</string>
+				</array>
+				<key>description</key>
+				<string></string>
+				<key>extendedDescription</key>
+				<string></string>
+				<key>icon</key>
+				<string></string>
+				<key>qsversion</key>
+				<string>29CC</string>
+				<key>relatedBundles </key>
+				<array/>
+			</dict>
+			<key>QSRequirements</key>
+			<dict>
+				<key>version</key>
+				<string>3779</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSBluetoothPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Bluetooth Module</string>
+			<key>CFBundleVersion</key>
+			<string>28</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 06:00:49 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Contacts</string>
+					<string>System</string>
+				</array>
+				<key>description</key>
+				<string>Allows Bluetooth Dialing of Phone Numbers</string>
+				<key>icon</key>
+				<string>BluetoothLogo</string>
+			</dict>
+			<key>QSRequirements</key>
+			<dict>
+				<key>feature</key>
+				<integer>2</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSBuddyPopModule</string>
+			<key>CFBundleName</key>
+			<string>BuddyPop Module</string>
+			<key>CFBundleShortVersionString</key>
+			<string>0.5.2</string>
+			<key>CFBundleVersion</key>
+			<string>83</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 05:57:59 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Applications</string>
+					<string>Contacts</string>
+				</array>
+				<key>description</key>
+				<string>Reveal contacts with BuddyPop. Requires BuddyPop 2.0</string>
+				<key>requiresFeature</key>
+				<string>0</string>
+				<key>webIcon</key>
+				<string>http://blacktree.com/apps/quicksilver/images/appicons/BuddyPop.gif</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.quicksilver.TSCalculatorPlugin</string>
+			<key>CFBundleName</key>
+			<string>Calculator Module</string>
+			<key>CFBundleShortVersionString</key>
+			<string>1.3</string>
+			<key>CFBundleVersion</key>
+			<string>19B</string>
+			<key>QSModifiedDate</key>
+			<string>2009-12-24 20:19:54 +1100</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Kevin Ballard</string>
+				<key>categories</key>
+				<array>
+					<string>Text Handling</string>
+					<string>Utility</string>
+				</array>
+				<key>description</key>
+				<string>Allows calculation of mathematical expressions with the Calculate action</string>
+				<key>infoFile</key>
+				<string>Info.rtf</string>
+				<key>webIcon</key>
+				<string>http://quicksilver.blacktree.com/images/appicons/Calculator.gif</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSCaminoPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Camino Module</string>
+			<key>CFBundleVersion</key>
+			<string>96</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 05:59:46 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Applications</string>
+					<string>Web</string>
+				</array>
+				<key>description</key>
+				<string>Adds Camino Bookmarks</string>
+				<key>icon</key>
+				<string>org.mozilla.navigator</string>
+				<key>relatedBundles</key>
+				<array>
+					<string>org.mozilla.navigator</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSChatSupport</string>
+			<key>CFBundleName</key>
+			<string>Chat Support</string>
+			<key>CFBundleVersion</key>
+			<string>4A</string>
+			<key>QSModifiedDate</key>
+			<string>2006-01-07 03:07:39 +1100</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>hidden</key>
+				<true/>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSCl1pPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Cl1p Upload</string>
+			<key>CFBundleVersion</key>
+			<string>44</string>
+			<key>QSModifiedDate</key>
+			<string>2007-07-16 03:01:47 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>New item</key>
+				<string></string>
+				<key>author</key>
+				<string>Blacktree</string>
+				<key>categories</key>
+				<array>
+					<string>Web</string>
+					<string>Text</string>
+				</array>
+				<key>description</key>
+				<string>Upload text or files to cl1p.com</string>
+				<key>qsversion</key>
+				<string>29CC</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSClipboardPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Clipboard Module</string>
+			<key>CFBundleVersion</key>
+			<string>B9</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 05:59:32 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Text</string>
+					<string>System</string>
+				</array>
+				<key>description</key>
+				<string>Allows clipboard recording and adds a clipboard history window.</string>
+				<key>extendedDescription</key>
+				<string>Allows clipboard recording and adds a clipboard history window.</string>
+				<key>icon</key>
+				<string>Clipboard</string>
+				<key>qsversion</key>
+				<string>2A5F</string>
+				<key>requiresFeature</key>
+				<string>0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSCLIXPlugIn</string>
+			<key>CFBundleName</key>
+			<string>CLIX Module</string>
+			<key>CFBundleVersion</key>
+			<string>37</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 05:56:58 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Development</string>
+				</array>
+				<key>description</key>
+				<string>Imports commands from CLIX files</string>
+				<key>icon</key>
+				<string>com.rixstep.CLIX</string>
+				<key>relatedBundles </key>
+				<array>
+					<string>com.rixstep.CLIX</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSClutterPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Clutter Artwork</string>
+			<key>CFBundleVersion</key>
+			<string>28</string>
+			<key>QSModifiedDate</key>
+			<string>2006-01-07 05:20:16 +1100</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Music</string>
+				</array>
+				<key>description</key>
+				<string>Loads artwork from Clutter</string>
+				<key>extendedDescription</key>
+				<string>Loads artwork from &lt;a href=&quot;http://sofa.ambitiouslemon.com/&quot;&gt;Clutter&lt;/a&gt;</string>
+				<key>icon</key>
+				<string>com.sprote.clutter</string>
+				<key>relatedBundles</key>
+				<array>
+					<string>com.sprote.clutter</string>
+				</array>
+				<key>requiresFeature</key>
+				<string>0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSCommandLineTool</string>
+			<key>CFBundleName</key>
+			<string>Command Line Tool (qs)</string>
+			<key>CFBundleShortVersionString</key>
+			<string>0.6</string>
+			<key>CFBundleVersion</key>
+			<string>43</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 05:55:09 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Command Line</string>
+				</array>
+				<key>description</key>
+				<string>Allows data to be piped into Quicksilver from the command line</string>
+				<key>icon</key>
+				<string>ExecutableBinaryIcon</string>
+				<key>requiresFeature</key>
+				<string>0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSRadialMenuPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Constellation Menus</string>
+			<key>CFBundleShortVersionString</key>
+			<string>1.0.4</string>
+			<key>CFBundleVersion</key>
+			<string>104</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-25 06:47:08 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>SAUI P4</string>
+				<key>categories</key>
+				<array>
+					<string>Quicksilver</string>
+				</array>
+				<key>description</key>
+				<string>Adds Radial Menu Actions to Quicksilver</string>
+				<key>icon</key>
+				<string>Constellation</string>
+				<key>qsversion</key>
+				<string>3439</string>
+				<key>secret</key>
+				<false/>
+			</dict>
+			<key>QSRequirements</key>
+			<dict>
+				<key>feature</key>
+				<integer>2</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSContactSupport</string>
+			<key>CFBundleName</key>
+			<string>Contact Support</string>
+			<key>CFBundleVersion</key>
+			<string>6E</string>
+			<key>QSModifiedDate</key>
+			<string>2006-01-07 03:20:34 +1100</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>hidden</key>
+				<true/>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSCorePlugIn</string>
+			<key>CFBundleName</key>
+			<string>Core Support</string>
+			<key>CFBundleShortVersionString</key>
+			<string>0.5.2</string>
+			<key>CFBundleVersion</key>
+			<string>92</string>
+			<key>QSModifiedDate</key>
+			<string>2010-11-12 08:36:47 +1100</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>description</key>
+				<string>Provides basic file and URL handling</string>
+				<key>extendedDescription</key>
+				<string>Provides support and actions for basic types such as files, strings, and URLs.</string>
+				<key>helpPage</key>
+				<string>plugins:Core Support</string>
+				<key>hidden</key>
+				<true/>
+				<key>icon</key>
+				<string>Quicksilver</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSCubeInterfacePlugIn</string>
+			<key>CFBundleName</key>
+			<string>Cube Interface</string>
+			<key>CFBundleVersion</key>
+			<string>319</string>
+			<key>QSModifiedDate</key>
+			<string>2007-04-12 12:03:56 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Interfaces</string>
+				</array>
+				<key>description</key>
+				<string>Cube Interface</string>
+				<key>extendedDescription</key>
+				<string>A rotating cube interface with a variety of &lt;a href=&quot;qs://preferences#QSCubeInterfacePrefPane&quot;&gt;options&lt;/a&gt;</string>
+				<key>icon</key>
+				<string></string>
+			</dict>
+			<key>QSRequirements</key>
+			<dict>
+				<key>version</key>
+				<string>3779</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.Cyberduck</string>
+			<key>CFBundleName</key>
+			<string>Cyberduck Module</string>
+			<key>CFBundleVersion</key>
+			<string>36</string>
+			<key>QSModifiedDate</key>
+			<string>2010-12-22 01:33:19 +1100</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Rob McBroom</string>
+				<key>categories</key>
+				<array>
+					<string>Internet</string>
+				</array>
+				<key>description</key>
+				<string>Cyberduck Module</string>
+				<key>extendedDescription</key>
+				<string>&lt;h2&gt;Cyberduck&lt;/h2&gt;
+				
+				&lt;p&gt;This plug-in adds your Cyberduck bookmarks to the catalog.&lt;/p&gt;
+				
+				&lt;p&gt;You can also access your bookmarks by selecting Cyberduck in the first pane and using → or / to go into it.&lt;/p&gt;
+				</string>
+				<key>icon</key>
+				<string>ch.sudo.cyberduck</string>
+				<key>qsversion</key>
+				<string>29CC</string>
+				<key>relatedBundles </key>
+				<array>
+					<string>ch.sudo.cyberduck</string>
+				</array>
+				<key>requiresBundle</key>
+				<string>ch.sudo.cyberduck</string>
+			</dict>
+			<key>QSRequirements</key>
+			<dict>
+				<key>bundles</key>
+				<array>
+					<dict>
+						<key>id</key>
+						<string>ch.sudo.cyberduck</string>
+						<key>name</key>
+						<string>Cyberduck</string>
+						<key>version</key>
+						<string>3.8</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.YTDeMinPlugIn</string>
+			<key>CFBundleName</key>
+			<string>DeMinimizer Module</string>
+			<key>CFBundleVersion</key>
+			<string>8B</string>
+			<key>QSModifiedDate</key>
+			<string>2010-11-05 14:50:45 +1100</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>ytrewq1</string>
+				<key>categories</key>
+				<array>
+					<string>System</string>
+				</array>
+				<key>description</key>
+				<string>Restore Minimized Windows</string>
+				<key>extendedDescription</key>
+				<string>DeMinimizer - Restore Minimized Windows
+				&lt;p&gt;&lt;/p&gt;
+				&lt;h3&gt;Setup&lt;/h3&gt;
+				&lt;ul&gt;
+				  &lt;li&gt;Ensure 'Enable access for assistive devices' is enabled in the Universal Access preference pane&lt;/li&gt;
+				  &lt;li&gt;Customize the provided triggers appropriately&lt;/li&gt;
+				&lt;/ul&gt;
+				&lt;h3&gt;Usage&lt;/h3&gt;
+				&lt;p&gt;Try the bundled triggers -- three of them are for restoring minimized windows and one of them should minimize all windows.&lt;/p&gt;
+				&lt;p&gt;There is also a 'Minimized Windows' proxy object which can be used to observe a list of minimized windows.  The proxy object and individual minimized windows which it resolves to may also be used with the 'Restore Minimized Window' action.&lt;/p&gt;
+				&lt;h3&gt;Acknowledgements&lt;/h3&gt;
+				&lt;ul&gt;
+				  &lt;li&gt;icon work - musti
+				  &lt;li&gt;testing and ideas - Howard Melman
+				&lt;/ul&gt;
+				</string>
+				<key>icon</key>
+				<string>DeMinimizer.png</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.TKDesktopPlugin</string>
+			<key>CFBundleName</key>
+			<string>Desktop Picture Action</string>
+			<key>CFBundleShortVersionString</key>
+			<string>1.4.5</string>
+			<key>CFBundleVersion</key>
+			<string>1A1</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-12 23:19:30 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Tim Kingman</string>
+				<key>description</key>
+				<string>Set the desktop picture of any display to a file, folder, or URL.</string>
+				<key>infoFile</key>
+				<string>Info.rtf</string>
+				<key>requiresFeature</key>
+				<string>0</string>
+			</dict>
+			<key>QSRequirements</key>
+			<dict>
+				<key>version</key>
+				<string>1C2C</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSDeveloperPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Developer Module</string>
+			<key>CFBundleShortVersionString</key>
+			<string>1.0.1</string>
+			<key>CFBundleVersion</key>
+			<string>AC</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 05:51:05 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Development</string>
+				</array>
+				<key>description</key>
+				<string>Developer Documentation Access</string>
+				<key>icon</key>
+				<string>com.apple.Xcode</string>
+				<key>relatedBundles</key>
+				<array>
+					<string>com.apple.Xcode</string>
+				</array>
+				<key>requiresPath</key>
+				<string>/Developer</string>
+			</dict>
+			<key>QSRequirements</key>
+			<dict>
+				<key>feature</key>
+				<string>0</string>
+				<key>paths</key>
+				<array>
+					<string>/Developer</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSDeviantModule</string>
+			<key>CFBundleName</key>
+			<string>Deviant Module</string>
+			<key>CFBundleShortVersionString</key>
+			<string>0.5.1</string>
+			<key>CFBundleVersion</key>
+			<string>84</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 05:50:52 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Miscellaneous</string>
+				</array>
+				<key>description</key>
+				<string>Allows you to link the current desktop to any folder, effectively swapping the items on your desktop.</string>
+				<key>extendedDescription</key>
+				<string>Allows you to link the current desktop to any folder, effectively swapping the items on your desktop. To restore the original desktop, use the action on the &quot;Desktop (disabled)&quot; folder in your home folder.</string>
+				<key>icon</key>
+				<string>Deviant</string>
+			</dict>
+			<key>QSRequirements</key>
+			<dict>
+				<key>feature</key>
+				<integer>1</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSDictionaryPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Dictionary Module</string>
+			<key>CFBundleShortVersionString</key>
+			<string>1.1.4</string>
+			<key>CFBundleVersion</key>
+			<string>AC</string>
+			<key>QSModifiedDate</key>
+			<string>2011-04-07 03:43:16 +1100</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Kevin Ballard</string>
+				<key>description</key>
+				<string>Adds a Define action to strings to fetch the definition from dict.org</string>
+				<key>icon</key>
+				<string>com.apple.Dictionary</string>
+				<key>infoFile</key>
+				<string>Info.rtf</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSDiskImagePlugIn</string>
+			<key>CFBundleName</key>
+			<string>Disk Image Support</string>
+			<key>CFBundleVersion</key>
+			<string>25</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 05:48:57 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>System</string>
+					<string>Files</string>
+				</array>
+				<key>description</key>
+				<string>Disk Image handling and actions</string>
+				<key>icon</key>
+				<string>com.apple.DiskUtility</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSDisplaysPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Displays Module</string>
+			<key>CFBundleVersion</key>
+			<string>82</string>
+			<key>QSModifiedDate</key>
+			<string>2006-01-07 03:53:51 +1100</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>System</string>
+					<string>Devices</string>
+				</array>
+				<key>description</key>
+				<string>Allows modification of resolution and depth of main display.</string>
+				<key>icon</key>
+				<string>Display</string>
+			</dict>
+			<key>QSRequirements</key>
+			<dict>
+				<key>feature</key>
+				<integer>1</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSEmailSupport</string>
+			<key>CFBundleName</key>
+			<string>E-mail Support</string>
+			<key>CFBundleVersion</key>
+			<string>6E</string>
+			<key>QSModifiedDate</key>
+			<string>2006-01-07 04:38:04 +1100</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>hidden</key>
+				<true/>
+				<key>qsversion</key>
+				<string>2E00</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSEntouragePlugIn</string>
+			<key>CFBundleName</key>
+			<string>Entourage 2004 Module</string>
+			<key>CFBundleVersion</key>
+			<string>BF</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 05:46:34 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Mail &amp; Chat</string>
+					<string>Applications</string>
+				</array>
+				<key>description</key>
+				<string>Enables email actions for Entourage. Preliminary access to contacts in v2004.</string>
+				<key>icon</key>
+				<string>com.microsoft.Entourage</string>
+				<key>relatedBundles</key>
+				<array>
+					<string>com.microsoft.Entourage</string>
+				</array>
+			</dict>
+			<key>QSRequirements</key>
+			<dict>
+				<key>plugins</key>
+				<array>
+					<dict>
+						<key>id</key>
+						<string>com.blacktree.Quicksilver.QSContactSupport</string>
+						<key>name</key>
+						<string>Contact Support</string>
+					</dict>
+					<dict>
+						<key>id</key>
+						<string>com.blacktree.Quicksilver.QSEmailSupport</string>
+						<key>name</key>
+						<string>Mail Support</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSEventTriggersPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Event Triggers</string>
+			<key>CFBundleVersion</key>
+			<string>6E</string>
+			<key>QSModifiedDate</key>
+			<string>2010-04-14 10:59:35 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc</string>
+				<key>categories</key>
+				<array/>
+				<key>description</key>
+				<string>Trigger based on system events</string>
+				<key>icon</key>
+				<string>Event</string>
+				<key>relatedBundles </key>
+				<array/>
+				<key>secret</key>
+				<true/>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSExtraScriptsPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Extra Scripts</string>
+			<key>CFBundleVersion</key>
+			<string>84</string>
+			<key>QSModifiedDate</key>
+			<string>2005-04-07 02:19:19 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Quicksilver</string>
+				</array>
+				<key>description</key>
+				<string>A set of system Shell/AppleScripts that emulate some OS functions like restarting and process actions.</string>
+				<key>icon</key>
+				<string>AppleScript</string>
+				<key>requiresFeature</key>
+				<string>0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSFileAttributesPlugIn</string>
+			<key>CFBundleName</key>
+			<string>File Attribute Actions</string>
+			<key>CFBundleShortVersionString</key>
+			<string>0.5.0</string>
+			<key>CFBundleVersion</key>
+			<string>A4</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 05:35:38 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Files</string>
+				</array>
+				<key>description</key>
+				<string>File locking, labeling and visibility actions</string>
+				<key>icon</key>
+				<string>GenericDocumentIcon</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSCompressionPlugIn</string>
+			<key>CFBundleName</key>
+			<string>File Compression Module</string>
+			<key>CFBundleVersion</key>
+			<string>141</string>
+			<key>QSModifiedDate</key>
+			<string>2009-12-24 20:18:04 +1100</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Files</string>
+					<string>Utility</string>
+				</array>
+				<key>description</key>
+				<string>File Compress/Decompress Actions</string>
+				<key>icon</key>
+				<string>com.apple.bomarchivehelper</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSFileTagsPlugIn</string>
+			<key>CFBundleName</key>
+			<string>File Tagging Module</string>
+			<key>CFBundleVersion</key>
+			<string>73</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 05:43:27 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Files</string>
+				</array>
+				<key>description</key>
+				<string>Modify and find tags in file comments</string>
+				<key>icon</key>
+				<string>Tag</string>
+			</dict>
+			<key>QSRequirements</key>
+			<dict>
+				<key>feature</key>
+				<integer>1</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSFirefoxPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Firefox/Mozilla Module</string>
+			<key>CFBundleShortVersionString</key>
+			<string>0.5.0</string>
+			<key>CFBundleVersion</key>
+			<string>A6</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 05:40:33 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Web</string>
+					<string>Applications</string>
+				</array>
+				<key>description</key>
+				<string>Bookmarks for Firefox &amp; Mozilla</string>
+				<key>extendedDescription</key>
+				<string>Bookmarks for Firefox &amp; Mozilla&lt;P&gt;&lt;h3&gt;Enhancements&lt;/h3&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Adds a new preset to the Catalog that imports bookmarks from Firefox, Mozilla, and Netscape&lt;li&gt;Allows Firefox to handle javascript bookmarklets&lt;/ul&gt;</string>
+				<key>icon</key>
+				<string>org.mozilla.firefox</string>
+				<key>qsversion</key>
+				<string>29E0</string>
+				<key>relatedBundles</key>
+				<array>
+					<string>org.mozilla.firefox</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSFlashlightInterface</string>
+			<key>CFBundleName</key>
+			<string>Flashlight Interface</string>
+			<key>CFBundleVersion</key>
+			<string>87</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 05:40:08 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Interfaces</string>
+				</array>
+				<key>description</key>
+				<string>Provides a Spotlight style interface.</string>
+				<key>icon</key>
+				<string>interface</string>
+				<key>qsversion</key>
+				<string>31DF</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSFlickrPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Flickr Upload</string>
+			<key>CFBundleShortVersionString</key>
+			<string>0.6</string>
+			<key>CFBundleVersion</key>
+			<string>A8</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 05:37:37 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Images</string>
+					<string>Web</string>
+				</array>
+				<key>description</key>
+				<string>Upload images or directories to flickr</string>
+				<key>icon</key>
+				<string>flickr</string>
+				<key>qsversion</key>
+				<string>29CC</string>
+				<key>relatedBundles </key>
+				<array/>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSGmailPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Gmail Module</string>
+			<key>CFBundleVersion</key>
+			<string>3D</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 05:37:48 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Mail &amp; Chat</string>
+					<string>Web</string>
+				</array>
+				<key>description</key>
+				<string>Enable mail actions for Gmail</string>
+				<key>icon</key>
+				<string>com.google.GmailNotifier</string>
+				<key>relatedBundles</key>
+				<array>
+					<string>com.google.GmailNotifier</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSGoogleCalendarPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Google Calendar Module</string>
+			<key>CFBundleVersion</key>
+			<string>A4</string>
+			<key>QSModifiedDate</key>
+			<string>2007-02-10 13:10:31 +1100</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>New item</key>
+				<string></string>
+				<key>categories</key>
+				<array>
+					<string>Calendar</string>
+					<string>Web</string>
+				</array>
+				<key>description</key>
+				<string>Create Events on Google Calendar</string>
+				<key>icon</key>
+				<string>com.apple.iCal</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSGrowlPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Growl Notifier</string>
+			<key>CFBundleShortVersionString</key>
+			<string>0.7.2</string>
+			<key>CFBundleVersion</key>
+			<string>44</string>
+			<key>QSModifiedDate</key>
+			<string>2006-05-01 11:13:53 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>extendedDescription</key>
+				<string>Provides notifications via &lt;a href=&quot;http://www.growl.info&quot;&gt;Growl&lt;/a&gt;.</string>
+				<key>icon</key>
+				<string>com.growl.GrowlHelperApp</string>
+				<key>infoFile</key>
+				<string>Info.rtf</string>
+				<key>relatedBundles</key>
+				<array>
+					<string>com.Growl.GrowlHelperApp</string>
+				</array>
+				<key>requiresPath</key>
+				<string>~/Library/Application Support/Growl</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSiCalModule</string>
+			<key>CFBundleName</key>
+			<string>iCal Module</string>
+			<key>CFBundleShortVersionString</key>
+			<string>1.0.3</string>
+			<key>CFBundleVersion</key>
+			<string>10F</string>
+			<key>QSModifiedDate</key>
+			<string>2010-11-11 09:57:35 +1100</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Calendar</string>
+				</array>
+				<key>description</key>
+				<string>iCal Integration</string>
+				<key>extendedDescription</key>
+				<string>Adds actions for creating events and to-dos from text. *10.5+ only* Use v1.0.1 for 10.4 or less</string>
+				<key>icon</key>
+				<string>com.apple.iCal</string>
+				<key>qsversion</key>
+				<string>31DE</string>
+			</dict>
+			<key>QSRequirements</key>
+			<dict>
+				<key>feature</key>
+				<integer>1</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSiChatPlugIn</string>
+			<key>CFBundleName</key>
+			<string>iChat Module</string>
+			<key>CFBundleShortVersionString</key>
+			<string>0.5.0</string>
+			<key>CFBundleVersion</key>
+			<string>9A</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 05:32:24 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Mail &amp; Chat</string>
+				</array>
+				<key>description</key>
+				<string>Enables Chat actions for iChat</string>
+				<key>icon</key>
+				<string>com.apple.iChat</string>
+				<key>relatedBundles</key>
+				<array>
+					<string>com.apple.iChat</string>
+				</array>
+				<key>requiresFeature</key>
+				<string>0</string>
+			</dict>
+			<key>QSRequirements</key>
+			<dict>
+				<key>plugins</key>
+				<array>
+					<dict>
+						<key>id</key>
+						<string>com.blacktree.Quicksilver.QSChatSupport</string>
+						<key>name</key>
+						<string>Chat Support</string>
+					</dict>
+				</array>
+				<key>version</key>
+				<string>12CC</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSImageManipulationPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Image Manipulation Actions</string>
+			<key>CFBundleVersion</key>
+			<string>50</string>
+			<key>QSModifiedDate</key>
+			<string>2006-05-03 12:13:44 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree</string>
+				<key>categories</key>
+				<array>
+					<string>Images</string>
+				</array>
+				<key>description</key>
+				<string>Actions to scale and change format of images</string>
+				<key>extendedDescription</key>
+				<string>Actions to scale and change format of images&lt;p&gt;use the &quot;scale image&quot; action and give it text in the form:
+
+&lt;br&gt;&quot;SCALE_INFO [as FORMAT_INFO]&quot;
+
+&lt;br&gt;SCALE_INFO: &quot;[fit] WIDTH [x HEIGHT]&quot;
+
+&lt;br&gt;FORMAT_INFO: &quot;JPG/PNG/GIF/TIFF [low/med*/hi*] [prog(ressive)] [inter(laced)]&quot;
+
+
+&lt;p&gt;Examples:
+
+&lt;br&gt;&quot;fit 640x480 as jpg high progressive&quot; - creates an image that will fit within a 640x480 rectangle
+
+&lt;br&gt;&quot;50% as interlaced png&quot; - creates a png with dimensions half of the original&quot;
+
+&lt;br&gt;&quot;x72 as gif&quot; - makes a gif 72 pixels tall, with width to maintain the proportions
+</string>
+				<key>icon</key>
+				<string>com.apple.Preview</string>
+				<key>qsversion</key>
+				<string>3400</string>
+			</dict>
+			<key>QSRequirements</key>
+			<dict>
+				<key>feature</key>
+				<integer>1</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSIndigoPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Indigo X10 Module</string>
+			<key>CFBundleVersion</key>
+			<string>6A</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 05:28:43 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Applications</string>
+				</array>
+				<key>description</key>
+				<string>Accesses Indigo's home automation features</string>
+				<key>icon</key>
+				<string>com.perceptiveautomation.indigo</string>
+				<key>relatedBundles </key>
+				<array>
+					<string>com.perceptiveautomation.indigo</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.nolobe.Quicksilver.QSInterarchyModule</string>
+			<key>CFBundleName</key>
+			<string>Interarchy Module</string>
+			<key>CFBundleVersion</key>
+			<string>8.5</string>
+			<key>QSModifiedDate</key>
+			<string>2007-04-30 00:28:59 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Nolobe Pty Ltd</string>
+				<key>categories</key>
+				<array>
+					<string>Internet</string>
+				</array>
+				<key>description</key>
+				<string>Provides access to Interarchy Bookmarks and Net Disks.  Allows you to open bookmarks; upload files and folders to bookmarks; and mount, unmount, and sync Net Disks.</string>
+				<key>extendedDescription</key>
+				<string>&lt;p&gt;Provides access to Interarchy Bookmarks and Net Disks. Allows you to open Bookmarks; upload files and folders to Bookmarks; and mount, unmount, and sync Net Disks.&lt;/p&gt;
+				&lt;h3&gt;Enhancements&lt;/h3&gt;
+				&lt;ul&gt;
+				&lt;li&gt;Bookmarks and Net Disks in catalogue and as children of Interarchy.&lt;/li&gt;
+				&lt;li&gt;Open Bookmark action for opening Bookmarks.&lt;/li&gt;
+				&lt;li&gt;Run Bookmark action for running Bookmarks in the background.&lt;/li&gt;
+				&lt;li&gt;Upload action for uploading files and folders.&lt;/li&gt;
+				&lt;li&gt;Mount, Unmount, and Sync actions for managing Net Disks.&lt;/li&gt;
+				&lt;/ul&gt;
+				&lt;h3&gt;Version Changes&lt;/h3&gt;
+				&lt;ul&gt;
+				&lt;li&gt;Bookmarks and Net Disks are now available as children of Interarchy.&lt;/li&gt;
+				&lt;li&gt;Run Bookmark action for running Bookmarks in the background.&lt;/li&gt;
+				&lt;li&gt;Bookmarks Bar Bookmarks are now available too.&lt;/li&gt;
+				&lt;/ul&gt;
+				&lt;h3&gt;Requirements&lt;/h3&gt;
+				&lt;ul&gt;
+				&lt;li&gt;&lt;a href=&quot;http://nolobe.com/interarchy/&quot;&gt;Interarchy 8.5 or later.&lt;/a&gt;&lt;/li&gt;
+				&lt;/ul&gt;</string>
+				<key>icon</key>
+				<string>com.stairways.interarchy</string>
+				<key>relatedBundles</key>
+				<array>
+					<string>com.stairways.interarchy</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSiPhotoPlugIn</string>
+			<key>CFBundleName</key>
+			<string>iPhoto Module</string>
+			<key>CFBundleVersion</key>
+			<string>C4</string>
+			<key>QSModifiedDate</key>
+			<string>2009-12-21 19:25:29 +1100</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Applications</string>
+					<string>Images</string>
+				</array>
+				<key>description</key>
+				<string>Adds Albums to the catalog</string>
+				<key>extendedDescription</key>
+				<string>Adds Albums to the catalog</string>
+				<key>icon</key>
+				<string>com.apple.iPhoto</string>
+				<key>requiresBundle</key>
+				<string>com.apple.iPhoto</string>
+				<key>requiresFeature</key>
+				<string>0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.YTiTermPlugIn</string>
+			<key>CFBundleName</key>
+			<string>iTerm Module</string>
+			<key>CFBundleVersion</key>
+			<string>33</string>
+			<key>QSModifiedDate</key>
+			<string>2006-07-18 12:25:06 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>ytrewq1</string>
+				<key>categories</key>
+				<array>
+					<string>System</string>
+					<string>Advanced</string>
+					<string>Command Line</string>
+				</array>
+				<key>description</key>
+				<string>iTerm Support</string>
+				<key>extendedDescription</key>
+				<string>iTerm Support
+				&lt;p&gt;
+				&lt;h3&gt;Warning&lt;/h3&gt;
+				&lt;p&gt;This is alpha software.  Use at your own risk.&lt;/p&gt;
+				&lt;h3&gt;Prerequisites&lt;/h3&gt;
+				&lt;ul&gt;
+				  &lt;li&gt;iTerm
+				&lt;/ul&gt;
+				&lt;h3&gt;Usage&lt;/h3&gt;
+				&lt;p&gt;To use iTerm as the Handler/Helper for the command line interface:&lt;/p&gt;
+				&lt;ol&gt;
+				  &lt;li&gt;Bring up the Quicksilver Preferences window.
+				  &lt;li&gt;Choose the 'Handlers' pane.
+				  &lt;li&gt;Choose 'iTerm' for 'Command Line Interface'.
+				&lt;/ol&gt;
+				&lt;p&gt;Now the following actions should use iTerm:&lt;/p&gt;
+				&lt;ul&gt;
+				  &lt;li&gt;Go To Directory in Terminal
+				  &lt;li&gt;Run a Text Command in Terminal
+				  &lt;li&gt;Run in Terminal [...]
+				&lt;/ul&gt;
+				&lt;p&gt;The plug-in also provides iTerm-specific version of the above commands:&lt;/p&gt;
+				&lt;ul&gt;
+				  &lt;li&gt;Go To Directory in iTerm
+				  &lt;li&gt;Run a Text Command in iTerm
+				  &lt;li&gt;Run in iTerm [...]
+				  &lt;li&gt;Show Man Page &lt;b&gt;[1]&lt;/b&gt;
+				&lt;/ul&gt;
+				&lt;p&gt;These commands may be used regardless of the Handler/Helper command line interface setting.&lt;/p&gt;
+				&lt;p&gt;&lt;b&gt;[1]&lt;/b&gt; 'Show Man Page' does not appear to be handled by the mediator.&lt;/p&gt;
+				&lt;h3&gt;Known Issues and Notes&lt;/h3&gt;
+				&lt;ul&gt;
+				  &lt;li&gt;Escaping of arguments may be iffy.
+				  &lt;li&gt;If iTerm is running but there are no windows, iTerm actions may not work.
+				  &lt;li&gt;Execution of a command in the first tab in iTerm is not supported yet.
+				  &lt;li&gt;The iTerm version of 'Show Man Page' behaves a little differently than the corresponding Terminal action -- exiting the man command does not end the shell session.
+				&lt;/ul&gt;
+				&lt;h3&gt;Acknowledgements&lt;/h3&gt;
+				&lt;ul&gt;
+				  &lt;li&gt;Adam Ratcliffe
+				&lt;/ul&gt;
+				</string>
+				<key>icon</key>
+				<string>iTerm</string>
+				<key>relatedBundles</key>
+				<array>
+					<string>iTerm</string>
+				</array>
+				<key>requiresFeature</key>
+				<string>0</string>
+				<key>webIcon</key>
+				<string>http://quicksilver.blacktree.com/public/ytrewq1/iTerm.png</string>
+			</dict>
+			<key>QSRequirements</key>
+			<dict>
+				<key>launchLoad</key>
+				<false/>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSiTunesPlugIn</string>
+			<key>CFBundleName</key>
+			<string>iTunes Module</string>
+			<key>CFBundleVersion</key>
+			<string>335</string>
+			<key>QSModifiedDate</key>
+			<string>2008-02-14 03:19:46 +1100</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Music</string>
+					<string>Applications</string>
+				</array>
+				<key>description</key>
+				<string>Provides access to playlists and allows browsing by Artist, Album, Genre, and Composer.</string>
+				<key>extendedDescription</key>
+				<string>Provides access to playlists and allows browsing by Artist, Album, Genre, and Composer.&lt;P&gt;&lt;h3&gt;Enhancements&lt;/h3&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Playlists and Browsing groups in catalog and as children of iTunes&lt;li&gt;Party Shuffle and Play actions&lt;li&gt;Display notifications on track changes&lt;li&gt;Adds control scripts for playing, pausing, skipping tracks&lt;/ul&gt;</string>
+				<key>icon</key>
+				<string>com.apple.iTunes</string>
+				<key>qsversion</key>
+				<string>2E00</string>
+				<key>relatedBundles</key>
+				<array>
+					<string>com.apple.iTunes</string>
+				</array>
+			</dict>
+			<key>QSRequirements</key>
+			<dict>
+				<key>plugins</key>
+				<array>
+					<dict>
+						<key>id</key>
+						<string>com.blacktree.Quicksilver.QSMusicSupport</string>
+						<key>name</key>
+						<string>Music Support</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSIusethis</string>
+			<key>CFBundleName</key>
+			<string>iusethis</string>
+			<key>CFBundleVersion</key>
+			<string>42</string>
+			<key>QSModifiedDate</key>
+			<string>2009-05-15 21:24:11 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Marcus Ramberg</string>
+				<key>categories</key>
+				<array>
+					<string>Applications</string>
+					<string>Web</string>
+				</array>
+				<key>description</key>
+				<string>Integrate your applications with iusethis.com through quicksilver. Find the homepage or latest version directly.</string>
+				<key>icon</key>
+				<string></string>
+				<key>qsversion</key>
+				<string>29CC</string>
+				<key>relatedBundles </key>
+				<array/>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSKeychainPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Keychain Module</string>
+			<key>CFBundleVersion</key>
+			<string>13B</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 05:23:57 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>System</string>
+				</array>
+				<key>description</key>
+				<string>Access to Keychain entries</string>
+				<key>icon</key>
+				<string>com.apple.keychainaccess</string>
+				<key>relatedBundles</key>
+				<array>
+					<string>com.apple.keychainaccess</string>
+				</array>
+				<key>requiresFeature</key>
+				<string>1</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSMailsmithPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Mailsmith Module</string>
+			<key>CFBundleShortVersionString</key>
+			<string>0.5.0</string>
+			<key>CFBundleVersion</key>
+			<string>99</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 05:22:20 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Mail &amp; Chat</string>
+					<string>Applications</string>
+				</array>
+				<key>description</key>
+				<string>Enables email actions for Mailsmith</string>
+				<key>requiresBundle</key>
+				<string>com.barebones.mailsmith</string>
+				<key>requiresFeature</key>
+				<string>0</string>
+				<key>webIcon</key>
+				<string>http://blacktree.com/apps/quicksilver/images/appicons/Mailsmith.gif</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSMenuInterfacePlugin</string>
+			<key>CFBundleName</key>
+			<string>Menu Interface</string>
+			<key>CFBundleVersion</key>
+			<string>B1</string>
+			<key>QSModifiedDate</key>
+			<string>2006-10-17 11:27:44 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Interfaces</string>
+				</array>
+				<key>description</key>
+				<string>Provides a menu bar interface</string>
+				<key>requiresFeature</key>
+				<string>0</string>
+				<key>webIcon</key>
+				<string></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSMiniInterfacePlugin</string>
+			<key>CFBundleName</key>
+			<string>Mini Interface</string>
+			<key>CFBundleVersion</key>
+			<string>A4</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 05:26:00 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Interfaces</string>
+				</array>
+				<key>description</key>
+				<string>Provides a miniature interface</string>
+				<key>icon</key>
+				<string>Interface</string>
+				<key>requiresFeature</key>
+				<string>0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.Mini_Bezel</string>
+			<key>CFBundleName</key>
+			<string>Mini-Bezel</string>
+			<key>CFBundleVersion</key>
+			<string>5E</string>
+			<key>QSModifiedDate</key>
+			<string>2010-04-26 07:27:39 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>categories</key>
+				<array>
+					<string>Interfaces</string>
+				</array>
+				<key>description</key>
+				<string></string>
+				<key>extendedDescription</key>
+				<string></string>
+				<key>icon</key>
+				<string></string>
+				<key>qsversion</key>
+				<string>29CC</string>
+				<key>relatedBundles </key>
+				<array/>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSMouseTriggerPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Mouse Triggers</string>
+			<key>CFBundleVersion</key>
+			<string>142</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 05:21:22 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Quicksilver</string>
+				</array>
+				<key>description</key>
+				<string>Allows triggering with hot corners and edges of the main screen</string>
+				<key>icon</key>
+				<string>Mouse</string>
+				<key>qsversion</key>
+				<string>3439</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSMusicSupport</string>
+			<key>CFBundleName</key>
+			<string>Music Support</string>
+			<key>CFBundleVersion</key>
+			<string>54</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-13 15:02:58 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>hidden</key>
+				<true/>
+				<key>qsversion</key>
+				<string>2000</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSNNWPlugIn</string>
+			<key>CFBundleName</key>
+			<string>NetNewsWire Module</string>
+			<key>CFBundleVersion</key>
+			<string>A9</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 05:32:52 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Applications</string>
+				</array>
+				<key>description</key>
+				<string>Subscriptions and Headlines</string>
+				<key>icon</key>
+				<string>com.ranchero.NetNewsWire</string>
+				<key>requiresBundle</key>
+				<string>com.ranchero.NetNewsWire</string>
+			</dict>
+			<key>QSRequirements</key>
+			<dict>
+				<key>feature</key>
+				<integer>2</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSNetworkLocationPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Network Location Module</string>
+			<key>CFBundleVersion</key>
+			<string>94</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 05:20:19 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>System</string>
+				</array>
+				<key>description</key>
+				<string>Adds networks locations and switching</string>
+				<key>requiresFeature</key>
+				<string>0</string>
+				<key>webIcon</key>
+				<string>http://blacktree.com/apps/quicksilver/images/appicons/Network.gif</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.NotificationHub</string>
+			<key>CFBundleName</key>
+			<string>NotificationHub</string>
+			<key>CFBundleShortVersionString</key>
+			<string>1.0.0</string>
+			<key>CFBundleVersion</key>
+			<string>4E</string>
+			<key>QSModifiedDate</key>
+			<string>2005-05-03 16:37:21 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Kevin Ballard</string>
+				<key>categories</key>
+				<array/>
+				<key>description</key>
+				<string>Provides a way to use several notifiers at once</string>
+				<key>infoFile</key>
+				<string>Info.rtf</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSNUDCPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Now Contact Module</string>
+			<key>CFBundleShortVersionString</key>
+			<string>0.5.2</string>
+			<key>CFBundleVersion</key>
+			<string>3B</string>
+			<key>QSModifiedDate</key>
+			<string>2006-01-07 05:49:33 +1100</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>description</key>
+				<string>Contacts from Now Contact </string>
+				<key>requiresFeature</key>
+				<string>0</string>
+				<key>webIcon</key>
+				<string>http://blacktree.com/apps/quicksilver/images/appicons/Now-Contact.gif</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSOmniWebPlugIn</string>
+			<key>CFBundleName</key>
+			<string>OmniWeb Module</string>
+			<key>CFBundleVersion</key>
+			<string>AC</string>
+			<key>QSModifiedDate</key>
+			<string>2007-06-01 23:33:41 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Allan Odgaard</string>
+				<key>description</key>
+				<string>Bookmarks, History, Search Queries, and Proxy Object.</string>
+				<key>requiresBundle</key>
+				<string>com.omnigroup.OmniWeb5</string>
+				<key>requiresFeature</key>
+				<string>0</string>
+				<key>webIcon</key>
+				<string>image:com.omnigroup.OmniWeb5</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.robertson.Quicksilver.OnePassword</string>
+			<key>CFBundleName</key>
+			<string>1Password Module</string>
+			<key>CFBundleShortVersionString</key>
+			<string>1.0</string>
+			<key>CFBundleVersion</key>
+			<string>FB</string>
+			<key>QSModifiedDate</key>
+			<string>2010-07-15 11:25:08 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Patrick Robertson</string>
+				<key>categories</key>
+				<array>
+					<string>Applications</string>
+				</array>
+				<key>description</key>
+				<string>Adds support for 1Password Go &amp; Fill</string>
+				<key>extendedDescription</key>
+				<string>&lt;h3&gt;1Password 3 Plugin&lt;/h3&gt; &lt;p&gt;This plugin enables you to right arrow into the 1Password application, giving you a list of all your data saved in 1Password&lt;br /&gt; &lt;p&gt;Having selected a web login, using the action 'Go &amp; Fill...' will perform just like the Go &amp; Fill action from within 1Password&lt;/p&gt; &lt;p&gt;The 'Go &amp; Fill...' action works with the comma trick, so you can open multiple logins at once&lt;/p&gt; &lt;p&gt;To save you time from having to search for 1Password, then right arrow you can 'tick' the 'Web Forms' source under Catalog Preferences, and all forms will be searchable from anywhere (disbaled by default)&lt;br /&gt; You may need to rescan manually to start with&lt;/p&gt; &lt;p&gt;This plugin also adds support for 'Reveal in 1Password' of all data types - web forms, accounts, software, identities, wallet items and notes.&lt;br /&gt; Just use the action 'Reveal in 1Password'&lt;/p&gt; &lt;p&gt;This is an early test project, and any ideas or bugs should be addressed to me@patjack.co.uk&lt;/p&gt;</string>
+				<key>icon</key>
+				<string>ws.agile.1Password</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.OpenMetaFileTagging</string>
+			<key>CFBundleName</key>
+			<string>OpenMeta File Tagging</string>
+			<key>CFBundleVersion</key>
+			<string>29A</string>
+			<key>QSModifiedDate</key>
+			<string>2009-09-04 00:49:02 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Jordan Kay</string>
+				<key>categories</key>
+				<array>
+					<string>Files</string>
+					<string>Search</string>
+				</array>
+				<key>description</key>
+				<string>OpenMeta File Tagging Support</string>
+				<key>extendedDescription</key>
+				<string>Provides an interface for adding and removing OpenMeta tags to files, as well as browsing tags and finding all files with a certain tag or tags
+						</string>
+				<key>icon</key>
+				<string>Tag.png</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSPathFinderPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Path Finder Module</string>
+			<key>CFBundleVersion</key>
+			<string>AD</string>
+			<key>QSModifiedDate</key>
+			<string>2006-01-07 08:44:46 +1100</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Files</string>
+				</array>
+				<key>description</key>
+				<string>Handles open, reveal, info, and selection actions in Path Finder</string>
+				<key>icon</key>
+				<string>com.cocoatech.PathFinder</string>
+				<key>relatedBundles</key>
+				<array>
+					<string>com.cocoatech.PathFinder</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSPhoneActionsPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Phone Actions</string>
+			<key>CFBundleVersion</key>
+			<string>F4</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 05:30:20 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Contacts</string>
+				</array>
+				<key>description</key>
+				<string>Phone number dialing actions.</string>
+				<key>icon</key>
+				<string>ContactPhone</string>
+				<key>requiresFeature</key>
+				<string>1</string>
+			</dict>
+			<key>QSRequirements</key>
+			<dict>
+				<key>feature</key>
+				<integer>2</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSProcessManipulationPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Process Manipulation Actions</string>
+			<key>CFBundleVersion</key>
+			<string>41</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 05:13:28 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>System</string>
+				</array>
+				<key>description</key>
+				<string>Actions for monitoring and modifying application processes on your machine.</string>
+				<key>icon</key>
+				<string>ExecutableBinaryIcon</string>
+				<key>qsversion</key>
+				<string>2F63</string>
+			</dict>
+			<key>QSRequirements</key>
+			<dict>
+				<key>feature</key>
+				<integer>1</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.bradreynolds.Quicksilver.QSEclipse</string>
+			<key>CFBundleName</key>
+			<string>Eclipse</string>
+			<key>CFBundleShortVersionString</key>
+			<string>0.9.2</string>
+			<key>CFBundleVersion</key>
+			<string>290</string>
+			<key>QSModifiedDate</key>
+			<string>2007-07-15 06:41:50 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Brad Reynolds</string>
+				<key>description</key>
+				<string>Plugin to make Quicksilver aware of Eclipse workspaces.</string>
+				<key>extendedDescription</key>
+				<string>&lt;p&gt;A plugin that indexes Eclipse workspaces and contributes them along with their log files to the catalog.&lt;/p&gt;
+						&lt;ul&gt;
+						&lt;li&gt;Project Home: &lt;a href=&quot;http://code.google.com/p/qseclipse/&quot;&gt;http://code.google.com/p/qseclipse/&lt;/a&gt;&lt;/li&gt;
+						&lt;li&gt;Documentation: &lt;a href=&quot;http://code.google.com/p/qseclipse/w/list&quot;&gt;http://code.google.com/p/qseclipse/w/list&lt;/a&gt;&lt;/li&gt;
+						&lt;/ul&gt;</string>
+			</dict>
+			<key>QSRequirements</key>
+			<dict>
+				<key>feature</key>
+				<integer>2</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSOpera</string>
+			<key>CFBundleName</key>
+			<string>Opera Module</string>
+			<key>CFBundleVersion</key>
+			<string>4C</string>
+			<key>QSModifiedDate</key>
+			<string>2008-06-08 14:50:19 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Eric Doughty-Papassideris</string>
+				<key>categories</key>
+				<array>
+					<string>Applications</string>
+				</array>
+				<key>description</key>
+				<string>Plugin for connecting Quicksilver and &lt;a href=&quot;http://opera.com&quot;&gt;Opera&lt;/a&gt;.&lt;br&gt;
+							&lt;ul&gt;
+								&lt;li&gt;Adds a catalog with the bookmarks and searches of Opera&lt;/li&gt;
+								&lt;li&gt;Adds a &quot;Operas current web page&quot; proxy object&lt;/li&gt;
+								&lt;li&gt;Adds an &quot;Open with Opera&quot; action&lt;/li&gt;
+								&lt;li&gt;Adds a couple of scripts for switching between Opera and Safari&lt;/li&gt;
+								&lt;li&gt;Browse into Opera to get current open tabs&lt;/li&gt;
+							&lt;/ul&gt;
+						</string>
+				<key>homepage</key>
+				<string>http://s-softs.com/Projects/QSOpera/index.html</string>
+				<key>icon</key>
+				<string>com.operasoftware.Opera</string>
+				<key>qsversion</key>
+				<string>29CC</string>
+				<key>relatedBundles </key>
+				<array>
+					<string>com.operasoftware.Opera</string>
+				</array>
+			</dict>
+			<key>QSRequirements</key>
+			<dict/>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.ssofts.Quicksilver.QSQRCode</string>
+			<key>CFBundleName</key>
+			<string>QSQRCode</string>
+			<key>CFBundleVersion</key>
+			<string>6D</string>
+			<key>QSModifiedDate</key>
+			<string>2010-09-04 00:14:18 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Eric Doughty-Papassideris</string>
+				<key>categories</key>
+				<array>
+					<string>Miscellaneous</string>
+				</array>
+				<key>description</key>
+				<string>&lt;h3&gt;Description&lt;/h3&gt;
+				Displays objects as &lt;a href=&quot;http://en.wikipedia.org/wiki/QR_Code&quot;&gt;QR Code&lt;/a&gt; 2D barcodes
+				&lt;br/&gt;&lt;br/&gt;&lt;h3&gt;Credits&lt;/h3&gt;
+				Most of the difficult code is written by:
+				&lt;ul&gt;
+				&lt;li&gt;libqrencode 3.1 by FUKUCHI Kentaro (&lt;a href=&quot;http://megaui.net/fukuchi/works/qrencode/index.en.html&quot;&gt;http://megaui.net/...&lt;/a&gt;)&lt;/li&gt;
+				&lt;li&gt;Quicksilver plugin Xcode template by Ankur Kothari &lt;a href=&quot;http://lipidity.com/apple/quicksilver-plugins-in-objective-c&quot;&gt;http://lipidity.com/...&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;UI code heavily inspired from &lt;a href=&quot;http://github.com/andreberg/blacktree-alchemy/blob/B5X/Quicksilver/Code-QuickStepInterface/QSLargeTypeDisplay.m&quot;&gt;QuickSilvers Large Type by Alcor&lt;/a&gt;&lt;/li&gt;
+				&lt;li&gt;A tiny function copied from &lt;a href=&quot;http://code.google.com/p/mactlmgr/source/browse/trunk/TLMStatusWindow.m?spec=svn569&amp;r=569&quot;&gt;Adam Maxwell - TeX Live Manager&lt;/a&gt;&lt;/li&gt;
+				&lt;/ul&gt;
+				Image conversion, cocoa &amp;quot;ui&amp;quot;, and blending the above resources by &lt;a href=&quot;http://s-softs.com&quot;&gt;Eric Doughty-Papassideris&lt;/a&gt;
+				&lt;br/&gt;&lt;br/&gt;&lt;h3&gt;Licence&lt;/h3&gt;
+				IDC v2.0 (&amp;quot;I Dont Care&amp;quot;)
+				&lt;br/&gt;&lt;br/&gt;&lt;h3&gt;Disclaimer&lt;/h3&gt;
+				Carefull: I don't want to know about what
+				happened (or not) because of this code.
+				You are running it &amp;quot;as-is&amp;quot;,
+				and it &amp;quot;is not my problem&amp;quot;.
+				</string>
+				<key>icon</key>
+				<string>QSQRCode</string>
+				<key>qsversion</key>
+				<string>29CC</string>
+				<key>relatedBundles </key>
+				<array/>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSWikitPlugIn</string>
+			<key>CFBundleName</key>
+			<string>WikitWidget Module</string>
+			<key>CFBundleVersion</key>
+			<string>B6</string>
+			<key>QSModifiedDate</key>
+			<string>2007-01-07 23:53:50 +1100</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Diman Todorov</string>
+				<key>categories</key>
+				<array/>
+				<key>description</key>
+				<string>A plugin to append and prepend text or create entries in a &lt;a href=&quot;http://inkspotting.com/wikity/&quot;&gt; dashboard wiki &lt;/a&gt;</string>
+				<key>icon</key>
+				<string>WikitIcon</string>
+				<key>qsversion</key>
+				<string>29CC</string>
+				<key>relatedBundles </key>
+				<array/>
+			</dict>
+			<key>QSRequirements</key>
+			<dict>
+				<key>paths</key>
+				<array>
+					<string>~/Library/Application Support/inkling/inkling.db</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSRemoteDesktopPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Remote Desktop Module</string>
+			<key>CFBundleVersion</key>
+			<string>2D</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 05:05:17 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>categories</key>
+				<array>
+					<string>System</string>
+					<string>Applications</string>
+				</array>
+				<key>description</key>
+				<string>Remote Desktop Access, for now only supports control, observe, and desktop.</string>
+				<key>icon</key>
+				<string>com.apple.RemoteDesktop</string>
+				<key>qsversion</key>
+				<string>29CC</string>
+				<key>relatedBundles </key>
+				<array>
+					<string>com.apple.RemoteDesktop</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.skurfer.Quicksilver.RemoteHosts</string>
+			<key>CFBundleName</key>
+			<string>Remote Hosts Module</string>
+			<key>CFBundleVersion</key>
+			<string>150</string>
+			<key>QSModifiedDate</key>
+			<string>2010-03-23 04:49:10 +1100</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Rob McBroom</string>
+				<key>categories</key>
+				<array>
+					<string>Development</string>
+					<string>Miscellaneous</string>
+					<string>System</string>
+				</array>
+				<key>description</key>
+				<string>Provides actions that can be taken on computers</string>
+				<key>extendedDescription</key>
+				<string>&lt;h3 id=&quot;a_quicksilver_plug_in_for_dealing_with_a_large_number_of_computers&quot;&gt;A Quicksilver plug-in for dealing with a large number of computers&lt;/h3&gt;
+				
+				&lt;p&gt;Given a text file with a list of machines in it (either hostname, Fully Qualified Domain Name, or IP address), this plug-in indexes them as &quot;remote host&quot; objects and provides the following actions:&lt;/p&gt;
+				
+				&lt;ul&gt;
+				&lt;li&gt;SSH&lt;/li&gt;
+				&lt;li&gt;SSH as root&lt;/li&gt;
+				&lt;li&gt;SSH as… [username in 3rd pane]&lt;/li&gt;
+				&lt;li&gt;Telnet&lt;/li&gt;
+				&lt;li&gt;Telnet to port… [port number in 3rd pane]&lt;/li&gt;
+				&lt;li&gt;FTP&lt;/li&gt;
+				&lt;li&gt;HTTP&lt;/li&gt;
+				&lt;li&gt;HTTPS&lt;/li&gt;
+				&lt;li&gt;Screen Sharing (VNC)&lt;/li&gt;
+				&lt;li&gt;Browse with CIFS&lt;/li&gt;
+				&lt;li&gt;Mount share with CIFS… [share name in 3rd pane]&lt;/li&gt;
+				&lt;li&gt;Browse with AFP&lt;/li&gt;
+				&lt;li&gt;Mount share with AFP… [share name in 3rd pane]&lt;/li&gt;
+				&lt;li&gt;MS Remote Desktop [requires the CoRD application]&lt;/li&gt;
+				&lt;/ul&gt;
+				
+				&lt;p&gt;There is also a &quot;Use as Remote Host&quot; action that applies to text. If you type a hostname by hand, paste it, or pull it from an application using ⌘⎋ or ⌘G, this action will &quot;convert&quot; it to a remote host in Quicksilver so you can connect to it, etc.&lt;/p&gt;
+				
+				&lt;p&gt;Some of the above actions also provide &quot;alternate&quot; actions. Hit ⌘↩ instead of ↩ to run the alternate.&lt;/p&gt;
+				
+				&lt;pre&gt;&lt;code&gt;Action      Alternate
+				-------     -------------
+				SSH         SSH as root
+				FTP         Get FTP URL
+				HTTP        Get HTTP URL
+				HTTPS       Get HTTPS URL
+				&lt;/code&gt;&lt;/pre&gt;
+				
+				&lt;p&gt;The &quot;Get XYZ URL&quot; actions are useful in situations where you need to paste the URL to a remote machine, or want to open it in something other than the default application.&lt;/p&gt;
+				
+				&lt;p&gt;Selecting a host in Quicksilver and hitting → or / will provide the following information (if available):&lt;/p&gt;
+				
+				&lt;ul&gt;
+				&lt;li&gt;&lt;p&gt;IP Addresses and aliases&lt;/p&gt;
+				
+				&lt;p&gt;Quicksilver treats these as strings, so you can use &quot;Large Type&quot;, paste them into the current application, send them via IM or e-mail, etc.&lt;/p&gt;&lt;/li&gt;
+				&lt;li&gt;&lt;p&gt;Lights-Out Management&lt;/p&gt;
+				
+				&lt;p&gt;The LOM address is itself another &quot;remote host&quot; in Quicksilver. With it selected, you can use one of the above actions to connect to it.&lt;/p&gt;&lt;/li&gt;
+				&lt;/ul&gt;
+				
+				&lt;p&gt;The plug-in will scan &lt;code&gt;~/.hosts&lt;/code&gt; for a list of machines by default. The file is treated as UTF-8. It should contain one host per line. The hostname or FQDN should be the first thing on each line, but other metadata is allowed (separated by a single space). An example might look like this:&lt;/p&gt;
+				
+				&lt;pre&gt;&lt;code&gt;server1.example.com
+				server2
+				server3.example.com ostype:linux
+				server4.example.com ostype:linux lom:10.1.2.3 label:test
+				appleserver.example.com icon:com.apple.xserve ostype:macosx
+				windows.example.com ostype:windows
+				somehost ostype:solaris
+				&lt;/code&gt;&lt;/pre&gt;
+				
+				&lt;p&gt;You may already have a file like this for completion in your shell. If you have existing metadata in this file, it shouldn't break anything, but it won't necessarily be useful in Quicksilver.&lt;/p&gt;
+				
+				&lt;p&gt;The plug-in scans for items on each host's line that look like this: &lt;code&gt;key:value&lt;/code&gt;. All such data will be stored along with the host in Quicksilver's catalog, but there are currently only four that will affect its behavior.&lt;/p&gt;
+				
+				&lt;ul&gt;
+				&lt;li&gt;&lt;code&gt;ostype&lt;/code&gt;: OS type should be a short, generic word, like &quot;solaris&quot;, &quot;linux&quot;, &quot;windows&quot;, etc. Currently, the only real distinction is between &quot;windows&quot; and everything else. Windows hosts get a different default icon and certain actions don't appear. Default icons for additional OS types may be added in the future.&lt;/li&gt;
+				&lt;li&gt;&lt;code&gt;icon&lt;/code&gt;: You can specify an icon to use for a host if you don't like its default. This can be a bundle identifier, like &quot;com.apple.Terminal&quot;, the name of an icon in the CoreTypes bundle like &quot;com.apple.mac&quot;, or the path to an icon or image file. The usual types of images are supported, but they will most likely get squished into a square (depending on which Quicksilver interface you use).&lt;/li&gt;
+				&lt;li&gt;&lt;code&gt;lom&lt;/code&gt;: The Lights-Out Management address will only apply to fancy, rack-mounted servers that provide some sort of network-based LOM. If you don't know what this means, you probably don't need to worry about it. The information itself should be an IP address, hostname, or FQDN for the system's LOM interface.&lt;/li&gt;
+				&lt;li&gt;&lt;code&gt;label&lt;/code&gt;: By default, all hosts in your catalog will be labeled with their hostname, FQDN, or IP address (as it appears in your file). Setting a label in the file will append to the default, not replace it. Quicksilver searches the text in the label as you type to search for things. If you have many hosts with similar names, they can be hard to get to quickly. Using this item to append to the label can be useful to group or &quot;tag&quot; systems for faster searching.&lt;/li&gt;
+				&lt;/ul&gt;
+				
+				&lt;p&gt;You can optionally pull hosts from &lt;code&gt;~/.ssh/known_hosts&lt;/code&gt;. There is a preset (disabled by default) under &quot;Remote Hosts&quot; in the Modules section of the Catalog.&lt;/p&gt;
+				
+				&lt;h4 id=&quot;tips&quot;&gt;Tips&lt;/h4&gt;
+				
+				&lt;p&gt;After installation, you may want to check the precedence of the actions and make sure they're to your liking. The actions only apply to &quot;remote hosts&quot; in the catalog, so moving them up rather high on the list shouldn't interfere with other tasks. You may also want to disable some of the ones you never think you'll use.&lt;/p&gt;
+				
+				&lt;p&gt;For more than a few machines, you should use a script to generate a &lt;code&gt;.hosts&lt;/code&gt; file from DNS, LDAP, a database, or some other authoritative source if possible, rather than managing it by hand. You might also schedule a job to update the file on a regular basis.&lt;/p&gt;
+				
+				&lt;p&gt;If you find yourself using &quot;SSH as…&quot; frequently, you may want to add something like this to your &lt;code&gt;~/.ssh/config&lt;/code&gt;:&lt;/p&gt;
+				
+				&lt;pre&gt;&lt;code&gt;Host server.domain
+				  User someuser
+				&lt;/code&gt;&lt;/pre&gt;
+				
+				&lt;p&gt;See the &lt;code&gt;ssh_config(5)&lt;/code&gt; man page for details.&lt;/p&gt;
+				
+				&lt;p&gt;Finally, don't forget the &quot;comma trick&quot;. You can select multiple hosts using the comma or ⌘A, then connect to them all at once.&lt;/p&gt;
+				
+				&lt;h3 id=&quot;why&quot;&gt;Why?&lt;/h3&gt;
+				
+				&lt;p&gt;If you have more than two or three systems that you regularly interact with, this plug-in will speed up the process tremendously.&lt;/p&gt;
+				
+				&lt;p&gt;I have over 100 systems that I connect to via SSH on a regular basis -- sometimes as a regular user, sometimes as root. That is the main motivation behind this plug-in. But once Quicksilver knows about all these remote systems, it makes sense to start adding other actions besides those related to SSH, which is where some of the additional functionality comes in.&lt;/p&gt;
+				
+				&lt;p&gt;I've kept a list of systems I use in &lt;code&gt;~/.hosts&lt;/code&gt; for years to allow shell completion on hostnames. It made sense to have Quicksilver use this as well. In the past, Quicksilver was made aware of these through &lt;code&gt;.term&lt;/code&gt; files in &lt;code&gt;~/Library/Application Support/Terminal&lt;/code&gt; under 10.4 and using &lt;code&gt;.inetloc&lt;/code&gt; files in 10.5+. It was a pain to keep in sync with &lt;code&gt;~/.hosts&lt;/code&gt;, you needed duplicate entries if you wanted to connect as root, via telnet, etc. and the resulting functionality was limited.&lt;/p&gt;
+				
+				&lt;h3 id=&quot;known_issues_and_to_do_items&quot;&gt;Known Issues and To Do Items&lt;/h3&gt;
+				
+				&lt;ul&gt;
+				&lt;li&gt;There's no interface for configuring a custom catalog entry (to pull hosts from different files) although you can add them, and such entries will work if you edit them in &lt;code&gt;Catalog.plist&lt;/code&gt; by hand.&lt;/li&gt;
+				&lt;li&gt;The extra step of converting text in the first pane to a remote host before being able to connect is intentional. I wanted to give the actions some default priority to make them easier to access in the most common use cases. If I supported strings and assigned these priorities, the remote host actions would end up being higher than other defaults for things typed by hand, such as &quot;Large Type&quot;. If we let &quot;Large Type&quot; remain as default, you would need to select an action like &quot;SSH&quot; by hand each and every time.&lt;/li&gt;
+				&lt;li&gt;I've attempted to add the obvious NFS actions, but the &quot;Internet Locations&quot; for this protocol doesn't seem to work everywhere. If you use &quot;Connect to Server…&quot; in the Finder and type &lt;code&gt;nfs://server/share_name&lt;/code&gt;, it works. But &lt;code&gt;open nfs://server/share_name&lt;/code&gt; from Terminal fails. This is essentially what the plugin is asking the system to do, so if &lt;code&gt;open&lt;/code&gt; doesn't like it, we're out of luck. Sorry.&lt;/li&gt;
+				&lt;/ul&gt;
+				
+				&lt;h3 id=&quot;possible_future_actions&quot;&gt;Possible Future Actions&lt;/h3&gt;
+				
+				&lt;ul&gt;
+				&lt;li&gt;Ping&lt;/li&gt;
+				&lt;li&gt;Scan with nmap&lt;/li&gt;
+				&lt;li&gt;Etc.&lt;/li&gt;
+				&lt;/ul&gt;
+				
+				&lt;h3 id=&quot;pie_in_the_sky_stuff&quot;&gt;Pie-in-the-Sky Stuff&lt;/h3&gt;
+				
+				&lt;ul&gt;
+				&lt;li&gt;Optionally use the output from a command as the source instead of a file
+				(so you could pull a list of hostnames from LDAP, DNS, etc. in real-time)&lt;/li&gt;
+				&lt;li&gt;Make each host object a target for file copy operations
+				(resulting in an SCP to the default user's home directory?)&lt;/li&gt;
+				&lt;li&gt;Right-arrow into a host to get a list of files (via SCP or SFTP?)&lt;/li&gt;
+				&lt;/ul&gt;
+				
+				&lt;h3 id=&quot;credit&quot;&gt;Credit&lt;/h3&gt;
+				
+				&lt;p&gt;This would not be possible without the information found at &lt;a href=&quot;http://lipidity.com/apple/quicksilver-plugins-in-objective-c&quot;&gt;http://lipidity.com/apple/quicksilver-plugins-in-objective-c&lt;/a&gt;.&lt;/p&gt;</string>
+				<key>icon</key>
+				<string>com.apple.xserve</string>
+				<key>qsversion</key>
+				<string>29CC</string>
+				<key>relatedBundles </key>
+				<array/>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSSafariPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Safari Module</string>
+			<key>CFBundleVersion</key>
+			<string>119</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 05:04:57 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Web</string>
+					<string>Applications</string>
+				</array>
+				<key>description</key>
+				<string>Bookmarks and History</string>
+				<key>icon</key>
+				<string>com.apple.Safari</string>
+				<key>relatedBundles</key>
+				<array>
+					<string>com.apple.Safari</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSSafariStandPlugIn</string>
+			<key>CFBundleName</key>
+			<string>SafariStand Queries</string>
+			<key>CFBundleVersion</key>
+			<string>24</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 05:02:31 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Web</string>
+					<string>Search</string>
+				</array>
+				<key>description</key>
+				<string>Provides access to SafariStand QuickSearches as queries</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.awatkins.Quicksilver.Clicker</string>
+			<key>CFBundleName</key>
+			<string>Salling Clicker</string>
+			<key>CFBundleVersion</key>
+			<string>23</string>
+			<key>QSModifiedDate</key>
+			<string>2005-04-07 02:19:19 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Adam Watkins</string>
+				<key>description</key>
+				<string>Publish Menu, Remove Menu and Make Device Squeak scripts for Salling Clicker</string>
+				<key>icon</key>
+				<string>com.salling.SallingClickerHelper</string>
+				<key>requiresBundle</key>
+				<string>com.salling.SallingClickerHelper</string>
+				<key>requiresFeature</key>
+				<string>0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSScreenCapturePlugIn</string>
+			<key>CFBundleName</key>
+			<string>Screen Capture Actions</string>
+			<key>CFBundleVersion</key>
+			<string>1B</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 05:00:05 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Images</string>
+					<string>System</string>
+				</array>
+				<key>description</key>
+				<string>A set of actions that allow capturing the screen</string>
+				<key>icon</key>
+				<string>com.apple.Grab</string>
+				<key>qsversion</key>
+				<string>3525</string>
+				<key>relatedBundles </key>
+				<array/>
+			</dict>
+			<key>QSRequirements</key>
+			<dict>
+				<key>feature</key>
+				<integer>2</integer>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSServicesMenuPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Services Menu Module</string>
+			<key>CFBundleVersion</key>
+			<string>B8</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 04:59:22 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>System</string>
+				</array>
+				<key>description</key>
+				<string>Converts entries from the Services menu into actions</string>
+				<key>icon</key>
+				<string>Menu</string>
+				<key>requiresFeature</key>
+				<string>1</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSShelfPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Shelf Module</string>
+			<key>CFBundleVersion</key>
+			<string>5B</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 04:58:37 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Quicksilver</string>
+				</array>
+				<key>description</key>
+				<string>Provides a shelf for temporary storage</string>
+				<key>icon</key>
+				<string>Catalog</string>
+				<key>qsversion</key>
+				<string>2A5F</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSSlideshowPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Slideshow Action</string>
+			<key>CFBundleVersion</key>
+			<string>6D</string>
+			<key>QSModifiedDate</key>
+			<string>2006-01-07 07:39:34 +1100</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Images</string>
+				</array>
+				<key>description</key>
+				<string>Provides an action to show images in a slideshow</string>
+				<key>extendedDescription</key>
+				<string>Provides a slideshow action
+
+&lt;h3&gt;Enhancements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Adds a &quot;Slideshow&quot; action that works on images, a pdf, or a folder
+&lt;/ul&gt;</string>
+				<key>icon</key>
+				<string>Slideshow</string>
+				<key>versionchanges</key>
+				<array>
+					<string>Index view is now working</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSDeliciousPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Social Bookmarks</string>
+			<key>CFBundleVersion</key>
+			<string>12F</string>
+			<key>QSModifiedDate</key>
+			<string>2010-08-03 16:30:57 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Web</string>
+				</array>
+				<key>description</key>
+				<string>Provides access to del.icio.us and ma.gnolia bookmarks</string>
+				<key>extendedDescription</key>
+				<string>Provides access to del.icio.us and ma.gnolia bookmarks</string>
+				<key>icon</key>
+				<string>del.icio.us</string>
+				<key>requiresFeature</key>
+				<string>0</string>
+			</dict>
+			<key>QSRequirements</key>
+			<dict>
+				<key>version</key>
+				<string>1328</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSSofaPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Sofa Artwork</string>
+			<key>CFBundleVersion</key>
+			<string>2C</string>
+			<key>QSModifiedDate</key>
+			<string>2006-01-07 04:42:57 +1100</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Music</string>
+				</array>
+				<key>description</key>
+				<string>Loads artwork from Sofa</string>
+				<key>extendedDescription</key>
+				<string>Loads artwork from &lt;a href=&quot;http://sofa.ambitiouslemon.com/&quot;&gt;Sofa&lt;/a&gt;</string>
+				<key>icon</key>
+				<string>com.ambitiouslemon.sofa</string>
+				<key>relatedBundles</key>
+				<array>
+					<string>com.ambitiouslemon.sofa</string>
+				</array>
+				<key>requiresFeature</key>
+				<string>0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSSogudiPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Sogudi Queries</string>
+			<key>CFBundleVersion</key>
+			<string>23</string>
+			<key>QSModifiedDate</key>
+			<string>2006-01-07 07:17:03 +1100</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Internet</string>
+					<string>Search</string>
+				</array>
+				<key>description</key>
+				<string>Provides access to Sogudi shortcuts as queries</string>
+				<key>icon</key>
+				<string>Sogudi</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSSpotlightPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Spotlight Module</string>
+			<key>CFBundleVersion</key>
+			<string>E4</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 04:56:50 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Search</string>
+				</array>
+				<key>description</key>
+				<string>Spotlight actions and integration</string>
+				<key>extendedDescription</key>
+				<string>Spotlight actions and integration
+				
+				&lt;p&gt;
+				&lt;h3&gt;Enhancements&lt;/h3&gt;
+				&lt;br&gt;
+				&lt;ul&gt;
+				&lt;li&gt;Spotlight Query Catalog Entry, currently pretty rough.
+				&lt;li&gt;Search in Spotlight Window Action
+				&lt;li&gt;Spotlight Search in Folder Action (internally or through Finder)
+				&lt;li&gt;Spotlight Search for Filenames Action
+				
+				&lt;/ul&gt;</string>
+				<key>icon</key>
+				<string>Spotlight</string>
+				<key>qsversion</key>
+				<string>2A5F</string>
+				<key>relatedBundles </key>
+				<array/>
+			</dict>
+			<key>QSRequirements</key>
+			<dict>
+				<key>launchLoad</key>
+				<true/>
+				<key>osVersion</key>
+				<string>8A414</string>
+				<key>qsversion</key>
+				<string>2B9E</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSStikkitPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Stikkit</string>
+			<key>CFBundleVersion</key>
+			<string>183</string>
+			<key>QSModifiedDate</key>
+			<string>2007-09-08 14:05:43 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Web</string>
+				</array>
+				<key>description</key>
+				<string>Provides access to stikkit</string>
+				<key>icon</key>
+				<string>stikkit</string>
+				<key>requiresFeature</key>
+				<string>0</string>
+			</dict>
+			<key>QSRequirements</key>
+			<dict>
+				<key>version</key>
+				<string>1328</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSSVNPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Subversion Module</string>
+			<key>CFBundleVersion</key>
+			<string>F9</string>
+			<key>QSModifiedDate</key>
+			<string>2006-06-30 01:28:04 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Alex Eiser</string>
+				<key>categories</key>
+				<array/>
+				<key>description</key>
+				<string>Adds the ability to interact with Subversion Repositories.</string>
+				<key>extendedDescription</key>
+				<string>Adds the ability to interact with Subversion Repositories.&lt;br/&gt;  &lt;br/&gt;  &lt;h3&gt;Requirements&lt;/h3&gt;This plugin requires the svn command to be accessable at /usr/local/bin. Subversion can be downloaded at &lt;a href=http://metissian.com/projects/macosx/subversion/&gt; metissian.org&lt;/a&gt; &lt;br/&gt;  &lt;br/&gt;  &lt;h3&gt;Instructions&lt;/h3&gt;To use specify a path in QS and then pick svn commands from the action menu. Detailed  &lt;a href=http://docs.blacktree.com/quicksilver/plug-ins/subversion &gt;instructions&lt;/a&gt; are available for more help.</string>
+				<key>icon</key>
+				<string>subversion.icns</string>
+				<key>qsversion</key>
+				<string>29CC</string>
+				<key>relatedBundles </key>
+				<array/>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSSynergyPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Synergy Artwork</string>
+			<key>CFBundleVersion</key>
+			<string>27</string>
+			<key>QSModifiedDate</key>
+			<string>2006-01-07 04:42:46 +1100</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Music</string>
+				</array>
+				<key>description</key>
+				<string>Loads artwork from Synergy</string>
+				<key>extendedDescription</key>
+				<string>Loads artwork from &lt;a href=&quot;http://synergy.wincent.com/&quot;&gt;Synergy&lt;/a&gt;</string>
+				<key>icon</key>
+				<string>org.wincent.Synergy</string>
+				<key>relatedBundles</key>
+				<array>
+					<string>org.wincent.Synergy</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSSymbolicHotKeyPlugIn</string>
+			<key>CFBundleName</key>
+			<string>System HotKey Commands</string>
+			<key>CFBundleVersion</key>
+			<string>5A</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 04:56:08 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>System</string>
+				</array>
+				<key>description</key>
+				<string>Allows triggering of Exposé and other System Hotkeys</string>
+				<key>extendedDescription</key>
+				<string>Adds a catalog entry for Exposé and Dashboard commands. For these to work, keyboard activation in Exposé system preferences must be set to F1-F13 (with or without modifiers).</string>
+				<key>qsversion</key>
+				<string>29E0</string>
+				<key>relatedBundles </key>
+				<array>
+					<string>com.apple.preference.expose</string>
+				</array>
+				<key>webIcon</key>
+				<string>com.apple.preference.expose</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.YTTatauPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Tatau Module</string>
+			<key>CFBundleVersion</key>
+			<string>2F</string>
+			<key>QSModifiedDate</key>
+			<string>2007-04-10 14:55:03 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>ytrewq1</string>
+				<key>categories</key>
+				<array>
+					<string>Quicksilver</string>
+				</array>
+				<key>description</key>
+				<string></string>
+				<key>extendedDescription</key>
+				<string>Tatau - Command Window Decorations
+				&lt;p&gt;&lt;/p&gt;
+				&lt;h3&gt;Purpose&lt;/h3&gt;
+				&lt;p&gt;Menu bar real estate in Mac OS X is limited.  This plug-in is an experiment in providing some of the functionality in another location.  Currently, there is support for displaying date/time information via the command window when the Bezel interface is in use.  There are also some other random things provided by this plug-in.&lt;/p&gt;
+				&lt;h3&gt;Setup&lt;/h3&gt;
+				&lt;ul&gt;
+				  &lt;li&gt;The Bezel interface should be installed and be configured as the command interface via the Appearance preference pane.
+				  &lt;li&gt;Via the preference pane for this plug-in it should be possible to affect the format used to display date/time.  There are several &quot;levels&quot; of verbosity one may choose from, and each level is configurable in detail via the Formats tab of the Interational Preference Pane.
+				&lt;/ul&gt;
+				&lt;h3&gt;Usage&lt;/h3&gt;
+				&lt;p&gt;To set the brightness of the main display:&lt;/p&gt;
+				&lt;ol&gt;
+				  &lt;li&gt;Activate Quicksilver.&lt;/li&gt;
+				  &lt;li&gt;In the 1st pane, specify a value between 0.0 and 1.0 via text entry mode.&lt;/li&gt;
+				  &lt;li&gt;Select the 'Set Brightness' action in the 2nd pane.&lt;/li&gt;
+				  &lt;li&gt;Press enter/return to execute.&lt;/li&gt;
+				&lt;/ol&gt;
+				&lt;h3&gt;Hints and Notes&lt;/h3&gt;
+				&lt;p&gt;This plug-in is still very much an experiment.  Only displaying date and time are supported at the moment.  Displaying other sorts of things is under consideration -- e.g. current temperature, volume, Gmail unread count, etc.
+				&lt;h3&gt;Acknowledgements&lt;/h3&gt;
+				&lt;ul&gt;
+				  &lt;li&gt;Howard Melman
+				  &lt;li&gt;musti
+				&lt;/ul&gt;
+				</string>
+				<key>icon</key>
+				<string></string>
+			</dict>
+			<key>QSRequirements</key>
+			<dict>
+				<key>plugins</key>
+				<array>
+					<dict>
+						<key>id</key>
+						<string>com.blacktree.Quicksilver.QSShelfPlugIn</string>
+						<key>name</key>
+						<string>Shelf Module</string>
+					</dict>
+					<dict>
+						<key>id</key>
+						<string>com.blacktree.Quicksilver.BezelInterfacePlugIn</string>
+						<key>name</key>
+						<string>Bezel Interface</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSTeleflipPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Teleflip Module</string>
+			<key>CFBundleVersion</key>
+			<string>27</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 04:55:50 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Mail &amp; Chat</string>
+				</array>
+				<key>description</key>
+				<string>Send SMS messages via Teleflip</string>
+				<key>icon</key>
+				<string></string>
+				<key>qsversion</key>
+				<string>29CC</string>
+				<key>relatedBundles </key>
+				<array/>
+			</dict>
+			<key>QSRequirements</key>
+			<dict>
+				<key>feature</key>
+				<integer>2</integer>
+				<key>plugins</key>
+				<array>
+					<dict>
+						<key>id</key>
+						<string>com.blacktree.Quicksilver.QSEmailSupport</string>
+						<key>name</key>
+						<string>Mail Support</string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSTerminalPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Terminal Module</string>
+			<key>CFBundleVersion</key>
+			<string>11A</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 04:54:53 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>System</string>
+					<string>Appications</string>
+					<string>Development</string>
+				</array>
+				<key>description</key>
+				<string>Allows running of shell scripts in Quicksilver or the Terminal</string>
+				<key>icon</key>
+				<string>com.apple.Terminal</string>
+				<key>relatedBundles</key>
+				<array>
+					<string>com.apple.Terminal</string>
+				</array>
+				<key>requiresFeature</key>
+				<string>0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSTextManipulationPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Text Manipulation Actions</string>
+			<key>CFBundleVersion</key>
+			<string>32</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 04:53:01 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Text</string>
+				</array>
+				<key>description</key>
+				<string>Actions for appending text to files</string>
+				<key>icon</key>
+				<string>ClippingText</string>
+				<key>relatedBundles </key>
+				<array>
+					<string>com.apple.TextEdit</string>
+					<string>com.macromates.textmate</string>
+					<string>com.barebones.bbedit</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.macromates.quicksilver.duff_string_ranker</string>
+			<key>CFBundleName</key>
+			<string>TextMate Ranker</string>
+			<key>CFBundleVersion</key>
+			<string>19</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 05:09:25 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Allan Odgaard</string>
+				<key>categories</key>
+				<array>
+					<string>Miscellaneous</string>
+				</array>
+				<key>description</key>
+				<string>Ranking which prefers word boundaries. Change the default ranker in the Handlers preferences.</string>
+				<key>icon</key>
+				<string>com.macromates.textmate</string>
+			</dict>
+			<key>QSRequirements</key>
+			<dict>
+				<key>feature</key>
+				<integer>1</integer>
+				<key>version</key>
+				<string>3774</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.culturedcode.thingsquicksilverplugin</string>
+			<key>CFBundleName</key>
+			<string>Things Module</string>
+			<key>CFBundleVersion</key>
+			<string>8C</string>
+			<key>QSModifiedDate</key>
+			<string>2009-08-27 23:56:59 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Cultured Code</string>
+				<key>categories</key>
+				<array>
+					<string>Applications</string>
+					<string>Calendar</string>
+				</array>
+				<key>description</key>
+				<string>Things plugin for Quicksilver. Requires Things.app</string>
+				<key>icon</key>
+				<string>App.icns</string>
+				<key>qsversion</key>
+				<string>29CC</string>
+				<key>relatedBundles </key>
+				<array/>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSTransmitModule</string>
+			<key>CFBundleName</key>
+			<string>Transmit 3 Module</string>
+			<key>CFBundleVersion</key>
+			<string>DC</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 04:51:50 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Files</string>
+					<string>Applications</string>
+				</array>
+				<key>description</key>
+				<string>Favorites Access &amp; Uploading</string>
+				<key>extendedDescription</key>
+				<string>Favorites Access &amp; Uploading
+
+&lt;h3&gt;Enhancements&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Adds Transmit favorites to catalog
+&lt;li&gt;Favorites contain links to all the remote sidebar locations
+&lt;li&gt;An upload action allows sending files to favorites or their sidebar links
+&lt;/ul&gt;
+
+&lt;h3&gt;Version Changes&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Sidebar links are now accessible
+&lt;/ul&gt;</string>
+				<key>icon</key>
+				<string>com.panic.Transmit3</string>
+				<key>qsversion</key>
+				<string>2000</string>
+				<key>relatedBundles</key>
+				<array>
+					<string>com.panic.Transmit3</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSUIAccessPlugIn</string>
+			<key>CFBundleName</key>
+			<string>User Interface Access</string>
+			<key>CFBundleVersion</key>
+			<string>199</string>
+			<key>QSModifiedDate</key>
+			<string>2010-01-20 22:37:46 +1100</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>System</string>
+				</array>
+				<key>description</key>
+				<string>Access the menus and windows of running applications.</string>
+				<key>extendedDescription</key>
+				<string>Access the menus and windows of running applications.&lt;P&gt;&lt;h3&gt;Requirements&lt;/h3&gt;&lt;br&gt;&lt;ul&gt;&lt;li&gt;Access for assistive devices must be enabled in Universal Access pane of System Preferences&lt;/ul&gt;</string>
+				<key>icon</key>
+				<string>menu</string>
+			</dict>
+			<key>QSRequirements</key>
+			<dict>
+				<key>feature</key>
+				<integer>1</integer>
+				<key>version</key>
+				<string>1337</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.YTUnitsPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Unit Conversion Module</string>
+			<key>CFBundleVersion</key>
+			<string>5E</string>
+			<key>QSModifiedDate</key>
+			<string>2006-07-10 23:30:49 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>ytrewq1</string>
+				<key>categories</key>
+				<array>
+					<string>Utility</string>
+				</array>
+				<key>description</key>
+				<string>Unit conversions via the units(1) command</string>
+				<key>extendedDescription</key>
+				<string>Miscellaneous unit conversions
+				&lt;p&gt;&lt;/p&gt;
+				&lt;h3&gt;Examples&lt;/h3&gt;
+				&lt;ul&gt;
+				  &lt;li&gt; 1 mile &lt;b&gt;Convert to Units...&lt;/b&gt; km
+				  &lt;li&gt; 1 floz &lt;b&gt;Convert to Units...&lt;/b&gt; cm3
+				  &lt;li&gt; 32 ft/sec^2 &lt;b&gt;Convert to Units...&lt;/b&gt; m/sec^2
+				  &lt;li&gt; c &lt;b&gt;Convert to Units...&lt;/b&gt; mph
+				&lt;/ul&gt;
+				&lt;p&gt;&lt;b&gt;Warning:&lt;/b&gt; the space between the quantity and the units is required.  units(1) is not flexible enough to handle input without the space.  Lame, isn't it?&lt;/p&gt;
+				&lt;h3&gt;Usage&lt;/h3&gt;
+				&lt;p&gt;Use the 'Convert to Units...' action to convert a quantity with units to use another set of units:&lt;/p&gt;
+				&lt;ul&gt;
+				  &lt;li&gt;Specify the source unit-spec (quantity with units) via text-entry mode
+				  &lt;li&gt;Choose the Convert To Units... action
+				  &lt;li&gt;Specify the target unit-spec via text-entry mode
+				&lt;/ul&gt;
+				&lt;p&gt;A unit-spec is either:&lt;/p&gt;
+				&lt;ul&gt;
+				  &lt;li&gt;a quantity, space and a unit (e.g 10 m) or 
+				  &lt;li&gt;just a unit (e.g. m)
+				&lt;/ul&gt;
+				&lt;p&gt;units can be complex using multiplication, division, and exponents. See the &lt;a href=&quot;x-man-page://units&quot;&gt;units(1) man page&lt;/a&gt; for details but here is a summary.&lt;/p&gt;
+				&lt;p&gt;units(1) understands most familiar units and constants and their abbreviations, however to avoid misinterpretation sometimes the abbreviations aren't obvious. E.g., &quot;g&quot; isn't gram but the acceleration of gravity constant (gm is gram), and oz and floz are different. See the file /usr/share/misc/units.lib for everything that units(1) understands.
+				&lt;h3&gt;Miscellaneous Notes&lt;/h3&gt;
+				&lt;ul&gt;
+				  &lt;li&gt;Seeing an error?  Do you have a space between your quantity and units?
+				  &lt;li&gt;For detailed (but often unhelpful) error messages see Console.app
+				  &lt;li&gt;units(1) doesn't do temperature conversions
+				  &lt;li&gt;units(1) will do currency conversions but the rates are from the early 1990s
+				&lt;/ul&gt;
+				&lt;h3&gt;Acknowledgements&lt;/h3&gt;
+				&lt;ul&gt;
+				  &lt;li&gt;Adrian Mariano (author of version of units shipped with Mac OS X)
+				  &lt;li&gt;gary
+				  &lt;li&gt;Howard Melman
+				  &lt;li&gt;jacobolus
+				  &lt;li&gt;Kevin Ballard
+				  &lt;li&gt;Nicholas Jitkoff
+				  &lt;li&gt;ProcrasT8
+				  &lt;li&gt;thebarty
+				  &lt;li&gt;yelly
+				&lt;/ul&gt;</string>
+				<key>icon</key>
+				<string>Units</string>
+				<key>requiresFeature</key>
+				<string>0</string>
+				<key>webIcon</key>
+				<string>http://quicksilver.blacktree.com/public/ytrewq1/Units.png</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSAccountsModule</string>
+			<key>CFBundleName</key>
+			<string>User Accounts Module</string>
+			<key>CFBundleVersion</key>
+			<string>9D</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 04:50:34 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>System</string>
+				</array>
+				<key>description</key>
+				<string>Adds user accounts to the catalog and a fast user switch action</string>
+				<key>icon</key>
+				<string>User</string>
+				<key>requiresFeature</key>
+				<string>0</string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.skurfer.Quicksilver.QSViscosity</string>
+			<key>CFBundleName</key>
+			<string>Viscosity Module</string>
+			<key>CFBundleVersion</key>
+			<string>70</string>
+			<key>QSModifiedDate</key>
+			<string>2010-08-03 00:27:15 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Rob McBroom</string>
+				<key>categories</key>
+				<array>
+					<string>Applications</string>
+					<string>System</string>
+				</array>
+				<key>description</key>
+				<string>Access VPN connections in Viscosity</string>
+				<key>extendedDescription</key>
+				<string>&lt;h2 id=&quot;viscosity_plug_in_for_quicksilver&quot;&gt;Viscosity plug-in for Quicksilver&lt;/h2&gt;
+				
+				&lt;p&gt;The VPN connections you've defined in Viscosity get added to the catalog. You can either search for them directly or right arrow into the Viscosity application.&lt;/p&gt;
+				
+				&lt;p&gt;There are two actions available for a Viscosity connection:&lt;/p&gt;
+				
+				&lt;ul&gt;
+				&lt;li&gt;Connect to VPN&lt;/li&gt;
+				&lt;li&gt;Disconnect from VPN&lt;/li&gt;
+				&lt;/ul&gt;
+				
+				&lt;p&gt;There are also two actions available if you select the Viscosity application in the first pane:&lt;/p&gt;
+				
+				&lt;ul&gt;
+				&lt;li&gt;Connect All VPNs&lt;/li&gt;
+				&lt;li&gt;Disconnect All VPNs&lt;/li&gt;
+				&lt;/ul&gt;
+				
+				&lt;p&gt;When you first install the plug-in, these actions will be higher in priority than &quot;Open&quot;, which is normally the default for applications. If that's not what you want, move them down the list in your Quicksilver preferences.&lt;/p&gt;
+				
+				&lt;p&gt;The plug-in tries to be smart about which actions to display. For instance, you won't see &quot;Disconnect from VPN&quot; unless that connection is currently active.&lt;/p&gt;
+				
+				&lt;p&gt;NOTE: If Viscosity isn't running, any of the &quot;Connect…&quot; actions will start it. This is generally what you want, but be aware that if you've configured certain VPNs to connect on launch, they will be connected regardless of what you are trying to do via Quicksilver.&lt;/p&gt;</string>
+				<key>icon</key>
+				<string>com.viscosityvpn.Viscosity</string>
+				<key>qsversion</key>
+				<string>29CC</string>
+				<key>relatedBundles </key>
+				<array/>
+			</dict>
+			<key>QSRequirements</key>
+			<dict>
+				<key>bundles</key>
+				<array>
+					<dict>
+						<key>id</key>
+						<string>com.viscosityvpn.Viscosity</string>
+						<key>name</key>
+						<string>Viscosity</string>
+						<key>version</key>
+						<string></string>
+					</dict>
+				</array>
+				<key>feature</key>
+				<integer>0</integer>
+				<key>launchLoad</key>
+				<false/>
+				<key>pathsTemplate</key>
+				<array>
+					<string>/path/to/something</string>
+				</array>
+				<key>pluginsTemplate</key>
+				<array>
+					<dict>
+						<key>id</key>
+						<string></string>
+						<key>name</key>
+						<string></string>
+						<key>version</key>
+						<string></string>
+					</dict>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSVoodooPadPlugIn</string>
+			<key>CFBundleName</key>
+			<string>VoodooPad Module</string>
+			<key>CFBundleVersion</key>
+			<string>7B</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 04:49:55 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>James Cox</string>
+				<key>categories</key>
+				<array>
+					<string>Applications</string>
+					<string>Text</string>
+				</array>
+				<key>description</key>
+				<string>A QuickSilver module for working with VoodooPad</string>
+				<key>icon</key>
+				<string>com.flyingmeat.VoodooPad</string>
+				<key>relatedBundles</key>
+				<array>
+					<string>com.flyingmeat.VoodooPad</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSWebSearchPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Web Search Module</string>
+			<key>CFBundleVersion</key>
+			<string>104</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 04:46:57 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Web</string>
+					<string>Search</string>
+				</array>
+				<key>description</key>
+				<string>Allows searching the web</string>
+				<key>icon</key>
+				<string>Find</string>
+				<key>relatedBundles </key>
+				<array>
+					<string>com.apple.Safari</string>
+				</array>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSWindowInterfacePlugIn</string>
+			<key>CFBundleName</key>
+			<string>Window Interface</string>
+			<key>CFBundleVersion</key>
+			<string>B4</string>
+			<key>QSModifiedDate</key>
+			<string>2006-09-02 04:45:33 +1000</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>author</key>
+				<string>Blacktree, Inc.</string>
+				<key>categories</key>
+				<array>
+					<string>Interfaces</string>
+					<string>Quicksilver</string>
+				</array>
+				<key>description</key>
+				<string>Provides a simple window interface</string>
+				<key>requiresFeature</key>
+				<string>0</string>
+				<key>webIcon</key>
+				<string></string>
+			</dict>
+		</dict>
+		<dict>
+			<key>CFBundleIdentifier</key>
+			<string>com.blacktree.Quicksilver.QSYojimboPlugIn</string>
+			<key>CFBundleName</key>
+			<string>Yojimbo Module</string>
+			<key>CFBundleVersion</key>
+			<string>7E</string>
+			<key>QSModifiedDate</key>
+			<string>2009-12-19 03:39:02 +1100</string>
+			<key>QSPlugIn</key>
+			<dict>
+				<key>categories</key>
+				<array>
+					<string>Text</string>
+					<string>Database</string>
+					<string>Applications</string>
+				</array>
+				<key>description</key>
+				<string>Add and Access Yojimbo Items</string>
+				<key>icon</key>
+				<string>com.barebones.yojimbo</string>
+				<key>qsversion</key>
+				<string>29CC</string>
+				<key>relatedBundles </key>
+				<array>
+					<string>com.barebones.yojimbo</string>
+				</array>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

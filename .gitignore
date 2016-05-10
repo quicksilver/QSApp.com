@@ -1,7 +1,10 @@
 /lib/mysql.php
+/lib/google.php
 /plugins/plugins
 /plugins/pre
-/qs0/
+/qs0/crashreports
+/qs0/plugins/files
+/qs0/scripts
 /w/
 /testwiki/
 .DS_Store
