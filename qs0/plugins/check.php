@@ -35,7 +35,7 @@ switch ($type) {
 }
 
 
-$tracker = new GoogleAnalytics\Tracker($google_key, $google_domain)
+$tracker = new GoogleAnalytics\Tracker($google_key, $google_domain);
 $visitor = new GoogleAnalytics\Visitor();
 $visitor->setIpAddress($_SERVER['REMOTE_ADDR']);
 $visitor->setUserAgent($_SERVER['HTTP_USER_AGENT']);
