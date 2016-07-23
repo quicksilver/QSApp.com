@@ -58,7 +58,7 @@
 
                     <div class="Support-Description">
                       <h3>Quicksilver Support Group</h3>
-                      <p>Quicksilver support is available from the <a href="https://groups.google.com/forum/?fromgroups#!forum/blacktree-quicksilver">Quicksilver Discussion Group</a>.</p>
+                      <p>Quicksilver support is available from the <a href="https://groups.google.com/forum/?fromgroups#!forum/blacktree-quicksilver">Quicksilver Discussion Group</a> and on <a href="https://slack.com/">Slack</a>.</p>
                       <p>Development discussion is made in the <a href="https://groups.google.com/forum/?fromgroups#!forum/quicksilver---development">Quicksilver Developer's Group</a></p>
                     </div>
                     
