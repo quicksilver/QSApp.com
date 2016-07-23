@@ -27,7 +27,7 @@
 
   				<div class="Support-Item">
                     <div class="Support-Icon">
-                        <img src="images/Wiki.png" alt="Manual" />
+                        <img src="images/Wiki.png" alt="Wiki" />
                     </div>
                     
                     <div class="Support-Description">
@@ -40,7 +40,7 @@
                 
                 <div class="Support-Item">
                     <div class="Support-Icon">
-                        <img src="images/FAQ.png" alt="Manual" />
+                        <img src="images/FAQ.png" alt="FAQ" />
                     </div>
                     
                     <div class="Support-Description">
