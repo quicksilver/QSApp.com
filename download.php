@@ -24,7 +24,7 @@
           <img src="images/quicksilver_512.png" width="256" height="256" alt="download Quicksilver" /><br />
           <h4>The latest release for macOS 10.10 or later</h4>
           <div class="Download-Button-Container">
-            <a class="Download-Button" href="https://qs0.qsapp.com/plugins/download.php">Download 1.5.5</a>
+            <a class="Download-Button" href="https://qs0.qsapp.com/plugins/download.php">Download 1.5.6</a>
           </div>
         </div> <!-- Download Option -->
         
