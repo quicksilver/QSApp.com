@@ -72,7 +72,7 @@
                     
                     <div class="Support-Description">
                         <h3>Quicksilver Manual</h3>
-                        <p>Howard Melman has written an <a href="https://github.com/quicksilver/Quicksilver/wiki">extensive manual</a> giving detailed information on how to use Quicksilver, along with a Quicksilver <a href="/docs/QSRef.pdf">Quick Reference Guide</a>. The Quick Reference has been updated for version 1.0.0. The full manual should follow soon.</p>
+                        <p>Howard Melman has written an <a href="/manual/">extensive manual</a> giving detailed information on how to use Quicksilver, along with a Quicksilver <a href="/docs/QSRef.pdf">Quick Reference Guide</a>. The Quick Reference has been updated for version 1.0.0. The full manual is always being worked on.</p>
                     </div>
                     
                     <div class="clear"></div>
