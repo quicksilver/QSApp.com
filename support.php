@@ -1,11 +1,10 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
-    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<!DOCTYPE html>
+<html lang="en">
   <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <meta http-equiv="Content-Language" content="en" />
-    <meta content="" name="description" />
-    <meta name="Keywords" content="" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="Content-Language" content="en">
+    <meta content="" name="description">
+    <meta name="Keywords" content="">
     <title>
       Quicksilver — Support &amp; Wiki
     </title>
@@ -25,7 +24,7 @@
         <div class="Page-Break"></div>
         <div class="Support-Item">
           <div class="Support-Icon">
-            <img src="images/Manual.png" alt="Manual" />
+            <img src="images/Manual.png" alt="Manual">
           </div>
           <div class="Support-Description">
             <h3>
@@ -39,35 +38,35 @@
         </div><!-- Support Item -->
         <div class="Support-Item">
           <div class="Support-Icon">
-            <img src="images/Wiki.png" alt="Wiki" />
+            <img src="images/Wiki.png" alt="Wiki">
           </div>
           <div class="Support-Description">
             <h3>
               Quicksilver Wiki
             </h3>
             <p>
-              See the <a href="/wiki">Quicksilver Wiki</a> for information on Plugins, AppleScript Actions, Interfaces and more. Or help add to the knowledgebase by contributing to the Wiki.<br />
+              See the <a href="/wiki">Quicksilver Wiki</a> for information on Plugins, AppleScript Actions, Interfaces and more. Or help add to the knowledgebase by contributing to the Wiki.<br>
             </p>
           </div>
           <div class="clear"></div>
         </div><!-- Support Item -->
         <div class="Support-Item">
           <div class="Support-Icon">
-            <img src="images/FAQ.png" alt="FAQ" />
+            <img src="images/FAQ.png" alt="FAQ">
           </div>
           <div class="Support-Description">
             <h3>
               FAQ
             </h3>
             <p>
-              See the <a href="http://qsapp.com/wiki/FAQ">FAQ Page</a> in the Quicksilver Wiki for a list of Frequently Asked Questions.<br />
+              See the <a href="http://qsapp.com/wiki/FAQ">FAQ Page</a> in the Quicksilver Wiki for a list of Frequently Asked Questions.<br>
             </p>
           </div>
           <div class="clear"></div>
         </div><!-- Support Item -->
         <div class="Support-Item">
           <div class="Support-Icon">
-            <img src="images/GoogleGroups.png" alt="Google Groups" />
+            <img src="images/GoogleGroups.png" alt="Google Groups">
           </div>
           <div class="Support-Description">
             <h3>
@@ -84,29 +83,29 @@
         </div><!-- Support Item -->
         <div class="Support-Item">
           <div class="Support-Icon">
-            <img src="images/Twitter.png" alt="Twitter" />
+            <img src="images/Twitter.png" alt="Twitter">
           </div>
           <div class="Support-Description">
             <h3>
               LoveQuicksilver Twitter &amp; Blog
             </h3>
             <p>
-              For support and tips, visit the <a href="http://twitter.com/lovequicksilver">@LoveQuicksilver</a> twitter page.<br />
-              The <a href="http://www.lovequicksilver.com/">Quicksilver blog</a> is useful for finding tips and sharing your own.<br />
+              For support and tips, visit the <a href="http://twitter.com/lovequicksilver">@LoveQuicksilver</a> twitter page.<br>
+              The <a href="http://www.lovequicksilver.com/">Quicksilver blog</a> is useful for finding tips and sharing your own.<br>
             </p>
           </div>
           <div class="clear"></div>
         </div><!-- Support Item -->
         <div class="Support-Item">
           <div class="Support-Icon">
-            <img src="images/BugReport.png" alt="Bug Report" />
+            <img src="images/BugReport.png" alt="Bug Report">
           </div>
           <div class="Support-Description">
             <h3>
               Bug Reporting
             </h3>
             <p>
-              To report a bug, issue or a feature request for Quicksilver, use the <a href="https://github.com/quicksilver/Quicksilver/issues">Quicksilver Bug Reporter</a>.<br />
+              To report a bug, issue or a feature request for Quicksilver, use the <a href="https://github.com/quicksilver/Quicksilver/issues">Quicksilver Bug Reporter</a>.<br>
             </p>
           </div>
           <div class="clear"></div>
