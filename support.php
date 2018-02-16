@@ -25,6 +25,19 @@
 <h1>Quicksilver Support &amp; Wiki</h1>
 										<div class="Page-Break"></div>
 
+                <div class="Support-Item">
+                    <div class="Support-Icon">
+                        <img src="images/Manual.png" alt="Manual" />
+                    </div>
+                    
+                    <div class="Support-Description">
+                        <h3>Quicksilver Manual</h3>
+                        <p>Howard Melman has written an <a href="/manual/">extensive manual</a> giving detailed information on how to use Quicksilver, along with a Quicksilver <a href="/docs/QSRef.pdf">Quick Reference Guide</a>. The Quick Reference has been updated for version 1.0.0. The full manual is always being worked on.</p>
+                    </div>
+                    
+                    <div class="clear"></div>
+                </div> <!-- Support Item -->
+                
   				<div class="Support-Item">
                     <div class="Support-Icon">
                         <img src="images/Wiki.png" alt="Wiki" />
@@ -60,19 +73,6 @@
                       <h3>Quicksilver Support Group</h3>
                       <p>Quicksilver support is available from the <a href="https://groups.google.com/forum/?fromgroups#!forum/blacktree-quicksilver">Quicksilver Discussion Group</a> and on <a href="https://slack.com/">Slack</a>.</p>
                       <p>Development discussion is made in the <a href="https://groups.google.com/forum/?fromgroups#!forum/quicksilver---development">Quicksilver Developer's Group</a></p>
-                    </div>
-                    
-                    <div class="clear"></div>
-                </div> <!-- Support Item -->
-                
-                <div class="Support-Item">
-                    <div class="Support-Icon">
-                        <img src="images/Manual.png" alt="Manual" />
-                    </div>
-                    
-                    <div class="Support-Description">
-                        <h3>Quicksilver Manual</h3>
-                        <p>Howard Melman has written an <a href="/manual/">extensive manual</a> giving detailed information on how to use Quicksilver, along with a Quicksilver <a href="/docs/QSRef.pdf">Quick Reference Guide</a>. The Quick Reference has been updated for version 1.0.0. The full manual is always being worked on.</p>
                     </div>
                     
                     <div class="clear"></div>
