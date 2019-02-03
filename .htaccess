@@ -3,6 +3,7 @@ RewriteEngine On
 RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
 RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
 
+RewriteRule ^manual$ /manual/ [R=301,L]
 RewriteRule ^wiki/PluginReference http://projects.skurfer.com/QuicksilverPlug-inReference.mdown [L,QSA]
 RewriteRule ^wiki/(.*)$ /w/index.php?title=$1 [PT,L,QSA]
 RewriteRule ^wiki/*$ /w/index.php [L,QSA]
