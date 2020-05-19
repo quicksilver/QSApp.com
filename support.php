@@ -87,11 +87,10 @@
           </div>
           <div class="Support-Description">
             <h3>
-              LoveQuicksilver Twitter &amp; Blog
+              LoveQuicksilver Twitter
             </h3>
             <p>
               For support and tips, visit the <a href="http://twitter.com/lovequicksilver">@LoveQuicksilver</a> twitter page.<br>
-              The <a href="http://www.lovequicksilver.com/">Quicksilver blog</a> is useful for finding tips and sharing your own.<br>
             </p>
           </div>
           <div class="clear"></div>

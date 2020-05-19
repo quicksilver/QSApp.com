@@ -5,7 +5,6 @@
 		array("link"=>"/donate.php", "label"=>"Donate"),
 		array("link"=>"/plugins.php", "label"=>"Plugins"),
 		array("link"=>"/support.php", "label"=>"Support"),
-		array("link"=>"http://blog.qsapp.com", "label"=>"Blog"),
 		array("link"=>"http://twitter.com/lovequicksilver", "label"=>"Twitter"),
 		);
 
