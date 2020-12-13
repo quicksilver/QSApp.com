@@ -105,11 +105,10 @@ Following this, Quicksilver had a shaky few years, with its future looking bleak
 	<h3>Philip Dooher</h3>
 	<p>Phil created the <a href="http://twitter.com/lovequicksilver">@LoveQuicksilver</a> Twitter account to counter the mimes of Merlin Mann.</p>
 	<p>
-		Following this, he went on to create the <a href="http://lovequicksilver.com">@LoveQuicksilver Blog</a> where he regularly posts hints, and answers users' questions.</p>
+		Following this, he went on to create the @LoveQuicksilver Blog where he regularly posted hints, and answered users' questions.</p>
 	<p><strong>Why does he do it?</strong> &#151; The name 'LoveQuicksilver' says it all. Another avid Quicksilver user, but not a coder, Phil found his own way of contributing to the the Quicksilver Project.</p>
 	
 		<p>Twitter: <a href="http://twitter.com/lovequicksilver">@LoveQuicksilver</a> <span class="pipe">|</span>
-		 Website: <a href="http://blog.qsapp.com">http://lovequicksilver.com</a> <span class="pipe">|</span> 
 		GitHub: <a href="https://github.com/philostein">philostein</a> </p>
 	</div>	
 	<h3>Those who are not Forgotten</h3>
