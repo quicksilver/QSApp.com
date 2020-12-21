@@ -179,7 +179,7 @@
 </p>
 <p>
 <span class="quote">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&ldquo;Quicksilver allows me to do near superhuman things with files and applications. It makes me a frakkin Ninja and my Mac a Ginsu Knife&rdquo;.</span>
-<div style="text-align:right;margin-top:-10px"><a href="http://minimalmac.com/post/4717549078/quicksilver-mac-os-x-at-your">Patrick Rhone</a>, Minimal Mac</div>
+<div style="text-align:right;margin-top:-10px"><a href="https://minimalmac.com/post/4717549078/quicksilver-mac-os-x-at-your">Patrick Rhone</a>, Minimal Mac</div>
 
 </p>
 				</div>

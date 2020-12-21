@@ -191,7 +191,7 @@ else {
         </h2>
         <ul>
             <li>
-                <a href="http://stackoverflow.com/search?q=***">Stack Overflow</a>
+                <a href="https://stackoverflow.com/search?q=***">Stack Overflow</a>
             </li>
             <li>
                 <a href="qss-http://hints.macworld.com/search.php?query=***&type=stories&mode=search&keyType=all">Mac OS X Hints</a>
