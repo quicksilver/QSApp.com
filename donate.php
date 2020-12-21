@@ -112,7 +112,7 @@
 <div style="text-align:center">
 <p><img src="/images/donate/Flattr.png" style="width:140px" alt="Flattr" /></p>
 <a class="FlattrButton" style="display:none;" rev="flattr;button:compact;" href="https://flattr.com/profile/QSApp"></a>
-<noscript><a href="https://flattr.com/thing/314033/Quicksilver-Mac-App" target="_blank">
+<noscript><a href="https://flattr.com/thing/314033/Quicksilver-Mac-App" target="_blank" rel="noopener noreferrer">
 <img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" /></a></noscript>
 
  <a href="https://flattr.com/profile/qsapp" class="donateBtn">Donate</a>
