@@ -442,9 +442,11 @@ height: 16px;}
 	margin: 30px auto 10px auto;
 }
 
-
-#Download h4 {
-	display: inline;
+.Download-Title {
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0;
+	padding: 0;
 }
 
 .Download-Button-Container {
