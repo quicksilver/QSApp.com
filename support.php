@@ -90,7 +90,7 @@
               LoveQuicksilver Twitter
             </h3>
             <p>
-              For support and tips, visit the <a href="http://twitter.com/lovequicksilver">@LoveQuicksilver</a> twitter page.<br>
+              For support and tips, visit the <a href="https://twitter.com/lovequicksilver">@LoveQuicksilver</a> twitter page.<br>
             </p>
           </div>
           <div class="clear"></div>
