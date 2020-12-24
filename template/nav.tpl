@@ -16,8 +16,8 @@
 	elseif($scriptName === "/quicksilverproject.php") {
 		$scriptName = "/about.php";
 	}
-	
-	$menu = 	'<div id="Navigation">
+
+	$menu = '<nav id="Navigation">
 		<ul>';
 	
 	foreach ($items as $val) {
@@ -30,6 +30,6 @@
 	}
 	$menu .='
 		</ul>
-		</div> <!-- Navigation -->';
+	</nav>';
 	echo $menu;
 ?>
