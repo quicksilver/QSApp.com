@@ -16,7 +16,7 @@
 			<?php include('template/logo.tpl'); ?>
 			<?php include('template/nav.tpl'); ?>
 			<div id="Page-Top"></div>
-			<div id="Page">
+			<main id="Page">
 				<h1>About Quicksilver</h1>
 				<p>Quicksilver is a launcher utility app for Mac OS X which gives you the ability to perform common, every-day tasks rapidly and without thought. An introduction to Quicksilver's abilities include:</p>
 				<ul>
@@ -27,7 +27,7 @@
 				</ul>
 				<p style="font-size:110%"><a href="/quicksilverproject.php">Find out</a> about the  Quicksilver Project and the team behind it.</p>
 				<div class="Page-Break"></div>
-				<div id="about_glider">
+				<section id="about_glider">
 					<a href="#" onclick="glider.previous();return false;" id="prev_button"></a>
 					<a href="#" onclick="glider.next();return false" id="next_button"></a>
 					<div class="scroller">
@@ -116,9 +116,9 @@
 					<script type="text/javascript" charset="utf-8">
 						var glider = new Glider('about_glider', {duration:0.5});
 					</script>
-				</div>
+				</section>
 				<div class="Page-Break"></div>
-				<div class="Feature">
+				<section class="Feature">
 					<h2>What about Spotlight for Mac OS X?</h2>
 					<a name="spotlight"></a>
 					Spotlight is fantastic and it certainly has its place, but it's no substitute for Quicksilver.
@@ -128,20 +128,20 @@
 						<li>Spotlight can show your dad's entry in the Address Book. Quicksilver can show your dad's work phone number, call it or send your dad a file.</li> 
 						<li>Spotlight forces you to think as you search. Quicksilver allows you to just start typing to get what you want.</li> 
 					</ul>
-				</div>
+				</section>
 				<div class="Page-Break"></div>
-				<div class="Feature">
+				<section class="Feature">
 					<h2>Words from the Web</h2>
 					<p>
-						<span class="quote">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&ldquo;Quicksilver is like carrying a light-saber and throwing robots across the room with your mind&rdquo;,</span>
+						<blockquote class="quote">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&ldquo;Quicksilver is like carrying a light-saber and throwing robots across the room with your mind&rdquo;,</blockquote>
 						<span style="text-align:right; margin-top:10px; display: block;">Anonymous</span>
 					</p>
 					<p>
-						<span class="quote">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&ldquo;Quicksilver allows me to do near superhuman things with files and applications. It makes me a frakkin Ninja and my Mac a Ginsu Knife&rdquo;.</span>
+						<blockquote class="quote">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&ldquo;Quicksilver allows me to do near superhuman things with files and applications. It makes me a frakkin Ninja and my Mac a Ginsu Knife&rdquo;.</blockquote>
 						<span style="text-align:right; margin-top:10px; display: block;"><a href="https://minimalmac.com/post/4717549078/quicksilver-mac-os-x-at-your">Patrick Rhone</a>, Minimal Mac</span>
 					</p>
-				</div>
-			</div> <!-- Page -->
+				</section>
+			</main>
 			<div id="Page-Bottom"></div>
 			<?php include('template/footer.tpl'); ?>
 		</div>
