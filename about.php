@@ -6,9 +6,6 @@
 		<meta name="description" content="Learn about Quicksilver, a productivity app for macOS which gives you the ability to perform common, every-day tasks rapidly and without thought." />
 		<meta name="keywords" content="Quicksilver, mac, os x, macOS, launcher, application, utility, productivity, itunes" />
 		<title>Quicksilver &#151; About &amp; Features</title>
-		<script src="js/prototype.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/effects.js" type="text/javascript" charset="utf-8"></script>
-		<script src="js/glider.js" type="text/javascript" charset="utf-8"></script>
 		<?php include('template/head.tpl'); ?>
 	</head>
 	<body>
@@ -113,9 +110,6 @@
 						<a href="#section9" id="control9"></a>
 						<a href="#section10" id="control10"></a>
 					</div>
-					<script type="text/javascript" charset="utf-8">
-						var glider = new Glider('about_glider', {duration:0.5});
-					</script>
 				</section>
 				<div class="Page-Break"></div>
 				<section class="Feature">
@@ -145,5 +139,11 @@
 			<div id="Page-Bottom"></div>
 			<?php include('template/footer.tpl'); ?>
 		</div>
+		<script src="js/prototype.js"></script>
+		<script src="js/effects.js"></script>
+		<script src="js/glider.js"></script>
+		<script>
+			const glider = new Glider('about_glider', {duration:0.5});
+		</script>
 	</body>
 </html>
