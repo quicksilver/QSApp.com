@@ -1,12 +1,13 @@
-<?php $items = array(
-		array("link"=>"/index.php", "label"=>"Home"), 
-		array("link"=>"/about.php", "label"=>"About"),
-		array("link"=>"/download.php", "label"=>"Download"), 
-		array("link"=>"/donate.php", "label"=>"Donate"),
-		array("link"=>"/plugins.php", "label"=>"Plugins"),
-		array("link"=>"/support.php", "label"=>"Support"),
-		array("link"=>"http://twitter.com/lovequicksilver", "label"=>"Twitter"),
-		);
+<?php
+	$navbarLinks = array(
+		array("url"=>"/index.php", "label"=>"Home", "openInNewTab"=>false), 
+		array("url"=>"/about.php", "label"=>"About", "openInNewTab"=>false),
+		array("url"=>"/download.php", "label"=>"Download", "openInNewTab"=>false), 
+		array("url"=>"/donate.php", "label"=>"Donate", "openInNewTab"=>false),
+		array("url"=>"/plugins.php", "label"=>"Plugins", "openInNewTab"=>false),
+		array("url"=>"/support.php", "label"=>"Support", "openInNewTab"=>false),
+		array("url"=>"http://twitter.com/lovequicksilver", "label"=>"Twitter", "openInNewTab"=>true),
+	);
 
 	$scriptName = $_SERVER['SCRIPT_NAME'];
 	// Make the 'on' class be on the 'download' button for the changelog page
@@ -20,13 +21,17 @@
 	$menu = '<nav id="Navigation">
 		<ul>';
 	
-	foreach ($items as $val) {
+	foreach ($navbarLinks as $link) {
 		$menu .= '
-			<li><a href="'.$val['link'].'" ';
-		if($scriptName == $val['link']) {
+			<li><a href="'.$link['url'].'" ';
+		if($scriptName == $link['url']) {
 			$menu .= 'class="On"';
 		}
-		$menu .= '>'.$val['label'].'</a></li>';
+
+		if ($link['openInNewTab']) {
+			$menu .= ' target="_blank" rel="noopener noreferrer"';
+		}
+		$menu .= '>'.$link['label'].'</a></li>';
 	}
 	$menu .='
 		</ul>
