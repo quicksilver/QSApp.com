@@ -73,10 +73,10 @@
               Quicksilver Support Group
             </h3>
             <p>
-              Quicksilver support is available from the <a href="https://groups.google.com/forum/?fromgroups#!forum/blacktree-quicksilver">Quicksilver Discussion Group</a> and on <a href="https://slack.com/">Slack</a>.
+              Quicksilver support is available from the <a href="https://groups.google.com/forum/?fromgroups#!forum/blacktree-quicksilver" target="_blank" rel="noopener noreferrer">Quicksilver Discussion Group</a> and on <a href="https://slack.com/" target="_blank" rel="noopener noreferrer">Slack</a>.
             </p>
             <p>
-              Development discussion is made in the <a href="https://groups.google.com/forum/?fromgroups#!forum/quicksilver---development">Quicksilver Developer's Group</a>
+              Development discussion is made in the <a href="https://groups.google.com/forum/?fromgroups#!forum/quicksilver---development" target="_blank" rel="noopener noreferrer">Quicksilver Developer's Group</a>
             </p>
           </div>
           <div class="clear"></div>
@@ -90,7 +90,7 @@
               LoveQuicksilver Twitter
             </h3>
             <p>
-              For support and tips, visit the <a href="https://twitter.com/lovequicksilver">@LoveQuicksilver</a> twitter page.<br>
+              For support and tips, visit the <a href="https://twitter.com/lovequicksilver" target="_blank" rel="noopener noreferrer">@LoveQuicksilver</a> twitter page.<br>
             </p>
           </div>
           <div class="clear"></div>
@@ -104,7 +104,7 @@
               Bug Reporting
             </h3>
             <p>
-              To report a bug, issue or a feature request for Quicksilver, use the <a href="https://github.com/quicksilver/Quicksilver/issues">Quicksilver Bug Reporter</a>.<br>
+              To report a bug, issue or a feature request for Quicksilver, use the <a href="https://github.com/quicksilver/Quicksilver/issues" target="_blank" rel="noopener noreferrer">Quicksilver Bug Reporter</a>.<br>
             </p>
           </div>
           <div class="clear"></div>
