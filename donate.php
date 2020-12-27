@@ -64,7 +64,7 @@
 				<p>If you have a specific donation, for example a donation for a certain plugin, user support, or the LoveQuicksilver twitter/blog, then please fill in the '<em>Specify where your donation should go</em>' section on PayPal, or <script type="text/javascript">// <![CDATA[
 				stumpIt("donate","","send us an email");
 				// ]]&gt;</script> stating <em>where</em> you would like your donation to go.</p>
-				<div class="clearfix"></div>
+				<div class="clear"></div>
 				<div style="margin:30px 0 30px 0;width:50%;float:left">
 					<div style="margin: auto; text-align: center">
 						<img src="/images/donate/PayPal_Logo.png" style="width:140px" alt="PayPal" /> 
@@ -106,7 +106,7 @@
 						<a href="https://flattr.com/profile/qsapp" class="donateBtn">Donate</a>
 					</div>
 				</div>
-				<div class="clearfix"></div>
+				<div class="clear"></div>
 				<h3>Other ways to Help</h3>
 				<p>Money isn't the only way in which you can help the Quicksilver Project.<br>
 				You can help with: <a href="https://www.transifex.net/projects/p/quicksilver/">translation</a>, <a href="/wiki">documentation</a>, <a href="https://groups.google.com/g/blacktree-quicksilver">user support</a>, <a href="/wiki/Developer_Information">coding</a> or by simply just spreading the word.</p>	

@@ -1,15 +1,3 @@
-/* @group Utilities */
-.clearfix:before,
-.clearfix:after {
-  content: " "; /* 1 */
-  display: table; /* 2 */
-}
-
-.clearfix:after {
-  clear: both;
-}
-/* @end */
-
 body {
 	background: #623876 url(./images/Background.png) repeat center top;
 	margin: 0;
