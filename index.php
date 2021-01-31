@@ -28,9 +28,7 @@
 
 				<div id="Button-Container">
 					<a id="Download-Button" href="download.php" title="Download Quicksilver for Lion, Snow Leopard and more">Download</a>
-				</div><br />
-
-				<div class="Page-Break"></div>
+				</div>
 			</main>
 
 			<div id="Page-Bottom"></div>	
