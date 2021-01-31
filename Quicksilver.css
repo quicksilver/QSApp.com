@@ -130,7 +130,7 @@ img {
 }
 
 #Page h1 {
-	align: center;
+	text-align:center;
 }
 
 #Page .quote {
