@@ -55,15 +55,15 @@
 						<p>Development discussion is made in the <a href="https://groups.google.com/forum/?fromgroups#!forum/quicksilver---development" target="_blank" rel="noopener noreferrer">Quicksilver Developer's Group</a></p>
 					</div>
 				</div>
-				<div class="Support-Item">
-					<div class="Support-Icon">
-						<img src="images/Twitter.png" alt="Twitter">
-					</div>
-					<div class="Support-Description">
-						<h3>LoveQuicksilver Twitter</h3>
-						<p>For support and tips, visit the <a href="https://twitter.com/lovequicksilver" target="_blank" rel="noopener noreferrer">@LoveQuicksilver</a> twitter page.</p>
-					</div>
-				</div>
+        <!-- <div class="Support-Item">
+          <div class="Support-Icon">
+            <img src="images/Twitter.png" alt="Twitter">
+          </div>
+          <div class="Support-Description">
+            <h3>LoveQuicksilver Twitter</h3>
+            <p>For support and tips, visit the <a href="https://twitter.com/lovequicksilver" target="_blank" rel="noopener noreferrer">@LoveQuicksilver</a> twitter page.</p>
+          </div>
+        </div> -->
 				<div class="Support-Item">
 					<div class="Support-Icon">
 						<img src="images/BugReport.png" alt="Bug Report">
