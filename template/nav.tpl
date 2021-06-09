@@ -6,7 +6,7 @@
 		array("url"=>"/donate.php", "label"=>"Donate", "openInNewTab"=>false),
 		array("url"=>"/plugins.php", "label"=>"Plugins", "openInNewTab"=>false),
 		array("url"=>"/support.php", "label"=>"Support", "openInNewTab"=>false),
-		array("url"=>"http://twitter.com/lovequicksilver", "label"=>"Twitter", "openInNewTab"=>true),
+		//array("url"=>"http://twitter.com/lovequicksilver", "label"=>"Twitter", "openInNewTab"=>true),
 	);
 
 	$scriptName = $_SERVER['SCRIPT_NAME'];
