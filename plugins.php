@@ -5,7 +5,6 @@ include('lib/functions.php');
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="Install Quicksilver plugins to extend its functions and your productivity. Plugins allow interaction with your applications, new interfaces, access to web content, and more." />
 		<meta name="keywords" content="Quicksilver, plugins, modules, mac, productivity, application, itunes" />
 		<link href="https://qs0.qsapp.com/plugins/rss.php" rel="alternate" type="application/rss+xml" title="A list of the most up to date plugins for Quicksilver." />

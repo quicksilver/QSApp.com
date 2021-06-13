@@ -1,8 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-		<meta http-equiv="Content-Language" content="en">
+		<meta charset="utf-8">
 		<meta name="description" content="Quicksilver support resources" >
 		<meta name="keywords" content="Quicksilver, macOS, support, wiki, FAQ">
 		<title>Quicksilver — Support & Wiki</title>
