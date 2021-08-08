@@ -2,7 +2,6 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta name="description" content="Donate to the Quicksivler Mac OS X project to help ensure the best Mac productivity application remains free forever." />
 		<meta name="keywords" content="quicksilver, mac, os x, macOS, productivity, application, launcher, itunes, paypal, donate, flattr, open source" />
 		<title>Quicksilver &#151; Donate</title>
