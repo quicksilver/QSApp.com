@@ -14,7 +14,7 @@
 			<div id="Page-Top"></div>
 			<main id="Page">
 				<h1>About Quicksilver</h1>
-				<p>Quicksilver is a launcher utility app for Mac OS X which gives you the ability to perform common, every-day tasks rapidly and without thought. An introduction to Quicksilver's abilities include:</p>
+				<p>Quicksilver is a launcher utility app for macOS which gives you the ability to perform common, every-day tasks rapidly and without thought. An introduction to Quicksilver's abilities include:</p>
 				<ul>
 					<li>Accessing applications, documents, contacts, music and much, much more.</li>
 					<li>Browsing your Mac's filesystem elegantly using keywords and 'fuzzy' matching.</li>
@@ -49,7 +49,7 @@
 							<div class="section" id="section3">
 								<img class="Screenshot" style="width:270px" src="images/why_abbreviations.png" title="Flexible abbreviations" alt="Abbreviating results in Quicksilver"/>
 								<h2>Type it like you think it</h2>
-								Using OS X's Spotlight or a similar app to find the contact 'John Smith' requires you to search for say "john". What if you want to just type "js"? Quicksilver lets you abbreviate using letters from anywhere in the name, and that means anywhere. Use "ps" to find Photoshop or "tun" to find iTunes.<br>Use abbreviations that make sense to you.
+								Using macOS's Spotlight or a similar app to find the contact 'John Smith' requires you to search for say "john". What if you want to just type "js"? Quicksilver lets you abbreviate using letters from anywhere in the name, and that means anywhere. Use "ps" to find Photoshop or "tun" to find iTunes.<br>Use abbreviations that make sense to you.
 							</div>
 							<div class="section" id="section4">
 								<img class="Screenshot" src="images/why_reverse.png" title="Works either way" alt="Reverse the action in Quicksilver"/>
@@ -112,7 +112,7 @@
 				</section>
 				<div class="Page-Break"></div>
 				<section class="Feature">
-					<h2>What about Spotlight for Mac OS X?</h2>
+					<h2>What about Spotlight for macOS?</h2>
 					<a name="spotlight"></a>
 					Spotlight is fantastic and it certainly has its place, but it's no substitute for Quicksilver.
 					<ul> 
