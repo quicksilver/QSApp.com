@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<meta name="description" content="Donate to the Quicksivler Mac OS X project to help ensure the best Mac productivity application remains free forever." />
+		<meta name="description" content="Donate to the Quicksivler macOS project to help ensure the best Mac productivity application remains free forever." />
 		<meta name="keywords" content="quicksilver, mac, os x, macOS, productivity, application, launcher, itunes, paypal, donate, flattr, open source" />
 		<title>Quicksilver &#151; Donate</title>
 		<script type="text/javascript" src="/js/stumper.js"></script>
@@ -56,7 +56,7 @@
 				<h1>Donate to Quicksilver</h1>
 				<div class="Page-Break"></div>
 				<p>Quicksilver is an open source project for the Mac, maintained by a <a href="quicksilverproject.php#volunteers">group of volunteers</a>. More information on the project itself is available on the <a href="quicksilverproject.php">Quicksilver Project</a> page.</p>
-				<h4>What your donation means?</h4>
+				<h4>What your donation means</h4>
 				<p>Quicksilver is, and will always remain a <strong>free</strong> application. If you enjoy using Quicksilver, you can help ensure its future by donating towards the project. <br>
 				Your donation will mean domain names can be renewed and development licences and books can be purchased.</p>
 				<h4>Specific donation</h4>
