@@ -14,7 +14,7 @@
 			<div id="Page-Top"></div>
 			<main id="Page">
 				<h1>About Quicksilver</h1>
-				<p>Quicksilver is a launcher utility app for Mac OS X which gives you the ability to perform common, every-day tasks rapidly and without thought. An introduction to Quicksilver's abilities include:</p>
+				<p>Quicksilver is a launcher utility app for macOS which gives you the ability to perform common, every-day tasks rapidly and without thought. An introduction to Quicksilver's abilities include:</p>
 				<ul>
 					<li>Accessing applications, documents, contacts, music and much, much more.</li>
 					<li>Browsing your Mac's filesystem elegantly using keywords and 'fuzzy' matching.</li>
