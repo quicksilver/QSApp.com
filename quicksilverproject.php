@@ -39,8 +39,8 @@
 						<img class="Screenshot" src="images/Team/Patrick.jpg" alt="Patrick Robertson" width="180px" />
 					</div>
 					<h3>Patrick Robertson</h3>
-					<p>Patrick is a freelance developer, who develops mobile apps, OS X apps and web apps. He first contributed to the Quicksilver Project in June 2008.
-					Since then, he's gradually expanded on his knowledge of Cocoa and coding for Mac OS X.
+					<p>Patrick is a freelance developer, who develops mobile apps, macOS apps and web apps. He first contributed to the Quicksilver Project in June 2008.
+					Since then, he's gradually expanded on his knowledge of Cocoa and coding for macOS.
 					<br/>
 					In late 2010, he had the idea of setting up QSApp.com and was a main initiator in kick-starting Quicksilver back into life.</p>
 					<p>Today, in and out of his freelance developing, he juggles between writing code for Quicksilver, managing QSApp.com, creating press and urging others to join the Quicksilver band-wagon.</p>

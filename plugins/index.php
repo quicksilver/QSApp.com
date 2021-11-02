@@ -32,7 +32,7 @@ include('../lib/functions.php');
       <?php include('../includes/nav.php'); ?>
       <div class="opener">
         <p>Below, you'll find a list of the latest Quicksilver plugins available.<br />
-          This list is compiled from sources all over the web, and should have the most recent plugins that work with Mac OS X 10.5 and 10.6.<br />
+          This list is compiled from sources all over the web, and should have the most recent plugins that work with macOS 10.5 and 10.6.<br />
           I'll try and keep this list as up to date as I can, so it can be the new one-stop-shop for plugins.<br />
           Please email me at plugins@qsapp.com if you know of any more missing plugins.<br/>
           <br/>

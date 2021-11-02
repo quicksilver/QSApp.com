@@ -4,7 +4,7 @@
 		<meta charset="utf-8">
 		<meta name="description" content="Quicksilver is a fast and free productivity application for the Mac, allowing you to save time and improve your efficiency. Quicksilver is available for Lion, Snow Leopard and more."/>
 		<meta name="Keywords" content="Quicksilver, lion, mac, os x, launcher, application, utility, productivity, itunes" />
-		<title>Quicksilver &#151; Mac OS X at your Fingertips</title>
+		<title>Quicksilver &#151; macOS at your Fingertips</title>
 
 		<?php include('template/head.tpl'); ?>
 	</head>

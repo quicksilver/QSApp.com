@@ -148,7 +148,7 @@ Get the OS Version from the User Agent string.
 OVer the years QS has used 3 User Agent forms:
 * The standard CFNetwork User Agent
 * An old one of the form 'Quicksilver/4008 OSX/10.9.0 (x86)'
-* The current format (Nov 2013) of Quicksilver/4008 (Macintosh; Intel Mac OS X 10_9_0; cy-gb) (like Safari)
+* The current format (Nov 2013) of Quicksilver/4008 (Macintosh; Intel macOS 10_9_0; cy-gb) (like Safari)
 
 This function sniffs the $_SERVER user agent string testing these 3 types and returning a suitable OS
 */
@@ -159,17 +159,17 @@ function osVersionFromUserAgent($user_agent) {
         // Old User Agent format
         $os_version = $version_parts[1][0] . str_pad ($version_parts[2][0] , 2, "0", STR_PAD_LEFT)
             . str_pad ($version_parts[3][0], 2, "0", STR_PAD_LEFT);
-        debug("OS X Version, old user agent: " . $os_version);
-    } else if (preg_match_all("/.*Mac OS X (\d{1,})_(\d{1,})_(\d{1,}).*/", $_SERVER['HTTP_USER_AGENT'], $version_parts)) {
+        debug("macOS Version, old user agent: " . $os_version);
+    } else if (preg_match_all("/.*macOS (\d{1,})_(\d{1,})_(\d{1,}).*/", $_SERVER['HTTP_USER_AGENT'], $version_parts)) {
         // New User Agent format (reflects Safari UA). See GH#1699
         $os_version = $version_parts[1][0] . str_pad ($version_parts[2][0] , 2, "0", STR_PAD_LEFT)  . str_pad ($version_parts[3][0], 2, "0", STR_PAD_LEFT);
-        debug("OS X Version, new user agent string: " . $os_version);
+        debug("macOS Version, new user agent string: " . $os_version);
     } else if (preg_match_all("/.*Darwin\/(\d{1,}\.\d{1,}(=?\.\d{1,})?).*/", $user_agent, $darwin_version)) {
         // CFNetwork User Agent
         $darwin_version = $darwin_version[1][0];
         $darwin_osx = unserialize(DARWIN_OSX);
         if (!array_key_exists($darwin_version, $darwin_osx)) {
-            // The key doesn't exist in DARWIN_OSX. Try and figure out what version of Darwin (and hence OS X) is being used
+            // The key doesn't exist in DARWIN_OSX. Try and figure out what version of Darwin (and hence macOS) is being used
             $parts = explode(".", $darwin_version);
             if (sizeof($parts) == 3) {
                 if ($parts[2] == "0") {
@@ -182,7 +182,7 @@ function osVersionFromUserAgent($user_agent) {
             }
             $os_version = $darwin_osx[$darwin_version];
         }
-        debug("Darwin version: ". $darwin_version . "\nOS X version: " . $os_version);
+        debug("Darwin version: ". $darwin_version . "\nmacOS version: " . $os_version);
     }
     return $os_version;
 }

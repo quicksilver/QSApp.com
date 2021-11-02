@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 		<meta charset="utf-8">
-		<meta name="description" content="Changelog of Quicksilver Mac OS X Utility for macOS" />
+		<meta name="description" content="Changelog of Quicksilver Utility for macOS" />
 		<meta name="keywords" content="Quicksilver, changelog, mac, macOS, os x, launcher, application, utility, productivity, itunes" />
 		<title>Quicksilver &#151; Changelog</title>
 		<?php include('template/head.tpl'); ?>
