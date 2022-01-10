@@ -16,7 +16,7 @@
 				<h1>Download Quicksilver</h1>
 				<div class="Page-Break"></div>
 				<p>To download Quicksilver for macOS, select the compatible version for your operating system version.<br />
-				View the <a href="changelog.php">changelog</a> to see the recent changes to Quicksilver.</p>
+				View the <a href="changelog.php">changelog</a> to see the recent changes to Quicksilver. Monterey may warn about Quicksilver being unsigned: <strong>ctrl-click</strong> Quicksilver and choose 'Open' from the 'unsigned' dialog. It will now open without warnings.</p>
 
 				<section id="Download">
 					<article class="Download-Option">
