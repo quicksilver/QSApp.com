@@ -53,7 +53,7 @@
 			<?php include('template/nav.tpl'); ?>	
 			<div id="Page-Top"></div>
 			<main id="Page">
-				<h1>Donate to Quicksilver</h1>
+				<h1>Support Quicksilver</h1>
 				<div class="Page-Break"></div>
 				<p>Quicksilver is an open source project for the Mac, maintained by a <a href="quicksilverproject.php#volunteers">group of volunteers</a>. More information on the project itself is available on the <a href="quicksilverproject.php">Quicksilver Project</a> page.</p>
 				<h4>What your donation means?</h4>
@@ -109,8 +109,15 @@
 				</div>
 				<div class="clear"></div>
 				<h3>Other ways to Help</h3>
-				<p>Money isn't the only way in which you can help the Quicksilver Project.<br>
-				You can help with: <a href="https://www.transifex.net/projects/p/quicksilver/">translation</a>, <a href="/wiki">documentation</a>, <a href="https://groups.google.com/g/blacktree-quicksilver">user support</a>, <a href="/wiki/Developer_Information">coding</a> or by simply just spreading the word.</p>	
+				<p>Other than financial donations, the Quicksilver project requires help with the following projects and tasks:</p>
+				<ul>
+					<li>Translating Quicksilver into your local language. Join the <a href="https://www.transifex.net/projects/p/quicksilver/">Quicksilver Transifex project</a> to get started translating.</li>
+					<li>Help improve Quicksilver's documentation. Add information to the <a href="/wiki">Quicksilver Wiki</a>, create YouTube screencasts and videos, or <a href="https://github.com/quicksilver/Quicksilver/issues">submit an issue on Github</a> outlining areas we can improve Quicksilver documentation.</li>
+					<li>Website upkeep. Website design work, and content creation and updating. Submit a post titled 'Website Volunteering' to the <a href="https://groups.google.com/g/quicksilver---development">Quicksilver Developer Community</a> to get started.</li>
+					<li>App UI improvements. Provide new icons or mockups of areas to improve Quicksilver's UI. Submit a post titled 'Quicksilver UI' to the <a href="https://groups.google.com/g/quicksilver---development">Quicksilver Developer Community</a> to get started.</li>
+					<li>Spread the word about Quicksilver using social media. Share how you use Quicksilver on social media, using the tag #quicksilverapp</li>
+				</ul>
+				<p>For a full rundown of other ways to help Quicksilver, check out the <a href="/volunteer-projects.php">list of outstanding projects</a> you can help out with.</p>
 			</main>
 			<div id="Page-Bottom"></div>
 			<?php include('template/footer.tpl'); ?>
