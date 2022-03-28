@@ -1,6 +1,6 @@
 <link href="Quicksilver.css" rel="stylesheet" type="text/css" />
 <link rel="Quicksilver favicon" href="/favicon.ico" type="image/x-icon" />
-
+<meta name="flattr:id" content="8g2jq0">
 <script type="text/javascript">
 
   var _gaq = _gaq || [];
