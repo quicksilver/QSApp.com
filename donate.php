@@ -74,8 +74,10 @@
 								<input type="hidden" name="item_name" value="Quicksilver Software" />
 								<!-- <input type="hidden" name="image_url" value="http" /> -->
 								<input type="hidden" name="no_shipping" value="1" />
-								<input type="hidden" name="return" value="http://qsapp.com" />
+								<input type="hidden" name="return" value="http://qsapp.com/donate-confirm.php" />
 								<input type="hidden" name="cancel_return" value="http://qsapp.com" />
+								<input type="hidden" name="currency_code" value="USD">
+								<input type="hidden" name="cpp_header_image" value="https://qsapp.com/images/quicksilver-icon.png">
 								<input type="hidden" name="cn" value="Specify where your donation should go" />
 								<input type="hidden" name="tax" value="0" />
 								<select name="amount" style="width: 65px;">
