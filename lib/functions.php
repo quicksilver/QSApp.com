@@ -99,6 +99,7 @@ define("LGLVL_DEBUG", E_USER_NOTICE);
 define("LGLVL_ERROR", E_USER_ERROR);
 
 $current_level = LGLVL_ERROR;
+//$current_level = LGLVL_DEBUG;
 
 function log_level() {
     global $current_level;
@@ -145,9 +146,10 @@ function dump($obj) {
 
 /*
 Get the OS Version from the User Agent string.
-OVer the years QS has used 3 User Agent forms:
+FORMATTING FOR USER AGENT STRINGS:
 * The standard CFNetwork User Agent
 * An old one of the form 'Quicksilver/4008 OSX/10.9.0 (x86)'
+* Quicksilver/4026 (Macintosh; Intel Mac OS X 10_16_0; en-us)
 * The current format (Nov 2013) of Quicksilver/4008 (Macintosh; Intel macOS 10_9_0; cy-gb) (like Safari)
 
 This function sniffs the $_SERVER user agent string testing these 3 types and returning a suitable OS
@@ -160,8 +162,12 @@ function osVersionFromUserAgent($user_agent) {
         $os_version = $version_parts[1][0] . str_pad ($version_parts[2][0] , 2, "0", STR_PAD_LEFT)
             . str_pad ($version_parts[3][0], 2, "0", STR_PAD_LEFT);
         debug("macOS Version, old user agent: " . $os_version);
-    } else if (preg_match_all("/.*macOS (\d{1,})_(\d{1,})_(\d{1,}).*/", $_SERVER['HTTP_USER_AGENT'], $version_parts)) {
+    } else if (preg_match_all("/.*macOS (\d{1,})_(\d{1,})_(\d{1,}).*/", $user_agent, $version_parts)) {
         // New User Agent format (reflects Safari UA). See GH#1699
+        $os_version = $version_parts[1][0] . str_pad ($version_parts[2][0] , 2, "0", STR_PAD_LEFT)  . str_pad ($version_parts[3][0], 2, "0", STR_PAD_LEFT);
+        debug("macOS Version, new user agent string: " . $os_version);
+    } else if (preg_match_all("/.*Mac OS X (\d{1,})_(\d{1,})_(\d{1,}).*/", $user_agent, $version_parts)) {
+        // See GH#2602
         $os_version = $version_parts[1][0] . str_pad ($version_parts[2][0] , 2, "0", STR_PAD_LEFT)  . str_pad ($version_parts[3][0], 2, "0", STR_PAD_LEFT);
         debug("macOS Version, new user agent string: " . $os_version);
     } else if (preg_match_all("/.*Darwin\/(\d{1,}\.\d{1,}(=?\.\d{1,})?).*/", $user_agent, $darwin_version)) {

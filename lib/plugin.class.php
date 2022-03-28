@@ -83,7 +83,7 @@ class Plugin {
       $order_by = "name asc";
     $sub_sql = "SELECT identifier AS id, MAX(version) AS maxversion FROM " . PLUGIN_TABLE . " WHERE $where GROUP BY id";
     $sql = "SELECT identifier, version FROM " . PLUGIN_TABLE . " INNER JOIN ($sub_sql) AS sub ON sub.id = identifier AND maxversion = version ORDER BY $order_by";
-    //debug("Plugin#query: $sql");
+    debug("Plugin#query: $sql");
     $recs = fetch_db($sql);
     if (!$recs)
       return array();
@@ -275,8 +275,10 @@ class Plugin {
   }
 
   function create($options = array()) {
-    debug("Plugin#create: new Plugin => \"$this\": " . dump_str($this->dict));
-    debug("Plugin#create: options: " . dump_str($options));
+    if (log_level() == LGLVL_DEBUG) {
+      debug("Plugin#create: new Plugin => \"$this\": " . dump_str($this->dict));
+      debug("Plugin#create: options: " . dump_str($options));
+    }
 
     $archive_file = $options['archive_file'];
     $info_file = $options['info_file'];

@@ -55,10 +55,10 @@ if ($sids) {
 }
 
 //debug("asOfDate: $asOfDate, version: $version, updated: " . ($updated ? "yes" : "no") . ", full index: " . ($shouldSendFullIndex ? "yes" : "no") . ", sids: $sids");
-//debug("Agent: " . $_SERVER['HTTP_USER_AGENT']);
 
 $os_version = osVersionFromUserAgent($_SERVER['HTTP_USER_AGENT']);
 
+debug("Agent: " . $_SERVER['HTTP_USER_AGENT'] . "*** OS_VERSION:" . $os_version);
 $criteria = array();
 $criteria[PLUGIN_HOST] = QS_ID;
 

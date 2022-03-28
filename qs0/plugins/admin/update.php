@@ -44,10 +44,13 @@ if ($plugin) {
       $level = @$_POST['level'];
       $minHostVersion = @$_POST['minHostVersion'];
       $maxHostVersion = @$_POST['maxHostVersion'];
+      $minSystemVersion = @$_POST['minSystemVersion'];
+      $maxSystemVersion = @$_POST['maxSystemVersion'];
       $secret = @$_POST['is_secret'];
-  
-      debug(__FILE__ . ": updating \"$id\", \"$version\" with " . dump_str($_POST));
-      debug("updating plugin: " . dump_str($plugin));
+      if (log_level() == LGLVL_DEBUG) { 
+        debug(__FILE__ . ": updating \"$id\", \"$version\" with " . dump_str($_POST));
+        debug("updating plugin: " . dump_str($plugin));
+      }
   
       $plugin->name = $name;
       $plugin->description = $desc;
