@@ -5,24 +5,12 @@
 		<meta name="description" content="Donate to the Quicksivler macOS project to help ensure the best Mac productivity application remains free forever." />
 		<meta name="keywords" content="quicksilver, mac, os x, macOS, productivity, application, launcher, itunes, paypal, donate, flattr, open source" />
 		<title>Quicksilver &#151; Donate</title>
-		<script type="text/javascript" src="/js/stumper.js"></script>
-		<script type="text/javascript">
-		/* <![CDATA[ */
-			(function() {
-				var s = document.createElement('script'), t = document.getElementsByTagName('script')[0];
-				s.type = 'text/javascript';
-				s.async = true;
-				s.src = 'http://api.flattr.com/js/0.6/load.js?mode=auto';
-				t.parentNode.insertBefore(s, t);
-			})();
-		/* ]]> */
-		</script>
 		<!-- For the donate button (from Flattr) Please email us as devs [at] qsapp [dot] com if this breaches terms -->
 		<style type="text/css">
 		.donateBtn {
 			top: -6px;
 			position: relative;
-			background-image: url(https://flattr.com/_img/fluff/bg-boxlinks-green.png);
+			background-image: url('/images/bg-boxlinks-green.png');
 			margin:0 0 0 20px;
 			text-decoration:none;
 			border-radius: 3px;
@@ -41,7 +29,7 @@
 			padding: 3px 6px;
 		}
 		.donateBtn:hover {
-			background-image: url(https://flattr.com/_img/fluff/bg-boxlinks.png);
+			background-image: url('images/bg-boxlinks.png');
 			text-decoration:none;
 		}
 		</style>
