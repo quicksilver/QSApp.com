@@ -63,18 +63,15 @@
 								<!-- <input type="hidden" name="image_url" value="http" /> -->
 								<input type="hidden" name="no_shipping" value="1" />
 								<input type="hidden" name="return" value="http://qsapp.com/donate-confirm.php" />
-								<input type="hidden" name="cancel_return" value="http://qsapp.com" />
+								<input type="hidden" name="cancel_return" value="http://qsapp.com/donate-cancel.php" />
 								<input type="hidden" name="currency_code" value="USD">
 								<input type="hidden" name="cpp_header_image" value="https://qsapp.com/images/quicksilver-icon.png">
 								<input type="hidden" name="cn" value="Specify where your donation should go" />
 								<input type="hidden" name="tax" value="0" />
 								<select name="amount" style="width: 65px;">
-									<option value="5.00">$5</option>
 									<option value="10.00">$10</option>
-									<option value="15.00">$15</option>
-									<option value="20.00" selected="selected">$20</option>
-									<option value="25.00">$25</option>
-									<option value="30.00">$30</option>
+									<option value="20.00">$20</option>
+									<option value="30.00" selected="selected">$30</option>
 									<option value="50.00">$50</option>
 									<option value="">Other</option>
 								</select>
