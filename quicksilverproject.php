@@ -76,7 +76,7 @@
 					<li><a href="https://strandeddesign.com">Dan Deming-Henes</a> made this beautiful site, as well as some new icons for Quicksilver.</li>
 					<li>Open Source software would not survive without the support of companies for bandwidth and hosting. <a href="https://github.com">GitHub</a> provides Version Control, whilst <a href="http://www.unitedhosting.co.uk">United Hosting</a> provides bandwidth for this site.</li>
 				</ul>
-				<p>If you'd like to be a part of the project, there are many ways in which you can help: <a href="https://www.transifex.net/projects/p/quicksilver/">Translation</a>, <a href="/wiki/Developer_Information">Coding</a>, <a href="/wiki">Documentation</a>, <a href="https://groups.google.com/g/blacktree-quicksilver">Supporting Users</a> or simply just Spreading the Word.</p>
+				<p>If you'd like to be a part of the project, there are many ways in which you can help: <a href="https://www.transifex.com/projects/p/quicksilver/">Translation</a>, <a href="/wiki/Developer_Information">Coding</a>, <a href="/wiki">Documentation</a>, <a href="https://groups.google.com/g/blacktree-quicksilver">Supporting Users</a> or simply just Spreading the Word.</p>
 			</main>
 			<div id="Page-Bottom"></div>
 			<?php include('template/footer.tpl'); ?>
