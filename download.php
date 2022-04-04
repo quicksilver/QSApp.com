@@ -20,10 +20,10 @@
 
 				<section id="Download">
 					<article class="Download-Option">
-						<img src="images/quicksilver_512.png" width="128" height="128" alt="Download latest release of Quicksilver" /><br />
+						<img src="images/quicksilver-icon-2022.png" width="128" height="128" alt="Download latest release of Quicksilver" /><br />
 						<h2 class="Download-Title">Latest release (macOS 10.14+, macOS 11 &amp; macOS 12)</h2>
 						<div class="Download-Button-Container">
-							<a class="Download-Button" href="https://qs0.qsapp.com/plugins/download.php">Download 2.0</a>
+							<a class="Download-Button" href="https://qs0.qsapp.com/plugins/download.php">Download 2.0.1</a>
 						</div>
 					</article>
 
