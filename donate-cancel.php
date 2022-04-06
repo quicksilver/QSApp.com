@@ -223,7 +223,7 @@
 				<h1>Donation Cancelled</h1>
 				<div class="Page-Break"></div>
 				<h3>Having Problems Donating With PayPal?</h3>
-				<p>If you're having problems donating via PayPal, try sending a direct payment to us using this link. Alternatively, you could try making a one-off donation via Flattr:</p>
+				<p>If you're having problems donating via PayPal, try sending a <a href="https://www.paypal.com/paypalme/quicksilvermac">direct payment to us using this link</a>. Alternatively, you could try making a one-off donation via Flattr:</p>
 				<div style="text-align:center">
 					<p><img src="/images/donate/Flattr.png" style="width:140px" alt="Flattr" /></p>
 					<a class="FlattrButton" style="display:none;" rev="flattr;button:compact;" href="https://flattr.com/profile/QSApp"></a>
