@@ -207,6 +207,22 @@ function collapse_version($version) {
   return $new_ver;
 }
 
+/* Does the opposite of expand version
+Turns 101401 to 10.14.1, or 11.0.0 to 11 */
+function expand_version($version) {
+	$major = substr($version, 0, 2);
+	$minor = substr($version, 2, 2);
+	$bugfix = substr($version, 4, 2);
+	if (intval($bugfix) != 0) {
+			$new_ver = $major . "." . $minor . "." . $bugfix;
+	} else if (intval($minor) != 0) {
+			$new_ver = $major . "." . $minor;
+	} else {
+		$new_ver = $major;
+	}
+	return $new_ver;
+}
+
 /** This function does its best to provide the correct URLs relative
 * to the HTTP server's DocRoot. This allow a transparent use when
 * developing on the local Apache server.
