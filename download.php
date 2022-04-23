@@ -37,7 +37,7 @@ $min_os = expand_version($plugin->minSystemVersion);
 						<img src="images/other.png" width="128" height="128" alt="Other Quicksilver Downloads" /><br />
 						<h2 class="Download-Title">All Downloads</h2>
 						<div class="Download-Button-Container">
-							<a class="Download-Button" href="/archives/">Download Older Versions</a>
+							<a class="Download-Button" href="https://github.com/quicksilver/Quicksilver/releases">Download Older Versions</a>
 						</div>
 					</article>
 
