@@ -94,7 +94,7 @@ echo ' <div class="QSWebSearchContentStart"></div>
                 <a href="qss-http://www.google.'.$tld.'/search?q=***&ie=UTF-8&oe=UTF-8">Google ('.$country.')</a>
             </li>
             <li>
-                <a href="qss-https://mail.google.com/mail/?search=query&amp;view=tl&amp;start=0&amp;init=1&amp;fs=1&amp;q=***">Gmail</a>
+                <a href="qss-https://mail.google.com/mail/#search/***">Gmail</a>
             </li>
             <li>
                 <a href="qss-http://maps.google.'.$tld.'/maps?q=***">Google Maps ('.$country.')</a>
