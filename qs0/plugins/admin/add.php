@@ -195,7 +195,7 @@ if (@$_POST['submit'] == "New") {
       <input type="radio" id="app_level_dev" name="app_level" value="2"><label for="app_level_dev"> Developer</label>
       <br /><br />
       <label for="min_osx_version">Min macOS version (in format: XXYYZZ, e.g. 100700 for 10.7.0)</label>
-      <input id="min_osx_version" name="min_osx_version" type="text" size="6" /><br /><br/>
+      <input id="min_osx_version" name="min_osx_version" type="text" size="6" value="101400" /><br /><br/>
       <label for="mod_date">Update date (leave empty to use archive modification time)</label>
       <input id="mod_date" name="mod_date" type="datetime" size="32"/><br />
 <br />
