@@ -1,4 +1,4 @@
-name: Release
+name: Deploy
 
 on:
   push:
@@ -10,13 +10,11 @@ jobs:
     - uses: actions/checkout@v2
       with:
         submodules: recursive
-    - name: Write SSH key
-      run: 'echo "$SSH_KEY" > key'
-      env:
-        SSH_KEY: ${{secrets.SSH_KEY}}
     - name: Pull changes
       env:
         SERVER: ${{ secrets.SERVER }}
         PORT: ${{ secrets.PORT }}
+        SSH_KEY: ${{secrets.SSH_KEY}}
       run: |
+        echo "$SSH_KEY" > key
         ssh "${SERVER}" -p "${PORT}" -i ./key 'git -C www pull --dry-run -vv'
