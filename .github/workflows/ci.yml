@@ -1,0 +1,11 @@
+name: Check
+
+on:
+  push:
+
+jobs:
+  lint:
+    runs-on: ubuntu-20.04
+    steps:
+    - name: Lint PHP
+      uses: StephaneBour/actions-php-lint@5.6
