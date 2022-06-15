@@ -4,7 +4,7 @@ on:
   push:
 
 jobs:
-  build:
+  deploy:
     runs-on: ubuntu-20.04
     steps:
     - uses: actions/checkout@v2
@@ -16,5 +16,5 @@ jobs:
         PORT: ${{ secrets.PORT }}
         SSH_KEY: ${{secrets.SSH_KEY}}
       run: |
-        echo "$SSH_KEY" > key
-        ssh "${SERVER}" -p "${PORT}" -i ./key 'git -C www pull --dry-run -vv'
+        echo -n "${SSH_KEY}" > key
+        ssh -vvv "${SERVER}" -p "${PORT}" -i ./key 'git -C www pull --dry-run -vv'
