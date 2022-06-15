@@ -16,5 +16,5 @@ jobs:
         PORT: ${{ secrets.PORT }}
         SSH_KEY: ${{secrets.SSH_KEY}}
       run: |
-        echo -n "${SSH_KEY}" > key
-        ssh -vvv "${SERVER}" -p "${PORT}" -i ./key 'git -C www pull --dry-run -vv'
+        echo "${SSH_KEY}" > /tmp/key
+        ssh -vvv "${SERVER}" -p "${PORT}" -i /tmp/key 'git -C www pull --dry-run -vv'
