@@ -5,6 +5,6 @@ shopt -s inherit_errexit
 set -x
 
 main() {
-  git -C ~qs/www pull --dry-run -vv &> out.log
+  git -C ~qs/www pull --dry-run -vv
 }
 main "$@"

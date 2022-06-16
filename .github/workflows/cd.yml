@@ -19,6 +19,4 @@ jobs:
         PORT: ${{ secrets.PORT }}
         SSH_KEY: ${{secrets.SSH_KEY}}
       run: |
-        echo "${SSH_KEY}" > /tmp/key
-        chmod 0600 /tmp/key
-        ssh "${SERVER}" -p "${PORT}" -i /tmp/key -o StrictHostKeyChecking=no 'git -C www pull --dry-run -vv'
+        ssh "${SERVER}" -p "${PORT}" -i /tmp/key -o StrictHostKeyChecking=no
