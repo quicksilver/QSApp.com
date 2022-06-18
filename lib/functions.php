@@ -1,8 +1,8 @@
 <?php
 
+require __DIR__ . '/vendor/autoload.php';
 require_once "autoload.php";
 require_once "plugin.class.php";
-require_once "CFPropertyList/CFPropertyList.php";
 
 define("QS_ID", "com.blacktree.Quicksilver");
 define("DARWIN_OSX", serialize(array("9.0" => 100500,

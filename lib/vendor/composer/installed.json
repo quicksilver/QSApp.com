@@ -1,0 +1,76 @@
+{
+    "packages": [
+        {
+            "name": "rodneyrehm/plist",
+            "version": "v2.0.2",
+            "version_normalized": "2.0.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/TECLIB/CFPropertyList.git",
+                "reference": "d904cd36c1f72716ce2d4efd98ebaf0a57dc7306"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/TECLIB/CFPropertyList/zipball/d904cd36c1f72716ce2d4efd98ebaf0a57dc7306",
+                "reference": "d904cd36c1f72716ce2d4efd98ebaf0a57dc7306",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^5.0 || ^6.0 ||^7.0 ||^8.5",
+                "squizlabs/php_codesniffer": "^3.2"
+            },
+            "time": "2020-08-13T10:08:39+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "CFPropertyList\\": "src/CFPropertyList/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Kruse",
+                    "email": "cjk@wwwtech.de",
+                    "role": "developer"
+                },
+                {
+                    "name": "Rodney Rehm",
+                    "email": "mail+github@rodneyrehm.de",
+                    "role": "developer"
+                },
+                {
+                    "name": "Thierry Bugier",
+                    "email": "tbugier@teclib.com",
+                    "role": "developer"
+                }
+            ],
+            "description": "Library for reading and writing Apple's CFPropertyList (plist) files in XML as well as binary format.",
+            "homepage": "https://github.com/TECLIB/CFPropertyList",
+            "keywords": [
+                "CFPropertyList",
+                "Core Foundation",
+                "apple",
+                "binary",
+                "plist",
+                "xml"
+            ],
+            "support": {
+                "docs": "http://teclib.github.io/CFPropertyList/howtos/",
+                "email": "contact@teclib.com",
+                "issues": "https://github.com/TECLIB/CFPropertyList/issues",
+                "rss": "https://teclib.github.io/CFPropertyList/feed.xml",
+                "source": "https://github.com/TECLIB/CFPropertyList"
+            },
+            "install-path": "../rodneyrehm/plist"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}
