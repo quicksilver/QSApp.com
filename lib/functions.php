@@ -29,13 +29,13 @@ function connect_db() {
     if (!$db) {
         include('mysql.php');
 
-        $db = mysql_connect ($host, $user, $pwd);
+        $db = mysqli_connect ($host, $user, $pwd);
         if (!$db) {
             error('Could not connect');
             return false;
         }
 
-        if (!mysql_select_db($database, $db)) {
+        if (!mysqli_select_db($database, $db)) {
             error('Could not select');
             return false;
         }
@@ -44,7 +44,7 @@ function connect_db() {
 }
 
 function close_db() {
-    return mysql_close(connect_db());
+    return mysqli_close(connect_db());
 }
 
 function quote_db($obj) {
@@ -56,7 +56,7 @@ function quote_db($obj) {
         if ($obj == "")
             return "\"\"";
         connect_db();
-        return '"' . mysql_real_escape_string($obj) . '"';
+        return '"' . mysqli_real_escape_string($obj) . '"';
     } else if (is_bool($obj)) {
         return $obj ? 1 : 0;
     } else {
@@ -67,9 +67,9 @@ function quote_db($obj) {
 function query_db($query) {
     connect_db();
 
-    $res = mysql_query($query);
+    $res = mysqli_query($query);
     if (!$res) {
-        error('Could not execute: ' . mysql_error());
+        error('Could not execute: ' . mysqli_error());
         return null;
     }
     return $res;
@@ -81,10 +81,10 @@ function fetch_db($query) {
         return null;
 
     $recs = array();
-    while($rec = mysql_fetch_assoc($res)) {
+    while($rec = mysqli_fetch_assoc($res)) {
         $recs[] = $rec;
     }
-    mysql_free_result($res);
+    mysqli_free_result($res);
     return $recs;
 }
 
@@ -366,7 +366,7 @@ function outputPlugins()
     $result = query_db("SELECT * FROM plugins ORDER BY $ordervar $asc_desc");
     $now = time();
     $i = 0;
-    while($row = mysql_fetch_array($result))
+    while($row = mysqli_fetch_array($result))
     {
         $moddate_unix = strtotime($row['moddate']);
         $odd = $i % 2 == 1;

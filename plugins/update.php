@@ -39,7 +39,7 @@ class Plugins {
 		$list = $this->getPluginsList();
 
 		// Delete anything lingering in the database
-		mysql_query("TRUNCATE TABLE plugins");
+		mysqli_query("TRUNCATE TABLE plugins");
 
 		foreach (array_slice($list,0,999) as $fileNames) {
 			$this->parseFilename($fileNames);
@@ -66,9 +66,9 @@ class Plugins {
 		$mod = str_replace("_", "-", $mod);	
 
 		$sql = "INSERT INTO plugins (image, name, version, moddate, fullpath) VALUES ('$image', '$plugin_name', '$vers', '$mod', '$fileNames' ) ";
-		if (!mysql_query($sql))
+		if (!mysqli_query($sql))
 		{
-			die('Error: ' . mysql_error());
+			die('Error: ' . mysqli_error());
 		}
 
 	}
