@@ -19,4 +19,4 @@ jobs:
         PORT: ${{ secrets.PORT }}
         SSH_KEY: ${{secrets.SSH_KEY}}
       run: |
-        ssh "${SERVER}" -p "${PORT}" -i /tmp/key -o StrictHostKeyChecking=no
+        ssh "${SERVER}" -p "${PORT}" -i /tmp/key -o StrictHostKeyChecking=no "${GITHUB_REPOSITORY}"
