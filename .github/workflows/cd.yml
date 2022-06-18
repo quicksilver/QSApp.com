@@ -4,7 +4,6 @@ on:
   push:
     branches:
       - main
-      - autodeploy
 
 jobs:
   deploy:
@@ -21,4 +20,5 @@ jobs:
       run: |
         echo "${SSH_KEY}" > /tmp/key
         chmod 0600 /tmp/key
+
         ssh "${SERVER}" -p "${PORT}" -i /tmp/key -o StrictHostKeyChecking=no "${GITHUB_REPOSITORY}"
