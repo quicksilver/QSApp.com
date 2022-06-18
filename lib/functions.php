@@ -35,7 +35,7 @@ function connect_db() {
             return false;
         }
 
-        if (!mysqli_select_db($database, $db)) {
+        if (!mysqli_select_db($db, $database)) {
             error('Could not select');
             return false;
         }
@@ -55,8 +55,8 @@ function quote_db($obj) {
             return $obj;
         if ($obj == "")
             return "\"\"";
-        connect_db();
-        return '"' . mysqli_real_escape_string($obj) . '"';
+        $db = connect_db();
+        return '"' . mysqli_real_escape_string($db, $obj) . '"';
     } else if (is_bool($obj)) {
         return $obj ? 1 : 0;
     } else {
@@ -65,11 +65,11 @@ function quote_db($obj) {
 }
 
 function query_db($query) {
-    connect_db();
+    $db = connect_db();
 
-    $res = mysqli_query($query);
+    $res = mysqli_query($db, $query);
     if (!$res) {
-        error('Could not execute: ' . mysqli_error());
+        error('Could not execute: ' . $db->error);
         return null;
     }
     return $res;
@@ -358,7 +358,7 @@ function int_to_hexstring($int) {
 function outputPlugins()
 {
 
-    connect_db();
+    $db = connect_db();
 
     $ordervar = @$_GET["order"] ? quote_db(@$_GET["order"]) : "moddate";
     $asc_desc = @$_GET["sort"] ? quote_db(@$_GET["sort"]) : "DESC";
@@ -366,7 +366,7 @@ function outputPlugins()
     $result = query_db("SELECT * FROM plugins ORDER BY $ordervar $asc_desc");
     $now = time();
     $i = 0;
-    while($row = mysqli_fetch_array($result))
+    while($row = mysqli_fetch_array($db, $result))
     {
         $moddate_unix = strtotime($row['moddate']);
         $odd = $i % 2 == 1;
