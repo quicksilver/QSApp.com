@@ -31,13 +31,10 @@ include('lib/functions.php');
 			<main id="Page">
 				<h1>Plugin Repository</h1>
 				<div id="Page-Break"></div>
-				<p>Plugins allow you to extend Quicksilver's functions, allowing interaction with your installed applications, new interfaces, access to web content, and more.<br />To learn more about a plugin, see the plugin's Documentation from within the Quicksilver <a href="qs://preferences/#QSPlugInsPrefPane">plugins preferences</a> (select a plugin and press ⌘⌥? or select the 'i' icon).</p>
+				<p>Super-charge Quicksilver with the addition of plugins. Edit images, interact with apps like Chrome, Mail, Microsoft Word and more, or change the look and feel of Quicksilver with a new interface.<br />To learn more about what each plugin can do, see the 'Plugins' section of the <a href="https://qsapp.com/manual/">Quicksilver Manual</a></p>
 
-				<p style="text-align:center"><span style="font-size:110%"><strong>It is <em>strongly</em> recommended you install plugins from within <a href="qs://preferences/#QSPlugInsPrefPane">Quicksilver's preferences</a>.</strong></span></p>
 
-				<p>	Quicksilver will only show versions of plugins that are known to work for its version, which is not the case for this page.</p>
-
-				<div style="text-align: center; font-size:12px;">Sort through the plugins by either <b>name</b> or <b>updated date</b>.<br/>Click the <img src="images/Button-Add.png" alt="Plugin Changelog" /> button to see the changes for each plugin update.</div>
+				<div style="text-align: center; font-size:12px;">Recent plugin updates and changes.<br/>Click the <img src="images/Button-Add.png" alt="Plugin Changelog" /> button to see the changes for each plugin update.</div>
 
 				<section id="plugins">
 					<?php
@@ -69,7 +66,7 @@ include('lib/functions.php');
 							<tr>
 								<td class="box name <?= $odd ?>">
 									<img src="<?= $image_url ?>" alt="plugin icon" />
-									<a href="<?= $plugin_url ?>"><?= $plugin->name ?></a>
+									<?= $plugin->name ?>
 									<?php if ($plugin->author) { ?><span class="author <?= $odd ?>">by <?= $plugin->author ?></span><?php } ?>
 								</td>
 								<td class="box version <?= $odd ?>">
