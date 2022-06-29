@@ -1,0 +1,14 @@
+name: Check
+
+on:
+  push:
+
+jobs:
+  lint:
+    runs-on: ubuntu-22.04
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        submodules: recursive
+    - name: Lint PHP
+      uses: StephaneBour/actions-php-lint@5.6
