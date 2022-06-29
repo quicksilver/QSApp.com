@@ -3,7 +3,7 @@ body {
   margin: 35px auto 20px auto;
   font-size: 9pt;
   background-color: #696969;
-  font-family: "baskerville", "georgia", "lucida grande";
+  font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
   color: #353535;
 }
 
@@ -102,7 +102,6 @@ a:hover {
 #plugins {
   font-weight: bold;
   width: 500px;
-  font-family: "lucida grande";
   text-align: left;
 }
 
