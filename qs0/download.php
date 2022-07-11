@@ -24,7 +24,7 @@ header( 'Location: https://qs0.qsapp.com/plugins/download.php');
 	
 	// Stick version info in the database. It can be viewed with PHPmyAdmin.
 	// *** TO DO: Make a pretty interface/graphs for seeing this
-		mysql_query("INSERT INTO download (Version, Download_Count) VALUES ('$version', 1) ON duplicate key UPDATE Download_Count = Download_Count+1");
+		mysqli_query("INSERT INTO download (Version, Download_Count) VALUES ('$version', 1) ON duplicate key UPDATE Download_Count = Download_Count+1");
 	
 	close_db();
 

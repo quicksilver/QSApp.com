@@ -5,7 +5,7 @@
 	connect_db();
 	$latest  = "B60";
 	
-		mysql_query("INSERT INTO download (Version, Download_Count) VALUES ('$latest', 1) ON duplicate key UPDATE Download_Count = Download_Count+1");
+		mysqli_query("INSERT INTO download (Version, Download_Count) VALUES ('$latest', 1) ON duplicate key UPDATE Download_Count = Download_Count+1");
 	
 	close_db();
 
