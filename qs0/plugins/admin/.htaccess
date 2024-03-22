@@ -1,0 +1,8 @@
+<Files .*>
+  Require all denied
+</Files>
+
+AuthUserFile /home/qs/qs0-htpasswd/.htpasswd
+AuthName "QS Admin"
+AuthType Basic
+Require valid-user

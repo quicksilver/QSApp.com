@@ -119,6 +119,8 @@ if (@$_POST['submit'] == "New") {
       $desc = $plugin_info->get('description');
       if ($desc)
         $record[PLUGIN_DESCRIPTION] = $desc->getValue();
+    } else {
+	$record[PLUGIN_DESCRIPTION] = "";
     }
   
     debug("Plugin record generated: " . dump_str($record));

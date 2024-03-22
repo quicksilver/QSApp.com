@@ -3,6 +3,10 @@
 include("../../lib/functions.php");
 include("../../lib/google.php");
 
+use CFPropertyList\CFString;
+use CFPropertyList\CFTypeDetector;
+use CFPropertyList\CFPropertyList;
+
 /*
 * URL: plugininfo.php?asOfDate=date&updateVersion=updateVersion&qsversion=qsversion&sids=ids
 * asOfDate is the date of the last fetched date
@@ -102,7 +106,7 @@ foreach ($query as $plugin) {
   $plugin_structure['QSModifiedDate'] = $plugin_array[PLUGIN_MOD_DATE]->format("Y-m-d h:m:s O"); // 2005-04-27 12:05:01 -0800
 
   /* Fetch Info.plist parts */
-  $info_plist = $plugin->plugin_file("qsinfo");
+  $info_plist = web_root($plugin->plugin_file("qsinfo"));
   if ($info_plist) {
     $info_struct = null;
     try {

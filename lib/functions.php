@@ -1,6 +1,7 @@
 <?php
 
 require __DIR__ . '/vendor/autoload.php';
+require_once "CFPropertyList/CFPropertyList.php";
 require_once "autoload.php";
 require_once "plugin.class.php";
 
@@ -231,6 +232,10 @@ function expand_version($version) {
 * web_root("images/my_image.png") => "/mysite/images/my_image.png"
 */
 function web_root($file, $__file__ = null) {
+    if (strpos($file, "/home/qs/") === 0) {
+	return $file;
+    }
+    return "/home/qs/apps/qs0" . $file;
     if ($file == null)
         return $file;
 

@@ -182,7 +182,7 @@ class Plugin {
 // warning. this could break!
   function plugin_file($ext = "qspkg", $glob = true) {
     $file_name = $this->file_name($ext, true);
-    return "/data/qsapp.com/qs0/plugins/files/".$file_name;
+    return "/plugins/files/".$file_name;
   }
 
   function application_url($ext = "dmg") {
@@ -213,7 +213,7 @@ class Plugin {
   }
 
   function plist_file($glob = true) {
-    return $this->plugin_file("qsinfo", $glob);
+    return web_root($this->plugin_file("qsinfo", $glob), __FILE__);
   }
 
   function image_url() {
@@ -221,7 +221,7 @@ class Plugin {
   }
 
   function plugin_url($ext = "qspkg") {
-    return web_root($this->plugin_file($ext), __FILE__);
+    return $this->plugin_file($ext);
   }
 
   function plist_url() {
@@ -314,7 +314,12 @@ class Plugin {
 
 /*     debug(__FILE__ . ": Plugin#create: \"$this\" => moving files: \"$plugin_path\", \"$info_plist_path\", \"$image_path\""); */
 
-    if (!move_uploaded_file($archive_file, $plugin_path)) {
+    $result = move_uploaded_file($archive_file, $plugin_path);
+    if (!$result) {
+	/* hack - the link sometimes doesn't work. Yuck" */
+	$result = move_uploaded_file($archive_file, "/home/qs/qsapp.com/qs0".$plugin_path);
+   }
+    if (!$result) {
       error("Can't move \"$archive_file\" to \"$plugin_path\"");
       $this->delete();
       return false; 
