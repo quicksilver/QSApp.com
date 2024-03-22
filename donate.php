@@ -5,34 +5,6 @@
 		<meta name="description" content="Donate to the Quicksivler macOS project to help ensure the best Mac productivity application remains free forever." />
 		<meta name="keywords" content="quicksilver, mac, os x, macOS, productivity, application, launcher, itunes, paypal, donate, flattr, open source" />
 		<title>Quicksilver &#151; Donate</title>
-		<!-- For the donate button (from Flattr) Please email us as devs [at] qsapp [dot] com if this breaches terms -->
-		<style type="text/css">
-		.donateBtn {
-			top: -6px;
-			position: relative;
-			background-image: url('/images/bg-boxlinks-green.png');
-			margin:0 0 0 20px;
-			text-decoration:none;
-			border-radius: 3px;
-			border: none;
-			-moz-border-radius: 3px;
-			-webkit-border-radius: 3px;
-			text-align: center;
-			display: inline;
-			height: 15px;
-			line-height: 14px;
-			width: 50px;
-			color: #fff;
-			text-shadow: #666 0px 1px 1px;
-			font-size: 12px;
-			font-weight: bold;
-			padding: 3px 6px;
-		}
-		.donateBtn:hover {
-			background-image: url('images/bg-boxlinks.png');
-			text-decoration:none;
-		}
-		</style>
 		<?php include('template/head.tpl'); ?>
 	</head>
 	<body>
@@ -52,7 +24,7 @@
 				stumpIt("donate","","send us an email");
 				// ]]&gt;</script> stating <em>where</em> you would like your donation to go.</p>
 				<div class="clear"></div>
-				<div style="margin:30px 0 30px 0;width:50%;float:left">
+				<div style="margin:30px aut 30px auto;width:50%;max-width:300px;">
 					<div style="margin: auto; text-align: center">
 						<img src="/images/donate/PayPal_Logo.png" style="width:140px" alt="PayPal" /> 
 						<form action="https://www.paypal.com/cgi-bin/webscr" method="post">
@@ -78,18 +50,6 @@
 								<input type="submit" name="submit" value="Donate" style="margin-left: 5px; margin-top: 8px; width: 115px;" />
 							</div>
 						</form>
-					</div>
-				</div>
-				<div style="margin:16px 0 30px 0;float:right;width:50%">
-					<div style="text-align:center">
-						<p><img src="/images/donate/Flattr.png" style="width:140px" alt="Flattr" /></p>
-						<a class="FlattrButton" style="display:none;" rev="flattr;button:compact;" href="https://flattr.com/profile/QSApp"></a>
-						<noscript>
-							<a href="https://flattr.com/thing/314033/Quicksilver-Mac-App" target="_blank" rel="noopener noreferrer">
-								<img src="http://api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" />
-							</a>
-						</noscript>
-						<a href="https://flattr.com/profile/qsapp" class="donateBtn">Donate</a>
 					</div>
 				</div>
 				<div class="clear"></div>
