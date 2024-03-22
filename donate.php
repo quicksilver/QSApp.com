@@ -56,8 +56,8 @@
 				<h3>Other ways to Help</h3>
 				<p>Other than financial donations, the Quicksilver project requires help with the following projects and tasks:</p>
 				<ul>
-					<li>Translating Quicksilver into your local language. Join the <a href="https://www.transifex.com/projects/p/quicksilver/">Quicksilver Transifex project</a> to get started translating.</li>
-					<li>Help improve Quicksilver's documentation. Add information to the <a href="/wiki">Quicksilver Wiki</a>, create YouTube screencasts and videos, or <a href="https://github.com/quicksilver/Quicksilver/issues">submit an issue on Github</a> outlining areas we can improve Quicksilver documentation.</li>
+					<li>Translating Quicksilver into your local language. Join the <a href="https://explore.transifex.com/quicksilver/quicksilver/">Quicksilver Transifex project</a> to get started translating.</li>
+					<li>Help improve Quicksilver's documentation. Add information to the <a href="https://docs.qsapp.com/documentation/readme">Quicksilver Wiki</a>, create YouTube screencasts and videos, or <a href="https://github.com/quicksilver/Quicksilver/issues">submit an issue on Github</a> outlining areas we can improve Quicksilver documentation.</li>
 					<li>Website upkeep. Website design work, and content creation and updating. Submit a post titled 'Website Volunteering' to the <a href="https://groups.google.com/g/quicksilver---development">Quicksilver Developer Community</a> to get started.</li>
 					<li>App UI improvements. Provide new icons or mockups of areas to improve Quicksilver's UI. Submit a post titled 'Quicksilver UI' to the <a href="https://groups.google.com/g/quicksilver---development">Quicksilver Developer Community</a> to get started.</li>
 					<li>Spread the word about Quicksilver using social media. Share how you use Quicksilver on social media, using the tag #quicksilverapp</li>
