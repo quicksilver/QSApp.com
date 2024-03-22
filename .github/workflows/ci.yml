@@ -11,4 +11,4 @@ jobs:
       with:
         submodules: recursive
     - name: Lint PHP
-      uses: StephaneBour/actions-php-lint@5.6
+      uses: StephaneBour/actions-php-lint@7.4
