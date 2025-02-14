@@ -32,7 +32,7 @@
 					</div>
 					<div class="Support-Description">
 						<h3>Quicksilver Wiki</h3>
-						<p>See the <a href="/wiki">Quicksilver Wiki</a> for information on Plugins, AppleScript Actions, Interfaces and more. Or help add to the knowledgebase by contributing to the Wiki.</p>
+						<p>See the <a href="https://docs.qsapp.com/documentation/main_page">Quicksilver Wiki</a> for information on Plugins, AppleScript Actions, Interfaces and more. Or help add to the knowledgebase by contributing to the Wiki.</p>
 					</div>
 				</div>
 				<div class="Support-Item">
@@ -41,7 +41,7 @@
 					</div>
 					<div class="Support-Description">
 						<h3>FAQ</h3>
-						<p>See the <a href="http://qsapp.com/wiki/FAQ">FAQ Page</a> in the Quicksilver Wiki for a list of Frequently Asked Questions.</p>
+						<p>See the <a href="https://docs.qsapp.com/documentation/faq">FAQ Page</a> in the Quicksilver Wiki for a list of Frequently Asked Questions.</p>
 					</div>
 				</div>
 				<div class="Support-Item">
