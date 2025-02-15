@@ -250,6 +250,9 @@ echo '
             <li>
                 <a href="qss-http://64.233.167.104/search?q=cache:***">View URL in Google Cache</a>
             </li>
+            <li>
+                <a href="qss-https://chat.openai.com/?model=gpt-4&q=***">ChatGPT New Chat</a>
+            </li>
         </ul>
         <div class="QSWebSearchContentEnd"></div>';
 
