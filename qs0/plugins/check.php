@@ -63,5 +63,18 @@ if ($os_version) {
 $plugin = Plugin::get(PLUGIN_IDENTIFIER, $id, $criteria);
 if (!$plugin)
   http_error(500, "Plugin id \"$id\" not found");
-echo int_to_hexstring($plugin->version);
+
+// return json for newer versions of QS, backwards compatible with older versions
+if (@$_GET['json'] == 1) {
+  header("Content-Type: application/json");
+  echo json_encode(array(
+    'version' => $plugin->displayVersion,
+    'current' => $current,
+    'latest' => $plugin->version,
+    'update' => ($plugin->version > $current)
+  ));
+} else {
+  header("Content-Type: text/plain");
+  echo int_to_hexstring($plugin->version);
+}
 ?>
