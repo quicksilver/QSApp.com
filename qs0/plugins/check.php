@@ -70,7 +70,7 @@ if (@$_GET['json'] == 1) {
   echo json_encode(array(
     'latestDisplay' => $plugin->displayVersion,
     'latest' => int_to_hexstring($plugin->version),
-    'current' => int_to_hexstring($plugin->version),
+    'current' => int_to_hexstring($current),
   ));
 } else {
   header("Content-Type: text/plain");
