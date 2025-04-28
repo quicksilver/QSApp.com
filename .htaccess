@@ -6,6 +6,9 @@ RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
 RewriteRule ^manual$ /manual/ [R=301,L]
 RedirectMatch 301 /plugins/?$ /plugins.php
 
+# Redirect changelog.php to GitHub releases page
+RedirectMatch 301 ^/changelog\.php$ https://github.com/quicksilver/Quicksilver/releases/
+
 ErrorDocument 404 /404.php
 
 ExpiresActive ON
