@@ -68,10 +68,9 @@ if (!$plugin)
 if (@$_GET['json'] == 1) {
   header("Content-Type: application/json");
   echo json_encode(array(
-    'version' => $plugin->displayVersion,
-    'current' => $current,
-    'latest' => $plugin->version,
-    'update' => ($plugin->version > $current)
+    'latestDisplay' => $plugin->displayVersion,
+    'latest' => int_to_hexstring($plugin->version),
+    'current' => int_to_hexstring($plugin->version),
   ));
 } else {
   header("Content-Type: text/plain");
