@@ -50,22 +50,24 @@ class Plugin {
             $where[$criteria] = "secret = 1";
           break;
         case PLUGIN_LEVEL:
-          $where[$criteria] = "level <= $value";
+          $where[$criteria] = "level <= " . intval($value);
           break;
         case PLUGIN_HOST_VERSION:
-          $where[$criteria]= "(minHostVersion <= \"$value\" OR ISNULL(minHostVersion)) AND (maxHostVersion >= \"$value\" OR ISNULL(maxHostVersion))";
+          $value = intval($value);
+          $where[$criteria]= "(minHostVersion <= $value OR ISNULL(minHostVersion)) AND (maxHostVersion >= $value OR ISNULL(maxHostVersion))";
           break;
         case PLUGIN_SYSTEM_VERSION:
-          $where[$criteria]= "(minSystemVersion <= \"$value\" OR ISNULL(minSystemVersion)) AND (maxSystemVersion > \"$value\" OR ISNULL(maxSystemVersion))";
+          $value = intval($value);
+          $where[$criteria]= "(minSystemVersion <= $value OR ISNULL(minSystemVersion)) AND (maxSystemVersion > $value OR ISNULL(maxSystemVersion))";
           break;
         case PLUGIN_MOD_DATE:
-          $where[$criteria]= "(modDate > \"$value\" OR ISNULL(modDate))";
+          $where[$criteria]= "(modDate > " . quote_db($value) . " OR ISNULL(modDate))";
           break;
         case PLUGIN_ID:
-          $where[$criteria] = "$criteria = $value";
+          $where[$criteria] = "$criteria = " . intval($value);
           break;
         default:
-          $where[$criteria] = "$criteria = \"$value\"";
+          $where[$criteria] = "$criteria = " . quote_db($value);
           break;
       }
     }
