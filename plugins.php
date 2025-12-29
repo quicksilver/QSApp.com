@@ -38,8 +38,14 @@ include('lib/functions.php');
 
 				<section id="plugins">
 					<?php
-					$order = @$_GET["order"] ? @$_GET["order"] : "moddate";
-					$sort = @$_GET["sort"] ? @$_GET["sort"] : "DESC";
+					// Whitelist allowed columns and sort orders to prevent SQL injection
+					$allowed_columns = ['moddate', 'name', 'version'];
+					$allowed_sorts = ['ASC', 'DESC'];
+
+					$order = (isset($_GET["order"]) && in_array($_GET["order"], $allowed_columns))
+					    ? $_GET["order"] : "moddate";
+					$sort = (isset($_GET["sort"]) && in_array($_GET["sort"], $allowed_sorts))
+					    ? $_GET["sort"] : "DESC";
 					?>
 					<table> 
 						<tbody>
@@ -65,17 +71,17 @@ include('lib/functions.php');
 							?>
 							<tr>
 								<td class="box name <?= $odd ?>">
-									<img src="<?= $image_url ?>" alt="plugin icon" />
-									<?= $plugin->name ?>
-									<?php if ($plugin->author) { ?><span class="author <?= $odd ?>">by <?= $plugin->author ?></span><?php } ?>
+									<img src="<?= htmlspecialchars($image_url, ENT_QUOTES, 'UTF-8') ?>" alt="plugin icon" />
+									<?= htmlspecialchars($plugin->name, ENT_QUOTES, 'UTF-8') ?>
+									<?php if ($plugin->author) { ?><span class="author <?= $odd ?>">by <?= htmlspecialchars($plugin->author, ENT_QUOTES, 'UTF-8') ?></span><?php } ?>
 								</td>
 								<td class="box version <?= $odd ?>">
 									<?php if ($now - $moddate_unix <= 20 * 24 * 60 * 60) { ?><sup><span class="new">new!</span></sup><?php } ?>
-									<?= $plugin->displayVersion ? $plugin->displayVersion : int_to_hexstring($plugin->version) ?>
+									<?= $plugin->displayVersion ? htmlspecialchars($plugin->displayVersion, ENT_QUOTES, 'UTF-8') : int_to_hexstring($plugin->version) ?>
 								</td>
 								<td class="box updated <?= $odd ?>"><?= strftime("%Y-%m-%d", $moddate_unix) ?></div>
 								<?php if ($plugin->description) { ?>
-									<td class="box description <?= $odd ?>"><?= $plugin->description ?><span class="pluginChangelog"><img src="images/Button-Add.png" alt="Plugin Changelog" /></span><span class="changelogText">Changes:<br /><?= $plugin->changes ?></span>
+									<td class="box description <?= $odd ?>"><?= htmlspecialchars($plugin->description, ENT_QUOTES, 'UTF-8') ?><span class="pluginChangelog"><img src="images/Button-Add.png" alt="Plugin Changelog" /></span><span class="changelogText">Changes:<br /><?= htmlspecialchars($plugin->changes, ENT_QUOTES, 'UTF-8') ?></span>
 								</td>
 							</tr>
 							<?php } ?>

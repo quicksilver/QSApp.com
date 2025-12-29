@@ -22,7 +22,56 @@ define("DARWIN_OSX", serialize(array("9.0" => 100500,
 "14.0.0" => 101000,
 "14.1.0" => 101000,
 "14.3.0" => 101000,
-"15.0.0" => 101100
+"15.0.0" => 101100,
+"15.6.0" => 101106,
+"16.0.0" => 101200,
+"16.5.0" => 101204,
+"16.6.0" => 101206,
+"16.7.0" => 101206,
+"17.0.0" => 101300,
+"17.5.0" => 101304,
+"17.6.0" => 101305,
+"17.7.0" => 101306,
+"18.0.0" => 101400,
+"18.2.0" => 101401,
+"19.0.0" => 101500,
+"19.2.0" => 101502,
+"19.3.0" => 101503,
+"19.4.0" => 101504,
+"19.5.0" => 101505,
+"19.6.0" => 101506,
+"20.0.0" => 110000,
+"20.1.0" => 110000,
+"20.2.0" => 110100,
+"20.3.0" => 110200,
+"20.4.0" => 110300,
+"20.5.0" => 110400,
+"20.6.0" => 110500,
+"21.0.0" => 120000,
+"21.0.1" => 120000,
+"21.1.0" => 120001,
+"21.2.0" => 120100,
+"21.3.0" => 120200,
+"21.4.0" => 120300,
+"21.5.0" => 120400,
+"21.6.0" => 120500,
+"22.0.0" => 130000,
+"22.1.0" => 130000,
+"22.2.0" => 130100,
+"22.3.0" => 130200,
+"22.4.0" => 130300,
+"22.5.0" => 130400,
+"22.6.0" => 130500,
+"23.0.0" => 140000,
+"23.1.0" => 140100,
+"23.2.0" => 140200,
+"23.3.0" => 140300,
+"23.4.0" => 140400,
+"23.5.0" => 140500,
+"24.0.0" => 150000,
+"25.0.0" => 160000,
+"25.1.0" => 160100,
+"25.2.0" => 160200
 )));
 /** DB */
 function connect_db() {
@@ -67,10 +116,14 @@ function quote_db($obj) {
 
 function query_db($query) {
     $db = connect_db();
+    if (!$db) {
+        error('Database connection failed');
+        return null;
+    }
 
     $res = mysqli_query($db, $query);
     if (!$res) {
-        error('Could not execute: ' . $db->error);
+        error('Could not execute: ' . mysqli_error($db));
         return null;
     }
     return $res;
@@ -185,8 +238,16 @@ function osVersionFromUserAgent($user_agent) {
                     $darwin_version = $parts[0] . "." . $parts[1] . ".0";
                 }
             } else if (sizeof($parts) == 2) {
-                $dar = $darwin_version . ".0";
+                $darwin_version = $darwin_version . ".0";
             }
+            // Check again after normalization
+            if (array_key_exists($darwin_version, $darwin_osx)) {
+                $os_version = $darwin_osx[$darwin_version];
+            } else {
+                error("Unknown Darwin version: $darwin_version - please update DARWIN_OSX array");
+                $os_version = null;
+            }
+        } else {
             $os_version = $darwin_osx[$darwin_version];
         }
         debug("Darwin version: ". $darwin_version . "\nmacOS version: " . $os_version);
@@ -365,8 +426,14 @@ function outputPlugins()
 
     $db = connect_db();
 
-    $ordervar = @$_GET["order"] ? quote_db(@$_GET["order"]) : "moddate";
-    $asc_desc = @$_GET["sort"] ? quote_db(@$_GET["sort"]) : "DESC";
+    // Whitelist allowed columns and sort orders to prevent SQL injection
+    $allowed_columns = ['moddate', 'name', 'version'];
+    $allowed_sorts = ['ASC', 'DESC'];
+
+    $ordervar = (isset($_GET["order"]) && in_array($_GET["order"], $allowed_columns))
+        ? $_GET["order"] : "moddate";
+    $asc_desc = (isset($_GET["sort"]) && in_array($_GET["sort"], $allowed_sorts))
+        ? $_GET["sort"] : "DESC";
 
     $result = query_db("SELECT * FROM plugins ORDER BY $ordervar $asc_desc");
     $now = time();
