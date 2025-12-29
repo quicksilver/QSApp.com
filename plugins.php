@@ -81,7 +81,7 @@ include('lib/functions.php');
 								</td>
 								<td class="box updated <?= $odd ?>"><?= strftime("%Y-%m-%d", $moddate_unix) ?></div>
 								<?php if ($plugin->description) { ?>
-									<td class="box description <?= $odd ?>"><?= htmlspecialchars($plugin->description, ENT_QUOTES, 'UTF-8') ?><span class="pluginChangelog"><img src="images/Button-Add.png" alt="Plugin Changelog" /></span><span class="changelogText">Changes:<br /><?= htmlspecialchars($plugin->changes, ENT_QUOTES, 'UTF-8') ?></span>
+									<td class="box description <?= $odd ?>"><?= $plugin->description ?><span class="pluginChangelog"><img src="images/Button-Add.png" alt="Plugin Changelog" /></span><span class="changelogText">Changes:<br /><?= $plugin->changes ?></span>
 								</td>
 							</tr>
 							<?php } ?>
