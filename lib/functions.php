@@ -293,12 +293,14 @@ function expand_version($version) {
 * web_root("images/my_image.png") => "/mysite/images/my_image.png"
 */
 function web_root($file, $__file__ = null) {
+    // Return null if file is null/empty to prevent exposing server paths
+    if ($file == null || $file == "")
+        return null;
+
     if (strpos($file, "/home/qs/") === 0) {
 	return $file;
     }
     return "/home/qs/apps/qs0" . $file;
-    if ($file == null)
-        return $file;
 
     if ($__file__ == null)
         $__file__ = $_SERVER['PHP_SELF'];

@@ -64,7 +64,8 @@ include('lib/functions.php');
 							$odd = $i % 2 == 1 ? 'odd' : '';
 
 							$image_url = $plugin->image_url();
-							if (!$image_url)
+							// Check if image_url is empty, contains server path, or doesn't exist
+							if (!$image_url || strpos($image_url, "/home/") !== false || !file_exists($_SERVER['DOCUMENT_ROOT'] . $image_url))
 								$image_url = "images/plugins/default.png";
 
 							$plugin_url = "https://qs0.qsapp.com/plugins/download.php?id=" . $plugin->identifier . "&amp;version=" . $plugin->version;
