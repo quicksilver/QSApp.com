@@ -31,15 +31,6 @@ $plugin = null;
 $requestedVersion = null;
 
 if ($version) {
-    // Convert hex version string to integer if needed
-    if (strpos($version, '0x') === 0) {
-        $version = hexdec($version);
-    } else if (!is_numeric($version)) {
-        // Try to interpret as hex without 0x prefix
-        if (ctype_xdigit($version)) {
-            $version = hexdec($version);
-        }
-    }
     $requestedVersion = intval($version);
     $plugin = Plugin::get(PLUGIN_IDENTIFIER, $bundleId, array(PLUGIN_VERSION => $requestedVersion));
 } else {
@@ -53,40 +44,38 @@ if (!$plugin) {
     exit;
 }
 
-// Build list of all versions and find pagination info
+// Build list of all versions sorted by version descending (newest first)
 $versionList = array();
-$currentIndex = -1;
 foreach ($all_versions as $v) {
-    $versionList[] = $v->version;
-    if ($v->version == $plugin->version) {
-        $currentIndex = count($versionList) - 1;
-    }
+    $versionList[] = intval($v->version);
 }
-rsort($versionList); // Sort descending so newest is first
+usort($versionList, function($a, $b) {
+    return $b - $a; // Descending order (newest first)
+});
+
+// Find current index in sorted list
+$currentIndex = array_search(intval($plugin->version), $versionList, true);
 
 // Find next and previous versions
 $pagination = array();
 $pagination['next'] = null;
 $pagination['prev'] = null;
 
-// Find current index in sorted list
-$currentIndex = array_search($plugin->version, $versionList);
-
-// Next version is the one after current (higher index = older version in descending order)
-if ($currentIndex !== false && $currentIndex < count($versionList) - 1) {
-    $pagination['prev'] = int_to_hexstring($versionList[$currentIndex + 1]);
+// Next version is the one before current (lower index = newer version in descending order)
+if ($currentIndex !== false && $currentIndex > 0) {
+    $pagination['next'] = $versionList[$currentIndex - 1];
 }
 
-// Previous version is the one before current (lower index = newer version in descending order)
-if ($currentIndex !== false && $currentIndex > 0) {
-    $pagination['next'] = int_to_hexstring($versionList[$currentIndex - 1]);
+// Previous version is the one after current (higher index = older version in descending order)
+if ($currentIndex !== false && $currentIndex < count($versionList) - 1) {
+    $pagination['prev'] = $versionList[$currentIndex + 1];
 }
 
 // Initialize result array
 $result = array(
     'bundleId' => $plugin->identifier,
     'name' => $plugin->name,
-    'version' => int_to_hexstring($plugin->version),
+    'version' => intval($plugin->version),
     'displayVersion' => $plugin->displayVersion,
 );
 
