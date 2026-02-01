@@ -17,7 +17,19 @@ if (!$bundleId) {
     exit;
 }
 
-// Fetch the plugin
+// Fetch all versions of the plugin to determine pagination
+$all_versions = Plugin::query(array(PLUGIN_IDENTIFIER => $bundleId));
+
+if (empty($all_versions)) {
+    http_response_code(404);
+    echo json_encode(['error' => 'Plugin not found']);
+    exit;
+}
+
+// Get the requested version or latest
+$plugin = null;
+$requestedVersion = null;
+
 if ($version) {
     // Convert hex version string to integer if needed
     if (strpos($version, '0x') === 0) {
@@ -28,16 +40,46 @@ if ($version) {
             $version = hexdec($version);
         }
     }
-    $plugin = Plugin::get(PLUGIN_IDENTIFIER, $bundleId, array(PLUGIN_VERSION => $version));
+    $requestedVersion = intval($version);
+    $plugin = Plugin::get(PLUGIN_IDENTIFIER, $bundleId, array(PLUGIN_VERSION => $requestedVersion));
 } else {
-    // Get latest version
-    $plugin = Plugin::get(PLUGIN_IDENTIFIER, $bundleId);
+    // Get latest version (first in the query results)
+    $plugin = $all_versions[0];
 }
 
 if (!$plugin) {
     http_response_code(404);
-    echo json_encode(['error' => 'Plugin not found']);
+    echo json_encode(['error' => 'Plugin version not found']);
     exit;
+}
+
+// Build list of all versions and find pagination info
+$versionList = array();
+$currentIndex = -1;
+foreach ($all_versions as $v) {
+    $versionList[] = $v->version;
+    if ($v->version == $plugin->version) {
+        $currentIndex = count($versionList) - 1;
+    }
+}
+rsort($versionList); // Sort descending so newest is first
+
+// Find next and previous versions
+$pagination = array();
+$pagination['next'] = null;
+$pagination['prev'] = null;
+
+// Find current index in sorted list
+$currentIndex = array_search($plugin->version, $versionList);
+
+// Next version is the one after current (higher index = older version in descending order)
+if ($currentIndex !== false && $currentIndex < count($versionList) - 1) {
+    $pagination['prev'] = int_to_hexstring($versionList[$currentIndex + 1]);
+}
+
+// Previous version is the one before current (lower index = newer version in descending order)
+if ($currentIndex !== false && $currentIndex > 0) {
+    $pagination['next'] = int_to_hexstring($versionList[$currentIndex - 1]);
 }
 
 // Initialize result array
@@ -156,6 +198,9 @@ if ($plist_file && file_exists($plist_file)) {
         $result['warning'] = 'Could not parse plugin info plist: ' . $e->getMessage();
     }
 }
+
+// Add pagination info to response
+$result['pagination'] = $pagination;
 
 http_response_code(200);
 echo json_encode($result, JSON_PRETTY_PRINT | JSON_UNESCAPED_SLASHES);
