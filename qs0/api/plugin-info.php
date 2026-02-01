@@ -57,7 +57,8 @@ if ($plist_file && file_exists($plist_file)) {
         
         // Extract extended description
         if ($info_dict->get('CFBundleGetInfoString')) {
-            $result['extendedDescription'] = (string)$info_dict->get('CFBundleGetInfoString');
+            $value = $info_dict->get('CFBundleGetInfoString');
+            $result['extendedDescription'] = method_exists($value, 'getValue') ? $value->getValue() : (string)$value;
         }
         
         // Extract actions (QSActions)
@@ -132,15 +133,18 @@ if ($plist_file && file_exists($plist_file)) {
         
         // Author information
         if ($info_dict->get('CFBundleIdentifier')) {
-            $result['bundleIdentifier'] = (string)$info_dict->get('CFBundleIdentifier');
+            $value = $info_dict->get('CFBundleIdentifier');
+            $result['bundleIdentifier'] = method_exists($value, 'getValue') ? $value->getValue() : (string)$value;
         }
         
         if ($info_dict->get('CFBundleName')) {
-            $result['bundleName'] = (string)$info_dict->get('CFBundleName');
+            $value = $info_dict->get('CFBundleName');
+            $result['bundleName'] = method_exists($value, 'getValue') ? $value->getValue() : (string)$value;
         }
         
         if ($info_dict->get('CFBundleShortVersionString')) {
-            $result['shortVersionString'] = (string)$info_dict->get('CFBundleShortVersionString');
+            $value = $info_dict->get('CFBundleShortVersionString');
+            $result['shortVersionString'] = method_exists($value, 'getValue') ? $value->getValue() : (string)$value;
         }
         
         if ($info_dict->get('QSHotkeys')) {
