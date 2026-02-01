@@ -22,6 +22,7 @@ foreach ($plugins as $plugin) {
         'identifier' => $plugin->identifier,
         'name' => $plugin->name,
         'version' => $plugin->displayVersion ?: int_to_hexstring($plugin->version),
+        'buildVersion' => intval($plugin->version),
         'author' => $plugin->author,
         'description' => $plugin->description,
         'changes' => $plugin->changes,

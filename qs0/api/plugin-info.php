@@ -17,25 +17,15 @@ if (!$bundleId) {
     exit;
 }
 
-// Fetch all versions of the plugin to determine pagination
-$all_versions = Plugin::query(array(PLUGIN_IDENTIFIER => $bundleId));
-
-if (empty($all_versions)) {
-    http_response_code(404);
-    echo json_encode(['error' => 'Plugin not found']);
-    exit;
-}
-
-// Get the requested version or latest
-$plugin = null;
-$requestedVersion = null;
+// Get the specific version we need or the latest
+$bundleId_quoted = quote_db($bundleId);
 
 if ($version) {
     $requestedVersion = intval($version);
     $plugin = Plugin::get(PLUGIN_IDENTIFIER, $bundleId, array(PLUGIN_VERSION => $requestedVersion));
 } else {
-    // Get latest version (first in the query results)
-    $plugin = $all_versions[0];
+    // Get latest version
+    $plugin = Plugin::get(PLUGIN_IDENTIFIER, $bundleId);
 }
 
 if (!$plugin) {
@@ -44,31 +34,38 @@ if (!$plugin) {
     exit;
 }
 
-// Build list of all versions sorted by version descending (newest first)
-$versionList = array();
-foreach ($all_versions as $v) {
-    $versionList[] = intval($v->version);
-}
-usort($versionList, function($a, $b) {
-    return $b - $a; // Descending order (newest first)
-});
+// Query for current version and adjacent versions in a single query
+$currentVersion = intval($plugin->version);
+$sql = "(SELECT version FROM " . PLUGIN_TABLE . " WHERE identifier = $bundleId_quoted AND version < $currentVersion ORDER BY version DESC LIMIT 1)
+        UNION
+        (SELECT $currentVersion AS version)
+        UNION
+        (SELECT version FROM " . PLUGIN_TABLE . " WHERE identifier = $bundleId_quoted AND version > $currentVersion ORDER BY version ASC LIMIT 1)
+        ORDER BY version DESC";
+$recs = fetch_db($sql);
 
-// Find current index in sorted list
-$currentIndex = array_search(intval($plugin->version), $versionList, true);
-
-// Find next and previous versions
+// Parse results to find next and previous
 $pagination = array();
 $pagination['next'] = null;
 $pagination['prev'] = null;
 
-// Next version is the one before current (lower index = newer version in descending order)
-if ($currentIndex !== false && $currentIndex > 0) {
-    $pagination['next'] = $versionList[$currentIndex - 1];
-}
-
-// Previous version is the one after current (higher index = older version in descending order)
-if ($currentIndex !== false && $currentIndex < count($versionList) - 1) {
-    $pagination['prev'] = $versionList[$currentIndex + 1];
+if ($recs) {
+    $versions = array();
+    foreach ($recs as $rec) {
+        $versions[] = intval($rec['version']);
+    }
+    rsort($versions);
+    
+    // Find current position and set next/prev
+    $currentIndex = array_search($currentVersion, $versions);
+    if ($currentIndex !== false) {
+        if ($currentIndex > 0) {
+            $pagination['next'] = $versions[$currentIndex - 1];
+        }
+        if ($currentIndex < count($versions) - 1) {
+            $pagination['prev'] = $versions[$currentIndex + 1];
+        }
+    }
 }
 
 // Initialize result array
