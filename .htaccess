@@ -13,7 +13,6 @@ RewriteRule ^([a-zA-Z0-9_-]+)\.php$ /$1 [R=301,L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteCond %{REQUEST_URI} !^/manual
-RewriteRule ^(.*)$ /shad/$1 [L]
+RewriteRule ^(.*)$ /dist/$1 [L]
 
 RewriteRule ^manual$ /manual/ [R=301,L]
-RedirectMatch 301 /plugins/?$ /plugins

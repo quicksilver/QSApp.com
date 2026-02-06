@@ -12,7 +12,18 @@ jobs:
     - uses: actions/checkout@v2
       with:
         submodules: recursive
-    - name: Pull changes
+    - name: Setup Node.js
+      uses: actions/setup-node@v3
+      with:
+        node-version: '18'
+        cache: 'npm'
+        cache-dependency-path: 'react-site/package-lock.json'
+    - name: Build React site
+      run: |
+        cd react-site
+        npm ci
+        npm run build
+    - name: Deploy changes
       env:
         SERVER: ${{ secrets.SERVER }}
         PORT: ${{ secrets.PORT }}
@@ -22,3 +33,13 @@ jobs:
         chmod 0600 /tmp/key
 
         ssh qs@${SERVER} -p "${PORT}" -i /tmp/key -o StrictHostKeyChecking=no "cd qsapp.com && git pull origin main"
+    - name: Copy dist folder
+      env:
+        SERVER: ${{ secrets.SERVER }}
+        PORT: ${{ secrets.PORT }}
+        SSH_KEY: ${{secrets.SSH_KEY}}
+      run: |
+        echo "${SSH_KEY}" > /tmp/key
+        chmod 0600 /tmp/key
+
+        scp -P "${PORT}" -i /tmp/key -o StrictHostKeyChecking=no -r react-site/dist qs@${SERVER}:qsapp.com/dist
