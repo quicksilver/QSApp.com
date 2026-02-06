@@ -1,22 +1,18 @@
 RewriteEngine On
 
-RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
-RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
+# Redirect changelog to GitHub releases
+RewriteRule ^changelog\.php$ https://github.com/quicksilver/Quicksilver/releases/ [L,R=301]
 
-# Redirect changelog.php to GitHub releases page
-RedirectMatch 301 ^/changelog\.php$ https://github.com/quicksilver/Quicksilver/releases/
+# Redirect about to homepage
+RewriteRule ^about(\.php)?$ / [L,R=301]
 
-# Redirect .php extensions to non-extension URLs
-RewriteRule ^([a-zA-Z0-9_-]+)\.php$ /$1 [R=301,L]
+# Redirect .php URLs to clean URLs (301 permanent redirect)
+RewriteRule ^(.+)\.php$ /$1 [L,R=301]
 
-# Preserve folders/paths that shouldn't be rewritten
-RewriteCond %{REQUEST_URI} ^/manual [OR]
-RewriteRule ^ - [L]
-
-# Rewrite everything else to /dist/ folder (where React app lives)
-# Don't check for existing files - prioritize the React app
+# If the request isn't already under /dist/, rewrite it there
 RewriteCond %{REQUEST_URI} !^/dist/
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^(.*)$ /dist/$1 [L]
+RewriteRule ^(.+)$ /dist/$1 [L]
 
-RewriteRule ^manual$ /manual/ [R=301,L]
+# If the rewritten file doesn't exist, serve the SPA entry point
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ /dist/index.html [L]
