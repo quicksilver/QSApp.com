@@ -9,6 +9,9 @@ RewriteRule ^about(\.php)?$ / [L,R=301]
 # Redirect .php URLs to clean URLs (301 permanent redirect)
 RewriteRule ^(.+)\.php$ /$1 [L,R=301]
 
+# Serve /images directly from the document root
+RewriteRule ^images/ - [L]
+
 # If the request isn't already under /dist/, rewrite it there
 RewriteCond %{REQUEST_URI} !^/dist/
 RewriteRule ^(.+)$ /dist/$1 [L]
