@@ -3,15 +3,17 @@ RewriteEngine On
 RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
 RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
 
-RewriteRule ^manual$ /manual/ [R=301,L]
-RedirectMatch 301 /plugins/?$ /plugins.php
-
 # Redirect changelog.php to GitHub releases page
 RedirectMatch 301 ^/changelog\.php$ https://github.com/quicksilver/Quicksilver/releases/
 
-ErrorDocument 404 /404.php
+# Redirect .php extensions to non-extension URLs (before shad rewrite)
+RewriteRule ^([a-zA-Z0-9_-]+)\.php$ /$1 [R=301,L]
 
-ExpiresActive ON
-<FilesMatch "\.(css|js|html|png|ico)$">
-ExpiresDefault "access plus 6 month"
-</FilesMatch>
+# Preserve manual folder and other real directories
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_URI} !^/manual
+RewriteRule ^(.*)$ /shad/$1 [L]
+
+RewriteRule ^manual$ /manual/ [R=301,L]
+RedirectMatch 301 /plugins/?$ /plugins
