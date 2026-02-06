@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router";
 import { Button } from "@/components/ui/button";
-import { GithubLogoIcon, List, X } from "@phosphor-icons/react";
+import { GithubLogoIcon, ListIcon, XIcon } from "@phosphor-icons/react";
 import { ModeToggle } from "@/components/mode-toggle";
 import quicksilverIcon from "@/assets/quicksilver-icon.png";
 
@@ -71,7 +71,7 @@ export function Navbar() {
             className="md:hidden p-2 rounded-lg hover:bg-background/50 transition-colors active:scale-95"
             aria-label="Toggle menu"
           >
-            {isOpen ? <X size={20} /> : <List size={20} />}
+            {isOpen ? <XIcon size={20} /> : <ListIcon size={20} />}
           </button>
 
           {/* Download button */}

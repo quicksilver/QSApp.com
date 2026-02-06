@@ -10,7 +10,7 @@ import {
   DialogFooter,
 } from "@/components/ui/dialog";
 import { Button } from "@/components/ui/button";
-import { Check, Copy } from "@phosphor-icons/react";
+import { CheckIcon, CopyIcon } from "@phosphor-icons/react";
 
 interface HomebrewDialogProps {
   children: ReactNode;
@@ -51,12 +51,12 @@ export function HomebrewDialog({ children }: HomebrewDialogProps) {
           <Button onClick={handleCopy}>
             {copied ? (
               <>
-                <Check size={16} />
+                <CheckIcon size={16} />
                 Copied
               </>
             ) : (
               <>
-                <Copy size={16} />
+                <CopyIcon size={16} />
                 Copy
               </>
             )}

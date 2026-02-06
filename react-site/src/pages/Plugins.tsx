@@ -10,7 +10,7 @@ import {
   DialogHeader,
   DialogTitle,
 } from "@/components/ui/dialog";
-import { CaretLeft, CaretRight } from "@phosphor-icons/react";
+import { CaretLeftIcon, CaretRightIcon } from "@phosphor-icons/react";
 
 interface Plugin {
   identifier: string;
@@ -220,7 +220,7 @@ export function Plugins() {
         setSelectedPlugin(null);
         setPluginInfo(null);
       }}>
-        <DialogContent className="sm:max-w-2xl max-h-[90vh] overflow-y-auto">
+        <DialogContent className="sm:max-w-[1000px] max-h-[90vh] overflow-y-auto">
           {selectedPlugin && (
             <>
               <DialogHeader>
@@ -257,7 +257,7 @@ export function Plugins() {
                         disabled={infoLoading || pluginInfo.pagination.prev === null}
                         title={pluginInfo.pagination.prev === null ? "Already at earliest version" : "Previous version"}
                       >
-                        <CaretLeft size={18} />
+                        <CaretLeftIcon size={18} />
                       </Button>
                       <Button
                         variant="ghost"
@@ -266,7 +266,7 @@ export function Plugins() {
                         disabled={infoLoading || pluginInfo.pagination.next === null}
                         title={pluginInfo.pagination.next === null ? "Already at latest version" : "Next version"}
                       >
-                        <CaretRight size={18} />
+                        <CaretRightIcon size={18} />
                       </Button>
                     </div>
                   )}
