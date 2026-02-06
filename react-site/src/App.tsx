@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter, Routes, Route } from "react-router";
 import { ThemeProvider } from "@/components/theme-provider";
 import { Layout } from "@/components/Layout";
 import { Home } from "@/pages/Home";
@@ -8,7 +8,7 @@ import { Support } from "@/pages/Support";
 import { FAQ } from "@/pages/FAQ";
 import { NotFound } from "@/pages/NotFound";
 
-const APP_BASE_PATH = "/shad/"
+const APP_BASE_PATH = "/"
 
 export function App() {
   return (
