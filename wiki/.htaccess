@@ -1,2 +1,0 @@
-RewriteEngine on
-RewriteRule ^(.*)$ https://docs.qsapp.com/documentation/readme [R=301,L]

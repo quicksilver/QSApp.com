@@ -6,13 +6,17 @@ RewriteRule ^(.*)$ http://%1/$1 [R=301,L]
 # Redirect changelog.php to GitHub releases page
 RedirectMatch 301 ^/changelog\.php$ https://github.com/quicksilver/Quicksilver/releases/
 
-# Redirect .php extensions to non-extension URLs (before shad rewrite)
+# Redirect .php extensions to non-extension URLs
 RewriteRule ^([a-zA-Z0-9_-]+)\.php$ /$1 [R=301,L]
 
-# Preserve manual folder and other real directories
-RewriteCond %{REQUEST_FILENAME} !-f
+# Preserve folders/paths that shouldn't be rewritten
+RewriteCond %{REQUEST_URI} ^/manual [OR]
+RewriteRule ^ - [L]
+
+# Rewrite everything else to /dist/ folder (where React app lives)
+# Don't check for existing files - prioritize the React app
+RewriteCond %{REQUEST_URI} !^/dist/
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_URI} !^/manual
 RewriteRule ^(.*)$ /dist/$1 [L]
 
 RewriteRule ^manual$ /manual/ [R=301,L]
