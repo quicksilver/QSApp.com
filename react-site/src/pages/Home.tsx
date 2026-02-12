@@ -66,7 +66,13 @@ export function Home() {
               <div className="flex flex-col items-center gap-2 text-sm text-muted-foreground">
                 {versionInfo && (
                   <p>
-                    Version {versionInfo.version} · macOS {versionInfo.minOS}+
+                    Version {versionInfo.version} · macOS {versionInfo.minOS}+ ·{" "}
+                    <a
+                      href="https://github.com/quicksilver/Quicksilver/releases/"
+                      className="underline underline-offset-4 hover:text-foreground transition-colors"
+                    >
+                      All versions
+                    </a>
                   </p>
                 )}
                 <HomebrewDialog>

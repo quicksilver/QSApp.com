@@ -62,7 +62,7 @@ const PLUGINS: Plugin[] = [
         Search bookmarks and history.
       </>
     ),
-    href: "https://qsapp.com/manual/Web/#web-browsers",
+    href: "https://qsapp.com/manual/features/Web/#web-browsers",
     featureName: "browsers",
   },
   {

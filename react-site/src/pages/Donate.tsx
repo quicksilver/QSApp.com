@@ -128,7 +128,7 @@ export function Donate() {
               </div>
             </a>
             <a
-              href="https://docs.qsapp.com/documentation/developer-instructions/localization"
+              href="https://developer.qsapp.com/app-development/Localization/"
               target="_blank"
               rel="noopener noreferrer"
               className="flex items-center gap-3 p-3 rounded-lg border border-border/50 hover:border-border transition-colors"

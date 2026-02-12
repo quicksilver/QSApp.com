@@ -107,7 +107,7 @@ export function FAQ() {
            Have more questions?
           </p>
           <a
-            href="https://docs.qsapp.com/documentation/main-guides/faq"
+            href="https://qsapp.com/manual/appendix/FAQ/"
             className="text-primary hover:underline font-medium"
           >
             See all FAQs →

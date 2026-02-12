@@ -6,6 +6,7 @@ import { Plugins } from "@/pages/Plugins";
 import { Donate } from "@/pages/Donate";
 import { Support } from "@/pages/Support";
 import { FAQ } from "@/pages/FAQ";
+import { QuicksilverVsAlfred } from "@/pages/QuicksilverVsAlfred";
 import { NotFound } from "@/pages/NotFound";
 
 const APP_BASE_PATH = "/"
@@ -21,6 +22,7 @@ export function App() {
             <Route path="donate" element={<Donate />} />
             <Route path="support" element={<Support />} />
             <Route path="faq" element={<FAQ />} />
+            <Route path="quicksilver-vs-alfred" element={<QuicksilverVsAlfred />} />
             <Route path="*" element={<NotFound />} />
           </Route>
         </Routes>

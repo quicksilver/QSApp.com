@@ -7,6 +7,7 @@ const pageTitles: Record<string, string> = {
   "/donate": "Quicksilver — Donate",
   "/support": "Quicksilver — Support",
   "/faq": "Quicksilver — FAQ",
+  "/quicksilver-vs-alfred": "Quicksilver vs Alfred — Feature Comparison",
 };
 
 export function useDocumentMeta() {
