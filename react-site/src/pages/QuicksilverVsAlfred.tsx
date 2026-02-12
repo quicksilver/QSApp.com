@@ -1,5 +1,5 @@
 import { Button } from "@/components/ui/button";
-import { CheckCircle, XCircle, CurrencyCircleDollar } from "@phosphor-icons/react";
+import { CheckCircleIcon, CurrencyCircleDollarIcon } from "@phosphor-icons/react";
 
 export function QuicksilverVsAlfred() {
   return (
@@ -186,7 +186,7 @@ function ComparisonRow({
 function IncludedBadge() {
   return (
     <span className="inline-flex items-center gap-1.5 text-sm text-green-600 dark:text-green-400">
-      <CheckCircle size={18} weight="fill" />
+      <CheckCircleIcon size={18} weight="fill" />
       <span>Included</span>
     </span>
   );
@@ -195,7 +195,7 @@ function IncludedBadge() {
 function PaidBadge() {
   return (
     <span className="inline-flex items-center gap-1.5 text-sm text-amber-600 dark:text-amber-400">
-      <CurrencyCircleDollar size={18} weight="fill" />
+      <CurrencyCircleDollarIcon size={18} weight="fill" />
       <span>Paid</span>
     </span>
   );
