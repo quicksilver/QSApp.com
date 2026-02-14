@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Link, useLocation } from "react-router";
+import { Link } from "react-router";
 import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 import { GithubLogoIcon, ListIcon, XIcon } from "@phosphor-icons/react";
@@ -9,7 +9,6 @@ import quicksilverIcon from "@/assets/quicksilver-icon.png";
 
 export function Navbar() {
   const { t } = useTranslation("common");
-  const location = useLocation();
   const { getPath, getCurrentPathWithoutLang } = useLocalizedPath();
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
