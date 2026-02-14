@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 import { HomebrewDialog } from "@/components/HomebrewDialog";
 import { InterfaceShowcase } from "@/components/InterfaceShowcase";
@@ -13,6 +14,8 @@ interface VersionInfo {
 }
 
 export function Home() {
+  const { t } = useTranslation("home");
+  const { t: tc } = useTranslation("common");
   const [versionInfo, setVersionInfo] = useState<VersionInfo | null>(null);
 
   useEffect(() => {
@@ -35,7 +38,7 @@ export function Home() {
     <div className="flex flex-col">
       {/* Hero Section */}
       <section className="relative overflow-hidden py-24 md:py-32">
-        
+
         <div className="mx-auto max-w-[1200px] px-4 md:px-8">
           <div className="flex flex-col items-center text-center gap-8">
             <img
@@ -45,39 +48,38 @@ export function Home() {
             />
             <div className="flex flex-col gap-4 max-w-3xl">
               <h1 className="text-4xl md:text-6xl font-bold tracking-tight">
-                Act without doing
+                {t($ => $.hero.tagline)}
               </h1>
               <p className="text-lg md:text-xl text-muted-foreground">
-                Quicksilver is a fast macOS productivity application that gives
-                you the power to control your Mac quickly and elegantly.
+                {t($ => $.hero.description)}
               </p>
             </div>
             <div className="flex flex-col items-center gap-4">
               <div className="flex gap-4">
                 <Button size="lg" className="font-medium" asChild>
                   <a href={versionInfo?.downloadUrl || "https://qs0.qsapp.com/plugins/download.php"}>
-                    Download
+                    {tc($ => $.buttons.download)}
                   </a>
                 </Button>
                 <Button variant="outline" size="lg" asChild>
-                  <a href="#features">Learn More</a>
+                  <a href="#features">{tc($ => $.buttons.learnMore)}</a>
                 </Button>
               </div>
               <div className="flex flex-col items-center gap-2 text-sm text-muted-foreground">
                 {versionInfo && (
                   <p>
-                    Version {versionInfo.version} · macOS {versionInfo.minOS}+ ·{" "}
+                    {t($ => $.hero.version, { version: versionInfo.version, minOS: versionInfo.minOS })} ·{" "}
                     <a
                       href="https://github.com/quicksilver/Quicksilver/releases/"
                       className="underline underline-offset-4 hover:text-foreground transition-colors"
                     >
-                      All versions
+                      {t($ => $.hero.allVersions)}
                     </a>
                   </p>
                 )}
                 <HomebrewDialog>
                   <button className="underline underline-offset-4 hover:text-foreground transition-colors">
-                    Install via Homebrew
+                    {t($ => $.hero.homebrewInstall)}
                   </button>
                 </HomebrewDialog>
               </div>
@@ -91,38 +93,37 @@ export function Home() {
         <div className="mx-auto max-w-[1200px] px-4 md:px-8">
           <div className="text-center mb-16">
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
-              Lightning Fast Productivity
+              {t($ => $.features.title)}
             </h2>
             <p className="text-muted-foreground max-w-2xl mx-auto">
-              Quicksilver lets you start applications, manipulate files, and
-              much more — all from your keyboard.
+              {t($ => $.features.description)}
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             <FeatureCard
-              title="Instant Launch"
-              description="Launch applications, open files, and access bookmarks with just a few keystrokes."
+              title={t($ => $.features.instantLaunch.title)}
+              description={t($ => $.features.instantLaunch.description)}
             />
             <FeatureCard
-              title="Powerful Actions"
-              description="Move, copy, email, or compress files. Send messages. Control iTunes. The possibilities are endless."
+              title={t($ => $.features.powerfulActions.title)}
+              description={t($ => $.features.powerfulActions.description)}
             />
             <FeatureCard
-              title="Extensible"
-              description="Hundreds of plugins extend Quicksilver's capabilities to work with your favorite apps."
+              title={t($ => $.features.extensible.title)}
+              description={t($ => $.features.extensible.description)}
             />
             <FeatureCard
-              title="Smart Learning"
-              description="Quicksilver learns your habits and adapts to show you what you need, when you need it."
+              title={t($ => $.features.smartLearning.title)}
+              description={t($ => $.features.smartLearning.description)}
             />
             <FeatureCard
-              title="Triggers"
-              description="Assign keyboard shortcuts or mouse gestures to instantly run any action."
+              title={t($ => $.features.triggers.title)}
+              description={t($ => $.features.triggers.description)}
             />
             <FeatureCard
-              title="Open Source"
-              description="Free forever. Actively maintained by a passionate community of developers."
+              title={t($ => $.features.openSource.title)}
+              description={t($ => $.features.openSource.description)}
             />
           </div>
         </div>
@@ -139,14 +140,14 @@ export function Home() {
         <div className="mx-auto max-w-[1200px] px-4 md:px-8">
           <div className="flex flex-col items-center text-center gap-6">
             <h2 className="text-3xl md:text-4xl font-bold tracking-tight">
-              Ready to supercharge your Mac?
+              {t($ => $.cta.title)}
             </h2>
             <p className="text-muted-foreground max-w-xl">
-              Download Quicksilver today and discover a faster way to work.
+              {t($ => $.cta.description)}
             </p>
             <Button size="lg" className="font-medium" asChild>
               <a href={versionInfo?.downloadUrl || "https://qs0.qsapp.com/plugins/download.php"}>
-                Download Quicksilver
+                {tc($ => $.buttons.downloadQuicksilver)}
               </a>
             </Button>
           </div>

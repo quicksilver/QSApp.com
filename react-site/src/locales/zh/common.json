@@ -1,0 +1,51 @@
+{
+  "buttons": {
+    "close": "关闭",
+    "copied": "已复制！",
+    "copy": "复制",
+    "download": "下载",
+    "downloadQuicksilver": "下载 Quicksilver",
+    "joinDiscussions": "加入讨论",
+    "learnMore": "了解更多",
+    "readManual": "阅读手册",
+    "reportIssue": "报告问题",
+    "viewFaq": "查看常见问题"
+  },
+  "footer": {
+    "links": {
+      "changelog": "更新日志",
+      "comparison": "Quicksilver vs Alfred",
+      "developerDocs": "开发者文档",
+      "donate": "捐赠",
+      "faq": "常见问题",
+      "getHelp": "获取帮助",
+      "github": "GitHub",
+      "plugins": "插件",
+      "reportIssue": "报告问题",
+      "translate": "翻译",
+      "userManual": "用户手册"
+    },
+    "sections": {
+      "community": "社区",
+      "documentation": "文档",
+      "product": "产品",
+      "support": "支持"
+    },
+    "tagline": "Quicksilver 是免费开源软件。"
+  },
+  "homebrew": {
+    "description": "您也可以使用 Homebrew 安装 Quicksilver：",
+    "title": "通过 Homebrew 安装"
+  },
+  "language": {
+    "en": "English",
+    "label": "语言",
+    "zh": "简体中文"
+  },
+  "nav": {
+    "donate": "捐赠",
+    "download": "下载",
+    "plugins": "插件",
+    "support": "支持"
+  }
+}

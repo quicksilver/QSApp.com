@@ -1,0 +1,48 @@
+{
+  "description": "关于 Quicksilver 您需要知道的一切。",
+  "questions": {
+    "cost": {
+      "answer": "Quicksilver 完全免费。没有付费版本，没有订阅，没有功能被锁在付费墙后面。它是免费开源软件，由相信优秀工具应该人人可用的志愿者开发。",
+      "question": "Quicksilver 多少钱？"
+    },
+    "developers": {
+      "answer": "Quicksilver 是开源软件，由一群志愿贡献者开发。",
+      "question": "Quicksilver 背后的开发者是谁？",
+      "viewContributors": "在 GitHub 上查看贡献者"
+    },
+    "plugins": {
+      "answer": "确保您安装了适当的插件。许多功能来自插件，您可以在 Quicksilver 的偏好设置中浏览和安装。如果是目录中您看不到的内容，请确保它已启用并已扫描。",
+      "question": "为什么我看不到我期望的功能或插件？"
+    },
+    "spotlight": {
+      "answer": "不是。Spotlight 查找东西，但它只能让您打开它们。Quicksilver 查找东西，然后让您对它们执行各种操作——移动文件、发送邮件、控制应用——只需一两次按键。",
+      "learnMore": "在手册中了解更多",
+      "question": "Spotlight 不是让 Quicksilver 变得多余了吗？"
+    }
+  },
+  "seeMore": {
+    "link": "查看所有常见问题 →",
+    "prompt": "还有更多问题？"
+  },
+  "title": "常见问题",
+  "whyChoose": {
+    "free": {
+      "description": "没有\"付费包\"，没有\"专业版\"，没有订阅。所有功能都是免费的。",
+      "title": "100% 永久免费"
+    },
+    "intro": "macOS 有很多启动器应用，但 Quicksilver 与众不同：",
+    "openSource": {
+      "description": "完全开源，由社区维护。审查代码、贡献功能或进行分支。",
+      "title": "开源"
+    },
+    "original": {
+      "description": "Quicksilver 于 2003 年开创了启动器概念，启发了后来的每一款应用。",
+      "title": "Mac 启动器的鼻祖"
+    },
+    "privacy": {
+      "description": "Quicksilver 不会联网、收集分析数据或追踪您的使用情况。您的数据留在您的 Mac 上。",
+      "title": "无追踪，完全隐私"
+    },
+    "title": "为什么选择 Quicksilver？"
+  }
+}

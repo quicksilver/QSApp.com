@@ -1,0 +1,24 @@
+{
+  "description": "需要 Quicksilver 的帮助？以下是获得支持的最佳方式。",
+  "discussions": {
+    "body": "GitHub 讨论论坛是提问、分享技巧和与其他 Quicksilver 用户交流的最佳场所。",
+    "description": "提问并从社区获得帮助",
+    "title": "GitHub 讨论"
+  },
+  "documentation": {
+    "body": "手册涵盖从安装到高级触发器和插件的所有内容。这是开始学习的最佳地方。",
+    "description": "从官方 Quicksilver 手册开始",
+    "title": "文档"
+  },
+  "faq": {
+    "body": "查找关于 Quicksilver 的常见问题解答、故障排除技巧，以及了解为什么 Quicksilver 可能是您的正确选择。",
+    "description": "经常被问到的问题",
+    "title": "常见问题"
+  },
+  "issues": {
+    "body": "如果您发现了错误，请在 GitHub Issues 上报告。请包含您的 macOS 版本、Quicksilver 版本和重现步骤。",
+    "description": "发现问题了？让我们知道",
+    "title": "报告错误"
+  },
+  "title": "获取帮助"
+}

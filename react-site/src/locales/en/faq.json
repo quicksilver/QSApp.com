@@ -1,0 +1,48 @@
+{
+  "description": "Everything you need to know about Quicksilver.",
+  "questions": {
+    "cost": {
+      "answer": "Quicksilver is completely free. There's no paid version, no subscription, and no features locked behind a paywall. It's free and open source software, developed by volunteers who believe great tools should be accessible to everyone.",
+      "question": "How much does Quicksilver cost?"
+    },
+    "developers": {
+      "answer": "Quicksilver is open source software, developed by a group of volunteer contributors.",
+      "question": "Who are the developers behind Quicksilver?",
+      "viewContributors": "View who's contributed to the software on GitHub"
+    },
+    "plugins": {
+      "answer": "Make sure you have the appropriate plugin installed. Many features come from plugins which you can browse and install from within Quicksilver's preferences. If it's something in the catalog you don't see, make sure it's enabled and scanned.",
+      "question": "Why don't I see a feature or plugin I expected?"
+    },
+    "spotlight": {
+      "answer": "No. Spotlight finds things, but all it lets you do is open them. Quicksilver finds things and then lets you do all sorts of stuff with them — move files, send emails, control apps — with just a keystroke or two.",
+      "learnMore": "Learn more in the manual",
+      "question": "Doesn't Spotlight make Quicksilver unnecessary?"
+    }
+  },
+  "seeMore": {
+    "link": "See all FAQs →",
+    "prompt": "Have more questions?"
+  },
+  "title": "Frequently Asked Questions",
+  "whyChoose": {
+    "free": {
+      "description": "No \"powerpack\", no \"pro\" version, no subscription. Every feature is free.",
+      "title": "100% Free Forever"
+    },
+    "intro": "There are many launcher apps for macOS, but Quicksilver stands apart:",
+    "openSource": {
+      "description": "Fully open source and community-maintained. Audit the code, contribute features, or fork it.",
+      "title": "Open Source"
+    },
+    "original": {
+      "description": "Quicksilver pioneered the launcher concept in 2003, inspiring every app that followed.",
+      "title": "The Original Mac Launcher"
+    },
+    "privacy": {
+      "description": "Quicksilver doesn't phone home, collect analytics, or track your usage. Your data stays on your Mac.",
+      "title": "No Tracking, Complete Privacy"
+    },
+    "title": "Why Choose Quicksilver?"
+  }
+}

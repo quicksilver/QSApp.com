@@ -1,0 +1,18 @@
+{
+  "buildYourOwn": "构建您自己的插件！",
+  "changelog": {
+    "close": "关闭",
+    "title": "{{name}} 更新日志",
+    "version": "版本 {{version}}"
+  },
+  "description": "使用插件扩展 Quicksilver，支持您喜爱的应用和服务。",
+  "search": {
+    "noResults": "未找到匹配\"{{query}}\"的插件",
+    "placeholder": "搜索插件...",
+    "resultCount": "{{count}} 个可用插件",
+    "resultCount_other": "",
+    "resultCountFiltered": "{{count}} 个匹配\"{{query}}\"的插件",
+    "resultCountFiltered_other": ""
+  },
+  "title": "插件"
+}

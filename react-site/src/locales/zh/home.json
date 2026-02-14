@@ -1,0 +1,83 @@
+{
+  "cta": {
+    "description": "立即下载 Quicksilver，发现更快的工作方式。",
+    "title": "准备好为您的 Mac 加速了吗？"
+  },
+  "features": {
+    "description": "Quicksilver 让您通过键盘启动应用、操作文件等等。",
+    "extensible": {
+      "description": "数百个插件扩展 Quicksilver 的功能，与您喜爱的应用配合使用。",
+      "title": "可扩展"
+    },
+    "instantLaunch": {
+      "description": "只需几次按键即可启动应用、打开文件和访问书签。",
+      "title": "即时启动"
+    },
+    "openSource": {
+      "description": "永久免费。由热情的开发者社区积极维护。",
+      "title": "开源"
+    },
+    "powerfulActions": {
+      "description": "移动、复制、发送邮件或压缩文件。发送消息。控制音乐。可能性无穷无尽。",
+      "title": "强大的操作"
+    },
+    "smartLearning": {
+      "description": "Quicksilver 学习您的习惯并适应，在您需要时展示您需要的内容。",
+      "title": "智能学习"
+    },
+    "title": "闪电般的效率",
+    "triggers": {
+      "description": "分配键盘快捷键或鼠标手势来即时运行任何操作。",
+      "title": "触发器"
+    }
+  },
+  "hero": {
+    "allVersions": "所有版本",
+    "description": "Quicksilver 是一款快速的 macOS 效率应用，让您能够快速优雅地控制您的 Mac。",
+    "homebrewInstall": "通过 Homebrew 安装",
+    "tagline": "《 無 為 》",
+    "version": "版本 {{version}} · macOS {{minOS}}+"
+  },
+  "interfaces": {
+    "description": "从多种界面、样式和颜色中选择，适应您的节奏。",
+    "footer": "超过 10 种界面可供选择，内置颜色主题！",
+    "title": "多种界面，为您量身定制"
+  },
+  "plugins": {
+    "description": "使用插件增强 Quicksilver，与您喜爱的应用和工作流程集成。",
+    "exploreAll": "浏览所有插件",
+    "featurePreviewAlt": "插件功能预览",
+    "items": {
+      "browsers": {
+        "description": "控制 Safari、Chrome 和 Firefox。搜索书签和历史记录。",
+        "title": "浏览器"
+      },
+      "calculator": {
+        "description": "即时执行计算并将结果复制到剪贴板。",
+        "title": "计算器"
+      },
+      "calendar": {
+        "description": "无需离开键盘即可创建事件和提醒。",
+        "title": "日历与提醒"
+      },
+      "clipboard": {
+        "description": "访问剪贴板历史记录并存储项目以快速访问。",
+        "title": "剪贴板与架子"
+      },
+      "emojis": {
+        "description": "使用快捷键随时随地搜索和插入表情符号。",
+        "title": "表情符号"
+      },
+      "images": {
+        "description": "直接从 Quicksilver 调整大小、裁剪和转换图像。",
+        "title": "图像处理"
+      },
+      "mail": {
+        "description": "使用 Apple Mail 或 Gmail 直接从 Quicksilver 发送邮件。",
+        "title": "邮件"
+      }
+    },
+    "selectInterface": "选择 {{name}} 界面",
+    "title": "无限扩展插件"
+  }
+}

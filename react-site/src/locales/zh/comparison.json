@@ -1,0 +1,59 @@
+{
+  "badge": "对比",
+  "cta": {
+    "description": "免费下载，体验真正的基于操作的启动器的强大。",
+    "title": "准备好试试 Quicksilver 了吗？"
+  },
+  "description": "正在寻找最好的 Mac 启动器？以下是为什么 Quicksilver 是追求完全控制的高级用户的选择——而且免费。",
+  "intro": {
+    "paragraph1": "Quicksilver 和 Alfred 都是 macOS 的键盘驱动效率应用，帮助您启动应用、查找文件和自动化任务。Alfred 于 2010 年推出，因其精致的界面和工作流系统而广受欢迎。",
+    "paragraph2": "Quicksilver 早在 2003 年就开创了这一类别，并采用了根本不同的方法：Alfred 专注于<em>查找</em>东西，而 Quicksilver 专注于<em>执行</em>操作。其名词-动词-宾语模型让您能够流畅地链接操作——而且所有功能都是免费开源的。"
+  },
+  "table": {
+    "clipboardHistory": "剪贴板历史",
+    "contactActions": "联系人操作",
+    "customThemes": "自定义主题",
+    "feature": "功能",
+    "fileActions": "高级文件操作",
+    "globalHotkeys": "全局热键和触发器",
+    "included": "包含",
+    "musicControl": "音乐控制",
+    "paid": "付费",
+    "philosophy": "理念",
+    "philosophyAlfred": "基于搜索",
+    "philosophyQs": "基于操作",
+    "price": "价格",
+    "priceFree": "免费（开源）",
+    "pricePaid": "免费 / 约 £34 Powerpack",
+    "proxyObjects": "代理对象",
+    "proxyObjectsAlfred": "需要工作流",
+    "proxyObjectsQs": "核心功能",
+    "searchIndex": "搜索索引",
+    "searchIndexAlfred": "依赖 Spotlight",
+    "searchIndexQs": "原生构建（快速）"
+  },
+  "title": "Quicksilver vs. Alfred",
+  "whySection": {
+    "act": {
+      "description": "Alfred 搜索。Quicksilver 行动。选择文件 → 发送邮件 → 给同事。全程无需触摸鼠标。",
+      "number": "1",
+      "title": "行动，而非仅仅搜索"
+    },
+    "context": {
+      "description": "使用代理对象即时对当前 Finder 选择执行操作。选择文件，按下热键，立即移动。",
+      "number": "4",
+      "title": "上下文感知"
+    },
+    "free": {
+      "description": "没有\"Powerpack\"，没有付费升级。剪贴板历史、主题、深度系统控制——全部永久免费。",
+      "number": "2",
+      "title": "真正免费且开源"
+    },
+    "spotlight": {
+      "description": "Quicksilver 构建自己的目录。闪电般快速，即使 Spotlight 损坏或正在索引也能即时工作。",
+      "number": "3",
+      "title": "独立于 Spotlight"
+    },
+    "title": "为什么选择 Quicksilver？"
+  }
+}

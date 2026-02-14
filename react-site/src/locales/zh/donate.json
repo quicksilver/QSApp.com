@@ -1,0 +1,38 @@
+{
+  "amount": {
+    "currency": "美元",
+    "label": "选择金额",
+    "other": "其他",
+    "placeholder": "输入金额"
+  },
+  "card": {
+    "body1": "Quicksilver 是免费开源软件，并将永远保持这种状态。没有\"增强包\"或\"专业版\"——只有健康的开源软件。",
+    "body2": "话虽如此，我们依靠捐赠来支付托管费用、域名续费和开发资源。",
+    "description": "立即捐赠支持 Quicksilver 项目。",
+    "title": "捐赠"
+  },
+  "description": "Quicksilver 是免费开源软件，由志愿者开发。您的捐赠帮助项目持续发展。",
+  "otherWays": {
+    "contribute": {
+      "description": "在 GitHub 上帮助修复错误或添加新功能。",
+      "title": "贡献代码"
+    },
+    "documentation": {
+      "description": "通过改进手册帮助其他人学习 Quicksilver。",
+      "title": "改进文档"
+    },
+    "reportIssues": {
+      "description": "发现错误？在问题追踪器上告诉我们。",
+      "title": "报告问题"
+    },
+    "title": "其他帮助方式",
+    "translate": {
+      "description": "帮助将 Quicksilver 翻译成您的语言。",
+      "title": "翻译 Quicksilver"
+    }
+  },
+  "paypal": {
+    "button": "通过 PayPal 捐赠"
+  },
+  "title": "支持 Quicksilver"
+}

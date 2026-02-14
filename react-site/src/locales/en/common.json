@@ -1,0 +1,51 @@
+{
+  "buttons": {
+    "close": "Close",
+    "copied": "Copied!",
+    "copy": "Copy",
+    "download": "Download",
+    "downloadQuicksilver": "Download Quicksilver",
+    "joinDiscussions": "Join Discussions",
+    "learnMore": "Learn More",
+    "readManual": "Read the Manual",
+    "reportIssue": "Report Issue",
+    "viewFaq": "View FAQ"
+  },
+  "footer": {
+    "links": {
+      "changelog": "Changelog",
+      "comparison": "Quicksilver vs Alfred",
+      "developerDocs": "Developer Docs",
+      "donate": "Donate",
+      "faq": "FAQ",
+      "getHelp": "Get Help",
+      "github": "GitHub",
+      "plugins": "Plugins",
+      "reportIssue": "Report an Issue",
+      "translate": "Translate",
+      "userManual": "User Manual"
+    },
+    "sections": {
+      "community": "Community",
+      "documentation": "Documentation",
+      "product": "Product",
+      "support": "Support"
+    },
+    "tagline": "Quicksilver is free and open source software."
+  },
+  "homebrew": {
+    "description": "You can also install Quicksilver using Homebrew:",
+    "title": "Install via Homebrew"
+  },
+  "language": {
+    "en": "English",
+    "label": "Language",
+    "zh": "简体中文"
+  },
+  "nav": {
+    "donate": "Donate",
+    "download": "Download",
+    "plugins": "Plugins",
+    "support": "Support"
+  }
+}

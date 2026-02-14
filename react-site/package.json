@@ -7,7 +7,9 @@
     "dev": "vite",
     "build": "tsc -b && vite build",
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "i18n:generate-types": "i18next-cli types",
+    "i18n:extract-strings": "i18next-cli extract"
   },
   "dependencies": {
     "@base-ui/react": "^1.1.0",
@@ -16,9 +18,13 @@
     "@tailwindcss/vite": "^4.1.17",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
+    "i18next": "^25.8.7",
+    "i18next-browser-languagedetector": "^8.2.1",
+    "i18next-cli": "^1.42.8",
     "radix-ui": "^1.4.3",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
+    "react-i18next": "^16.5.4",
     "react-router": "^7.13.0",
     "shadcn": "^3.8.1",
     "tailwind-merge": "^3.4.0",

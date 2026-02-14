@@ -1,9 +1,21 @@
-import { Outlet, Link } from "react-router";
+import { Outlet, Link, useNavigate } from "react-router";
+import { useTranslation } from "react-i18next";
 import { Navbar } from "./Navbar";
 import { useDocumentMeta } from "@/hooks/useDocumentMeta";
+import { useLocalizedPath } from "@/hooks/useLocalizedPath";
+import { supportedLanguages, type LanguageCode } from "@/i18n";
+import { GlobeIcon } from "@phosphor-icons/react";
 
 export function Layout() {
   useDocumentMeta();
+  const { t, i18n } = useTranslation("common");
+  const navigate = useNavigate();
+  const { getPath, getPathForLanguage } = useLocalizedPath();
+
+  const handleLanguageChange = (langCode: LanguageCode) => {
+    const newPath = getPathForLanguage(langCode);
+    navigate(newPath);
+  };
 
   return (
     <div className="relative min-h-screen flex flex-col overflow-x-hidden">
@@ -22,40 +34,64 @@ export function Layout() {
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-12">
             {/* Documentation */}
             <div className="flex flex-col gap-3">
-              <h4 className="font-semibold text-sm">Documentation</h4>
-              <FooterLink href="https://qsapp.com/manual/">User Manual</FooterLink>
-              <FooterLink href="https://developer.qsapp.com/">Developer Docs</FooterLink>
-              <FooterLink href="https://github.com/quicksilver/Quicksilver/releases/">Changelog</FooterLink>
+              <h4 className="font-semibold text-sm">{t($ => $.footer.sections.documentation)}</h4>
+              <FooterLink href="https://qsapp.com/manual/">{t($ => $.footer.links.userManual)}</FooterLink>
+              <FooterLink href="https://developer.qsapp.com/">{t($ => $.footer.links.developerDocs)}</FooterLink>
+              <FooterLink href="https://github.com/quicksilver/Quicksilver/releases/">{t($ => $.footer.links.changelog)}</FooterLink>
             </div>
 
             {/* Product */}
             <div className="flex flex-col gap-3">
-              <h4 className="font-semibold text-sm">Product</h4>
-              <FooterLink to="/plugins">Plugins</FooterLink>
-              <FooterLink to="/faq">FAQ</FooterLink>
-              <FooterLink to="/quicksilver-vs-alfred">Quicksilver vs Alfred</FooterLink>
+              <h4 className="font-semibold text-sm">{t($ => $.footer.sections.product)}</h4>
+              <FooterLink to={getPath("/plugins")}>{t($ => $.footer.links.plugins)}</FooterLink>
+              <FooterLink to={getPath("/faq")}>{t($ => $.footer.links.faq)}</FooterLink>
+              <FooterLink to={getPath("/quicksilver-vs-alfred")}>{t($ => $.footer.links.comparison)}</FooterLink>
             </div>
 
             {/* Community */}
             <div className="flex flex-col gap-3">
-              <h4 className="font-semibold text-sm">Community</h4>
-              <FooterLink href="https://github.com/quicksilver/Quicksilver">GitHub</FooterLink>
-              <FooterLink href="https://github.com/quicksilver/Quicksilver/issues">Report an Issue</FooterLink>
-              <FooterLink href="https://explore.transifex.com/quicksilver/quicksilver/">Translate</FooterLink>
+              <h4 className="font-semibold text-sm">{t($ => $.footer.sections.community)}</h4>
+              <FooterLink href="https://github.com/quicksilver/Quicksilver">{t($ => $.footer.links.github)}</FooterLink>
+              <FooterLink href="https://github.com/quicksilver/Quicksilver/issues">{t($ => $.footer.links.reportIssue)}</FooterLink>
+              <FooterLink href="https://explore.transifex.com/quicksilver/quicksilver/">{t($ => $.footer.links.translate)}</FooterLink>
             </div>
 
             {/* Support */}
             <div className="flex flex-col gap-3">
-              <h4 className="font-semibold text-sm">Support</h4>
-              <FooterLink to="/donate">Donate</FooterLink>
-              <FooterLink to="/support">Get Help</FooterLink>
+              <h4 className="font-semibold text-sm">{t($ => $.footer.sections.support)}</h4>
+              <FooterLink to={getPath("/donate")}>{t($ => $.footer.links.donate)}</FooterLink>
+              <FooterLink to={getPath("/support")}>{t($ => $.footer.links.getHelp)}</FooterLink>
             </div>
           </div>
 
-          <div className="mt-12 pt-8 border-t border-border/50 text-center">
+          <div className="mt-12 pt-8 border-t border-border/50 flex flex-col md:flex-row items-center justify-between gap-4">
             <p className="text-sm text-muted-foreground">
-              Quicksilver is free and open source software. 💜
+              {t($ => $.footer.tagline)} 💜
             </p>
+
+            {/* Language Selector */}
+            <div className="flex items-center gap-2">
+              <GlobeIcon size={16} className="text-muted-foreground" />
+              <div className="flex items-center gap-1">
+                {supportedLanguages.map((lang, index) => (
+                  <span key={lang.code} className="flex items-center">
+                    <button
+                      onClick={() => handleLanguageChange(lang.code)}
+                      className={`text-sm transition-colors ${
+                        i18n.language === lang.code || (lang.code === "en" && !supportedLanguages.some(l => l.code === i18n.language))
+                          ? "text-foreground font-medium"
+                          : "text-muted-foreground hover:text-foreground"
+                      }`}
+                    >
+                      {lang.name}
+                    </button>
+                    {index < supportedLanguages.length - 1 && (
+                      <span className="text-muted-foreground/50 mx-2">·</span>
+                    )}
+                  </span>
+                ))}
+              </div>
+            </div>
           </div>
         </div>
       </footer>

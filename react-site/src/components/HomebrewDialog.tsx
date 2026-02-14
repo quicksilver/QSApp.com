@@ -1,5 +1,6 @@
 import { useState } from "react";
 import type { ReactNode } from "react";
+import { useTranslation } from "react-i18next";
 import {
   Dialog,
   DialogContent,
@@ -17,6 +18,7 @@ interface HomebrewDialogProps {
 }
 
 export function HomebrewDialog({ children }: HomebrewDialogProps) {
+  const { t } = useTranslation("common");
   const [copied, setCopied] = useState(false);
   const [open, setOpen] = useState(false);
   const command = "brew install --cask quicksilver";
@@ -32,9 +34,9 @@ export function HomebrewDialog({ children }: HomebrewDialogProps) {
       <DialogTrigger asChild>{children}</DialogTrigger>
       <DialogContent className="sm:max-w-md">
         <DialogHeader>
-          <DialogTitle className="text-lg">Install via Homebrew</DialogTitle>
+          <DialogTitle className="text-lg">{t($ => $.homebrew.title)}</DialogTitle>
         </DialogHeader>
-        Copy the command below to install Quicksilver from your terminal using homebrew.
+        {t($ => $.homebrew.description)}
         <div className="flex flex-col gap-4 py-4">
           <div className="flex items-center gap-2">
             <code className="flex-1 rounded-md bg-muted px-4 py-3 font-mono text-sm">
@@ -45,19 +47,19 @@ export function HomebrewDialog({ children }: HomebrewDialogProps) {
         <DialogFooter>
           <DialogClose asChild>
             <Button variant="outline" onClick={() => setOpen(false)}>
-              Close
+              {t($ => $.buttons.close)}
             </Button>
           </DialogClose>
           <Button onClick={handleCopy}>
             {copied ? (
               <>
                 <CheckIcon size={16} />
-                Copied
+                {t($ => $.buttons.copied)}
               </>
             ) : (
               <>
                 <CopyIcon size={16} />
-                Copy
+                {t($ => $.buttons.copy)}
               </>
             )}
           </Button>

@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useTranslation } from "react-i18next";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Input } from "@/components/ui/input";
@@ -52,6 +53,7 @@ interface PluginInfo {
 }
 
 export function Plugins() {
+  const { t } = useTranslation("plugins");
   const [plugins, setPlugins] = useState<Plugin[]>([]);
   const [loading, setLoading] = useState(true);
   const [search, setSearch] = useState("");
@@ -74,7 +76,7 @@ export function Plugins() {
   const fetchPluginInfo = (plugin: Plugin, buildVersion?: string) => {
     setInfoLoading(true);
     const versionToFetch = buildVersion || plugin.buildVersion;
-    
+
     fetch(`https://qs0.qsapp.com/api/plugin-info.php?version=${versionToFetch}&id=${plugin.identifier}`)
       .then((res) => res.json())
       .then((data) => {
@@ -118,26 +120,26 @@ export function Plugins() {
       <div className="flex flex-col gap-8">
         <div className="flex flex-col gap-4">
           <h1 className="text-3xl md:text-4xl font-bold tracking-tight">
-            Plugin Repository
+            {t($ => $.title)}
           </h1>
           <p className="text-muted-foreground max-w-2xl">
-            Super-charge Quicksilver with plugins. Edit images, interact with
-            Chrome, Mail, Microsoft Word and more, or change the look and feel
-            with a new interface.
+            {t($ => $.description)}
           </p>
         </div>
 
         <div className="flex items-center justify-between gap-4">
           <div className="max-w-sm flex-1">
             <Input
-              placeholder="Search plugins..."
+              placeholder={t($ => $.search.placeholder)}
               value={search}
               onChange={(e) => setSearch(e.target.value)}
             />
           </div>
           <div className="flex items-center gap-4 text-sm">
             <span className="text-muted-foreground">
-              {filteredPlugins.length} plugins
+              {search
+                ? t($ => $.search.resultCountFiltered, { count: filteredPlugins.length, query: search })
+                : t($ => $.search.resultCount, { count: filteredPlugins.length })}
             </span>
             <a
               href="https://github.com/quicksilver/plugin_template"
@@ -145,7 +147,7 @@ export function Plugins() {
               rel="noopener noreferrer"
               className="text-primary hover:underline"
             >
-              Build your own!
+              {t($ => $.buildYourOwn)}
             </a>
           </div>
         </div>
@@ -211,7 +213,7 @@ export function Plugins() {
 
         {!loading && filteredPlugins.length === 0 && (
           <div className="text-center py-12 text-muted-foreground">
-            No plugins found matching your search.
+            {t($ => $.search.noResults, { query: search })}
           </div>
         )}
       </div>
@@ -246,7 +248,7 @@ export function Plugins() {
                       </DialogDescription>
                     </div>
                   </div>
-                  
+
                   {/* Pagination Controls */}
                   {pluginInfo && (
                     <div className="flex gap-2 mr-8">
@@ -337,7 +339,7 @@ export function Plugins() {
 
                   {/* Version Info */}
                   <p className="text-xs text-muted-foreground border-t pt-4">
-                    Version {pluginInfo.displayVersion} · {selectedPlugin.modDate}
+                    {t($ => $.changelog.version, { version: pluginInfo.displayVersion })} · {selectedPlugin.modDate}
                   </p>
                 </div>
               ) : (

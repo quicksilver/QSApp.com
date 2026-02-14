@@ -1,20 +1,26 @@
 import { useState, useEffect } from "react";
 import { Link, useLocation } from "react-router";
+import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 import { GithubLogoIcon, ListIcon, XIcon } from "@phosphor-icons/react";
 import { ModeToggle } from "@/components/mode-toggle";
+import { useLocalizedPath } from "@/hooks/useLocalizedPath";
 import quicksilverIcon from "@/assets/quicksilver-icon.png";
 
-const navLinks = [
-  { to: "/plugins", label: "Plugins" },
-  { to: "/donate", label: "Donate" },
-  { to: "/support", label: "Support" },
-];
-
 export function Navbar() {
+  const { t } = useTranslation("common");
   const location = useLocation();
+  const { getPath, getCurrentPathWithoutLang } = useLocalizedPath();
   const [isOpen, setIsOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
+
+  const currentPathWithoutLang = getCurrentPathWithoutLang();
+
+  const navLinks = [
+    { to: getPath("/plugins"), path: "/plugins", label: t($ => $.nav.plugins) },
+    { to: getPath("/donate"), path: "/donate", label: t($ => $.nav.donate) },
+    { to: getPath("/support"), path: "/support", label: t($ => $.nav.support) },
+  ];
 
   useEffect(() => {
     const handleScroll = () => {
@@ -27,14 +33,14 @@ export function Navbar() {
 
   return (
     <header className={`fixed top-0 z-50 w-full transition-all duration-300 ${
-      isScrolled 
-        ? "bg-background/95 border-b border-border/40" 
+      isScrolled
+        ? "bg-background/95 border-b border-border/40"
         : "bg-transparent border-b border-transparent"
     }`}>
       <div className="px-4 md:px-8">
         <div className="mx-auto flex h-16 max-w-[1200px] items-center gap-3">
           {/* Logo and brand */}
-          <Link to="/" className="flex items-center gap-2 flex-shrink-0">
+          <Link to={getPath("/")} className="flex items-center gap-2 flex-shrink-0">
             <img
               src={quicksilverIcon}
               alt="Quicksilver"
@@ -55,7 +61,7 @@ export function Navbar() {
                 key={link.to}
                 to={link.to}
                 className={`px-4 py-2 text-md rounded-md transition-colors hover:text-foreground ${
-                  location.pathname === link.to
+                  currentPathWithoutLang === link.path
                     ? "text-foreground"
                     : "text-muted-foreground hover:bg-background/50"
                 }`}
@@ -77,7 +83,7 @@ export function Navbar() {
           {/* Download button */}
           <Button size="sm" className="text-md ml-2" asChild>
             <a href="https://qs0.qsapp.com/plugins/download.php">
-              Download
+              {t($ => $.nav.download)}
             </a>
           </Button>
 
@@ -107,7 +113,7 @@ export function Navbar() {
                   to={link.to}
                   onClick={() => setIsOpen(false)}
                   className={`px-4 py-2 text-md rounded-md transition-colors hover:text-foreground ${
-                    location.pathname === link.to
+                    currentPathWithoutLang === link.path
                       ? "text-foreground"
                       : "text-muted-foreground hover:bg-background/50"
                   }`}

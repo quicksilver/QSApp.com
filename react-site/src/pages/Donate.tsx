@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { useTranslation } from "react-i18next";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Input } from "@/components/ui/input";
@@ -6,6 +7,7 @@ import { Input } from "@/components/ui/input";
 const PRESET_AMOUNTS = [20, 40];
 
 export function Donate() {
+  const { t } = useTranslation("donate");
   const [selectedAmount, setSelectedAmount] = useState<number | "other">(40);
   const [customAmount, setCustomAmount] = useState("");
 
@@ -28,25 +30,24 @@ export function Donate() {
       <div className="flex flex-col gap-8 max-w-2xl mx-auto">
         <div className="text-center">
           <h1 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
-            Support Quicksilver
+            {t($ => $.title)}
           </h1>
           <p className="text-muted-foreground">
-            Quicksilver is free and open source, developed by volunteers in
-            their spare time. Your support helps keep the project alive.
+            {t($ => $.description)}
           </p>
         </div>
 
         <Card>
           <CardHeader>
-            <CardTitle>Make a Donation</CardTitle>
+            <CardTitle>{t($ => $.card.title)}</CardTitle>
             <CardDescription>
-              Support the Quicksiler Project by Donating today.
+              {t($ => $.card.description)}
             </CardDescription>
           </CardHeader>
           <CardContent className="flex flex-col gap-6">
             <div className="space-y-2 text-sm text-muted-foreground">
-              <p>Quicksilver is free and open source and will always remain that way. No 'powerpack' or 'pro' version – just good healthy open source.</p>
-              <p>That said, we rely on donations to help cover hosting costs, domain renewals, and development resources.</p>
+              <p>{t($ => $.card.body1)}</p>
+              <p>{t($ => $.card.body2)}</p>
             </div>
             <form
               action="https://www.paypal.com/cgi-bin/webscr"
@@ -83,7 +84,7 @@ export function Donate() {
                   variant={selectedAmount === "other" ? "default" : "outline"}
                   onClick={() => setSelectedAmount("other")}
                 >
-                  Other
+                  {t($ => $.amount.other)}
                 </Button>
               </div>
 
@@ -94,7 +95,7 @@ export function Donate() {
                     type="number"
                     min="1"
                     step="0.01"
-                    placeholder="Enter amount"
+                    placeholder={t($ => $.amount.placeholder)}
                     value={customAmount}
                     onChange={(e) => setCustomAmount(e.target.value)}
                     className="max-w-32"
@@ -103,7 +104,7 @@ export function Donate() {
               )}
 
               <Button type="submit" className="w-full">
-                Donate via PayPal
+                {t($ => $.paypal.button)}
               </Button>
             </form>
           </CardContent>
@@ -111,7 +112,7 @@ export function Donate() {
 
         <Card>
           <CardHeader>
-            <CardTitle>Other Ways to Help</CardTitle>
+            <CardTitle>{t($ => $.otherWays.title)}</CardTitle>
           </CardHeader>
           <CardContent className="flex flex-col gap-3">
             <a
@@ -121,9 +122,9 @@ export function Donate() {
               className="flex items-center gap-3 p-3 rounded-lg border border-border/50 hover:border-border transition-colors"
             >
               <div>
-                <p className="font-medium">Contribute Code</p>
+                <p className="font-medium">{t($ => $.otherWays.contribute.title)}</p>
                 <p className="text-sm text-muted-foreground">
-                  Help fix bugs or add new features on GitHub.
+                  {t($ => $.otherWays.contribute.description)}
                 </p>
               </div>
             </a>
@@ -134,9 +135,9 @@ export function Donate() {
               className="flex items-center gap-3 p-3 rounded-lg border border-border/50 hover:border-border transition-colors"
             >
               <div>
-                <p className="font-medium">Translate Quicksilver</p>
+                <p className="font-medium">{t($ => $.otherWays.translate.title)}</p>
                 <p className="text-sm text-muted-foreground">
-                  Help translate Quicksilver into your language.
+                  {t($ => $.otherWays.translate.description)}
                 </p>
               </div>
             </a>
@@ -147,9 +148,9 @@ export function Donate() {
               className="flex items-center gap-3 p-3 rounded-lg border border-border/50 hover:border-border transition-colors"
             >
               <div>
-                <p className="font-medium">Report Issues</p>
+                <p className="font-medium">{t($ => $.otherWays.reportIssues.title)}</p>
                 <p className="text-sm text-muted-foreground">
-                  Found a bug? Let us know on the issue tracker.
+                  {t($ => $.otherWays.reportIssues.description)}
                 </p>
               </div>
             </a>
@@ -160,9 +161,9 @@ export function Donate() {
               className="flex items-center gap-3 p-3 rounded-lg border border-border/50 hover:border-border transition-colors"
             >
               <div>
-                <p className="font-medium">Improve Documentation</p>
+                <p className="font-medium">{t($ => $.otherWays.documentation.title)}</p>
                 <p className="text-sm text-muted-foreground">
-                  Help others learn Quicksilver by improving the manual.
+                  {t($ => $.otherWays.documentation.description)}
                 </p>
               </div>
             </a>

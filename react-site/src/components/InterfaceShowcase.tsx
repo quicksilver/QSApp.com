@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import { useTranslation } from "react-i18next";
 import bezel from "@/assets/interfaces/bezel.png";
 import flash from "@/assets/interfaces/flash.png";
 import primer from "@/assets/interfaces/primer.png";
@@ -11,9 +12,8 @@ const INTERFACES = [
   { name: "Primer", image: primer },
 ];
 
-interface InterfaceShowcaseProps {}
-
-export function InterfaceShowcase({}: InterfaceShowcaseProps) {
+export function InterfaceShowcase() {
+  const { t } = useTranslation("home");
   const containerRef = useRef<HTMLDivElement>(null);
   const [scrollProgress, setScrollProgress] = useState(0);
 
@@ -78,10 +78,10 @@ export function InterfaceShowcase({}: InterfaceShowcaseProps) {
       <div className="mx-auto max-w-[1200px] px-4 md:px-8">
         <div className="text-center mb-24">
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
-            Multiple Interfaces tailored to you
+            {t($ => $.interfaces.title)}
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Choose from multiple interface, styles and colors to fit your rythmn.
+            {t($ => $.interfaces.description)}
           </p>
         </div>
 
@@ -116,9 +116,9 @@ export function InterfaceShowcase({}: InterfaceShowcaseProps) {
           })}
         </div>
 
-              <div className="text-center mt-8 text-muted-foreground max-w-xl mx-auto">
-                    10+ interfaces to choose from, with color theming built in!
-                    </div>
+        <div className="text-center mt-8 text-muted-foreground max-w-xl mx-auto">
+          {t($ => $.interfaces.footer)}
+        </div>
 
         <div className="flex justify-center mt-8 gap-2">
             <div

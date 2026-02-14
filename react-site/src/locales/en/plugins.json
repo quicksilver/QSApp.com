@@ -1,0 +1,20 @@
+{
+  "buildYourOwn": "Build your own!",
+  "changelog": {
+    "close": "Close",
+    "title": "{{name}} Changelog",
+    "version": "Version {{version}}"
+  },
+  "description": "Extend Quicksilver with plugins for your favorite apps and services.",
+  "search": {
+    "noResults": "No plugins found matching \"{{query}}\"",
+    "placeholder": "Search plugins...",
+    "resultCount": "{{count}} plugins available",
+    "resultCount_one": "search.resultCount",
+    "resultCount_other": "search.resultCount",
+    "resultCountFiltered": "{{count}} plugins matching \"{{query}}\"",
+    "resultCountFiltered_one": "search.resultCountFiltered",
+    "resultCountFiltered_other": "search.resultCountFiltered"
+  },
+  "title": "Plugins"
+}

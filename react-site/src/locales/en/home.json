@@ -1,0 +1,83 @@
+{
+  "cta": {
+    "description": "Download Quicksilver today and discover a faster way to work.",
+    "title": "Ready to supercharge your Mac?"
+  },
+  "features": {
+    "description": "Quicksilver lets you start applications, manipulate files, and much more — all from your keyboard.",
+    "extensible": {
+      "description": "Hundreds of plugins extend Quicksilver's capabilities to work with your favorite apps.",
+      "title": "Extensible"
+    },
+    "instantLaunch": {
+      "description": "Launch applications, open files, and access bookmarks with just a few keystrokes.",
+      "title": "Instant Launch"
+    },
+    "openSource": {
+      "description": "Free forever. Actively maintained by a passionate community of developers.",
+      "title": "Open Source"
+    },
+    "powerfulActions": {
+      "description": "Move, copy, email, or compress files. Send messages. Control iTunes. The possibilities are endless.",
+      "title": "Powerful Actions"
+    },
+    "smartLearning": {
+      "description": "Quicksilver learns your habits and adapts to show you what you need, when you need it.",
+      "title": "Smart Learning"
+    },
+    "title": "Lightning Fast Productivity",
+    "triggers": {
+      "description": "Assign keyboard shortcuts or mouse gestures to instantly run any action.",
+      "title": "Triggers"
+    }
+  },
+  "hero": {
+    "allVersions": "All versions",
+    "description": "Quicksilver is a fast macOS productivity application that gives you the power to control your Mac quickly and elegantly.",
+    "homebrewInstall": "Install via Homebrew",
+    "tagline": "Act without doing",
+    "version": "Version {{version}} · macOS {{minOS}}+"
+  },
+  "interfaces": {
+    "description": "Choose from multiple interfaces, styles and colors to fit your rhythm.",
+    "footer": "10+ interfaces to choose from, with color theming built in!",
+    "title": "Multiple Interfaces tailored to you"
+  },
+  "plugins": {
+    "description": "Supercharge Quicksilver with plugins that integrate with your favorite apps and workflows.",
+    "exploreAll": "Explore All Plugins",
+    "featurePreviewAlt": "Plugin feature preview",
+    "items": {
+      "browsers": {
+        "description": "Control Safari, Chrome, and Firefox. Search bookmarks and history.",
+        "title": "Browsers"
+      },
+      "calculator": {
+        "description": "Perform calculations instantly and copy results to clipboard.",
+        "title": "Calculator"
+      },
+      "calendar": {
+        "description": "Create events and reminders without leaving your keyboard.",
+        "title": "Calendar & Reminders"
+      },
+      "clipboard": {
+        "description": "Access clipboard history and store items for quick access.",
+        "title": "Clipboard & Shelf"
+      },
+      "emojis": {
+        "description": "Search and insert emojis anywhere with a quick shortcut.",
+        "title": "Emojis"
+      },
+      "images": {
+        "description": "Resize, crop, and convert images directly from Quicksilver.",
+        "title": "Image Manipulation"
+      },
+      "mail": {
+        "description": "Send emails directly from Quicksilver with Apple Mail or Gmail.",
+        "title": "Mail"
+      }
+    },
+    "selectInterface": "Select {{name}} interface",
+    "title": "Infinitely Extend with Plugins"
+  }
+}

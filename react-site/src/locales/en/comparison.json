@@ -1,0 +1,59 @@
+{
+  "badge": "Comparison",
+  "cta": {
+    "description": "Download for free and experience the power of a true action-based launcher.",
+    "title": "Ready to try Quicksilver?"
+  },
+  "description": "Searching for the best Mac launcher? Here's why Quicksilver is the choice for power users who want total control—for free.",
+  "intro": {
+    "paragraph1": "Both Quicksilver and Alfred are keyboard-driven productivity apps for macOS that help you launch applications, find files, and automate tasks. Alfred launched in 2010 and has become popular for its polished interface and workflow system.",
+    "paragraph2": "Quicksilver pioneered this category back in 2003 and takes a fundamentally different approach: while Alfred focuses on <em>finding</em> things, Quicksilver focuses on <em>doing</em> things. Its noun-verb-object model lets you chain actions together fluidly—and every feature ships free and open source."
+  },
+  "table": {
+    "clipboardHistory": "Clipboard History",
+    "contactActions": "Contact Actions",
+    "customThemes": "Custom Themes",
+    "feature": "Feature",
+    "fileActions": "Advanced File Actions",
+    "globalHotkeys": "Global Hotkeys & Triggers",
+    "included": "Included",
+    "musicControl": "Music Control",
+    "paid": "Paid",
+    "philosophy": "Philosophy",
+    "philosophyAlfred": "Search-based",
+    "philosophyQs": "Action-based",
+    "price": "Price",
+    "priceFree": "Free (Open Source)",
+    "pricePaid": "Free / ~£34 Powerpack",
+    "proxyObjects": "Proxy Objects",
+    "proxyObjectsAlfred": "Requires Workflows",
+    "proxyObjectsQs": "Core Feature",
+    "searchIndex": "Search Index",
+    "searchIndexAlfred": "Spotlight Dependent",
+    "searchIndexQs": "Bare Metal (Fast)"
+  },
+  "title": "Quicksilver vs. Alfred",
+  "whySection": {
+    "act": {
+      "description": "Alfred searches. Quicksilver acts. Select a file → Email it → To a colleague. All without touching the mouse.",
+      "number": "1",
+      "title": "Act, Don't Just Search"
+    },
+    "context": {
+      "description": "Use Proxy Objects to instantly act on your current Finder selection. Select a file, hit a hotkey, move it instantly.",
+      "number": "4",
+      "title": "Context Aware"
+    },
+    "free": {
+      "description": "No 'Powerpacks,' no paid upgrades. Clipboard history, theming, deep system control—all free forever.",
+      "number": "2",
+      "title": "Truly Free & Open"
+    },
+    "spotlight": {
+      "description": "Quicksilver builds its own catalog. Lightning fast and works instantly, even if Spotlight is broken or indexing.",
+      "number": "3",
+      "title": "Spotlight Independent"
+    },
+    "title": "Why Quicksilver?"
+  }
+}

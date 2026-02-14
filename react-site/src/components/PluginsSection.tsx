@@ -1,5 +1,7 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router";
+import { useTranslation } from "react-i18next";
+import { useLocalizedPath } from "@/hooks/useLocalizedPath";
 import {
   EnvelopeSimpleIcon,
   CalculatorIcon,
@@ -20,75 +22,61 @@ import pluginDefault from "@/assets/features/plugin.png";
 
 const INTERFACE_NAMES = ["Yosemite", "Bezel", "Flashlight", "Primer"];
 
-interface Plugin {
+interface PluginConfig {
   icon: React.ReactNode;
-  title: string;
-  description: React.ReactNode;
   href: string;
   featureName: string;
+  translationKey: "mail" | "calculator" | "clipboard" | "browsers" | "calendar" | "emojis" | "images";
 }
 
-const PLUGINS: Plugin[] = [
+const PLUGIN_CONFIGS: PluginConfig[] = [
   {
     icon: <EnvelopeSimpleIcon size={28} weight="duotone" />,
-    title: "Mail",
-    description: "Send emails directly from Quicksilver with Apple Mail or Gmail.",
     href: "https://qsapp.com/manual/plugins/emailsupport/",
     featureName: "email",
+    translationKey: "mail",
   },
   {
     icon: <CalculatorIcon size={28} weight="duotone" />,
-    title: "Calculator",
-    description: "Perform calculations instantly and copy results to clipboard.",
     href: "https://qsapp.com/manual/plugins/tscalculator/",
     featureName: "calculator",
+    translationKey: "calculator",
   },
   {
     icon: <ClipboardIcon size={28} weight="duotone" />,
-    title: "Clipboard & Shelf",
-    description: "Access clipboard history and store items for quick access.",
     href: "https://qsapp.com/manual/plugins/clipboard/",
     featureName: "clipboard",
+    translationKey: "clipboard",
   },
   {
     icon: <GlobeIcon size={28} weight="duotone" />,
-    title: "Browsers",
-    description: (
-      <>
-        Control{" "}
-        <PluginLink href="https://qsapp.com/manual/plugins/safari/">Safari</PluginLink>,{" "}
-        <PluginLink href="https://qsapp.com/manual/plugins/googlechrome/">Chrome</PluginLink>, and{" "}
-        <PluginLink href="https://qsapp.com/manual/plugins/firefox/">Firefox</PluginLink>.
-        Search bookmarks and history.
-      </>
-    ),
     href: "https://qsapp.com/manual/features/Web/#web-browsers",
     featureName: "browsers",
+    translationKey: "browsers",
   },
   {
     icon: <CalendarDotsIcon size={28} weight="duotone" />,
-    title: "Calendar & Reminders",
-    description: "Create events and reminders without leaving your keyboard.",
     href: "https://qsapp.com/manual/plugins/icalmodule/",
     featureName: "calendar",
+    translationKey: "calendar",
   },
   {
     icon: <SmileyIcon size={28} weight="duotone" />,
-    title: "Emojis",
-    description: "Search and insert emojis anywhere with a quick shortcut.",
     href: "https://qsapp.com/manual/plugins/emojisplugin/",
     featureName: "emojis",
+    translationKey: "emojis",
   },
   {
     icon: <ImageSquareIcon size={28} weight="duotone" />,
-    title: "Image Manipulation",
-    description: "Resize, crop, and convert images directly from Quicksilver.",
     href: "https://qsapp.com/manual/plugins/imagemanipulation/",
     featureName: "images",
+    translationKey: "images",
   },
 ];
 
 export function PluginsSection() {
+  const { t } = useTranslation("home");
+  const { getPath } = useLocalizedPath();
   const [hoveredFeature, setHoveredFeature] = useState<string | null>(null);
   const [interfaceName, setInterfaceName] = useState("yosemite");
   const [imageSrc, setImageSrc] = useState(pluginDefault);
@@ -125,22 +113,22 @@ export function PluginsSection() {
       <div className="mx-auto max-w-[1200px] px-4 md:px-8">
         <div className="text-center mb-8">
           <h2 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
-            Infinitely Extend with Plugins
+            {t($ => $.plugins.title)}
           </h2>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Supercharge Quicksilver with plugins that integrate with your favorite apps and workflows.
+            {t($ => $.plugins.description)}
           </p>
         </div>
 
         {/* Feature Image Preview */}
         <div className="flex justify-center items-center mb-4 h-[180px]">
-          <div 
+          <div
             className="relative overflow-hidden flex items-center justify-center transition-all duration-500"
             style={{ height: interfaceName === 'flashlight' ? '80px' : '180px' }}
           >
             <img
               src={imageSrc}
-              alt="Plugin feature preview"
+              alt={t($ => $.plugins.featurePreviewAlt)}
               className="h-full object-contain transition-opacity duration-500"
               style={{ opacity: imageOpacity }}
             />
@@ -160,7 +148,7 @@ export function PluginsSection() {
                         ? "bg-purple-500"
                         : "bg-purple-300 hover:bg-purple-400"
                     }`}
-                    aria-label={`Select ${name} interface`}
+                    aria-label={t($ => $.plugins.selectInterface, { name })}
                   />
                 </TooltipTrigger>
                 <TooltipContent>
@@ -173,25 +161,38 @@ export function PluginsSection() {
 
         {/* Plugin Cards Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6">
-          {PLUGINS.map((plugin) => (
+          {PLUGIN_CONFIGS.map((plugin) => (
             <PluginCard
               key={plugin.featureName}
-              {...plugin}
+              icon={plugin.icon}
+              title={t($ => $.plugins.items[plugin.translationKey].title)}
+              description={t($ => $.plugins.items[plugin.translationKey].description)}
+              href={plugin.href}
+              featureName={plugin.featureName}
               onHover={setHoveredFeature}
             />
           ))}
           <Link
-            to="/plugins"
+            to={getPath("/plugins")}
             className="group relative rounded-xl border border-dashed border-border/50 bg-transparent p-6 transition-all hover:border-primary hover:bg-primary/5 flex flex-col items-center justify-center text-center"
           >
             <p className="text-lg font-semibold text-muted-foreground group-hover:text-primary transition-colors">
-              Explore All Plugins →
+              {t($ => $.plugins.exploreAll)} →
             </p>
           </Link>
         </div>
       </div>
     </section>
   );
+}
+
+interface PluginCardProps {
+  icon: React.ReactNode;
+  title: string;
+  description: string;
+  href: string;
+  featureName: string;
+  onHover: (feature: string | null) => void;
 }
 
 function PluginCard({
@@ -201,7 +202,7 @@ function PluginCard({
   href,
   featureName,
   onHover,
-}: Plugin & { onHover: (feature: string | null) => void }) {
+}: PluginCardProps) {
   const handleCardClick = (e: React.MouseEvent) => {
     if ((e.target as HTMLElement).tagName !== "A") {
       window.open(href, "_blank", "noopener,noreferrer");
@@ -227,15 +228,3 @@ function PluginCard({
   );
 }
 
-function PluginLink({ href, children }: { href: string; children: React.ReactNode }) {
-  return (
-    <a
-      href={href}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="text-primary hover:underline"
-    >
-      {children}
-    </a>
-  );
-}

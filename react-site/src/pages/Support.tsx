@@ -1,72 +1,73 @@
 import { Link } from "react-router";
+import { useTranslation } from "react-i18next";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 
 export function Support() {
+  const { t } = useTranslation("support");
+  const { t: tc } = useTranslation("common");
+
   return (
     <div className="mx-auto max-w-[1200px] px-4 md:px-8 py-12">
       <div className="flex flex-col gap-8">
         <div className="text-center">
           <h1 className="text-3xl md:text-4xl font-bold tracking-tight mb-4">
-            Get Help
+            {t($ => $.title)}
           </h1>
           <p className="text-muted-foreground max-w-2xl mx-auto">
-            Need help with Quicksilver? Here are the best ways to get support.
+            {t($ => $.description)}
           </p>
         </div>
 
         <div className="grid md:grid-cols-2 gap-4">
           <Card>
             <CardHeader>
-              <CardTitle>Documentation</CardTitle>
+              <CardTitle>{t($ => $.documentation.title)}</CardTitle>
               <CardDescription>
-                Start with the official Quicksilver Manual
+                {t($ => $.documentation.description)}
               </CardDescription>
             </CardHeader>
             <CardContent>
               <p className="text-sm text-muted-foreground mb-4">
-                The manual covers everything from installation to advanced
-                triggers and plugins. It's the best place to start learning.
+                {t($ => $.documentation.body)}
               </p>
               <Button asChild>
-                <a href="https://qsapp.com/manual/">Read the Manual</a>
+                <a href="https://qsapp.com/manual/">{tc($ => $.buttons.readManual)}</a>
               </Button>
             </CardContent>
           </Card>
 
           <Card>
             <CardHeader>
-              <CardTitle>FAQ</CardTitle>
+              <CardTitle>{t($ => $.faq.title)}</CardTitle>
               <CardDescription>
-                Frequently asked questions
+                {t($ => $.faq.description)}
               </CardDescription>
             </CardHeader>
             <CardContent>
               <p className="text-sm text-muted-foreground mb-4">
-                Find answers to common questions about Quicksilver, troubleshooting
-                tips, and learn why Quicksilver might be the right choice for you.
+                {t($ => $.faq.body)}
               </p>
               <Button variant="outline" asChild>
-                <Link to="/faq">View FAQ</Link>
+                <Link to="/faq">{tc($ => $.buttons.viewFaq)}</Link>
               </Button>
             </CardContent>
           </Card>
 
           <Card>
             <CardHeader>
-              <CardTitle>GitHub Discussions</CardTitle>
+              <CardTitle>{t($ => $.discussions.title)}</CardTitle>
               <CardDescription>
-                Ask questions and get help from the community
+                {t($ => $.discussions.description)}
               </CardDescription>
             </CardHeader>
             <CardContent>
               <p className="text-sm text-muted-foreground mb-4">
-                The GitHub Discussions forum is the best place to ask questions,
-                share tips, and connect with other Quicksilver users.
+                {t($ => $.discussions.body)}
               </p>
               <Button variant="outline" asChild>
                 <a href="https://github.com/quicksilver/Quicksilver/discussions">
-                  Join Discussions
+                  {tc($ => $.buttons.joinDiscussions)}
                 </a>
               </Button>
             </CardContent>
@@ -74,19 +75,18 @@ export function Support() {
 
           <Card>
             <CardHeader>
-              <CardTitle>Report a Bug</CardTitle>
+              <CardTitle>{t($ => $.issues.title)}</CardTitle>
               <CardDescription>
-                Found something wrong? Let us know
+                {t($ => $.issues.description)}
               </CardDescription>
             </CardHeader>
             <CardContent>
               <p className="text-sm text-muted-foreground mb-4">
-                If you've found a bug, please report it on GitHub Issues. Include
-                your macOS version, Quicksilver version, and steps to reproduce.
+                {t($ => $.issues.body)}
               </p>
               <Button variant="outline" asChild>
                 <a href="https://github.com/quicksilver/Quicksilver/issues">
-                  Report Issue
+                  {tc($ => $.buttons.reportIssue)}
                 </a>
               </Button>
             </CardContent>
