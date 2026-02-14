@@ -1,44 +1,44 @@
 git:
   filters:
     - filter_type: file
-      source_file: react-site/src/locals/en/common.json
-      translation_files_expression: 'react-site/src/locals/<lang>/common.json'
+      source_file: react-site/src/locales/en/common.json
+      translation_files_expression: 'react-site/src/locales/<lang>/common.json'
       source_language: en
       file_format: KEYVALUEJSON
 
     - filter_type: file
-      source_file: react-site/src/locals/en/home.json
-      translation_files_expression: 'react-site/src/locals/<lang>/home.json'
+      source_file: react-site/src/locales/en/home.json
+      translation_files_expression: 'react-site/src/locales/<lang>/home.json'
       source_language: en
       file_format: KEYVALUEJSON
 
     - filter_type: file
-      source_file: react-site/src/locals/en/plugins.json
-      translation_files_expression: 'react-site/src/locals/<lang>/plugins.json'
+      source_file: react-site/src/locales/en/plugins.json
+      translation_files_expression: 'react-site/src/locales/<lang>/plugins.json'
       source_language: en
       file_format: KEYVALUEJSON
 
     - filter_type: file
-      source_file: react-site/src/locals/en/donate.json
-      translation_files_expression: 'react-site/src/locals/<lang>/donate.json'
+      source_file: react-site/src/locales/en/donate.json
+      translation_files_expression: 'react-site/src/locales/<lang>/donate.json'
       source_language: en
       file_format: KEYVALUEJSON
 
     - filter_type: file
-      source_file: react-site/src/locals/en/support.json
-      translation_files_expression: 'react-site/src/locals/<lang>/support.json'
+      source_file: react-site/src/locales/en/support.json
+      translation_files_expression: 'react-site/src/locales/<lang>/support.json'
       source_language: en
       file_format: KEYVALUEJSON
 
     - filter_type: file
-      source_file: react-site/src/locals/en/faq.json
-      translation_files_expression: 'react-site/src/locals/<lang>/faq.json'
+      source_file: react-site/src/locales/en/faq.json
+      translation_files_expression: 'react-site/src/locales/<lang>/faq.json'
       source_language: en
       file_format: KEYVALUEJSON
 
     - filter_type: file
-      source_file: react-site/src/locals/en/comparison.json
-      translation_files_expression: 'react-site/src/locals/<lang>/comparison.json'
+      source_file: react-site/src/locales/en/comparison.json
+      translation_files_expression: 'react-site/src/locales/<lang>/comparison.json'
       source_language: en
       file_format: KEYVALUEJSON
 
