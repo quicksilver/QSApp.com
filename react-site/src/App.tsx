@@ -27,16 +27,16 @@ export function App() {
     <ThemeProvider>
       <BrowserRouter basename={APP_BASE_PATH}>
         <Routes>
-          {/* Default English routes (no prefix) */}
-          <Route path="/" element={<LanguageRoute lang="en"><Layout /></LanguageRoute>}>
+          {/* Chinese routes with /zh-CN prefix - must come before catch-all */}
+          <Route path="/zh-CN/*" element={<LanguageRoute lang="zh-CN"><Layout /></LanguageRoute>}>
             {pageRoutes.map(({ path, element }) => (
               <Route key={path || "index"} index={path === ""} path={path || undefined} element={element} />
             ))}
             <Route path="*" element={<NotFound />} />
           </Route>
 
-          {/* Chinese routes with /zh-cn prefix */}
-          <Route path="/zh-cn" element={<LanguageRoute lang="zh"><Layout /></LanguageRoute>}>
+          {/* Default English routes (no prefix) */}
+          <Route path="/*" element={<LanguageRoute lang="en"><Layout /></LanguageRoute>}>
             {pageRoutes.map(({ path, element }) => (
               <Route key={path || "index"} index={path === ""} path={path || undefined} element={element} />
             ))}

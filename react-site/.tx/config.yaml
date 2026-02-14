@@ -1,0 +1,56 @@
+git:
+  filters:
+    - filter_type: file
+      source_file: src/locales/en/common.json
+      translation_files_expression: 'src/locales/<lang>/common.json'
+      source_language: en
+      file_format: KEYVALUEJSON
+
+    - filter_type: file
+      source_file: src/locales/en/home.json
+      translation_files_expression: 'src/locales/<lang>/home.json'
+      source_language: en
+      file_format: KEYVALUEJSON
+
+    - filter_type: file
+      source_file: src/locales/en/plugins.json
+      translation_files_expression: 'src/locales/<lang>/plugins.json'
+      source_language: en
+      file_format: KEYVALUEJSON
+
+    - filter_type: file
+      source_file: src/locales/en/donate.json
+      translation_files_expression: 'src/locales/<lang>/donate.json'
+      source_language: en
+      file_format: KEYVALUEJSON
+
+    - filter_type: file
+      source_file: src/locales/en/support.json
+      translation_files_expression: 'src/locales/<lang>/support.json'
+      source_language: en
+      file_format: KEYVALUEJSON
+
+    - filter_type: file
+      source_file: src/locales/en/faq.json
+      translation_files_expression: 'src/locales/<lang>/faq.json'
+      source_language: en
+      file_format: KEYVALUEJSON
+
+    - filter_type: file
+      source_file: src/locales/en/comparison.json
+      translation_files_expression: 'src/locales/<lang>/comparison.json'
+      source_language: en
+      file_format: KEYVALUEJSON
+
+  settings:
+    language_mapping:
+      es_MX: es-MX
+      cy_GB: cy
+      pt_BR: pt-BR
+      en_US: en
+      nb_NO: nb-NO
+      es_ES: es-ES
+      zh_CN: zh-CN
+      zh_TW: zh-TW
+      zh_HK: zh-HK
+      ca: ca-ES

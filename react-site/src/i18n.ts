@@ -12,19 +12,19 @@ import faqEn from "./locales/en/faq.json";
 import comparisonEn from "./locales/en/comparison.json";
 
 // Import Chinese translation files
-import commonZh from "./locales/zh/common.json";
-import homeZh from "./locales/zh/home.json";
-import pluginsZh from "./locales/zh/plugins.json";
-import donateZh from "./locales/zh/donate.json";
-import supportZh from "./locales/zh/support.json";
-import faqZh from "./locales/zh/faq.json";
-import comparisonZh from "./locales/zh/comparison.json";
+import commonZh from "./locales/zh-CN/common.json";
+import homeZh from "./locales/zh-CN/home.json";
+import pluginsZh from "./locales/zh-CN/plugins.json";
+import donateZh from "./locales/zh-CN/donate.json";
+import supportZh from "./locales/zh-CN/support.json";
+import faqZh from "./locales/zh-CN/faq.json";
+import comparisonZh from "./locales/zh-CN/comparison.json";
 
 export const defaultNS = "common";
 
 export const supportedLanguages = [
   { code: "en", name: "English", urlPrefix: "" },
-  { code: "zh", name: "简体中文", urlPrefix: "zh-cn" },
+  { code: "zh-CN", name: "简体中文", urlPrefix: "zh-CN" },
 ] as const;
 
 export type LanguageCode = typeof supportedLanguages[number]["code"];
@@ -59,7 +59,7 @@ export const resources = {
     faq: faqEn,
     comparison: comparisonEn,
   },
-  zh: {
+  "zh-CN": {
     common: commonZh,
     home: homeZh,
     plugins: pluginsZh,
