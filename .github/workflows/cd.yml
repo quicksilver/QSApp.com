@@ -33,7 +33,7 @@ jobs:
         chmod 0600 /tmp/key
 
         ssh qs@${SERVER} -p "${PORT}" -i /tmp/key -o StrictHostKeyChecking=no "cd qsapp.com && git pull origin main"
-    - name: Copy dist folder
+    - name: Copy build output to dist folder
       env:
         SERVER: ${{ secrets.SERVER }}
         PORT: ${{ secrets.PORT }}
@@ -42,4 +42,5 @@ jobs:
         echo "${SSH_KEY}" > /tmp/key
         chmod 0600 /tmp/key
 
-        scp -P "${PORT}" -i /tmp/key -o StrictHostKeyChecking=no -r react-site/dist qs@${SERVER}:qsapp.com/dist
+        # React Router outputs to build/client/, deploy as dist/
+        scp -P "${PORT}" -i /tmp/key -o StrictHostKeyChecking=no -r react-site/build/client/* qs@${SERVER}:qsapp.com/dist/

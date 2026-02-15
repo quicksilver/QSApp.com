@@ -70,8 +70,12 @@ export const resources = {
   },
 } as const;
 
+// Only use LanguageDetector in browser environment
+if (typeof window !== "undefined") {
+  i18n.use(LanguageDetector);
+}
+
 i18n
-  .use(LanguageDetector)
   .use(initReactI18next)
   .init({
     resources,
@@ -81,7 +85,7 @@ i18n
       escapeValue: false, // React already escapes
     },
     detection: {
-      // Path detection is handled by LanguageRoute component
+      // Path detection is handled by route layout
       // These are fallbacks for initial load
       order: ["navigator", "htmlTag"],
       caches: [],

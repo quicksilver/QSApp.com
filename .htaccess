@@ -14,8 +14,13 @@ RewriteRule ^images/ - [L]
 
 # If the request isn't already under /dist/, rewrite it there
 RewriteCond %{REQUEST_URI} !^/dist/
-RewriteRule ^(.+)$ /dist/$1 [L]
+RewriteRule ^(.*)$ /dist/$1 [L]
 
-# If the rewritten file doesn't exist, serve the SPA entry point
+# For clean URLs, try adding /index.html (for prerendered routes)
 RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^ /dist/index.html [L]
+RewriteCond %{REQUEST_FILENAME}/index.html -f
+RewriteRule ^(.*)$ $1/index.html [L]
+
+# If the file still doesn't exist, serve the SPA fallback
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteRule ^ /dist/__spa-fallback.html [L]

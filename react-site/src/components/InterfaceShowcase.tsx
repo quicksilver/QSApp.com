@@ -16,8 +16,13 @@ export function InterfaceShowcase() {
   const { t } = useTranslation("home");
   const containerRef = useRef<HTMLDivElement>(null);
   const [scrollProgress, setScrollProgress] = useState(0);
+  const [windowSize, setWindowSize] = useState({ width: 1200, height: 800 });
+  const [isMounted, setIsMounted] = useState(false);
 
   useEffect(() => {
+    setIsMounted(true);
+    setWindowSize({ width: window.innerWidth, height: window.innerHeight });
+
     const handleScroll = () => {
       if (!containerRef.current) return;
 
@@ -32,20 +37,28 @@ export function InterfaceShowcase() {
       setScrollProgress(progress);
     };
 
+    const handleResize = () => {
+      setWindowSize({ width: window.innerWidth, height: window.innerHeight });
+    };
+
     window.addEventListener("scroll", handleScroll);
+    window.addEventListener("resize", handleResize);
     handleScroll(); // Call once on mount
 
-    return () => window.removeEventListener("scroll", handleScroll);
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+      window.removeEventListener("resize", handleResize);
+    };
   }, []);
 
   // Calculate stagger based on scroll progress
   const getTransform = (index: number) => {
     // Start positions at edges of window (completely off-screen)
     const startPositions = [
-      { x: -window.innerWidth, y: -window.innerHeight }, // top-left
-      { x: window.innerWidth, y: -window.innerHeight }, // top-right
-      { x: -window.innerWidth, y: window.innerHeight }, // bottom-left
-      { x: window.innerWidth, y: window.innerHeight }, // bottom-right
+      { x: -windowSize.width, y: -windowSize.height }, // top-left
+      { x: windowSize.width, y: -windowSize.height }, // top-right
+      { x: -windowSize.width, y: windowSize.height }, // bottom-left
+      { x: windowSize.width, y: windowSize.height }, // bottom-right
     ];
 
     // End positions in center with generous scatter (no overlap)
@@ -65,7 +78,7 @@ export function InterfaceShowcase() {
 
     return {
       transform: `translate3d(${x}px, ${y}px, 0) scale(1)`,
-      opacity: scrollProgress,
+      opacity: isMounted ? scrollProgress : 0,
       zIndex: (index === 0 || index === 3) ? 1 : 2, // Ensure some layering
     };
   };
