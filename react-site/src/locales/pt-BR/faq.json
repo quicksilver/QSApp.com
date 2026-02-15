@@ -1,0 +1,48 @@
+{
+  "description": "Tudo o que você precisa saber sobre Quicksilver.",
+  "questions": {
+    "cost": {
+      "answer": "O Quicksilver é totalmente gratuito. Não há versão paga, assinatura ou recursos bloqueados por um paywall. É um software livre e de código aberto, desenvolvido por voluntários que acreditam que ótimas ferramentas devem ser acessíveis a todos.",
+      "question": "Quanto custa o Quicksilver?"
+    },
+    "developers": {
+      "answer": "Quicksilver é um software de código aberto, desenvolvido por um grupo de colaboradores voluntários.",
+      "question": "Quem são os desenvolvedores por trás do Quicksilver?",
+      "viewContributors": "Veja quem contribuiu para o software no GitHub."
+    },
+    "plugins": {
+      "answer": "Certifique-se de ter o plugin apropriado instalado. Muitos recursos dependem de plugins, que você pode navegar e instalar nas preferências do Quicksilver. Se não encontrar o que procura no catálogo, verifique se está ativado e verificado.",
+      "question": "Por que não encontro um recurso ou plugin que eu esperava?"
+    },
+    "spotlight": {
+      "answer": "Não. O Spotlight encontra coisas, mas tudo o que permite fazer é abri-las. O Quicksilver encontra coisas e permite que você faça todo tipo de coisa com elas — mover arquivos, enviar e-mails, controlar aplicativos — com apenas uma ou duas teclas.",
+      "learnMore": "Saiba mais no manual.",
+      "question": "O Spotlight não torna o Quicksilver desnecessário?"
+    }
+  },
+  "seeMore": {
+    "link": "Veja todas as perguntas frequentes →",
+    "prompt": "Tem mais perguntas?"
+  },
+  "title": "Perguntas Frequentes",
+  "whyChoose": {
+    "free": {
+      "description": "Sem \"powerpack\", sem versão \"pro\", sem assinatura. Todos os recursos são gratuitos.",
+      "title": "100% Grátis Para Sempre"
+    },
+    "intro": "Existem muitos aplicativos de inicialização para macOS, mas o Quicksilver se destaca.",
+    "openSource": {
+      "description": "Totalmente de código aberto e mantido pela comunidade. Audite o código, contribua com recursos ou faça um fork.",
+      "title": "Código Aberto"
+    },
+    "original": {
+      "description": "Quicksilver foi pioneira no conceito de launcher em 2003, inspirando todos os aplicativos que vieram depois.",
+      "title": "O lançador original do Mac"
+    },
+    "privacy": {
+      "description": "Quicksilver não envia dados para servidores externos, não coleta análises nem monitora seu uso. Seus dados permanecem no seu Mac.",
+      "title": "Sem Rastreamento, Privacidade Total."
+    },
+    "title": "Por que Escolher Quicksilver?"
+  }
+}
