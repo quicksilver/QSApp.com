@@ -66,9 +66,8 @@ export function Home() {
                 </Button>
               </div>
               <div className="flex flex-col items-center gap-2 text-sm text-muted-foreground">
-                {versionInfo && (
                   <p>
-                    {t($ => $.hero.version, { version: versionInfo.version, minOS: versionInfo.minOS })} ·{" "}
+                    {t($ => $.hero.version, { version: versionInfo?.version, minOS: versionInfo?.minOS })} ·{" "}
                     <a
                       href="https://github.com/quicksilver/Quicksilver/releases/"
                       className="underline underline-offset-4 hover:text-foreground transition-colors"
@@ -76,7 +75,6 @@ export function Home() {
                       {t($ => $.hero.allVersions)}
                     </a>
                   </p>
-                )}
                 <HomebrewDialog>
                   <button className="underline underline-offset-4 hover:text-foreground transition-colors">
                     {t($ => $.hero.homebrewInstall)}
