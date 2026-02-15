@@ -90,6 +90,7 @@ i18n
       order: ["navigator", "htmlTag"],
       caches: [],
     },
+    showSupportNotice: false,
   });
 
 export default i18n;
