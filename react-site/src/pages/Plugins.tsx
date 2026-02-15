@@ -142,7 +142,7 @@ export function Plugins() {
                 : t($ => $.search.resultCount, { count: filteredPlugins.length })}
             </span>
             <a
-              href="https://github.com/quicksilver/plugin_template"
+              href="https://developer.qsapp.com/plugin-development/intro/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-primary hover:underline"
