@@ -1,0 +1,24 @@
+{
+  "description": "Precisa de ajuda com o Quicksilver? Aqui estão as melhores maneiras de obter suporte.",
+  "discussions": {
+    "body": "O fórum de discussões do GitHub é o melhor lugar para fazer perguntas, compartilhar dicas e se conectar com outros usuários do Quicksilver.",
+    "description": "Faça perguntas e obtenha ajuda da comunidade.",
+    "title": "Discussões do GitHub"
+  },
+  "documentation": {
+    "body": "O manual abrange tudo, desde a instalação até gatilhos e plugins avançados. É o melhor lugar para começar a aprender.",
+    "description": "Comece com o Manual oficial da Quicksilver.",
+    "title": "Documentação"
+  },
+  "faq": {
+    "body": "Encontre respostas para perguntas frequentes sobre a Quicksilver, dicas de solução de problemas e descubra por que a Quicksilver pode ser a escolha certa para você.",
+    "description": "Perguntas frequentes",
+    "title": "Perguntas Frequentes"
+  },
+  "issues": {
+    "body": "Se você encontrou um bug, por favor, reporte-o no GitHub Issues. Inclua a versão do seu macOS, a versão do Quicksilver e os passos para reproduzi-lo.",
+    "description": "Encontrou algum problema? Informe-nos.",
+    "title": "Reportar um bug"
+  },
+  "title": "Obter Ajuda"
+}
