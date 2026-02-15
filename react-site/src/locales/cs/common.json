@@ -1,0 +1,51 @@
+{
+  "buttons": {
+    "close": "Zavřít",
+    "copied": "Zkopírováno!",
+    "copy": "Kopírovat",
+    "download": "Stáhnout",
+    "downloadQuicksilver": "Stáhnout Quicksilver",
+    "joinDiscussions": "Zapojte se do diskusí",
+    "learnMore": "Zjistěte více",
+    "readManual": "Přečtěte si příručku",
+    "reportIssue": "Nahlásit problém",
+    "viewFaq": "Zobrazit časté dotazy (FAQ)"
+  },
+  "footer": {
+    "links": {
+      "changelog": "Seznam změn",
+      "comparison": "Quicksilver vs. Alfred",
+      "developerDocs": "Vývojářská dokumentace",
+      "donate": "Přispět",
+      "faq": "Časté dotazy (FAQ)",
+      "getHelp": "Získejte pomoc",
+      "github": "GitHub",
+      "plugins": "Zásuvné moduly",
+      "reportIssue": "Nahlásit problém",
+      "translate": "Překlad",
+      "userManual": "Uživatelská příručka"
+    },
+    "sections": {
+      "community": "Komunita",
+      "documentation": "Dokumentace",
+      "product": "Produkt",
+      "support": "Podpora"
+    },
+    "tagline": "Quicksilver je bezplatný software s otevřeným zdrojovým kódem."
+  },
+  "homebrew": {
+    "description": "Quicksilver můžete nainstalovat i pomocí Homebrew:",
+    "title": "Instalovat pomocí Hombrew"
+  },
+  "language": {
+    "en": "Angličtina",
+    "label": "Jazyk",
+    "zh": "简体中文"
+  },
+  "nav": {
+    "donate": "Přispět",
+    "download": "Stáhnout",
+    "plugins": "Zásuvné moduly",
+    "support": "Podpora"
+  }
+}
