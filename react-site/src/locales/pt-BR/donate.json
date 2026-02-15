@@ -1,0 +1,38 @@
+{
+  "amount": {
+    "currency": "USD",
+    "label": "Selecione uma quantia",
+    "other": "Outro",
+    "placeholder": "Informe quantia"
+  },
+  "card": {
+    "body1": "Quicksilver é gratuito e de código aberto e sempre será assim. Sem versão \"Powerpack\" ou \"Pro\" – apenas um bom e saudável código aberto.",
+    "body2": "Dito isso, dependemos de doações para ajudar a cobrir custos de hospedagem, renovação de domínio e recursos de desenvolvimento.",
+    "description": "Apoie o Projeto Quicksilver fazendo uma doação hoje mesmo.",
+    "title": "Faça uma Doação"
+  },
+  "description": "O Quicksilver é gratuito e de código aberto, desenvolvido por voluntários. Sua doação ajuda a manter o projeto ativo.",
+  "otherWays": {
+    "contribute": {
+      "description": "Ajude a corrigir erros ou a adicionar novos recursos no GitHub.",
+      "title": "Contribuir com Código"
+    },
+    "documentation": {
+      "description": "Ajude outras pessoas a aprender Quicksilver melhorando o manual.",
+      "title": "Melhorando Documentação"
+    },
+    "reportIssues": {
+      "description": "Encontrou um bug? Informe-nos através do rastreador de problemas.",
+      "title": "Reportar Problemas"
+    },
+    "title": "Outras Maneiras de Ajudar",
+    "translate": {
+      "description": "Ajude a localizar Quicksilver em sua língua.",
+      "title": "Traduzir Quicksilver"
+    }
+  },
+  "paypal": {
+    "button": "Doar com PayPal"
+  },
+  "title": "Apoie o Quicksilver"
+}
