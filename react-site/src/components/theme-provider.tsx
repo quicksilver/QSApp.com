@@ -1,24 +1,12 @@
-import { createContext, useContext, useEffect, useState } from "react"
-
-type Theme = "dark" | "light" | "system"
+import { useEffect, useLayoutEffect, useState } from "react"
+import { ThemeProviderContext } from "@/hooks/useTheme"
+import type { Theme } from "@/hooks/useTheme"
 
 type ThemeProviderProps = {
   children: React.ReactNode
   defaultTheme?: Theme
   storageKey?: string
 }
-
-type ThemeProviderState = {
-  theme: Theme
-  setTheme: (theme: Theme) => void
-}
-
-const initialState: ThemeProviderState = {
-  theme: "system",
-  setTheme: () => null,
-}
-
-const ThemeProviderContext = createContext<ThemeProviderState>(initialState)
 
 export function ThemeProvider({
   children,
@@ -30,9 +18,11 @@ export function ThemeProvider({
   const [theme, setThemeState] = useState<Theme>(defaultTheme)
 
   // Load saved theme from localStorage after hydration
-  useEffect(() => {
+  // Legitimate hydration pattern - need to initialize on server, update on client
+  useLayoutEffect(() => {
     const savedTheme = localStorage.getItem(storageKey) as Theme
     if (savedTheme) {
+      // eslint-disable-next-line react-hooks/set-state-in-effect
       setThemeState(savedTheme)
     }
   }, [storageKey])
@@ -68,13 +58,4 @@ export function ThemeProvider({
       {children}
     </ThemeProviderContext.Provider>
   )
-}
-
-export const useTheme = () => {
-  const context = useContext(ThemeProviderContext)
-
-  if (context === undefined)
-    throw new Error("useTheme must be used within a ThemeProvider")
-
-  return context
 }

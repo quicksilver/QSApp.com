@@ -1,4 +1,4 @@
-import { useEffect, useRef, useState } from "react";
+import { useLayoutEffect, useRef, useState } from "react";
 import { useTranslation } from "react-i18next";
 import bezel from "@/assets/interfaces/bezel.png";
 import flash from "@/assets/interfaces/flash.png";
@@ -17,9 +17,11 @@ export function InterfaceShowcase() {
   const containerRef = useRef<HTMLDivElement>(null);
   const [scrollProgress, setScrollProgress] = useState(0);
   const [windowSize, setWindowSize] = useState({ width: 1200, height: 800 });
+  // Needed for SSR - mount state to prevent animation flicker on hydration
   const [isMounted, setIsMounted] = useState(false);
 
-  useEffect(() => {
+  useLayoutEffect(() => {
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setIsMounted(true);
     setWindowSize({ width: window.innerWidth, height: window.innerHeight });
 

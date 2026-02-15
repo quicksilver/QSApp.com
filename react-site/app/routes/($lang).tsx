@@ -2,17 +2,9 @@ import { useLayoutEffect } from "react";
 import { useParams } from "react-router";
 import { useTranslation } from "react-i18next";
 import { Layout } from "@/components/Layout";
-import i18n, { type LanguageCode } from "@/i18n";
-import type { Route } from "./+types/($lang)";
+import { type LanguageCode } from "@/i18n";
 
-// Loader runs during prerendering - set language before render
-export async function loader({ params }: Route.LoaderArgs) {
-  const lang = (params.lang as LanguageCode) || "en";
-  await i18n.changeLanguage(lang);
-  return { lang };
-}
-
-export default function LanguageLayout({ loaderData }: Route.ComponentProps) {
+export default function LanguageLayout() {
   const { i18n } = useTranslation();
   const params = useParams();
 

@@ -98,7 +98,7 @@ export function PluginsSection() {
           requestAnimationFrame(() => {
             setImageOpacity(1);
           });
-        } catch (error) {
+        } catch {
           setImageSrc(pluginDefault);
           setImageOpacity(1);
         }

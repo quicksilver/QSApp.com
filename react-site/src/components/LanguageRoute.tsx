@@ -15,7 +15,7 @@ export function LanguageRoute({ lang, children }: LanguageRouteProps) {
     if (i18n.language !== lang) {
       i18n.changeLanguage(lang);
     }
-  }, [lang]);
+  }, [lang, i18n]);
 
   return <>{children}</>;
 }
