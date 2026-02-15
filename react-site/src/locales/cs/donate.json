@@ -1,0 +1,38 @@
+{
+  "amount": {
+    "currency": "USD",
+    "label": "Vyberte množství",
+    "other": "Ostatní",
+    "placeholder": "Zadejte množství"
+  },
+  "card": {
+    "body1": "Quicksilver je bezplatný a open source a vždy jím zůstane. Žádné „powerpacky“ ani „pro“ verze – jen dobrý a zdravý open source.",
+    "body2": "Nicméně se spoléháme na dary, které nám pomáhají pokrýt náklady na hosting, obnovení domény a vývojové zdroje.",
+    "description": "Podpořte projekt Quicksilver darem ještě dnes.",
+    "title": "Přispějte finančně"
+  },
+  "description": "Quicksilver je bezplatný a open source projekt, vyvíjený dobrovolníky. Váš příspěvek pomáhá udržet projekt při životě.",
+  "otherWays": {
+    "contribute": {
+      "description": "Pomozte opravit chyby nebo přidat nové funkce pomocí GitHubu.",
+      "title": "Přispějte do kódu"
+    },
+    "documentation": {
+      "description": "Pomozte ostatním naučit se používat Quicksilver vylepšením manuálu.",
+      "title": "Vylepšete dokumentaci"
+    },
+    "reportIssues": {
+      "description": "Našli jste chybu? Nahlaste nám ji.",
+      "title": "Nahlaste chyby"
+    },
+    "title": "Další možnosti jak pomoci",
+    "translate": {
+      "description": "Pomozte přeložit Quicksilver do vašeho jazyka.",
+      "title": "Přeložte Quicksilver"
+    }
+  },
+  "paypal": {
+    "button": "Přispějte pomocí PayPal"
+  },
+  "title": "Podpořit Quicksilver"
+}
