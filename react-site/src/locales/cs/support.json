@@ -1,0 +1,24 @@
+{
+  "description": "Potřebujete pomoc s Quicksilverem? Zde jsou nejlepší způsoby, jak získat podporu.",
+  "discussions": {
+    "body": "Diskusní fórum GitHub je nejlepším místem pro kladení otázek, sdílení tipů a spojení s ostatními uživateli Quicksilveru.",
+    "description": "Ptejte se a získejte pomoc od komunity",
+    "title": "GitHub Diskuze"
+  },
+  "documentation": {
+    "body": "Příručka zahrnuje vše od instalace až po pokročilé spouštěče a zásuvné moduly. Je to nejlepší místo, kde začít s učením.",
+    "description": "Začněte s oficiální příručkou Quicksilver",
+    "title": "Dokumentace"
+  },
+  "faq": {
+    "body": "Najděte odpovědi na časté otázky o Quicksilveru, tipy pro řešení problémů a zjistěte, proč by Quicksilver mohl být pro vás tou správnou volbou.",
+    "description": "Časté dotazy (FAQ)",
+    "title": "FAQ"
+  },
+  "issues": {
+    "body": "Pokud jste našli chybu, nahlaste ji prosím na GitHub. Uveďte verzi vašeho macOS, verzi Quicksilveru a postup pro její reprodukci.",
+    "description": "Našli jste nějakou chybu? Dejte nám vědět.",
+    "title": "Nahlaste chybu"
+  },
+  "title": "Získejte pomoc"
+}
