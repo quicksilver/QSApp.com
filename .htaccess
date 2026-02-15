@@ -12,15 +12,17 @@ RewriteRule ^(.+)\.php$ /$1 [L,R=301]
 # Serve /images directly from the document root
 RewriteRule ^images/ - [L]
 
-# If the request isn't already under /dist/, rewrite it there
-RewriteCond %{REQUEST_URI} !^/dist/
+# Don't process requests already under /dist/
+RewriteCond %{REQUEST_URI} ^/dist/
+RewriteRule ^ - [L]
+
+# Try to serve file directly from /dist/
+RewriteCond %{DOCUMENT_ROOT}/dist/$1 -f
 RewriteRule ^(.*)$ /dist/$1 [L]
 
-# For clean URLs, try adding /index.html (for prerendered routes)
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME}/index.html -f
-RewriteRule ^(.*)$ $1/index.html [L]
+# Try to serve prerendered route (directory with index.html)
+RewriteCond %{DOCUMENT_ROOT}/dist/$1/index.html -f
+RewriteRule ^(.*)$ /dist/$1/index.html [L]
 
-# If the file still doesn't exist, serve the SPA fallback
-RewriteCond %{REQUEST_FILENAME} !-f
+# Fallback to SPA fallback for unmatched routes
 RewriteRule ^ /dist/__spa-fallback.html [L]
