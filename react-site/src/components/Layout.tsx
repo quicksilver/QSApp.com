@@ -14,7 +14,15 @@ export function Layout() {
 
   const handleLanguageChange = (langCode: LanguageCode) => {
     const newPath = getPathForLanguage(langCode);
-    navigate(newPath);
+    document.documentElement.style.scrollBehavior = "auto";
+    navigate(newPath).then(() => {
+      setTimeout(() => {
+        window.scrollTo(0, 0);
+        requestAnimationFrame(() => {
+          document.documentElement.style.scrollBehavior = "";
+        });
+      }, 100);
+    });
   };
 
   return (
@@ -72,25 +80,17 @@ export function Layout() {
             {/* Language Selector */}
             <div className="flex items-center gap-2">
               <GlobeIcon size={16} className="text-muted-foreground" />
-              <div className="flex items-center gap-1">
-                {supportedLanguages.map((lang, index) => (
-                  <span key={lang.code} className="flex items-center">
-                    <button
-                      onClick={() => handleLanguageChange(lang.code)}
-                      className={`text-sm transition-colors ${
-                        i18n.language === lang.code || (lang.code === "en" && !supportedLanguages.some(l => l.code === i18n.language))
-                          ? "text-foreground font-medium"
-                          : "text-muted-foreground hover:text-foreground"
-                      }`}
-                    >
-                      {lang.name}
-                    </button>
-                    {index < supportedLanguages.length - 1 && (
-                      <span className="text-muted-foreground/50 mx-2">·</span>
-                    )}
-                  </span>
+              <select
+                value={supportedLanguages.some(l => l.code === i18n.language) ? i18n.language : "en"}
+                onChange={(e) => handleLanguageChange(e.target.value as LanguageCode)}
+                className="text-sm bg-transparent text-muted-foreground hover:text-foreground border border-border/50 rounded-md px-2 py-1 cursor-pointer transition-colors focus:outline-none focus:ring-1 focus:ring-primary"
+              >
+                {supportedLanguages.map((lang) => (
+                  <option key={lang.code} value={lang.code}>
+                    {lang.name}
+                  </option>
                 ))}
-              </div>
+              </select>
             </div>
           </div>
         </div>

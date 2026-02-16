@@ -20,11 +20,21 @@ import supportZh from "./locales/zh-CN/support.json";
 import faqZh from "./locales/zh-CN/faq.json";
 import comparisonZh from "./locales/zh-CN/comparison.json";
 
+// Import Czech translation files
+import commonCs from "./locales/cs/common.json";
+import homeCs from "./locales/cs/home.json";
+import pluginsCs from "./locales/cs/plugins.json";
+import donateCs from "./locales/cs/donate.json";
+import supportCs from "./locales/cs/support.json";
+import faqCs from "./locales/cs/faq.json";
+import comparisonCs from "./locales/cs/comparison.json";
+
 export const defaultNS = "common";
 
 export const supportedLanguages = [
   { code: "en", name: "English", urlPrefix: "" },
   { code: "zh-CN", name: "简体中文", urlPrefix: "zh-CN" },
+  { code: "cs", name: "Čeština", urlPrefix: "cs" },
 ] as const;
 
 export type LanguageCode = typeof supportedLanguages[number]["code"];
@@ -67,6 +77,15 @@ export const resources = {
     support: supportZh,
     faq: faqZh,
     comparison: comparisonZh,
+  },
+  cs: {
+    common: commonCs,
+    home: homeCs,
+    plugins: pluginsCs,
+    donate: donateCs,
+    support: supportCs,
+    faq: faqCs,
+    comparison: comparisonCs,
   },
 } as const;
 
