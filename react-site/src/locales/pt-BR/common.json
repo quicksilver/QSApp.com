@@ -1,0 +1,51 @@
+{
+  "buttons": {
+    "close": "Fechar",
+    "copied": "Copiado",
+    "copy": "Copiar",
+    "download": "Baixar",
+    "downloadQuicksilver": "Baixar Quicksilver",
+    "joinDiscussions": "Participe das Discussões",
+    "learnMore": "Aprenda Mais",
+    "readManual": "Leia o manual.",
+    "reportIssue": "Reportar Problema",
+    "viewFaq": "Veja as Perguntas Frequentes."
+  },
+  "footer": {
+    "links": {
+      "changelog": "Registro de Alterações",
+      "comparison": "Quicksilver versus Alfred",
+      "developerDocs": "Documentação para Desenvolvedores",
+      "donate": "Doar",
+      "faq": "Perguntas Frequentes",
+      "getHelp": "Obter Ajuda",
+      "github": "GitHub",
+      "plugins": "Plugins",
+      "reportIssue": "Reportar um Problema",
+      "translate": "Traduzir",
+      "userManual": "Manual de Usuário"
+    },
+    "sections": {
+      "community": "Comunidade",
+      "documentation": "Documentação",
+      "product": "Produto",
+      "support": "Suporte"
+    },
+    "tagline": "Quicksilver é um software livre e de código aberto."
+  },
+  "homebrew": {
+    "description": "Você também pode instalar o Quicksilver usando o Homebrew.",
+    "title": "Instalar via Homebrew"
+  },
+  "language": {
+    "en": "Inglês",
+    "label": "Língua",
+    "zh": "Chinês simplificado"
+  },
+  "nav": {
+    "donate": "Doar",
+    "download": "Baixar",
+    "plugins": "Plugins",
+    "support": "Suporte"
+  }
+}
