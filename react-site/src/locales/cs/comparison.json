@@ -1,0 +1,59 @@
+{
+  "badge": "Srovnání",
+  "cta": {
+    "description": "Stáhněte si zdarma a zažijte sílu skutečného akčního launcheru.",
+    "title": "Připraveni vyzkoušet Quicksilver?"
+  },
+  "description": "Hledáte nejlepší launcher pro macOS? Zde je důvod, proč je Quicksilver první volbou pro náročné uživatele, kteří chtějí plnou kontrolu – a zdarma.",
+  "intro": {
+    "paragraph1": "Quicksilver i Alfred jsou klávesnicí ovládané aplikace pro macOS, které vám pomohou spouštět aplikace, vyhledávat soubory a automatizovat práci. Alfred byl uveden v roce 2010 a stal se populárním díky svému propracovanému rozhraní a systému pracovních postupů.",
+    "paragraph2": "Quicksilver byl v této kategorii průkopníkem již od roku 2003 a nyní volí zásadně odlišný přístup: zatímco Alfred se zaměřuje na <em>nalezení</em> věcí, Quicksilver se zaměřuje na <em>dělání</em> věcí. Jeho model podstatné jméno-sloveso-předmět umožňuje plynulé řetězení akcí – každá funkce je dodávána zdarma a s otevřeným zdrojovým kódem."
+  },
+  "table": {
+    "clipboardHistory": "Historie schránky",
+    "contactActions": "Akce Kontaktů",
+    "customThemes": "Vlastní motivy",
+    "feature": "Funkce",
+    "fileActions": "Pokročilé akce se soubory",
+    "globalHotkeys": "Globální klávesové zkratky a spouštěče",
+    "included": "Zahrnuto",
+    "musicControl": "Ovládání hudby",
+    "paid": "Placeno",
+    "philosophy": "Filozofie",
+    "philosophyAlfred": "Založeno na hledání",
+    "philosophyQs": "Založeno na akcích",
+    "price": "Cena",
+    "priceFree": "Zdarma (Open Source)",
+    "pricePaid": "Zdarma / ~£34 Powerpack",
+    "proxyObjects": "Proxy objekty",
+    "proxyObjectsAlfred": "Vyžaduje workflow",
+    "proxyObjectsQs": "Základní funkce",
+    "searchIndex": "Index vyhledávání",
+    "searchIndexAlfred": "Závislé na Spotlight",
+    "searchIndexQs": " Nativní běh (rychlé)"
+  },
+  "title": "Quicksilver vs. Alfred",
+  "whySection": {
+    "act": {
+      "description": "Alfred hledá. Quicksilver pracuje. Vyberte soubor → Poslat e-mailem → Kolegovi. To vše bez myši.",
+      "number": "1",
+      "title": "Pracujte, nehledejte"
+    },
+    "context": {
+      "description": "Použijte proxy objekty k okamžité reakci na aktuální výběr ve Finderu. Vyberte soubor, stiskněte klávesovou zkratku a okamžitě jej přesuňte.",
+      "number": "4",
+      "title": "Řídící se kontextem"
+    },
+    "free": {
+      "description": "Žádné placené funkce, žádné placené upgrady. Historie schránky, motivy, podrobné ovládání systému – vše navždy zdarma.",
+      "number": "2",
+      "title": "Skutečně zdarma"
+    },
+    "spotlight": {
+      "description": "Quicksilver si vytváří vlastní katalog. Bleskově rychlý a funguje okamžitě, i když je Spotlight nefunkční nebo se indexuje.",
+      "number": "3",
+      "title": "Nezávislé na Spotlight"
+    },
+    "title": "Proč Quicksilver?"
+  }
+}
