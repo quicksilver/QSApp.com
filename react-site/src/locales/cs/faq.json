@@ -1,0 +1,48 @@
+{
+  "description": "Vše, co potřebujete vědět o Quicksilveru.",
+  "questions": {
+    "cost": {
+      "answer": "Quicksilver je zcela zdarma. Neexistuje žádná placená verze, žádné předplatné ani žádné placené funkce. Je to bezplatný software s otevřeným zdrojovým kódem, vyvinutý dobrovolníky, kteří věří, že skvělé nástroje by měly být dostupné všem.",
+      "question": "Kolik stojí Quicksilver?"
+    },
+    "developers": {
+      "answer": "Quicksilver je open source software, vyvinutý skupinou dobrovolníků.",
+      "question": "Kdo jsou vývojáři stojící za Quicksilverem?",
+      "viewContributors": "Zobrazit přispěvatele na GitHubu"
+    },
+    "plugins": {
+      "answer": "Ujistěte se, že máte nainstalován správný plugin. Mnoho funkcí pochází z pluginů, které můžete procházet a instalovat v nastavení Quicksilveru. Pokud něco v katalogu nevidíte, ujistěte se, že je katalog povolen a zaktualizován.",
+      "question": "Proč nevidím funkci nebo plugin, který očekávám?"
+    },
+    "spotlight": {
+      "answer": "Ne. Spotlight vyhledává věci, které umožňuje pouze otevřít. Quicksilver vyhledává věci a pak s nimi umožňuje dále pracovat – přesouvat soubory, posílat e-maily, ovládat aplikace – jen stisknutím jedné nebo dvou kláves.",
+      "learnMore": "Více se dozvíte v příručce",
+      "question": "Nedělá Spotlight Quicksilver zbytečným?"
+    }
+  },
+  "seeMore": {
+    "link": "Zobrazit nejčastější dotazy →",
+    "prompt": "Máte další otázky?"
+  },
+  "title": "Často kladené otázky (FAQ)",
+  "whyChoose": {
+    "free": {
+      "description": "Žádné placené funkce nebo předplatné, žádná „pro“ verze. Všechny funkce jsou zdarma.",
+      "title": "100% vždy zdarma"
+    },
+    "intro": "Existuje mnoho launcherů pro macOS, ale Quicksilver vyniká:",
+    "openSource": {
+      "description": "Plně otevřený zdrojový kód a komunitní údržba. Auditujte kód, přispívejte funkcemi nebo jej forkněte.",
+      "title": "Open Source"
+    },
+    "original": {
+      "description": "Quicksilver byl v roce 2003 průkopníkem v konceptu launcheru a inspiroval všechny následující aplikace.",
+      "title": "Originální launcher pro macOS"
+    },
+    "privacy": {
+      "description": "Quicksilver nevolá domů, neshromažďuje analytické údaje ani nesleduje vaše používání. Vaše data zůstávají na vašem Macu.",
+      "title": "Žádné sledování, naprosté soukromí"
+    },
+    "title": "Proč si vybrat Quicksilver?"
+  }
+}
