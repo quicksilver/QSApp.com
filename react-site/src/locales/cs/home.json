@@ -1,0 +1,83 @@
+{
+  "cta": {
+    "description": "Stáhněte si Quicksilver ještě dnes a objevte rychlejší způsob práce.",
+    "title": "Jste připraveni naplno využít svůj Mac?"
+  },
+  "features": {
+    "description": "Quicksilver umožňuje spouštět aplikace, manipulovat se soubory a mnoho dalšího – to vše z klávesnice.",
+    "extensible": {
+      "description": "Stovky pluginů rozšiřují možnosti Quicksilveru pro práci s vašimi oblíbenými aplikacemi.",
+      "title": "Rozšiřitelné"
+    },
+    "instantLaunch": {
+      "description": "Spouštějte aplikace, otevírejte soubory a přistupujte k záložkám jen několika stisknutími kláves.",
+      "title": "Okamžité spuštění"
+    },
+    "openSource": {
+      "description": "Zdarma navždy. Aktivně spravováno komunitou vášnivých vývojářů.",
+      "title": "Open Source"
+    },
+    "powerfulActions": {
+      "description": "Přesouvejte, kopírujte, odesílejte e-mailem nebo komprimujte soubory. Odesílejte zprávy. Ovládejte iTunes. Možnosti jsou nekonečné.",
+      "title": "Silné a výkonné akce"
+    },
+    "smartLearning": {
+      "description": "Quicksilver se učí vašim zvykům, aby vám ukázal, co potřebujete, když to potřebujete.",
+      "title": "Chytré učení"
+    },
+    "title": "Blesková produktivita",
+    "triggers": {
+      "description": "Přiřaďte klávesové zkratky nebo gesta myši k okamžitému spuštění jakékoli akce.",
+      "title": "Spouštěče"
+    }
+  },
+  "hero": {
+    "allVersions": "Všechny verze",
+    "description": "Quicksilver je rychlá aplikace pro macOS, která vám dává možnost rychle a elegantně ovládat váš Mac.",
+    "homebrewInstall": "Instalovat pomocí Hombrew",
+    "tagline": " Pracuje bez námahy",
+    "version": "Verze {{version}} · macOS {{minOS}}+"
+  },
+  "interfaces": {
+    "description": "Vyberte si z několika rozhraní, stylů a barev, které odpovídají vašemu rytmu.",
+    "footer": "Na výběr více než deset vzhledů s vestavěnými barevnými motivy!",
+    "title": "Více rozhraní přizpůsobených vašim potřebám"
+  },
+  "plugins": {
+    "description": "Vylepšete Quicksilver pomocí zásuvných modulů, které se integrují s vašimi oblíbenými aplikacemi a pracovními postupy.",
+    "exploreAll": "Prozkoumat všechny zásuvné moduly",
+    "featurePreviewAlt": "Náhled funkcí zásuvných modulů",
+    "items": {
+      "browsers": {
+        "description": "Ovládejte Safari, Chrome a Firefox. Vyhledávejte v záložkách a historii.",
+        "title": "Prohlížeče"
+      },
+      "calculator": {
+        "description": "Provádějte výpočty okamžitě a kopírujte výsledky do schránky.",
+        "title": "Kalkulačka"
+      },
+      "calendar": {
+        "description": "Vytvářejte události a připomínky, aniž byste museli opustit klávesnici.",
+        "title": "Kalendář a Připomínky"
+      },
+      "clipboard": {
+        "description": "Přístup k historii schránky a ukládání položek pro rychlý přístup.",
+        "title": "Schránka"
+      },
+      "emojis": {
+        "description": "Vyhledávejte a vkládejte emoji kamkoli pomocí rychlé zkratky.",
+        "title": "Emoji"
+      },
+      "images": {
+        "description": "Změňte velikost, ořízněte a převeďte obrázky přímo z Quicksilveru.",
+        "title": "Práce s obrázky"
+      },
+      "mail": {
+        "description": "Posílejte e-maily přímo z Quicksilveru pomocí Apple Mailu nebo Gmailu.",
+        "title": "Mail"
+      }
+    },
+    "selectInterface": "Vybrat prostředí {{name}}",
+    "title": "Nekonečná rozšíření pomocí zásuvných modulů"
+  }
+}
