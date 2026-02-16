@@ -1,0 +1,20 @@
+{
+  "buildYourOwn": "Sestavte si vlastní!",
+  "changelog": {
+    "close": "Zavřít",
+    "title": "Seznam změn {{name}}",
+    "version": "Verze {{version}}"
+  },
+  "description": "Rozšiřte Quicksilver o zásuvné moduly pro vaše oblíbené aplikace a služby.",
+  "search": {
+    "noResults": "Dotaz „{{query}}“ nenalezl žádné zásuvné moduly",
+    "placeholder": "Hledají se zásuvné moduly...",
+    "resultCount": "{{count}} dostupných zásuvných modulů",
+    "resultCount_one": "search.resultCount",
+    "resultCount_other": "search.resultCount",
+    "resultCountFiltered": "{{count}} zásuvných modulů odpovídá \"{{query}}\"",
+    "resultCountFiltered_one": "search.resultCountFiltered",
+    "resultCountFiltered_other": "search.resultCountFiltered"
+  },
+  "title": "Zásuvné moduly"
+}
