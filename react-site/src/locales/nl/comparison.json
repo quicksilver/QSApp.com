@@ -1,0 +1,59 @@
+{
+  "badge": "Vergelijking",
+  "cta": {
+    "description": "Download gratis en ervaar de kracht van een echte actie-gebaseerde launcher.",
+    "title": "Klaar om Quicksilver te proberen?"
+  },
+  "description": "Op zoek naar de beste Mac-launcher? Hier is waarom Quicksilver de keuze is voor powerusers die volledige controle willen — gratis.",
+  "intro": {
+    "paragraph1": "Zowel Quicksilver als Alfred zijn toetsenbordgestuurde productiviteitsapps voor macOS die je helpen applicaties te starten, bestanden te vinden en taken te automatiseren. Alfred werd in 2010 gelanceerd en is populair geworden vanwege zijn gepolijste interface en workflowsysteem.",
+    "paragraph2": "Quicksilver was in 2003 een pionier in deze categorie en hanteert een fundamenteel andere aanpak: terwijl Alfred zich richt op <em>vinden</em>van dingen, richt Quicksilver zich op dingen <em>doen</em>. Het zelfstandig naamwoord-werkwoord-object model laat je acties vloeiend aan elkaar koppelen—en elke functie wordt gratis en open source geleverd."
+  },
+  "table": {
+    "clipboardHistory": "Clipboard Geschiedenis",
+    "contactActions": "Contactacties",
+    "customThemes": "Aangepaste thema's",
+    "feature": "Kenmerk",
+    "fileActions": "Geavanceerde Bestandsacties",
+    "globalHotkeys": "Globale sneltoetsen & triggers",
+    "included": "Inbegrepen",
+    "musicControl": "Muziekcontrole",
+    "paid": "Betaald",
+    "philosophy": "Filosofie",
+    "philosophyAlfred": "Zoekgebaseerd",
+    "philosophyQs": "Actiegebaseerd",
+    "price": "Prijs",
+    "priceFree": "Gratis (Open Source)",
+    "pricePaid": "Gratis / ~£34 Powerpack",
+    "proxyObjects": "Proxy-objecten",
+    "proxyObjectsAlfred": "Vereist workflows",
+    "proxyObjectsQs": "Kernkenmerk",
+    "searchIndex": "Zoekindex",
+    "searchIndexAlfred": "Spotlight Afhankelijk",
+    "searchIndexQs": "Bare Metal (Snel)"
+  },
+  "title": "Quicksilver vs. Alfred",
+  "whySection": {
+    "act": {
+      "description": "Alfred zoekt. Kwikzilver-acts. Selecteer een bestand → E-mail het → Naar een collega. En dat allemaal zonder de muis aan te raken.",
+      "number": "1",
+      "title": "Kom in actie, zoek niet alleen maar."
+    },
+    "context": {
+      "description": "Gebruik Proxy Objects om direct te reageren op je huidige Finder-selectie. Selecteer een bestand, druk op een sneltoets en verplaats het direct.",
+      "number": "4",
+      "title": "Contextbewust"
+    },
+    "free": {
+      "description": "Geen 'Powerpacks', geen betaalde upgrades. Clipboardgeschiedenis, thematisering, diepe systeemcontrole—allemaal voor altijd gratis.",
+      "number": "2",
+      "title": "Echt gratis & open"
+    },
+    "spotlight": {
+      "description": "Quicksilver bouwt zijn eigen catalogus. Bliksemsnel en werkt direct, zelfs als Spotlight niet werkt of indexeert.",
+      "number": "3",
+      "title": "Spotlight onafhankelijk"
+    },
+    "title": "Waarom Quicksilver?"
+  }
+}
