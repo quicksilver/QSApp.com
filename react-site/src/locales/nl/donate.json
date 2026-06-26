@@ -1,0 +1,38 @@
+{
+  "amount": {
+    "currency": "USD",
+    "label": "Kies een bedrag",
+    "other": "Anders",
+    "placeholder": "Vul bedrag in"
+  },
+  "card": {
+    "body1": "Quicksilver is gratis en open source en zal dat altijd blijven. Geen 'powerpack'- of 'pro'-versie – gewoon een goede, gezonde open source.",
+    "body2": "Dat gezegd hebbende, zijn we afhankelijk van donaties om hostingkosten, domeinvernieuwingen en ontwikkelmiddelen te dekken.",
+    "description": "Steun het Quicksilver Project door vandaag nog te doneren.",
+    "title": "Doe een donatie"
+  },
+  "description": "Quicksilver is gratis en open source, ontwikkeld door vrijwilligers. Uw donatie helpt het project in stand te houden.",
+  "otherWays": {
+    "contribute": {
+      "description": "Help bugs oplossen of voeg nieuwe functies toe op GitHub.",
+      "title": "Draag bij met coderen"
+    },
+    "documentation": {
+      "description": "Help anderen Quicksilver te leren door de handleiding te verbeteren.",
+      "title": "Verbeter de documentatie"
+    },
+    "reportIssues": {
+      "description": "Een bug gevonden? Laat het ons weten via de problemen tracker.",
+      "title": "Problemen melden"
+    },
+    "title": "Andere manieren om te helpen",
+    "translate": {
+      "description": "Help Quicksilver in je eigen taal te vertalen.",
+      "title": "Vertaal Quicksilver"
+    }
+  },
+  "paypal": {
+    "button": "Doneer met PayPal"
+  },
+  "title": "Steun Quicksilver"
+}
