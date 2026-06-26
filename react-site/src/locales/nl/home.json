@@ -1,0 +1,83 @@
+{
+  "cta": {
+    "description": "Download vandaag nog Quicksilver en ontdek een snellere manier om te werken.",
+    "title": "Klaar om je Mac te superchargen?"
+  },
+  "features": {
+    "description": "Quicksilver laat je applicaties starten, bestanden manipuleren en nog veel meer — allemaal vanaf je toetsenbord.",
+    "extensible": {
+      "description": "Honderden plugins breiden de mogelijkheden van Quicksilver uit om met je favoriete apps te werken.",
+      "title": "Uitbreidbaar"
+    },
+    "instantLaunch": {
+      "description": "Start applicaties, open bestanden en krijg toegang tot bladwijzers met slechts een paar toetsaanslagen.",
+      "title": "Directe lancering"
+    },
+    "openSource": {
+      "description": "Voor altijd gratis. Actief onderhouden door een gepassioneerde gemeenschap van ontwikkelaars.",
+      "title": "Open Source"
+    },
+    "powerfulActions": {
+      "description": "Verplaats, kopieer, e-mail of comprimeer bestanden. Stuur berichten. Beheer iTunes. De mogelijkheden zijn eindeloos.",
+      "title": "Krachtige Acties"
+    },
+    "smartLearning": {
+      "description": "Quicksilver leert jouw gewoontes en past zich aan om je te laten zien wat je nodig hebt, wanneer je het nodig hebt.",
+      "title": "Slim leren"
+    },
+    "title": "Bliksemsnelle productiviteit",
+    "triggers": {
+      "description": "Wijs sneltoetsen of muisgebaren toe om elke actie direct uit te voeren.",
+      "title": "Triggers"
+    }
+  },
+  "hero": {
+    "allVersions": "Alle versies",
+    "description": "Quicksilver is een snelle macOS-productiviteitsapplicatie die je de mogelijkheid geeft om je Mac snel en elegant te bedienen.",
+    "homebrewInstall": "Installeren via Homebrew",
+    "tagline": "Handel zonder iets te doen",
+    "version": "Versie {{version}} · macOS {{minOS}}+"
+  },
+  "interfaces": {
+    "description": "Kies uit meerdere interfaces, stijlen en kleuren om bij jouw ritme te passen.",
+    "footer": "10+ interfaces om uit te kiezen, met ingebouwde kleurthema's!",
+    "title": "Meerdere interfaces die op jou zijn afgestemd"
+  },
+  "plugins": {
+    "description": "Supercharge Quicksilver met plugins die integreren met je favoriete apps en workflows.",
+    "exploreAll": "Ontdek alle plugins",
+    "featurePreviewAlt": "Pluginkenmerk preview",
+    "items": {
+      "browsers": {
+        "description": "Bedien Safari, Chrome en Firefox. Zoek in bladwijzers en geschiedenis.",
+        "title": "Browsers"
+      },
+      "calculator": {
+        "description": "Voer direct berekeningen uit en kopieer de resultaten naar het klembord.",
+        "title": "Rekenmachine"
+      },
+      "calendar": {
+        "description": "Maak gebeurtenissen en herinneringen aan zonder je toetsenbord te verlaten.",
+        "title": "Agenda & Herinneringen"
+      },
+      "clipboard": {
+        "description": "Toegang tot de klembordgeschiedenis en opslagartikelen voor snelle toegang.",
+        "title": "Clipboard & Shelf"
+      },
+      "emojis": {
+        "description": "Zoek en voeg overal emoji's in met een snelle snelkoppeling.",
+        "title": "Emoji's"
+      },
+      "images": {
+        "description": "Verklein, snijd en converteer afbeeldingen direct vanuit Quicksilver.",
+        "title": "Beeldmanipulatie"
+      },
+      "mail": {
+        "description": "Stuur rechtstreeks e-mails vanuit Quicksilver met Apple Mail of Gmail.",
+        "title": "Mail"
+      }
+    },
+    "selectInterface": "Selecteer {{name}} interface",
+    "title": "Oneindig uitbreiden met plugins"
+  }
+}
