@@ -1,0 +1,52 @@
+{
+  "buttons": {
+    "close": "Sluiten",
+    "copied": "Gekopieerd!",
+    "copy": "Kopiëren",
+    "download": "Downloaden",
+    "downloadQuicksilver": "Download Quicksilver",
+    "joinDiscussions": "Doe mee aan discussies",
+    "learnMore": "Lees meer",
+    "readManual": "Lees de handleiding",
+    "reportIssue": "Meld een probleem",
+    "viewFaq": "Lees de FAQ"
+  },
+  "footer": {
+    "links": {
+      "changelog": "Changelog",
+      "comparison": "Quicksilver vs Alfred",
+      "developerDocs": "Ontwikkelaarsdocs",
+      "donate": "Doneren",
+      "faq": "FAQ",
+      "getHelp": "Zoek hulp",
+      "github": "GitHub",
+      "plugins": "Plug-ins",
+      "reportIssue": "Meld een probleem",
+      "translate": "Vertalen",
+      "userManual": "Gebruikershandleiding"
+    },
+    "sections": {
+      "community": "Gemeenschap",
+      "documentation": "Documentatie",
+      "product": "Product",
+      "support": "Ondersteuning"
+    },
+    "tagline": "Quicksilver is gratis en open source software."
+  },
+  "homebrew": {
+    "description": "Je kunt Quicksilver ook installeren met Homebrew:",
+    "title": "Installeren via Homebrew"
+  },
+  "language": {
+    "cs": "Tsjechisch",
+    "en": "Engels",
+    "label": "Taal",
+    "zh": "Chinees vereenvoudigd"
+  },
+  "nav": {
+    "donate": "Doneren",
+    "download": "Downloaden",
+    "plugins": "Plug-ins",
+    "support": "Ondersteuning"
+  }
+}
