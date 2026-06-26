@@ -1,0 +1,48 @@
+{
+  "description": "Alles wat je moet weten over Quicksilver.",
+  "questions": {
+    "cost": {
+      "answer": "Quicksilver is volledig gratis. Er is geen betaalde versie, geen abonnement en geen functies die achter een betaalmuur zitten. Het is gratis en open source software, ontwikkeld door vrijwilligers die geloven dat geweldige tools voor iedereen toegankelijk moeten zijn.",
+      "question": "Hoeveel kost Quicksilver?"
+    },
+    "developers": {
+      "answer": "Quicksilver is open source software, ontwikkeld door een groep vrijwillige bijdragers.",
+      "question": "Wie zijn de ontwikkelaars achter Quicksilver?",
+      "viewContributors": "Bekijk wie er aan de software heeft bijgedragen op GitHub"
+    },
+    "plugins": {
+      "answer": "Zorg dat je de juiste plugin hebt geïnstalleerd. Veel functies komen van plugins die je kunt doorbladeren en installeren vanuit de voorkeuren van Quicksilver. Als je iets in de catalogus niet ziet, zorg er dan voor dat het is ingeschakeld en gescand.",
+      "question": "Waarom zie ik geen functie of plugin die ik verwachtte?"
+    },
+    "spotlight": {
+      "answer": "Nee. Spotlight vindt dingen, maar het laat je die alleen maar openen. Quicksilver vindt dingen en laat je allerlei dingen ermee doen — bestanden verplaatsen, e-mails versturen, apps bedienen — met slechts een toetsaanslag of twee.",
+      "learnMore": "Lees meer in de handleiding",
+      "question": "Maakt Spotlight Quicksilver niet overbodig?"
+    }
+  },
+  "seeMore": {
+    "link": "Zie alle veelgestelde vragen →",
+    "prompt": "Heb je nog meer vragen?"
+  },
+  "title": "Veelgestelde vragen",
+  "whyChoose": {
+    "free": {
+      "description": "Geen \"powerpack\", geen \"pro\" versie, geen abonnement. Elke functie is gratis.",
+      "title": "100% gratis voor altijd"
+    },
+    "intro": "Er zijn veel launcher-apps voor macOS, maar Quicksilver steekt er bovenuit:",
+    "openSource": {
+      "description": "Volledig open source en door de community onderhouden. Audit de code, voeg functies bij of fork het.",
+      "title": "Open Source"
+    },
+    "original": {
+      "description": "Quicksilver was in 2003 een pionier van het launcher concept en inspireerde elke app die daarop volgde.",
+      "title": "De originele Mac Launcher"
+    },
+    "privacy": {
+      "description": "Quicksilver meldt zich niet bij de thuisbasis, verzamelt geen analyses en houdt je gebruik niet bij. Je data blijft op je Mac.",
+      "title": "Geen tracking, volledige privacy"
+    },
+    "title": "Waarom kiezen voor Quicksilver?"
+  }
+}
