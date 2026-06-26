@@ -1,0 +1,24 @@
+{
+  "description": "Hulp nodig met Quicksilver? Hier zijn de beste manieren om ondersteuning te krijgen.",
+  "discussions": {
+    "body": "Het GitHub discussieforum is de beste plek om vragen te stellen, tips te delen en in contact te komen met andere Quicksilver gebruikers.",
+    "description": "Stel vragen en krijg hulp van de community",
+    "title": "GitHub discussies"
+  },
+  "documentation": {
+    "body": "De handleiding behandelt alles van installatie tot geavanceerde triggers en plugins. Het is de beste plek om te beginnen met leren.",
+    "description": "Begin met het officiële Quicksilver handleiding",
+    "title": "Documentatie"
+  },
+  "faq": {
+    "body": "Vind antwoorden op veelgestelde vragen over Quicksilver, tips voor probleemoplossing en ontdek waarom Quicksilver misschien wel de juiste keuze voor jou is.",
+    "description": "Veelgestelde vragen",
+    "title": "FAQ"
+  },
+  "issues": {
+    "body": "Als je een bug hebt gevonden, meld deze dan op GitHub Issues. Voeg je macOS-versie, Quicksilver-versie en de stappen om te reproduceren toe.",
+    "description": "Iets gevonden wat mis is? Laat het ons weten",
+    "title": "Meld een bug"
+  },
+  "title": "Zoek hulp"
+}
