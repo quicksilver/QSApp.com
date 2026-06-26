@@ -1,0 +1,20 @@
+{
+  "buildYourOwn": "Maak je eigen bouw!",
+  "changelog": {
+    "close": "Sluiten",
+    "title": "{{name}} Changelog",
+    "version": "Versie {{version}}"
+  },
+  "description": "Breid Quicksilver uit met plugins voor je favoriete apps en diensten.",
+  "search": {
+    "noResults": "Geen plugins gevonden die overeenkomen met \"{{query}}\"",
+    "placeholder": "Zoek plug-ins...",
+    "resultCount": "{{count}} beschikbare plug-ins",
+    "resultCount_one": "search.resultCount",
+    "resultCount_other": "search.resultCount",
+    "resultCountFiltered": "{{count}} plug-ins overeenkomend met \"{{query}}\"",
+    "resultCountFiltered_one": "search.resultCountFiltered",
+    "resultCountFiltered_other": "search.resultCountFiltered"
+  },
+  "title": "Plug-ins"
+}
